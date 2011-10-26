@@ -51,14 +51,17 @@
       }, 
       "id": 2149481392, 
       "properties": {
-        "osm:way_id": 40188115, 
         "woe:parent": "12520245", 
         "name": "First Wings Daycare", 
         "tags": [
           "name=First Wings Daycare"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12520245", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520245, 
+        "sw_latitude": 29.962693, 
         "osm:node_ids": [
           484176221, 
           484176222, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": -95.330129, 
         "longitude": 29.962850, 
-        "ne_latitude": 29.962983, 
-        "woe:placetype": "building", 
         "sw_longitude": -95.330507, 
+        "woe:placetype": "building", 
+        "ne_latitude": 29.962983, 
         "latitude": -95.330323, 
         "woe:id": 2149481392, 
-        "sw_latitude": 29.962693
+        "osm:way_id": 40188115
       }
     }
   ]

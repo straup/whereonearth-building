@@ -55,15 +55,18 @@
       }, 
       "id": 2153763405, 
       "properties": {
-        "osm:way_id": 53558159, 
         "woe:parent": "125128892", 
         "tags": [
           "addr:housenumber=2", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour 8c 2010", 
           "addr:street=Rue des Bosquets"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128892", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512892, 
+        "sw_latitude": 48.533847, 
         "osm:node_ids": [
           676610987, 
           676610999, 
@@ -78,12 +81,12 @@
         ], 
         "ne_longitude": 7.638246, 
         "longitude": 48.533917, 
-        "ne_latitude": 48.533994, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.638047, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.533994, 
         "latitude": 7.638141, 
         "woe:id": 2153763405, 
-        "sw_latitude": 48.533847
+        "osm:way_id": 53558159
       }
     }
   ]

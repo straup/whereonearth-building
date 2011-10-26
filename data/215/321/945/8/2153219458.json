@@ -47,14 +47,17 @@
       }, 
       "id": 2153219458, 
       "properties": {
-        "osm:way_id": 52517901, 
         "woe:parent": "125208827", 
         "name": "Walmart", 
         "tags": [
           "name=Walmart"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125208827", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520827, 
+        "sw_latitude": 39.335947, 
         "osm:node_ids": [
           667423123, 
           667423125, 
@@ -67,12 +70,12 @@
         ], 
         "ne_longitude": -76.400199, 
         "longitude": 39.336626, 
-        "ne_latitude": 39.337250, 
-        "woe:placetype": "building", 
         "sw_longitude": -76.401626, 
+        "woe:placetype": "building", 
+        "ne_latitude": 39.337250, 
         "latitude": -76.400935, 
         "woe:id": 2153219458, 
-        "sw_latitude": 39.335947
+        "osm:way_id": 52517901
       }
     }
   ]

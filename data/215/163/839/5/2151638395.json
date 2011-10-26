@@ -51,15 +51,18 @@
       }, 
       "id": 2151638395, 
       "properties": {
-        "osm:way_id": 48755783, 
         "woe:parent": "125211881", 
         "name": "Lakeland Ice Arena", 
         "tags": [
           "name=Lakeland Ice Arena", 
           "sport=ice ring"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125211881", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521181, 
+        "sw_latitude": 42.661659, 
         "osm:node_ids": [
           618753082, 
           618753083, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": -83.430960, 
         "longitude": 42.662116, 
-        "ne_latitude": 42.662638, 
-        "woe:placetype": "building", 
         "sw_longitude": -83.432291, 
+        "woe:placetype": "building", 
+        "ne_latitude": 42.662638, 
         "latitude": -83.431643, 
         "woe:id": 2151638395, 
-        "sw_latitude": 42.661659
+        "osm:way_id": 48755783
       }
     }
   ]

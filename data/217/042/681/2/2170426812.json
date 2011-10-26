@@ -59,15 +59,18 @@
       }, 
       "id": 2170426812, 
       "properties": {
-        "osm:way_id": 86111197, 
         "woe:parent": "12513199", 
         "tags": [
           "addr:housenumber=Geb. 107", 
           "layer=1", 
           "note=Fahrbereitschaft"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.084831, 
         "osm:node_ids": [
           999298269, 
           999298266, 
@@ -83,12 +86,12 @@
         ], 
         "ne_longitude": 11.277276, 
         "longitude": 48.085039, 
-        "ne_latitude": 48.085220, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.276782, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.085220, 
         "latitude": 11.277016, 
         "woe:id": 2170426812, 
-        "sw_latitude": 48.084831
+        "osm:way_id": 86111197
       }
     }
   ]

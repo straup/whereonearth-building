@@ -99,7 +99,6 @@
       }, 
       "id": 2153403971, 
       "properties": {
-        "osm:way_id": 52882436, 
         "woe:parent": "23024911", 
         "name": "St. Maria unter dem Kreuz", 
         "tags": [
@@ -109,8 +108,12 @@
           "religion=christian", 
           "wikipedia:de=St. Maria unter dem Kreuz"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.273901, 
         "osm:node_ids": [
           670378974, 
           1053475067, 
@@ -136,12 +139,12 @@
         ], 
         "ne_longitude": 6.792506, 
         "longitude": 51.274051, 
-        "ne_latitude": 51.274195, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.791865, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.274195, 
         "latitude": 6.792184, 
         "woe:id": 2153403971, 
-        "sw_latitude": 51.273901
+        "osm:way_id": 52882436
       }
     }
   ]

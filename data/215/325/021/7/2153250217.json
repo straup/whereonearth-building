@@ -55,7 +55,6 @@
       }, 
       "id": 2153250217, 
       "properties": {
-        "osm:way_id": 52582481, 
         "woe:parent": "12521750", 
         "name": "Four Winds Cafe", 
         "tags": [
@@ -66,8 +65,12 @@
           "website=http8c8s8swww.ncf.edu8sfourwinds", 
           "source=FDOT"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.385423, 
         "osm:node_ids": [
           667988123, 
           667988110, 
@@ -82,12 +85,12 @@
         ], 
         "ne_longitude": -82.562447, 
         "longitude": 27.385482, 
-        "ne_latitude": 27.385558, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.562621, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.385558, 
         "latitude": -82.562529, 
         "woe:id": 2153250217, 
-        "sw_latitude": 27.385423
+        "osm:way_id": 52582481
       }
     }
   ]

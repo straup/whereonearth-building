@@ -51,14 +51,17 @@
       }, 
       "id": 2149823387, 
       "properties": {
-        "osm:way_id": 42603807, 
         "woe:parent": "12523072", 
         "tags": [
           "bmo:type=D", 
           "source=Brest Metropole Oceane, 2009"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=12523072", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12523072, 
+        "sw_latitude": 48.450175, 
         "osm:node_ids": [
           532267269, 
           532267271, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": -4.399793, 
         "longitude": 48.450220, 
-        "ne_latitude": 48.450254, 
-        "woe:placetype": "building", 
         "sw_longitude": -4.400078, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.450254, 
         "latitude": -4.399940, 
         "woe:id": 2149823387, 
-        "sw_latitude": 48.450175
+        "osm:way_id": 42603807
       }
     }
   ]

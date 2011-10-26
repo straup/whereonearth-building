@@ -51,15 +51,18 @@
       }, 
       "id": 2150683851, 
       "properties": {
-        "osm:way_id": 46625550, 
         "woe:parent": "22177393", 
         "name": "Hangar K", 
         "tags": [
           "name=Hangar K", 
           "ref=K"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22177393", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22177393, 
+        "sw_latitude": 53.049733, 
         "osm:node_ids": [
           595793845, 
           595793846, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": 8.789787, 
         "longitude": 53.050106, 
-        "ne_latitude": 53.050452, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.788629, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.050452, 
         "latitude": 8.789240, 
         "woe:id": 2150683851, 
-        "sw_latitude": 53.049733
+        "osm:way_id": 46625550
       }
     }
   ]

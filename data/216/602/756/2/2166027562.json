@@ -35,15 +35,18 @@
       }, 
       "id": 2166027562, 
       "properties": {
-        "osm:way_id": 77202286, 
         "woe:parent": "22276234", 
         "name": "Feuerwache West", 
         "tags": [
           "amenity=fire_station", 
           "name=Feuerwache West"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.353741, 
         "osm:node_ids": [
           908846742, 
           908846632, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 13.486854, 
         "longitude": 52.354283, 
-        "ne_latitude": 52.354824, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.484946, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.354824, 
         "latitude": 13.485900, 
         "woe:id": 2166027562, 
-        "sw_latitude": 52.353741
+        "osm:way_id": 77202286
       }
     }
   ]

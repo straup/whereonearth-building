@@ -55,13 +55,16 @@
       }, 
       "id": 2169036474, 
       "properties": {
-        "osm:way_id": 83689728, 
         "woe:parent": "22016347", 
         "tags": [
           "source=geoimage.at"
         ], 
-        "hierarchy": "woe:country=23424750", 
+        "hierarchy": [
+          "woe:airport=22016347", 
+          "woe:country=23424750"
+        ], 
         "parent_woeid": 22016347, 
+        "sw_latitude": 48.226712, 
         "osm:node_ids": [
           974512082, 
           974511971, 
@@ -76,12 +79,12 @@
         ], 
         "ne_longitude": 14.161772, 
         "longitude": 48.227332, 
-        "ne_latitude": 48.227954, 
-        "woe:placetype": "building", 
         "sw_longitude": 14.160015, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.227954, 
         "latitude": 14.160921, 
         "woe:id": 2169036474, 
-        "sw_latitude": 48.226712
+        "osm:way_id": 83689728
       }
     }
   ]

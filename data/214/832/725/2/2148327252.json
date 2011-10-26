@@ -35,7 +35,6 @@
       }, 
       "id": 2148327252, 
       "properties": {
-        "osm:way_id": 31238051, 
         "woe:parent": "12512643", 
         "name": "Asociacion de Municipalidades", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Asociacion de Municipalidades", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=234248801", 
+        "hierarchy": [
+          "woe:airport=12512643", 
+          "woe:country=234248801"
+        ], 
         "parent_woeid": 12512643, 
+        "sw_latitude": -0.171072, 
         "osm:node_ids": [
           347315823, 
           347315824, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -78.483510, 
         "longitude": -0.170954, 
-        "ne_latitude": -0.170831, 
-        "woe:placetype": "building", 
         "sw_longitude": -78.483794, 
+        "woe:placetype": "building", 
+        "ne_latitude": -0.170831, 
         "latitude": -78.483651, 
         "woe:id": 2148327252, 
-        "sw_latitude": -0.171072
+        "osm:way_id": 31238051
       }
     }
   ]

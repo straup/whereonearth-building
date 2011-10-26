@@ -43,7 +43,6 @@
       }, 
       "id": 2170525407, 
       "properties": {
-        "osm:way_id": 86296763, 
         "woe:parent": "12523415", 
         "name": "Hampton Inn", 
         "tags": [
@@ -52,8 +51,12 @@
           "tourism=hotel", 
           "internet_access=yes"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523415", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523415, 
+        "sw_latitude": 41.124964, 
         "osm:node_ids": [
           1001775044, 
           1001775057, 
@@ -65,12 +68,12 @@
         ], 
         "ne_longitude": -104.845102, 
         "longitude": 41.125244, 
-        "ne_latitude": 41.125536, 
-        "woe:placetype": "building", 
         "sw_longitude": -104.845709, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.125536, 
         "latitude": -104.845407, 
         "woe:id": 2170525407, 
-        "sw_latitude": 41.124964
+        "osm:way_id": 86296763
       }
     }
   ]

@@ -35,7 +35,6 @@
       }, 
       "id": 2171683305, 
       "properties": {
-        "osm:way_id": 89026307, 
         "woe:parent": "12522975", 
         "name": "International University of Management", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=International University of Management", 
           "am=university"
         ], 
-        "hierarchy": "woe:country=234249887", 
+        "hierarchy": [
+          "woe:airport=12522975", 
+          "woe:country=234249887"
+        ], 
         "parent_woeid": 12522975, 
+        "sw_latitude": -22.604938, 
         "osm:node_ids": [
           1033105359, 
           1033105364, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 17.095756, 
         "longitude": -22.603344, 
-        "ne_latitude": -22.601689, 
-        "woe:placetype": "building", 
         "sw_longitude": 17.093181, 
+        "woe:placetype": "building", 
+        "ne_latitude": -22.601689, 
         "latitude": 17.094461, 
         "woe:id": 2171683305, 
-        "sw_latitude": -22.604938
+        "osm:way_id": 89026307
       }
     }
   ]

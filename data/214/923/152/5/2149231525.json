@@ -35,14 +35,17 @@
       }, 
       "id": 2149231525, 
       "properties": {
-        "osm:way_id": 37450347, 
         "woe:parent": "22463734", 
         "name": "Scottish Hydro", 
         "tags": [
           "name=Scottish Hydro"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22463734", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22463734, 
+        "sw_latitude": 55.936793, 
         "osm:node_ids": [
           438064087, 
           438064089, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -3.394133, 
         "longitude": 55.936918, 
-        "ne_latitude": 55.937033, 
-        "woe:placetype": "building", 
         "sw_longitude": -3.395137, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.937033, 
         "latitude": -3.394646, 
         "woe:id": 2149231525, 
-        "sw_latitude": 55.936793
+        "osm:way_id": 37450347
       }
     }
   ]

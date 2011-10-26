@@ -75,15 +75,18 @@
       }, 
       "id": 2170309178, 
       "properties": {
-        "osm:way_id": 85932831, 
         "woe:parent": "12517424", 
         "name": "Aero Centre", 
         "tags": [
           "shop=shopping_centre", 
           "name=Aero Centre"
         ], 
-        "hierarchy": "woe:country=23424942", 
+        "hierarchy": [
+          "woe:airport=12517424", 
+          "woe:country=23424942"
+        ], 
         "parent_woeid": 12517424, 
+        "sw_latitude": -26.121511, 
         "osm:node_ids": [
           997417404, 
           997417374, 
@@ -103,12 +106,12 @@
         ], 
         "ne_longitude": 28.257207, 
         "longitude": -26.121201, 
-        "ne_latitude": -26.120884, 
-        "woe:placetype": "building", 
         "sw_longitude": 28.255660, 
+        "woe:placetype": "building", 
+        "ne_latitude": -26.120884, 
         "latitude": 28.256347, 
         "woe:id": 2170309178, 
-        "sw_latitude": -26.121511
+        "osm:way_id": 85932831
       }
     }
   ]

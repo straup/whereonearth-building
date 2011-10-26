@@ -71,7 +71,6 @@
       }, 
       "id": 2148432229, 
       "properties": {
-        "osm:way_id": 32095752, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=7", 
@@ -79,8 +78,12 @@
           "addr:postcode=4088880", 
           "addr:street=Dieselstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.295478, 
         "osm:node_ids": [
           747877252, 
           360317658, 
@@ -99,12 +102,12 @@
         ], 
         "ne_longitude": 6.816930, 
         "longitude": 51.295611, 
-        "ne_latitude": 51.295751, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.816698, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.295751, 
         "latitude": 6.816818, 
         "woe:id": 2148432229, 
-        "sw_latitude": 51.295478
+        "osm:way_id": 32095752
       }
     }
   ]

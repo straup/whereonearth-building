@@ -35,13 +35,16 @@
       }, 
       "id": 2149543218, 
       "properties": {
-        "osm:way_id": 40794680, 
         "woe:parent": "125168860", 
         "tags": [
           "amenity=car_wash"
         ], 
-        "hierarchy": "woe:country=23424936", 
+        "hierarchy": [
+          "woe:airport=125168860", 
+          "woe:country=23424936"
+        ], 
         "parent_woeid": 12516860, 
+        "sw_latitude": 55.971151, 
         "osm:node_ids": [
           495968820, 
           495968821, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 37.448851, 
         "longitude": 55.971259, 
-        "ne_latitude": 55.971366, 
-        "woe:placetype": "building", 
         "sw_longitude": 37.448482, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.971366, 
         "latitude": 37.448667, 
         "woe:id": 2149543218, 
-        "sw_latitude": 55.971151
+        "osm:way_id": 40794680
       }
     }
   ]

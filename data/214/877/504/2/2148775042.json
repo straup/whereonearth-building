@@ -39,7 +39,6 @@
       }, 
       "id": 2148775042, 
       "properties": {
-        "osm:way_id": 35998616, 
         "woe:parent": "12513156", 
         "name": "Terminal", 
         "tags": [
@@ -49,8 +48,12 @@
           "operator=Flughafen Niederrhein GmbH", 
           "addr:street=Flughafen-Ring"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513156", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513156, 
+        "sw_latitude": 51.599204, 
         "osm:node_ids": [
           420784817, 
           418648654, 
@@ -61,12 +64,12 @@
         ], 
         "ne_longitude": 6.151594, 
         "longitude": 51.599537, 
-        "ne_latitude": 51.599869, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.149348, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.599869, 
         "latitude": 6.150471, 
         "woe:id": 2148775042, 
-        "sw_latitude": 51.599204
+        "osm:way_id": 35998616
       }
     }
   ]

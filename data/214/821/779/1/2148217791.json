@@ -55,15 +55,18 @@
       }, 
       "id": 2148217791, 
       "properties": {
-        "osm:way_id": 30128388, 
         "woe:parent": "2886776884", 
         "name": "Hervey Bay Airport", 
         "tags": [
           "name=Hervey Bay Airport", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=234247488", 
+        "hierarchy": [
+          "woe:airport=2886776884", 
+          "woe:country=234247488"
+        ], 
         "parent_woeid": 28677684, 
+        "sw_latitude": -25.320326, 
         "osm:node_ids": [
           332003415, 
           973452529, 
@@ -78,12 +81,12 @@
         ], 
         "ne_longitude": 152.885866, 
         "longitude": -25.320030, 
-        "ne_latitude": -25.319706, 
-        "woe:placetype": "building", 
         "sw_longitude": 152.884896, 
+        "woe:placetype": "building", 
+        "ne_latitude": -25.319706, 
         "latitude": 152.885356, 
         "woe:id": 2148217791, 
-        "sw_latitude": -25.320326
+        "osm:way_id": 30128388
       }
     }
   ]

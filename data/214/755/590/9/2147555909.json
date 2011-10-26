@@ -107,7 +107,6 @@
       }, 
       "id": 2147555909, 
       "properties": {
-        "osm:way_id": 24233753, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=1b", 
@@ -117,8 +116,12 @@
           "addr:country=DE", 
           "addr:street=Mirastra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.389604, 
         "osm:node_ids": [
           262389173, 
           459954164, 
@@ -146,12 +149,12 @@
         ], 
         "ne_longitude": 13.501295, 
         "longitude": 52.389861, 
-        "ne_latitude": 52.390264, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.499969, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.390264, 
         "latitude": 13.500537, 
         "woe:id": 2147555909, 
-        "sw_latitude": 52.389604
+        "osm:way_id": 24233753
       }
     }
   ]

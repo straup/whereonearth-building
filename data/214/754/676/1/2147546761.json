@@ -259,15 +259,18 @@
       }, 
       "id": 2147546761, 
       "properties": {
-        "osm:way_id": 23813685, 
         "woe:parent": "12512931", 
         "name": "A\u00e9roport de Marseille-Marignane-Provence", 
         "tags": [
           "name=A\u00e9roport de Marseille-Marignane-Provence", 
           "created_by=Potlatch 0.88a"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=12512931", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512931, 
+        "sw_latitude": 43.438421, 
         "osm:node_ids": [
           258054488, 
           258054489, 
@@ -333,12 +336,12 @@
         ], 
         "ne_longitude": 5.225027, 
         "longitude": 43.440785, 
-        "ne_latitude": 43.443014, 
-        "woe:placetype": "building", 
         "sw_longitude": 5.219440, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.443014, 
         "latitude": 5.222403, 
         "woe:id": 2147546761, 
-        "sw_latitude": 43.438421
+        "osm:way_id": 23813685
       }
     }
   ]

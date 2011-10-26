@@ -39,7 +39,6 @@
       }, 
       "id": 2147555926, 
       "properties": {
-        "osm:way_id": 24234122, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=16", 
@@ -49,8 +48,12 @@
           "addr:country=DE", 
           "addr:street=Hans-Grade-Allee"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.392034, 
         "osm:node_ids": [
           262392048, 
           262392049, 
@@ -61,12 +64,12 @@
         ], 
         "ne_longitude": 13.499878, 
         "longitude": 52.392303, 
-        "ne_latitude": 52.392569, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.499022, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.392569, 
         "latitude": 13.499449, 
         "woe:id": 2147555926, 
-        "sw_latitude": 52.392034
+        "osm:way_id": 24234122
       }
     }
   ]

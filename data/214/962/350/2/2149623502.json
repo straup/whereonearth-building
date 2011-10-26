@@ -135,7 +135,6 @@
       }, 
       "id": 2149623502, 
       "properties": {
-        "osm:way_id": 41526089, 
         "woe:parent": "22235735", 
         "name": "Maritim Airport Hotel Hannover", 
         "tags": [
@@ -147,8 +146,12 @@
           "addr:street=Flughafenstra\u00dfe", 
           "name=Maritim Airport Hotel Hannover"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22235735", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22235735, 
+        "sw_latitude": 52.459404, 
         "osm:node_ids": [
           508538183, 
           508538186, 
@@ -183,12 +186,12 @@
         ], 
         "ne_longitude": 9.699585, 
         "longitude": 52.459806, 
-        "ne_latitude": 52.460183, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.697379, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.460183, 
         "latitude": 9.698481, 
         "woe:id": 2149623502, 
-        "sw_latitude": 52.459404
+        "osm:way_id": 41526089
       }
     }
   ]

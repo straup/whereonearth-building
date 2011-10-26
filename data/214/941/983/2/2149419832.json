@@ -55,15 +55,18 @@
       }, 
       "id": 2149419832, 
       "properties": {
-        "osm:way_id": 39536934, 
         "woe:parent": "23024911", 
         "name": "Dietrich-Bonhoeffer-Gymnasium", 
         "tags": [
           "website=http8c8s8swww.dbg-ratingen.de8s", 
           "name=Dietrich-Bonhoeffer-Gymnasium"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.291385, 
         "osm:node_ids": [
           473695913, 
           473695915, 
@@ -78,12 +81,12 @@
         ], 
         "ne_longitude": 6.819441, 
         "longitude": 51.291650, 
-        "ne_latitude": 51.291906, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.818463, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.291906, 
         "latitude": 6.818991, 
         "woe:id": 2149419832, 
-        "sw_latitude": 51.291385
+        "osm:way_id": 39536934
       }
     }
   ]

@@ -51,14 +51,17 @@
       }, 
       "id": 2147622011, 
       "properties": {
-        "osm:way_id": 25882413, 
         "woe:parent": "2338888266", 
         "name": "AerLingus Staff Development", 
         "tags": [
           "name=AerLingus Staff Development"
         ], 
-        "hierarchy": "woe:country=234248803", 
+        "hierarchy": [
+          "woe:airport=2338888266", 
+          "woe:country=234248803"
+        ], 
         "parent_woeid": 23388266, 
+        "sw_latitude": 53.424169, 
         "osm:node_ids": [
           282334008, 
           282334652, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": -6.236280, 
         "longitude": 53.424307, 
-        "ne_latitude": 53.424444, 
-        "woe:placetype": "building", 
         "sw_longitude": -6.236656, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.424444, 
         "latitude": -6.236462, 
         "woe:id": 2147622011, 
-        "sw_latitude": 53.424169
+        "osm:way_id": 25882413
       }
     }
   ]

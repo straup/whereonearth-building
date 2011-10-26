@@ -103,7 +103,6 @@
       }, 
       "id": 2147499778, 
       "properties": {
-        "osm:way_id": 22561036, 
         "woe:parent": "12513445", 
         "name": "Flugst\u00f6\u00f0 Leifs Eir\u00edkssonar", 
         "tags": [
@@ -113,8 +112,12 @@
           "icao=BIKF", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=234248845", 
+        "hierarchy": [
+          "woe:airport=12513445", 
+          "woe:country=234248845"
+        ], 
         "parent_woeid": 12513445, 
+        "sw_latitude": 63.993085, 
         "osm:node_ids": [
           241786525, 
           631937259, 
@@ -141,12 +144,12 @@
         ], 
         "ne_longitude": -22.622238, 
         "longitude": 63.995119, 
-        "ne_latitude": 63.996971, 
-        "woe:placetype": "building", 
         "sw_longitude": -22.625499, 
+        "woe:placetype": "building", 
+        "ne_latitude": 63.996971, 
         "latitude": -22.623771, 
         "woe:id": 2147499778, 
-        "sw_latitude": 63.993085
+        "osm:way_id": 22561036
       }
     }
   ]

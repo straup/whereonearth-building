@@ -159,7 +159,6 @@
       }, 
       "id": 2147497426, 
       "properties": {
-        "osm:way_id": 19785555, 
         "woe:parent": "224118879", 
         "name": "T2", 
         "tags": [
@@ -167,8 +166,12 @@
           "created_by=Potlatch 0.6a", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=224118879", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 22411879, 
+        "sw_latitude": 41.300647, 
         "osm:node_ids": [
           206138076, 
           421459347, 
@@ -209,12 +212,12 @@
         ], 
         "ne_longitude": 2.082813, 
         "longitude": 41.302836, 
-        "ne_latitude": 41.304517, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.073127, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.304517, 
         "latitude": 2.077621, 
         "woe:id": 2147497426, 
-        "sw_latitude": 41.300647
+        "osm:way_id": 19785555
       }
     }
   ]

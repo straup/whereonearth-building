@@ -59,7 +59,6 @@
       }, 
       "id": 2160456602, 
       "properties": {
-        "osm:way_id": 67267069, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=356", 
@@ -71,8 +70,12 @@
           "dcgis:lot=0002", 
           "addr:street=March Lane SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.839999, 
         "osm:node_ids": [
           812388296, 
           812388329, 
@@ -88,12 +91,12 @@
         ], 
         "ne_longitude": -77.020449, 
         "longitude": 38.840065, 
-        "ne_latitude": 38.840124, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.020563, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.840124, 
         "latitude": -77.020507, 
         "woe:id": 2160456602, 
-        "sw_latitude": 38.839999
+        "osm:way_id": 67267069
       }
     }
   ]

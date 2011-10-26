@@ -59,7 +59,6 @@
       }, 
       "id": 2148413897, 
       "properties": {
-        "osm:way_id": 31884075, 
         "woe:parent": "22140453", 
         "name": "Europcar", 
         "tags": [
@@ -67,8 +66,12 @@
           "building:levels=1", 
           "operator=Europcar"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=22140453", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 22140453, 
+        "sw_latitude": 49.017498, 
         "osm:node_ids": [
           357022247, 
           357022248, 
@@ -84,12 +87,12 @@
         ], 
         "ne_longitude": 2.589621, 
         "longitude": 49.017973, 
-        "ne_latitude": 49.018435, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.588081, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.018435, 
         "latitude": 2.588842, 
         "woe:id": 2148413897, 
-        "sw_latitude": 49.017498
+        "osm:way_id": 31884075
       }
     }
   ]

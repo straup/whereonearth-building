@@ -35,15 +35,18 @@
       }, 
       "id": 2147883742, 
       "properties": {
-        "osm:way_id": 29192502, 
         "woe:parent": "12521514", 
         "name": "Toray Education and Wellness Center", 
         "tags": [
           "name=Toray Education and Wellness Center", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521514", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521514, 
+        "sw_latitude": 41.598647, 
         "osm:node_ids": [
           321022518, 
           321022519, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -71.425707, 
         "longitude": 41.598868, 
-        "ne_latitude": 41.599090, 
-        "woe:placetype": "building", 
         "sw_longitude": -71.426308, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.599090, 
         "latitude": -71.426008, 
         "woe:id": 2147883742, 
-        "sw_latitude": 41.598647
+        "osm:way_id": 29192502
       }
     }
   ]

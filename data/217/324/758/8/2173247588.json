@@ -35,14 +35,17 @@
       }, 
       "id": 2173247588, 
       "properties": {
-        "osm:way_id": 92413671, 
         "woe:parent": "125108854", 
         "name": "NHV Noordzee Helicopters Vlaanderen", 
         "tags": [
           "name=NHV Noordzee Helicopters Vlaanderen"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=125108854", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 12510854, 
+        "sw_latitude": 51.193389, 
         "osm:node_ids": [
           1072760874, 
           1072760917, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 2.853761, 
         "longitude": 51.193545, 
-        "ne_latitude": 51.193699, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.852941, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.193699, 
         "latitude": 2.853352, 
         "woe:id": 2173247588, 
-        "sw_latitude": 51.193389
+        "osm:way_id": 92413671
       }
     }
   ]

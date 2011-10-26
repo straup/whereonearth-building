@@ -31,14 +31,17 @@
       }, 
       "id": 2147748037, 
       "properties": {
-        "osm:way_id": 27325973, 
         "woe:parent": "12513277", 
         "tags": [
           "created_by=Potlatch 0.10c", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=234248831", 
+        "hierarchy": [
+          "woe:airport=12513277", 
+          "woe:country=234248831"
+        ], 
         "parent_woeid": 12513277, 
+        "sw_latitude": 16.269419, 
         "osm:node_ids": [
           299952822, 
           299952823, 
@@ -47,12 +50,12 @@
         ], 
         "ne_longitude": -61.527569, 
         "longitude": 16.269665, 
-        "ne_latitude": 16.269847, 
-        "woe:placetype": "building", 
         "sw_longitude": -61.528478, 
+        "woe:placetype": "building", 
+        "ne_latitude": 16.269847, 
         "latitude": -61.528079, 
         "woe:id": 2147748037, 
-        "sw_latitude": 16.269419
+        "osm:way_id": 27325973
       }
     }
   ]

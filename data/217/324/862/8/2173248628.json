@@ -67,7 +67,6 @@
       }, 
       "id": 2173248628, 
       "properties": {
-        "osm:way_id": 92416449, 
         "woe:parent": "22454274", 
         "name": "St Leonards", 
         "tags": [
@@ -76,8 +75,12 @@
           "religion=christian", 
           "source=bing"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22454274", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22454274, 
+        "sw_latitude": 52.464896, 
         "osm:node_ids": [
           1072805502, 
           1072805199, 
@@ -95,12 +98,12 @@
         ], 
         "ne_longitude": -1.745119, 
         "longitude": 52.465057, 
-        "ne_latitude": 52.465224, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.745621, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.465224, 
         "latitude": -1.745360, 
         "woe:id": 2173248628, 
-        "sw_latitude": 52.464896
+        "osm:way_id": 92416449
       }
     }
   ]

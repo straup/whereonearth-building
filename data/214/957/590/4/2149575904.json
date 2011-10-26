@@ -179,15 +179,18 @@
       }, 
       "id": 2149575904, 
       "properties": {
-        "osm:way_id": 41098926, 
         "woe:parent": "125110388", 
         "name": "Setor 3", 
         "tags": [
           "name=Setor 3", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.841584, 
         "osm:node_ids": [
           501324966, 
           530586272, 
@@ -233,12 +236,12 @@
         ], 
         "ne_longitude": -35.199915, 
         "longitude": -5.841145, 
-        "ne_latitude": -5.840712, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.200886, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.840712, 
         "latitude": -35.200423, 
         "woe:id": 2149575904, 
-        "sw_latitude": -5.841584
+        "osm:way_id": 41098926
       }
     }
   ]

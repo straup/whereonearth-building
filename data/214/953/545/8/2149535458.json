@@ -235,7 +235,6 @@
       }, 
       "id": 2149535458, 
       "properties": {
-        "osm:way_id": 40724116, 
         "woe:parent": "1251548888", 
         "name": "Carrefour", 
         "tags": [
@@ -243,8 +242,12 @@
           "name=Carrefour", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre ; mise \u00e0 jour 8c 20088"
         ], 
-        "hierarchy": "woe:country=23424931", 
+        "hierarchy": [
+          "woe:airport=1251548888", 
+          "woe:country=23424931"
+        ], 
         "parent_woeid": 12515488, 
+        "sw_latitude": -20.891802, 
         "osm:node_ids": [
           494773071, 
           494773072, 
@@ -304,12 +307,12 @@
         ], 
         "ne_longitude": 55.500878, 
         "longitude": -20.890798, 
-        "ne_latitude": -20.889913, 
-        "woe:placetype": "building", 
         "sw_longitude": 55.499408, 
+        "woe:placetype": "building", 
+        "ne_latitude": -20.889913, 
         "latitude": 55.500168, 
         "woe:id": 2149535458, 
-        "sw_latitude": -20.891802
+        "osm:way_id": 40724116
       }
     }
   ]

@@ -35,15 +35,18 @@
       }, 
       "id": 2161896702, 
       "properties": {
-        "osm:way_id": 69754588, 
         "woe:parent": "224889156", 
         "tags": [
           "bridge=yes", 
           "level=1", 
           "note=Passenger bridge to sattelite"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=224889156", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22489156, 
+        "sw_latitude": 51.889799, 
         "osm:node_ids": [
           834434920, 
           834434922, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 0.259292, 
         "longitude": 51.890237, 
-        "ne_latitude": 51.890650, 
-        "woe:placetype": "building", 
         "sw_longitude": 0.257679, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.890650, 
         "latitude": 0.258462, 
         "woe:id": 2161896702, 
-        "sw_latitude": 51.889799
+        "osm:way_id": 69754588
       }
     }
   ]

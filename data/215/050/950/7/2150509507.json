@@ -35,15 +35,18 @@
       }, 
       "id": 2150509507, 
       "properties": {
-        "osm:way_id": 45734971, 
         "woe:parent": "125110388", 
         "name": "SETHAS FUNDAC", 
         "tags": [
           "amenity=public_building", 
           "name=SETHAS FUNDAC"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.828116, 
         "osm:node_ids": [
           582533798, 
           582533795, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -35.213736, 
         "longitude": -5.827853, 
-        "ne_latitude": -5.827588, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.214262, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.827588, 
         "latitude": -35.213999, 
         "woe:id": 2150509507, 
-        "sw_latitude": -5.828116
+        "osm:way_id": 45734971
       }
     }
   ]

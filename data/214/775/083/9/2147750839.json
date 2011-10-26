@@ -51,7 +51,6 @@
       }, 
       "id": 2147750839, 
       "properties": {
-        "osm:way_id": 27397412, 
         "woe:parent": "234188445", 
         "name": "ABIA Garage", 
         "tags": [
@@ -59,8 +58,12 @@
           "name=ABIA Garage", 
           "created_by=Potlatch 0.10c"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=234188445", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 23418445, 
+        "sw_latitude": 30.202941, 
         "osm:node_ids": [
           300756911, 
           300757869, 
@@ -74,12 +77,12 @@
         ], 
         "ne_longitude": -97.665293, 
         "longitude": 30.203490, 
-        "ne_latitude": 30.204024, 
-        "woe:placetype": "building", 
         "sw_longitude": -97.668597, 
+        "woe:placetype": "building", 
+        "ne_latitude": 30.204024, 
         "latitude": -97.666936, 
         "woe:id": 2147750839, 
-        "sw_latitude": 30.202941
+        "osm:way_id": 27397412
       }
     }
   ]

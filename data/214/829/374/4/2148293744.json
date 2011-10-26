@@ -35,7 +35,6 @@
       }, 
       "id": 2148293744, 
       "properties": {
-        "osm:way_id": 30836594, 
         "woe:parent": "12513205", 
         "name": "Pension Schwesinger", 
         "tags": [
@@ -45,8 +44,12 @@
           "tourism=guest_house", 
           "addr:street=Dresdner Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.175659, 
         "osm:node_ids": [
           342900864, 
           342900874, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": 13.825440, 
         "longitude": 51.175760, 
-        "ne_latitude": 51.175860, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.825189, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.175860, 
         "latitude": 13.825315, 
         "woe:id": 2148293744, 
-        "sw_latitude": 51.175659
+        "osm:way_id": 30836594
       }
     }
   ]

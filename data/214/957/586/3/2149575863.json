@@ -171,7 +171,6 @@
       }, 
       "id": 2149575863, 
       "properties": {
-        "osm:way_id": 41098848, 
         "woe:parent": "125110388", 
         "name": "Setor 4", 
         "tags": [
@@ -179,8 +178,12 @@
           "alt_name=Setor IV; Setor de Aulas Te\u00f3ricas 4", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.842919, 
         "osm:node_ids": [
           501304720, 
           501304724, 
@@ -224,12 +227,12 @@
         ], 
         "ne_longitude": -35.199280, 
         "longitude": -5.842496, 
-        "ne_latitude": -5.842038, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.200377, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.842038, 
         "latitude": -35.199818, 
         "woe:id": 2149575863, 
-        "sw_latitude": -5.842919
+        "osm:way_id": 41098848
       }
     }
   ]

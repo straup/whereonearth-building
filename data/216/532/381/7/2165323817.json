@@ -39,15 +39,18 @@
       }, 
       "id": 2165323817, 
       "properties": {
-        "osm:way_id": 75604785, 
         "woe:parent": "12511012", 
         "name": "Hospital Nova Clinica", 
         "tags": [
           "amenity=hospital", 
           "name=Hospital Nova Clinica"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=12511012", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511012, 
+        "sw_latitude": -25.540442, 
         "osm:node_ids": [
           892612345, 
           892612350, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": -49.196144, 
         "longitude": -25.540012, 
-        "ne_latitude": -25.539622, 
-        "woe:placetype": "building", 
         "sw_longitude": -49.196888, 
+        "woe:placetype": "building", 
+        "ne_latitude": -25.539622, 
         "latitude": -49.196514, 
         "woe:id": 2165323817, 
-        "sw_latitude": -25.540442
+        "osm:way_id": 75604785
       }
     }
   ]

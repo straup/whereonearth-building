@@ -83,15 +83,18 @@
       }, 
       "id": 2148577977, 
       "properties": {
-        "osm:way_id": 33632881, 
         "woe:parent": "125128862", 
         "name": "S\u00c9SAM", 
         "tags": [
           "addr:housenumber=2bis", 
           "name=S\u00c9SAM"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128862", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512862, 
+        "sw_latitude": 48.600310, 
         "osm:node_ids": [
           384752621, 
           384752622, 
@@ -113,12 +116,12 @@
         ], 
         "ne_longitude": 2.357474, 
         "longitude": 48.600647, 
-        "ne_latitude": 48.601031, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.356298, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.601031, 
         "latitude": 2.356842, 
         "woe:id": 2148577977, 
-        "sw_latitude": 48.600310
+        "osm:way_id": 33632881
       }
     }
   ]

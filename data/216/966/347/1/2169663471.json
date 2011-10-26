@@ -35,7 +35,6 @@
       }, 
       "id": 2169663471, 
       "properties": {
-        "osm:way_id": 84792408, 
         "woe:parent": "22177393", 
         "name": "Atlas Air Service", 
         "tags": [
@@ -46,8 +45,12 @@
           "addr:country=DE", 
           "addr:street=Hanna-Kunath-Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22177393", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22177393, 
+        "sw_latitude": 53.052781, 
         "osm:node_ids": [
           984624311, 
           984624312, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": 8.777716, 
         "longitude": 53.053045, 
-        "ne_latitude": 53.053307, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.776810, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.053307, 
         "latitude": 8.777263, 
         "woe:id": 2169663471, 
-        "sw_latitude": 53.052781
+        "osm:way_id": 84792408
       }
     }
   ]

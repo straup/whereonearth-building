@@ -83,7 +83,6 @@
       }, 
       "id": 2147555992, 
       "properties": {
-        "osm:way_id": 24237293, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=39J", 
@@ -92,8 +91,12 @@
           "addr:country=DE", 
           "addr:street=Wehrmathen"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.397759, 
         "osm:node_ids": [
           262421417, 
           262421418, 
@@ -115,12 +118,12 @@
         ], 
         "ne_longitude": 13.525135, 
         "longitude": 52.397960, 
-        "ne_latitude": 52.398165, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.524625, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.398165, 
         "latitude": 13.524895, 
         "woe:id": 2147555992, 
-        "sw_latitude": 52.397759
+        "osm:way_id": 24237293
       }
     }
   ]

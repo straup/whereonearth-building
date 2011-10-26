@@ -223,7 +223,6 @@
       }, 
       "id": 2151591952, 
       "properties": {
-        "osm:way_id": 48641780, 
         "woe:parent": "223886730", 
         "name": "Meerwende", 
         "tags": [
@@ -236,8 +235,12 @@
           "3dshapes:ggmodelk=0", 
           "addr:street=Kamerlingh Onneslaan"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.338651, 
         "osm:node_ids": [
           617690229, 
           617705616, 
@@ -294,12 +297,12 @@
         ], 
         "ne_longitude": 4.773199, 
         "longitude": 52.339157, 
-        "ne_latitude": 52.339508, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.771506, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.339508, 
         "latitude": 4.772181, 
         "woe:id": 2151591952, 
-        "sw_latitude": 52.338651
+        "osm:way_id": 48641780
       }
     }
   ]

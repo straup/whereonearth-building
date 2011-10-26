@@ -35,15 +35,18 @@
       }, 
       "id": 2149738523, 
       "properties": {
-        "osm:way_id": 42391168, 
         "woe:parent": "22235735", 
         "name": "Tanks", 
         "tags": [
           "name=Tanks", 
           "landuse=industrial"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22235735", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22235735, 
+        "sw_latitude": 52.458053, 
         "osm:node_ids": [
           529141459, 
           529141460, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 9.719526, 
         "longitude": 52.458212, 
-        "ne_latitude": 52.458369, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.719315, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.458369, 
         "latitude": 9.719421, 
         "woe:id": 2149738523, 
-        "sw_latitude": 52.458053
+        "osm:way_id": 42391168
       }
     }
   ]

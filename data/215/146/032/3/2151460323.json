@@ -211,14 +211,17 @@
       }, 
       "id": 2151460323, 
       "properties": {
-        "osm:way_id": 48234728, 
         "woe:parent": "12522432", 
         "name": "Wichita Mid-Continent Airport", 
         "tags": [
           "name=Wichita Mid-Continent Airport"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12522432", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522432, 
+        "sw_latitude": 37.652299, 
         "osm:node_ids": [
           613008871, 
           1078355068, 
@@ -272,12 +275,12 @@
         ], 
         "ne_longitude": -97.427726, 
         "longitude": 37.652819, 
-        "ne_latitude": 37.653190, 
-        "woe:placetype": "building", 
         "sw_longitude": -97.430105, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.653190, 
         "latitude": -97.428830, 
         "woe:id": 2151460323, 
-        "sw_latitude": 37.652299
+        "osm:way_id": 48234728
       }
     }
   ]

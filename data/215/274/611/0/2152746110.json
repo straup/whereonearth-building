@@ -59,15 +59,18 @@
       }, 
       "id": 2152746110, 
       "properties": {
-        "osm:way_id": 51419112, 
         "woe:parent": "12513599", 
         "name": "Terminal 3", 
         "tags": [
           "name=Terminal 3", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=2342488488", 
+        "hierarchy": [
+          "woe:airport=12513599", 
+          "woe:country=2342488488"
+        ], 
         "parent_woeid": 12513599, 
+        "sw_latitude": 28.555003, 
         "osm:node_ids": [
           656395856, 
           656395729, 
@@ -83,12 +86,12 @@
         ], 
         "ne_longitude": 77.084172, 
         "longitude": 28.558413, 
-        "ne_latitude": 28.562447, 
-        "woe:placetype": "building", 
         "sw_longitude": 77.079537, 
+        "woe:placetype": "building", 
+        "ne_latitude": 28.562447, 
         "latitude": 77.082330, 
         "woe:id": 2152746110, 
-        "sw_latitude": 28.555003
+        "osm:way_id": 51419112
       }
     }
   ]

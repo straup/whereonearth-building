@@ -35,7 +35,6 @@
       }, 
       "id": 2169188702, 
       "properties": {
-        "osm:way_id": 84008521, 
         "woe:parent": "125209883", 
         "name": "Flight Research Inc. / National Test Pilot School", 
         "tags": [
@@ -44,8 +43,12 @@
           "source=usgs_imagery_20088;survey;image", 
           "source_ref=AM909_DSCW1295;AM909_DSCW1347;AM909_DSCW1367"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.055238, 
         "osm:node_ids": [
           977463468, 
           977463300, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -118.150453, 
         "longitude": 35.055407, 
-        "ne_latitude": 35.055575, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.150819, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.055575, 
         "latitude": -118.150637, 
         "woe:id": 2169188702, 
-        "sw_latitude": 35.055238
+        "osm:way_id": 84008521
       }
     }
   ]

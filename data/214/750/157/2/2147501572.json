@@ -123,7 +123,6 @@
       }, 
       "id": 2147501572, 
       "properties": {
-        "osm:way_id": 22871137, 
         "woe:parent": "12521722", 
         "name": "Terminal A", 
         "tags": [
@@ -131,8 +130,12 @@
           "created_by=Potlatch 0.10f", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521722", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521722, 
+        "sw_latitude": 37.368869, 
         "osm:node_ids": [
           245808506, 
           245808507, 
@@ -164,12 +167,12 @@
         ], 
         "ne_longitude": -121.928741, 
         "longitude": 37.370052, 
-        "ne_latitude": 37.371437, 
-        "woe:placetype": "building", 
         "sw_longitude": -121.931999, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.371437, 
         "latitude": -121.930282, 
         "woe:id": 2147501572, 
-        "sw_latitude": 37.368869
+        "osm:way_id": 22871137
       }
     }
   ]

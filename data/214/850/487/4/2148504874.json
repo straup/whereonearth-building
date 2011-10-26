@@ -63,7 +63,6 @@
       }, 
       "id": 2148504874, 
       "properties": {
-        "osm:way_id": 32846020, 
         "woe:parent": "125211881", 
         "name": "VG's Supermarket", 
         "tags": [
@@ -71,8 +70,12 @@
           "name=VG's Supermarket", 
           "created_by=Merkaartor 0.13"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125211881", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521181, 
+        "sw_latitude": 42.661101, 
         "osm:node_ids": [
           370019136, 
           370019139, 
@@ -89,12 +92,12 @@
         ], 
         "ne_longitude": -83.428609, 
         "longitude": 42.661397, 
-        "ne_latitude": 42.661777, 
-        "woe:placetype": "building", 
         "sw_longitude": -83.429864, 
+        "woe:placetype": "building", 
+        "ne_latitude": 42.661777, 
         "latitude": -83.429227, 
         "woe:id": 2148504874, 
-        "sw_latitude": 42.661101
+        "osm:way_id": 32846020
       }
     }
   ]

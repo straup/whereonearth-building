@@ -83,7 +83,6 @@
       }, 
       "id": 2160456729, 
       "properties": {
-        "osm:way_id": 67268863, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=73", 
@@ -95,8 +94,12 @@
           "dcgis:lot=0015", 
           "addr:street=Westover Avenue SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.834058, 
         "osm:node_ids": [
           812461909, 
           812461907, 
@@ -118,12 +121,12 @@
         ], 
         "ne_longitude": -77.013683, 
         "longitude": 38.834142, 
-        "ne_latitude": 38.834226, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.013839, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.834226, 
         "latitude": -77.013761, 
         "woe:id": 2160456729, 
-        "sw_latitude": 38.834058
+        "osm:way_id": 67268863
       }
     }
   ]

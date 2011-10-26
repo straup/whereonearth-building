@@ -95,7 +95,6 @@
       }, 
       "id": 2147586990, 
       "properties": {
-        "osm:way_id": 25290976, 
         "woe:parent": "12521693", 
         "name": "Terminal A", 
         "tags": [
@@ -103,8 +102,12 @@
           "area=yes", 
           "created_by=Potlatch 0.9c"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521693", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521693, 
+        "sw_latitude": 38.692036, 
         "osm:node_ids": [
           275475487, 
           275475488, 
@@ -129,12 +132,12 @@
         ], 
         "ne_longitude": -121.586372, 
         "longitude": 38.693136, 
-        "ne_latitude": 38.694589, 
-        "woe:placetype": "building", 
         "sw_longitude": -121.588870, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.694589, 
         "latitude": -121.587634, 
         "woe:id": 2147586990, 
-        "sw_latitude": 38.692036
+        "osm:way_id": 25290976
       }
     }
   ]

@@ -35,7 +35,6 @@
       }, 
       "id": 2149414713, 
       "properties": {
-        "osm:way_id": 39487597, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=884", 
@@ -43,8 +42,12 @@
           "source=survey, yahoo", 
           "addr:street=Hugo-Viehoff-Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.257544, 
         "osm:node_ids": [
           472991919, 
           472991923, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 6.781392, 
         "longitude": 51.257651, 
-        "ne_latitude": 51.257757, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.781037, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.257757, 
         "latitude": 6.781215, 
         "woe:id": 2149414713, 
-        "sw_latitude": 51.257544
+        "osm:way_id": 39487597
       }
     }
   ]

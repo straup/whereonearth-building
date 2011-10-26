@@ -179,7 +179,6 @@
       }, 
       "id": 2147559693, 
       "properties": {
-        "osm:way_id": 24369223, 
         "woe:parent": "22454274", 
         "tags": [
           "layer=1", 
@@ -187,8 +186,12 @@
           "source=Landsat;OS_OpenData_StreetView", 
           "railway=station"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22454274", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22454274, 
+        "sw_latitude": 52.450113, 
         "osm:node_ids": [
           316534404, 
           316534148, 
@@ -234,12 +237,12 @@
         ], 
         "ne_longitude": -1.724267, 
         "longitude": 52.450597, 
-        "ne_latitude": 52.451214, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.726554, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.451214, 
         "latitude": -1.725380, 
         "woe:id": 2147559693, 
-        "sw_latitude": 52.450113
+        "osm:way_id": 24369223
       }
     }
   ]

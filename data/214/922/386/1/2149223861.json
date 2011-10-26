@@ -59,7 +59,6 @@
       }, 
       "id": 2149223861, 
       "properties": {
-        "osm:way_id": 37361974, 
         "woe:parent": "12513205", 
         "name": "Rathaus", 
         "tags": [
@@ -67,8 +66,12 @@
           "addr:city=Ottendorf-Okrilla", 
           "name=Rathaus"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.185023, 
         "osm:node_ids": [
           436124570, 
           436124571, 
@@ -84,12 +87,12 @@
         ], 
         "ne_longitude": 13.825503, 
         "longitude": 51.185229, 
-        "ne_latitude": 51.185438, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.825048, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.185438, 
         "latitude": 13.825261, 
         "woe:id": 2149223861, 
-        "sw_latitude": 51.185023
+        "osm:way_id": 37361974
       }
     }
   ]

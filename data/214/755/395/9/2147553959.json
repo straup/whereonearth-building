@@ -39,7 +39,6 @@
       }, 
       "id": 2147553959, 
       "properties": {
-        "osm:way_id": 24058616, 
         "woe:parent": "22276234", 
         "name": "Parkhaus P4", 
         "tags": [
@@ -51,8 +50,12 @@
           "maxheight=2", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.389909, 
         "osm:node_ids": [
           260986148, 
           260986149, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 13.520619, 
         "longitude": 52.390245, 
-        "ne_latitude": 52.390580, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.519213, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.390580, 
         "latitude": 13.519917, 
         "woe:id": 2147553959, 
-        "sw_latitude": 52.389909
+        "osm:way_id": 24058616
       }
     }
   ]

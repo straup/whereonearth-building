@@ -35,13 +35,16 @@
       }, 
       "id": 2149305403, 
       "properties": {
-        "osm:way_id": 38285922, 
         "woe:parent": "12514720", 
         "tags": [
           "amenity=townhall"
         ], 
-        "hierarchy": "woe:country=2342488885", 
+        "hierarchy": [
+          "woe:airport=12514720", 
+          "woe:country=2342488885"
+        ], 
         "parent_woeid": 12514720, 
+        "sw_latitude": 46.910726, 
         "osm:node_ids": [
           451737361, 
           451737363, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 28.892836, 
         "longitude": 46.910788, 
-        "ne_latitude": 46.910849, 
-        "woe:placetype": "building", 
         "sw_longitude": 28.892552, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.910849, 
         "latitude": 28.892694, 
         "woe:id": 2149305403, 
-        "sw_latitude": 46.910726
+        "osm:way_id": 38285922
       }
     }
   ]

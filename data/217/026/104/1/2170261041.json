@@ -51,7 +51,6 @@
       }, 
       "id": 2170261041, 
       "properties": {
-        "osm:way_id": 85853834, 
         "woe:parent": "12513199", 
         "name": "Gasthof Plonner", 
         "tags": [
@@ -69,8 +68,12 @@
           "addr:country=DE", 
           "addr:street=Gautingerstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.074209, 
         "osm:node_ids": [
           996543723, 
           996543776, 
@@ -84,12 +87,12 @@
         ], 
         "ne_longitude": 11.262693, 
         "longitude": 48.074327, 
-        "ne_latitude": 48.074415, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.262412, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.074415, 
         "latitude": 11.262555, 
         "woe:id": 2170261041, 
-        "sw_latitude": 48.074209
+        "osm:way_id": 85853834
       }
     }
   ]

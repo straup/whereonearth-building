@@ -35,7 +35,6 @@
       }, 
       "id": 2150234399, 
       "properties": {
-        "osm:way_id": 44763541, 
         "woe:parent": "2338888202", 
         "name": "Shine Express", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Shine Express", 
           "layer=1"
         ], 
-        "hierarchy": "woe:country=234247488", 
+        "hierarchy": [
+          "woe:airport=2338888202", 
+          "woe:country=234247488"
+        ], 
         "parent_woeid": 23388202, 
+        "sw_latitude": -37.675562, 
         "osm:node_ids": [
           567729572, 
           567729574, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 144.854340, 
         "longitude": -37.675474, 
-        "ne_latitude": -37.675385, 
-        "woe:placetype": "building", 
         "sw_longitude": 144.854108, 
+        "woe:placetype": "building", 
+        "ne_latitude": -37.675385, 
         "latitude": 144.854222, 
         "woe:id": 2150234399, 
-        "sw_latitude": -37.675562
+        "osm:way_id": 44763541
       }
     }
   ]

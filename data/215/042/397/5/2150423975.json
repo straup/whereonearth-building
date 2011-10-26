@@ -35,15 +35,18 @@
       }, 
       "id": 2150423975, 
       "properties": {
-        "osm:way_id": 45353669, 
         "woe:parent": "125110388", 
         "name": "Lanchonete dos setores 3 e 4", 
         "tags": [
           "amenity=fast_food", 
           "name=Lanchonete dos setores 3 e 4"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.841847, 
         "osm:node_ids": [
           576565140, 
           576565058, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -35.200117, 
         "longitude": -5.841795, 
-        "ne_latitude": -5.841742, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.200299, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.841742, 
         "latitude": -35.200209, 
         "woe:id": 2150423975, 
-        "sw_latitude": -5.841847
+        "osm:way_id": 45353669
       }
     }
   ]

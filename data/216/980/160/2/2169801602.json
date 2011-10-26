@@ -35,14 +35,17 @@
       }, 
       "id": 2169801602, 
       "properties": {
-        "osm:way_id": 85001263, 
         "woe:parent": "12517525", 
         "name": "SIAEC Hanger", 
         "tags": [
           "name=SIAEC Hanger"
         ], 
-        "hierarchy": "woe:country=234249488", 
+        "hierarchy": [
+          "woe:airport=12517525", 
+          "woe:country=234249488"
+        ], 
         "parent_woeid": 12517525, 
+        "sw_latitude": 1.374465, 
         "osm:node_ids": [
           986603154, 
           986603156, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 103.999306, 
         "longitude": 1.376490, 
-        "ne_latitude": 1.378519, 
-        "woe:placetype": "building", 
         "sw_longitude": 103.997096, 
+        "woe:placetype": "building", 
+        "ne_latitude": 1.378519, 
         "latitude": 103.998202, 
         "woe:id": 2169801602, 
-        "sw_latitude": 1.374465
+        "osm:way_id": 85001263
       }
     }
   ]

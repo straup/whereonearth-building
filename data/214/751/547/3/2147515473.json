@@ -63,7 +63,6 @@
       }, 
       "id": 2147515473, 
       "properties": {
-        "osm:way_id": 23348786, 
         "woe:parent": "12511594", 
         "name": "P1 Parkade", 
         "tags": [
@@ -71,8 +70,12 @@
           "name=P1 Parkade", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=12511594", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511594, 
+        "sw_latitude": 51.131019, 
         "osm:node_ids": [
           252824683, 
           252824684, 
@@ -89,12 +92,12 @@
         ], 
         "ne_longitude": -114.008794, 
         "longitude": 51.132339, 
-        "ne_latitude": 51.133561, 
-        "woe:placetype": "building", 
         "sw_longitude": -114.010760, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.133561, 
         "latitude": -114.009993, 
         "woe:id": 2147515473, 
-        "sw_latitude": 51.131019
+        "osm:way_id": 23348786
       }
     }
   ]

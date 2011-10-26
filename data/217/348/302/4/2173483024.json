@@ -159,15 +159,18 @@
       }, 
       "id": 2173483024, 
       "properties": {
-        "osm:way_id": 93019433, 
         "woe:parent": "12522432", 
         "name": "West Concourse", 
         "tags": [
           "name=West Concourse", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12522432", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522432, 
+        "sw_latitude": 37.650969, 
         "osm:node_ids": [
           1078355347, 
           613008923, 
@@ -208,12 +211,12 @@
         ], 
         "ne_longitude": -97.428623, 
         "longitude": 37.651657, 
-        "ne_latitude": 37.652301, 
-        "woe:placetype": "building", 
         "sw_longitude": -97.430270, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.652301, 
         "latitude": -97.429790, 
         "woe:id": 2173483024, 
-        "sw_latitude": 37.650969
+        "osm:way_id": 93019433
       }
     }
   ]

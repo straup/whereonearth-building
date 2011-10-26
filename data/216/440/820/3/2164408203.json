@@ -67,15 +67,18 @@
       }, 
       "id": 2164408203, 
       "properties": {
-        "osm:way_id": 73922712, 
         "woe:parent": "125167887", 
         "name": "\u0421\u0440\u0435\u0442\u0435\u043d\u0441\u043a\u0438\u0439 \u0445\u0440\u0430\u043c", 
         "tags": [
           "amenity=place_of_worship", 
           "name=\u0421\u0440\u0435\u0442\u0435\u043d\u0441\u043a\u0438\u0439 \u0445\u0440\u0430\u043c"
         ], 
-        "hierarchy": "woe:country=23424936", 
+        "hierarchy": [
+          "woe:airport=125167887", 
+          "woe:country=23424936"
+        ], 
         "parent_woeid": 12516787, 
+        "sw_latitude": 47.231223, 
         "osm:node_ids": [
           1001120944, 
           1001121089, 
@@ -93,12 +96,12 @@
         ], 
         "ne_longitude": 39.819024, 
         "longitude": 47.231338, 
-        "ne_latitude": 47.231462, 
-        "woe:placetype": "building", 
         "sw_longitude": 39.818428, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.231462, 
         "latitude": 39.818763, 
         "woe:id": 2164408203, 
-        "sw_latitude": 47.231223
+        "osm:way_id": 73922712
       }
     }
   ]

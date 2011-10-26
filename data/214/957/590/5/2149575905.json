@@ -35,7 +35,6 @@
       }, 
       "id": 2149575905, 
       "properties": {
-        "osm:way_id": 41098936, 
         "woe:parent": "125110388", 
         "name": "Departamento de Geologia", 
         "tags": [
@@ -43,8 +42,12 @@
           "url=http8c8s8swww.geologia.ufrn.br8s", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.841911, 
         "osm:node_ids": [
           501358817, 
           501358825, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -35.195318, 
         "longitude": -5.841619, 
-        "ne_latitude": -5.841325, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.196069, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.841325, 
         "latitude": -35.195694, 
         "woe:id": 2149575905, 
-        "sw_latitude": -5.841911
+        "osm:way_id": 41098936
       }
     }
   ]

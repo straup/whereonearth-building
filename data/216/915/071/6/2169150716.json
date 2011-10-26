@@ -35,7 +35,6 @@
       }, 
       "id": 2169150716, 
       "properties": {
-        "osm:way_id": 83895601, 
         "woe:parent": "125209883", 
         "name": "BAE Systems", 
         "tags": [
@@ -44,8 +43,12 @@
           "source=usgs_imagery_20088;survey;image", 
           "source_ref=AM909_DSCW1295;AM909_DSCW1402"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.055368, 
         "osm:node_ids": [
           976520443, 
           976521301, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -118.158526, 
         "longitude": 35.055643, 
-        "ne_latitude": 35.055916, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.159033, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.055916, 
         "latitude": -118.158780, 
         "woe:id": 2169150716, 
-        "sw_latitude": 35.055368
+        "osm:way_id": 83895601
       }
     }
   ]

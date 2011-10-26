@@ -67,14 +67,17 @@
       }, 
       "id": 2147618480, 
       "properties": {
-        "osm:way_id": 25766632, 
         "woe:parent": "22022012", 
         "name": "Office Park 1", 
         "tags": [
           "name=Office Park 1"
         ], 
-        "hierarchy": "woe:country=23424750", 
+        "hierarchy": [
+          "woe:airport=22022012", 
+          "woe:country=23424750"
+        ], 
         "parent_woeid": 22022012, 
+        "sw_latitude": 48.122365, 
         "osm:node_ids": [
           329366875, 
           281016234, 
@@ -92,12 +95,12 @@
         ], 
         "ne_longitude": 16.565400, 
         "longitude": 48.122648, 
-        "ne_latitude": 48.122929, 
-        "woe:placetype": "building", 
         "sw_longitude": 16.564057, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.122929, 
         "latitude": 16.564730, 
         "woe:id": 2147618480, 
-        "sw_latitude": 48.122365
+        "osm:way_id": 25766632
       }
     }
   ]

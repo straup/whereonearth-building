@@ -35,13 +35,16 @@
       }, 
       "id": 2148448904, 
       "properties": {
-        "osm:way_id": 32353496, 
         "woe:parent": "22276234", 
         "tags": [
           "note=This is the last residential building left in the whole hamlet."
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.375466, 
         "osm:node_ids": [
           364172618, 
           364172619, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 13.541812, 
         "longitude": 52.375577, 
-        "ne_latitude": 52.375688, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.541487, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.375688, 
         "latitude": 13.541650, 
         "woe:id": 2148448904, 
-        "sw_latitude": 52.375466
+        "osm:way_id": 32353496
       }
     }
   ]

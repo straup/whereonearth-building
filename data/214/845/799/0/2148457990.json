@@ -35,7 +35,6 @@
       }, 
       "id": 2148457990, 
       "properties": {
-        "osm:way_id": 32482832, 
         "woe:parent": "125197088", 
         "name": "IF Parks & Rec", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=IF Parks & Rec", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125197088", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519708, 
+        "sw_latitude": 43.509850, 
         "osm:node_ids": [
           365212707, 
           365212704, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -112.063506, 
         "longitude": 43.510036, 
-        "ne_latitude": 43.510230, 
-        "woe:placetype": "building", 
         "sw_longitude": -112.063815, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.510230, 
         "latitude": -112.063660, 
         "woe:id": 2148457990, 
-        "sw_latitude": 43.509850
+        "osm:way_id": 32482832
       }
     }
   ]

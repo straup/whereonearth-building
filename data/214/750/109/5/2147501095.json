@@ -43,7 +43,6 @@
       }, 
       "id": 2147501095, 
       "properties": {
-        "osm:way_id": 22770874, 
         "woe:parent": "12515637", 
         "name": "Ayala Sewage Treatment Plant", 
         "tags": [
@@ -51,8 +50,12 @@
           "man_made=wastewater_plant", 
           "landuse=industrial"
         ], 
-        "hierarchy": "woe:country=23424934", 
+        "hierarchy": [
+          "woe:airport=12515637", 
+          "woe:country=23424934"
+        ], 
         "parent_woeid": 12515637, 
+        "sw_latitude": 14.531200, 
         "osm:node_ids": [
           244454978, 
           244454979, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": 121.013364, 
         "longitude": 14.531744, 
-        "ne_latitude": 14.532339, 
-        "woe:placetype": "building", 
         "sw_longitude": 121.012867, 
+        "woe:placetype": "building", 
+        "ne_latitude": 14.532339, 
         "latitude": 121.013091, 
         "woe:id": 2147501095, 
-        "sw_latitude": 14.531200
+        "osm:way_id": 22770874
       }
     }
   ]

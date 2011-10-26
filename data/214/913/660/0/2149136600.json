@@ -103,7 +103,6 @@
       }, 
       "id": 2149136600, 
       "properties": {
-        "osm:way_id": 36684820, 
         "woe:parent": "125138859", 
         "tags": [
           "amenity=place_of_worship", 
@@ -112,8 +111,12 @@
           "religion=christian", 
           "it"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=125138859", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 12513859, 
+        "sw_latitude": 45.819607, 
         "osm:node_ids": [
           426458529, 
           426458530, 
@@ -140,12 +143,12 @@
         ], 
         "ne_longitude": 13.465384, 
         "longitude": 45.819746, 
-        "ne_latitude": 45.819868, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.465133, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.819868, 
         "latitude": 13.465262, 
         "woe:id": 2149136600, 
-        "sw_latitude": 45.819607
+        "osm:way_id": 36684820
       }
     }
   ]

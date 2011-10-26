@@ -35,14 +35,17 @@
       }, 
       "id": 2149291482, 
       "properties": {
-        "osm:way_id": 38098671, 
         "woe:parent": "12521741", 
         "name": "Engineering Science", 
         "tags": [
           "name=Engineering Science"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.415477, 
         "osm:node_ids": [
           448139315, 
           448139316, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -119.840875, 
         "longitude": 34.415660, 
-        "ne_latitude": 34.415834, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.841922, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.415834, 
         "latitude": -119.841403, 
         "woe:id": 2149291482, 
-        "sw_latitude": 34.415477
+        "osm:way_id": 38098671
       }
     }
   ]

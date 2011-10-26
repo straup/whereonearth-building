@@ -47,7 +47,6 @@
       }, 
       "id": 2160456418, 
       "properties": {
-        "osm:way_id": 67266884, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=352", 
@@ -59,8 +58,12 @@
           "dcgis:lot=0002", 
           "addr:street=Blanchard Drive SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.839303, 
         "osm:node_ids": [
           812397968, 
           812397735, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": -77.020578, 
         "longitude": 38.839363, 
-        "ne_latitude": 38.839424, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.020686, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.839424, 
         "latitude": -77.020632, 
         "woe:id": 2160456418, 
-        "sw_latitude": 38.839303
+        "osm:way_id": 67266884
       }
     }
   ]

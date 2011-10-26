@@ -79,7 +79,6 @@
       }, 
       "id": 2161803269, 
       "properties": {
-        "osm:way_id": 69575591, 
         "woe:parent": "12522077", 
         "name": "Economy Parking Garage", 
         "tags": [
@@ -88,8 +87,12 @@
           "source=USGS Ortho", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12522077", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522077, 
+        "sw_latitude": 27.965642, 
         "osm:node_ids": [
           832603900, 
           832603854, 
@@ -110,12 +113,12 @@
         ], 
         "ne_longitude": -82.532681, 
         "longitude": 27.966920, 
-        "ne_latitude": 27.968180, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.535552, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.968180, 
         "latitude": -82.534024, 
         "woe:id": 2161803269, 
-        "sw_latitude": 27.965642
+        "osm:way_id": 69575591
       }
     }
   ]

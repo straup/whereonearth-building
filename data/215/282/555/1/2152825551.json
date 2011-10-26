@@ -91,7 +91,6 @@
       }, 
       "id": 2152825551, 
       "properties": {
-        "osm:way_id": 51688166, 
         "woe:parent": "22103751", 
         "name": "FP3 Front Park 3", 
         "tags": [
@@ -99,8 +98,12 @@
           "fee=yes", 
           "name=FP3 Front Park 3"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=22103751", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 22103751, 
+        "sw_latitude": 50.894645, 
         "osm:node_ids": [
           659836224, 
           659836226, 
@@ -124,12 +127,12 @@
         ], 
         "ne_longitude": 4.484702, 
         "longitude": 50.894995, 
-        "ne_latitude": 50.895619, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.482835, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.895619, 
         "latitude": 4.483781, 
         "woe:id": 2152825551, 
-        "sw_latitude": 50.894645
+        "osm:way_id": 51688166
       }
     }
   ]

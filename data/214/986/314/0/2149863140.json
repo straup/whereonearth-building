@@ -35,14 +35,17 @@
       }, 
       "id": 2149863140, 
       "properties": {
-        "osm:way_id": 42752744, 
         "woe:parent": "12521741", 
         "tags": [
           "amenity=auto mechanic", 
           "landuse=commercial"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.412649, 
         "osm:node_ids": [
           534618781, 
           534618785, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -119.855014, 
         "longitude": 34.412727, 
-        "ne_latitude": 34.412804, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.855110, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.412804, 
         "latitude": -119.855063, 
         "woe:id": 2149863140, 
-        "sw_latitude": 34.412649
+        "osm:way_id": 42752744
       }
     }
   ]

@@ -43,7 +43,6 @@
       }, 
       "id": 2147863529, 
       "properties": {
-        "osm:way_id": 28930596, 
         "woe:parent": "22211603", 
         "name": "A/B 39", 
         "tags": [
@@ -51,8 +50,12 @@
           "movable=yes", 
           "aeroway=gates"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22211603", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22211603, 
+        "sw_latitude": 53.628089, 
         "osm:node_ids": [
           318029869, 
           343180228, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": 10.002912, 
         "longitude": 53.628238, 
-        "ne_latitude": 53.628359, 
-        "woe:placetype": "building", 
         "sw_longitude": 10.002516, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.628359, 
         "latitude": 10.002668, 
         "woe:id": 2147863529, 
-        "sw_latitude": 53.628089
+        "osm:way_id": 28930596
       }
     }
   ]

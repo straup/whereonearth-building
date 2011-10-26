@@ -163,7 +163,6 @@
       }, 
       "id": 2149477764, 
       "properties": {
-        "osm:way_id": 40144884, 
         "woe:parent": "12521750", 
         "name": "Hamilton Center", 
         "tags": [
@@ -172,8 +171,12 @@
           "source=FDOT", 
           "loc_name=Ham Center"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.384585, 
         "osm:node_ids": [
           622029492, 
           622029490, 
@@ -215,12 +218,12 @@
         ], 
         "ne_longitude": -82.555628, 
         "longitude": 27.384881, 
-        "ne_latitude": 27.385203, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.556230, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.385203, 
         "latitude": -82.555904, 
         "woe:id": 2149477764, 
-        "sw_latitude": 27.384585
+        "osm:way_id": 40144884
       }
     }
   ]

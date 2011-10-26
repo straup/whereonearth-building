@@ -39,7 +39,6 @@
       }, 
       "id": 2160456563, 
       "properties": {
-        "osm:way_id": 67267030, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=3142", 
@@ -51,8 +50,12 @@
           "dcgis:lot=0002", 
           "addr:street=Scott Drive SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.839752, 
         "osm:node_ids": [
           812400265, 
           812400256, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": -77.019239, 
         "longitude": 38.839793, 
-        "ne_latitude": 38.839834, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.019380, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.839834, 
         "latitude": -77.019310, 
         "woe:id": 2160456563, 
-        "sw_latitude": 38.839752
+        "osm:way_id": 67267030
       }
     }
   ]

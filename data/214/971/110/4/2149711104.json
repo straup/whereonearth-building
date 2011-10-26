@@ -35,7 +35,6 @@
       }, 
       "id": 2149711104, 
       "properties": {
-        "osm:way_id": 42211066, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=27", 
@@ -45,8 +44,12 @@
           "addr:country=DE", 
           "addr:street=Jasminweg"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.287712, 
         "osm:node_ids": [
           525789539, 
           525789585, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": 6.813255, 
         "longitude": 51.287744, 
-        "ne_latitude": 51.287774, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.813066, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.287774, 
         "latitude": 6.813161, 
         "woe:id": 2149711104, 
-        "sw_latitude": 51.287712
+        "osm:way_id": 42211066
       }
     }
   ]

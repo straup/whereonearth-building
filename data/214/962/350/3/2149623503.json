@@ -59,7 +59,6 @@
       }, 
       "id": 2149623503, 
       "properties": {
-        "osm:way_id": 41526090, 
         "woe:parent": "22235735", 
         "name": "Holiday Inn", 
         "tags": [
@@ -70,8 +69,12 @@
           "addr:street=Petzelstra\u00dfe", 
           "name=Holiday Inn"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22235735", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22235735, 
+        "sw_latitude": 52.459681, 
         "osm:node_ids": [
           508538335, 
           508538343, 
@@ -87,12 +90,12 @@
         ], 
         "ne_longitude": 9.704799, 
         "longitude": 52.460111, 
-        "ne_latitude": 52.460518, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.703271, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.460518, 
         "latitude": 9.704031, 
         "woe:id": 2149623503, 
-        "sw_latitude": 52.459681
+        "osm:way_id": 41526090
       }
     }
   ]

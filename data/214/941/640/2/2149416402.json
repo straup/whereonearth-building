@@ -59,7 +59,6 @@
       }, 
       "id": 2149416402, 
       "properties": {
-        "osm:way_id": 39498135, 
         "woe:parent": "22177393", 
         "name": "Flughafen Feuerwehr", 
         "tags": [
@@ -71,8 +70,12 @@
           "addr:country=DE", 
           "addr:street=Flughafendamm"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22177393", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22177393, 
+        "sw_latitude": 53.049203, 
         "osm:node_ids": [
           473135380, 
           473135382, 
@@ -88,12 +91,12 @@
         ], 
         "ne_longitude": 8.791230, 
         "longitude": 53.049335, 
-        "ne_latitude": 53.049456, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.790160, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.049456, 
         "latitude": 8.790695, 
         "woe:id": 2149416402, 
-        "sw_latitude": 53.049203
+        "osm:way_id": 39498135
       }
     }
   ]

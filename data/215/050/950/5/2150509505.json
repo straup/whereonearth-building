@@ -35,15 +35,18 @@
       }, 
       "id": 2150509505, 
       "properties": {
-        "osm:way_id": 45734968, 
         "woe:parent": "125110388", 
         "name": "SEDEC SEJURN", 
         "tags": [
           "amenity=public_building", 
           "name=SEDEC SEJURN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.829930, 
         "osm:node_ids": [
           582533790, 
           582533785, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -35.211807, 
         "longitude": -5.829676, 
-        "ne_latitude": -5.829422, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.212314, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.829422, 
         "latitude": -35.212060, 
         "woe:id": 2150509505, 
-        "sw_latitude": -5.829930
+        "osm:way_id": 45734968
       }
     }
   ]

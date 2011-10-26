@@ -43,15 +43,18 @@
       }, 
       "id": 2168541909, 
       "properties": {
-        "osm:way_id": 82627141, 
         "woe:parent": "12514720", 
         "name": "Novas", 
         "tags": [
           "amenity=restaurant", 
           "name=Novas"
         ], 
-        "hierarchy": "woe:country=2342488885", 
+        "hierarchy": [
+          "woe:airport=12514720", 
+          "woe:country=2342488885"
+        ], 
         "parent_woeid": 12514720, 
+        "sw_latitude": 46.920786, 
         "osm:node_ids": [
           961612239, 
           961612300, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 28.961479, 
         "longitude": 46.920891, 
-        "ne_latitude": 46.920991, 
-        "woe:placetype": "building", 
         "sw_longitude": 28.961074, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.920991, 
         "latitude": 28.961310, 
         "woe:id": 2168541909, 
-        "sw_latitude": 46.920786
+        "osm:way_id": 82627141
       }
     }
   ]

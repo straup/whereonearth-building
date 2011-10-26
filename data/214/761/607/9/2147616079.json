@@ -39,7 +39,6 @@
       }, 
       "id": 2147616079, 
       "properties": {
-        "osm:way_id": 25683380, 
         "woe:parent": "125127588", 
         "name": "Millenium Hall", 
         "tags": [
@@ -47,8 +46,12 @@
           "note=Main Entrance(?)", 
           "source=position guessed! no GPS or Satellite data used"
         ], 
-        "hierarchy": "woe:country=2342488088", 
+        "hierarchy": [
+          "woe:airport=125127588", 
+          "woe:country=2342488088"
+        ], 
         "parent_woeid": 12512758, 
+        "sw_latitude": 8.989120, 
         "osm:node_ids": [
           280000195, 
           280000196, 
@@ -59,12 +62,12 @@
         ], 
         "ne_longitude": 38.790687, 
         "longitude": 8.989997, 
-        "ne_latitude": 8.990871, 
-        "woe:placetype": "building", 
         "sw_longitude": 38.788367, 
+        "woe:placetype": "building", 
+        "ne_latitude": 8.990871, 
         "latitude": 38.789526, 
         "woe:id": 2147616079, 
-        "sw_latitude": 8.989120
+        "osm:way_id": 25683380
       }
     }
   ]

@@ -103,7 +103,6 @@
       }, 
       "id": 2148695592, 
       "properties": {
-        "osm:way_id": 35010137, 
         "woe:parent": "12520966", 
         "name": "Terminal 2", 
         "tags": [
@@ -112,8 +111,12 @@
           "aeroway=terminal", 
           "old_name=Humphrey Terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12520966", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520966, 
+        "sw_latitude": 44.872832, 
         "osm:node_ids": [
           246925898, 
           410648729, 
@@ -140,12 +143,12 @@
         ], 
         "ne_longitude": -93.226449, 
         "longitude": 44.874013, 
-        "ne_latitude": 44.875520, 
-        "woe:placetype": "building", 
         "sw_longitude": -93.230179, 
+        "woe:placetype": "building", 
+        "ne_latitude": 44.875520, 
         "latitude": -93.228294, 
         "woe:id": 2148695592, 
-        "sw_latitude": 44.872832
+        "osm:way_id": 35010137
       }
     }
   ]

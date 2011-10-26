@@ -111,7 +111,6 @@
       }, 
       "id": 2168918530, 
       "properties": {
-        "osm:way_id": 83376871, 
         "woe:parent": "12521750", 
         "name": "College Hall", 
         "tags": [
@@ -120,8 +119,12 @@
           "name=College Hall", 
           "source=USGS Ortho"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.384564, 
         "osm:node_ids": [
           970471717, 
           970471802, 
@@ -150,12 +153,12 @@
         ], 
         "ne_longitude": -82.564331, 
         "longitude": 27.384790, 
-        "ne_latitude": 27.385040, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.564640, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.385040, 
         "latitude": -82.564507, 
         "woe:id": 2168918530, 
-        "sw_latitude": 27.384564
+        "osm:way_id": 83376871
       }
     }
   ]

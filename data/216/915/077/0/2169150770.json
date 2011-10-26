@@ -35,7 +35,6 @@
       }, 
       "id": 2169150770, 
       "properties": {
-        "osm:way_id": 83895704, 
         "woe:parent": "125209883", 
         "name": "Firestar Engineering, LLC", 
         "tags": [
@@ -49,8 +48,12 @@
           "source_ref=AM909_DSCW1295;AM909_DSCW1332;AM909_DSCW1333", 
           "addr:street=Flight Line"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.056610, 
         "osm:node_ids": [
           976521325, 
           976520175, 
@@ -60,12 +63,12 @@
         ], 
         "ne_longitude": -118.152259, 
         "longitude": 35.056723, 
-        "ne_latitude": 35.056835, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.152555, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.056835, 
         "latitude": -118.152407, 
         "woe:id": 2169150770, 
-        "sw_latitude": 35.056610
+        "osm:way_id": 83895704
       }
     }
   ]

@@ -39,15 +39,18 @@
       }, 
       "id": 2153722005, 
       "properties": {
-        "osm:way_id": 53477565, 
         "woe:parent": "125128892", 
         "tags": [
           "addr:housenumber=9", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour 8c 2010", 
           "addr:street=Rue des Roses"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128892", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512892, 
+        "sw_latitude": 48.536290, 
         "osm:node_ids": [
           675910153, 
           675910154, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": 7.642996, 
         "longitude": 48.536353, 
-        "ne_latitude": 48.536413, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.642827, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.536413, 
         "latitude": 7.642912, 
         "woe:id": 2153722005, 
-        "sw_latitude": 48.536290
+        "osm:way_id": 53477565
       }
     }
   ]

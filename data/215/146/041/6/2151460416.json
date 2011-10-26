@@ -75,7 +75,6 @@
       }, 
       "id": 2151460416, 
       "properties": {
-        "osm:way_id": 48235294, 
         "woe:parent": "12522432", 
         "name": "Wichita Post Office", 
         "tags": [
@@ -83,8 +82,12 @@
           "name=Wichita Post Office", 
           "ele=402"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12522432", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522432, 
+        "sw_latitude": 37.663569, 
         "osm:node_ids": [
           613013979, 
           613013980, 
@@ -104,12 +107,12 @@
         ], 
         "ne_longitude": -97.423732, 
         "longitude": 37.664311, 
-        "ne_latitude": 37.665112, 
-        "woe:placetype": "building", 
         "sw_longitude": -97.425302, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.665112, 
         "latitude": -97.424464, 
         "woe:id": 2151460416, 
-        "sw_latitude": 37.663569
+        "osm:way_id": 48235294
       }
     }
   ]

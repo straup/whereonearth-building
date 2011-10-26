@@ -71,7 +71,6 @@
       }, 
       "id": 2147826913, 
       "properties": {
-        "osm:way_id": 28620530, 
         "woe:parent": "12513205", 
         "name": "Autohaus Schreyer", 
         "tags": [
@@ -82,8 +81,12 @@
           "addr:country=DE", 
           "addr:street=Bergener Ring"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.176085, 
         "osm:node_ids": [
           314617703, 
           314617804, 
@@ -102,12 +105,12 @@
         ], 
         "ne_longitude": 13.842655, 
         "longitude": 51.176394, 
-        "ne_latitude": 51.176741, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.840986, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.176741, 
         "latitude": 13.841868, 
         "woe:id": 2147826913, 
-        "sw_latitude": 51.176085
+        "osm:way_id": 28620530
       }
     }
   ]

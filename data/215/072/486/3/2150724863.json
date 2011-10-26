@@ -35,14 +35,17 @@
       }, 
       "id": 2150724863, 
       "properties": {
-        "osm:way_id": 46688657, 
         "woe:parent": "125110388", 
         "name": "Audit\u00f3rio", 
         "tags": [
           "name=Audit\u00f3rio"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.811865, 
         "osm:node_ids": [
           596686296, 
           596686292, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -35.203710, 
         "longitude": -5.811657, 
-        "ne_latitude": -5.811448, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.203997, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.811448, 
         "latitude": -35.203854, 
         "woe:id": 2150724863, 
-        "sw_latitude": -5.811865
+        "osm:way_id": 46688657
       }
     }
   ]

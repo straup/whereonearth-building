@@ -79,14 +79,17 @@
       }, 
       "id": 2147485850, 
       "properties": {
-        "osm:way_id": 7358514, 
         "woe:parent": "22463734", 
         "tags": [
           "ref=Edinburgh Airport", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22463734", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22463734, 
+        "sw_latitude": 55.946368, 
         "osm:node_ids": [
           54730806, 
           54730807, 
@@ -107,12 +110,12 @@
         ], 
         "ne_longitude": -3.357690, 
         "longitude": 55.948287, 
-        "ne_latitude": 55.949517, 
-        "woe:placetype": "building", 
         "sw_longitude": -3.365702, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.949517, 
         "latitude": -3.363467, 
         "woe:id": 2147485850, 
-        "sw_latitude": 55.946368
+        "osm:way_id": 7358514
       }
     }
   ]

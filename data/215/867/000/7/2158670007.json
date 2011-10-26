@@ -91,7 +91,6 @@
       }, 
       "id": 2158670007, 
       "properties": {
-        "osm:way_id": 64411853, 
         "woe:parent": "125128856", 
         "name": "Residence Home Business Toulouse Airport", 
         "tags": [
@@ -104,8 +103,12 @@
           "addr:street=Place de la R\u00e9volution", 
           "name=Residence Home Business Toulouse Airport"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128856", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512856, 
+        "sw_latitude": 43.639339, 
         "osm:node_ids": [
           792454048, 
           792471027, 
@@ -129,12 +132,12 @@
         ], 
         "ne_longitude": 1.376942, 
         "longitude": 43.639687, 
-        "ne_latitude": 43.639948, 
-        "woe:placetype": "building", 
         "sw_longitude": 1.375960, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.639948, 
         "latitude": 1.376459, 
         "woe:id": 2158670007, 
-        "sw_latitude": 43.639339
+        "osm:way_id": 64411853
       }
     }
   ]

@@ -43,15 +43,18 @@
       }, 
       "id": 2149931837, 
       "properties": {
-        "osm:way_id": 43164709, 
         "woe:parent": "125108854", 
         "name": "Memoriaal Prins Karel", 
         "tags": [
           "name=Memoriaal Prins Karel", 
           "tourism=museum"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=125108854", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 12510854, 
+        "sw_latitude": 51.200377, 
         "osm:node_ids": [
           403318958, 
           388298973, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 2.847435, 
         "longitude": 51.200610, 
-        "ne_latitude": 51.200840, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.846905, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.200840, 
         "latitude": 2.847161, 
         "woe:id": 2149931837, 
-        "sw_latitude": 51.200377
+        "osm:way_id": 43164709
       }
     }
   ]

@@ -35,7 +35,6 @@
       }, 
       "id": 2154754578, 
       "properties": {
-        "osm:way_id": 55346951, 
         "woe:parent": "22923040", 
         "name": "Novotel", 
         "tags": [
@@ -46,8 +45,12 @@
           "addr:street=Nordallee", 
           "name=Novotel"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22923040", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22923040, 
+        "sw_latitude": 48.354368, 
         "osm:node_ids": [
           695212447, 
           695212448, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": 11.759429, 
         "longitude": 48.354655, 
-        "ne_latitude": 48.354943, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.758529, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.354943, 
         "latitude": 11.758976, 
         "woe:id": 2154754578, 
-        "sw_latitude": 48.354368
+        "osm:way_id": 55346951
       }
     }
   ]

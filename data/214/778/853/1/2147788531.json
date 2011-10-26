@@ -43,7 +43,6 @@
       }, 
       "id": 2147788531, 
       "properties": {
-        "osm:way_id": 28007589, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=1", 
@@ -52,8 +51,12 @@
           "created_by=Potlatch 0.10e", 
           "addr:street=Heltorfer Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.286161, 
         "osm:node_ids": [
           307530777, 
           307530778, 
@@ -65,12 +68,12 @@
         ], 
         "ne_longitude": 6.800235, 
         "longitude": 51.286423, 
-        "ne_latitude": 51.286762, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.798981, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.286762, 
         "latitude": 6.799570, 
         "woe:id": 2147788531, 
-        "sw_latitude": 51.286161
+        "osm:way_id": 28007589
       }
     }
   ]

@@ -95,7 +95,6 @@
       }, 
       "id": 2149235944, 
       "properties": {
-        "osm:way_id": 37546713, 
         "woe:parent": "1251888877", 
         "name": "South Precinct", 
         "tags": [
@@ -104,8 +103,12 @@
           "source=yahoo_wms;knowledge", 
           "operator=Seattle Police Department"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=1251888877", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12518877, 
+        "sw_latitude": 47.538339, 
         "osm:node_ids": [
           439781027, 
           439781028, 
@@ -130,12 +133,12 @@
         ], 
         "ne_longitude": -122.292912, 
         "longitude": 47.538579, 
-        "ne_latitude": 47.538778, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.293689, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.538778, 
         "latitude": -122.293311, 
         "woe:id": 2149235944, 
-        "sw_latitude": 47.538339
+        "osm:way_id": 37546713
       }
     }
   ]

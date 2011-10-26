@@ -43,15 +43,18 @@
       }, 
       "id": 2147818098, 
       "properties": {
-        "osm:way_id": 28500670, 
         "woe:parent": "12521722", 
         "name": "eBay Building 14", 
         "tags": [
           "name=eBay Building 14", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521722", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521722, 
+        "sw_latitude": 37.375731, 
         "osm:node_ids": [
           313096413, 
           313096414, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": -121.920943, 
         "longitude": 37.376089, 
-        "ne_latitude": 37.376475, 
-        "woe:placetype": "building", 
         "sw_longitude": -121.921785, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.376475, 
         "latitude": -121.921356, 
         "woe:id": 2147818098, 
-        "sw_latitude": 37.375731
+        "osm:way_id": 28500670
       }
     }
   ]

@@ -135,15 +135,18 @@
       }, 
       "id": 2153341866, 
       "properties": {
-        "osm:way_id": 52723782, 
         "woe:parent": "12519579", 
         "name": "George Bush Presidential Library", 
         "tags": [
           "name=George Bush Presidential Library", 
           "tourism=museum"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12519579", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519579, 
+        "sw_latitude": 30.595791, 
         "osm:node_ids": [
           669184195, 
           669184199, 
@@ -178,12 +181,12 @@
         ], 
         "ne_longitude": -96.351607, 
         "longitude": 30.597059, 
-        "ne_latitude": 30.597961, 
-        "woe:placetype": "building", 
         "sw_longitude": -96.354181, 
+        "woe:placetype": "building", 
+        "ne_latitude": 30.597961, 
         "latitude": -96.353103, 
         "woe:id": 2153341866, 
-        "sw_latitude": 30.595791
+        "osm:way_id": 52723782
       }
     }
   ]

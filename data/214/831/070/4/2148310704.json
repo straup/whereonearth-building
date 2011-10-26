@@ -39,14 +39,17 @@
       }, 
       "id": 2148310704, 
       "properties": {
-        "osm:way_id": 30974732, 
         "woe:parent": "125128862", 
         "name": "Pacs M", 
         "tags": [
           "name=Pacs M"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128862", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512862, 
+        "sw_latitude": 48.601409, 
         "osm:node_ids": [
           344429837, 
           344429838, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": 2.356850, 
         "longitude": 48.601583, 
-        "ne_latitude": 48.601755, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.356343, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.601755, 
         "latitude": 2.356594, 
         "woe:id": 2148310704, 
-        "sw_latitude": 48.601409
+        "osm:way_id": 30974732
       }
     }
   ]

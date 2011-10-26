@@ -39,14 +39,17 @@
       }, 
       "id": 2152880971, 
       "properties": {
-        "osm:way_id": 51816134, 
         "woe:parent": "2245088588", 
         "name": "Alpha Flight Services", 
         "tags": [
           "name=Alpha Flight Services"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=2245088588", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22450858, 
+        "sw_latitude": 57.200021, 
         "osm:node_ids": [
           661045278, 
           661045279, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": -2.211437, 
         "longitude": 57.200165, 
-        "ne_latitude": 57.200294, 
-        "woe:placetype": "building", 
         "sw_longitude": -2.212113, 
+        "woe:placetype": "building", 
+        "ne_latitude": 57.200294, 
         "latitude": -2.211757, 
         "woe:id": 2152880971, 
-        "sw_latitude": 57.200021
+        "osm:way_id": 51816134
       }
     }
   ]

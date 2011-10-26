@@ -79,15 +79,18 @@
       }, 
       "id": 2151102293, 
       "properties": {
-        "osm:way_id": 47514425, 
         "woe:parent": "12517349", 
         "name": "Sahara Airport Hotel", 
         "tags": [
           "name=Sahara Airport Hotel", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=234249388", 
+        "hierarchy": [
+          "woe:airport=12517349", 
+          "woe:country=234249388"
+        ], 
         "parent_woeid": 12517349, 
+        "sw_latitude": 24.924138, 
         "osm:node_ids": [
           605003532, 
           605003534, 
@@ -108,12 +111,12 @@
         ], 
         "ne_longitude": 46.713165, 
         "longitude": 24.924549, 
-        "ne_latitude": 24.925013, 
-        "woe:placetype": "building", 
         "sw_longitude": 46.712253, 
+        "woe:placetype": "building", 
+        "ne_latitude": 24.925013, 
         "latitude": 46.712803, 
         "woe:id": 2151102293, 
-        "sw_latitude": 24.924138
+        "osm:way_id": 47514425
       }
     }
   ]

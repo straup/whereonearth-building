@@ -35,13 +35,16 @@
       }, 
       "id": 2173607807, 
       "properties": {
-        "osm:way_id": 93326200, 
         "woe:parent": "125110388", 
         "tags": [
           "man_made=reservoir_covered"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.861745, 
         "osm:node_ids": [
           1082044925, 
           1082042086, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": -35.232662, 
         "longitude": -5.861499, 
-        "ne_latitude": -5.861253, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.233173, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.861253, 
         "latitude": -35.232918, 
         "woe:id": 2173607807, 
-        "sw_latitude": -5.861745
+        "osm:way_id": 93326200
       }
     }
   ]

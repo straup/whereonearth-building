@@ -35,7 +35,6 @@
       }, 
       "id": 2153154279, 
       "properties": {
-        "osm:way_id": 52393114, 
         "woe:parent": "12521750", 
         "name": "Division of Social Sciences", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Division of Social Sciences", 
           "source=FDOT"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.385289, 
         "osm:node_ids": [
           666242531, 
           666242535, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -82.563293, 
         "longitude": 27.385342, 
-        "ne_latitude": 27.385394, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.563380, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.385394, 
         "latitude": -82.563337, 
         "woe:id": 2153154279, 
-        "sw_latitude": 27.385289
+        "osm:way_id": 52393114
       }
     }
   ]

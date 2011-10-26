@@ -67,14 +67,17 @@
       }, 
       "id": 2152126279, 
       "properties": {
-        "osm:way_id": 49953451, 
         "woe:parent": "12511594", 
         "name": "Airport Corporate Centre", 
         "tags": [
           "name=Airport Corporate Centre"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=12511594", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511594, 
+        "sw_latitude": 51.131975, 
         "osm:node_ids": [
           634720882, 
           634720885, 
@@ -92,12 +95,12 @@
         ], 
         "ne_longitude": -114.008321, 
         "longitude": 51.132380, 
-        "ne_latitude": 51.132747, 
-        "woe:placetype": "building", 
         "sw_longitude": -114.009158, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.132747, 
         "latitude": -114.008788, 
         "woe:id": 2152126279, 
-        "sw_latitude": 51.131975
+        "osm:way_id": 49953451
       }
     }
   ]

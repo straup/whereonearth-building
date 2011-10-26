@@ -35,15 +35,18 @@
       }, 
       "id": 2173607806, 
       "properties": {
-        "osm:way_id": 93326198, 
         "woe:parent": "125110388", 
         "name": "O Arig\u00f3", 
         "tags": [
           "amenity=bar", 
           "name=O Arig\u00f3"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.868014, 
         "osm:node_ids": [
           1082045356, 
           1082045447, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -35.223185, 
         "longitude": -5.867955, 
-        "ne_latitude": -5.867894, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.223314, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.867894, 
         "latitude": -35.223250, 
         "woe:id": 2173607806, 
-        "sw_latitude": -5.868014
+        "osm:way_id": 93326198
       }
     }
   ]

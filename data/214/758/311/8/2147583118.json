@@ -43,7 +43,6 @@
       }, 
       "id": 2147583118, 
       "properties": {
-        "osm:way_id": 25092626, 
         "woe:parent": "12513205", 
         "tags": [
           "addr:housenumber=20", 
@@ -52,8 +51,12 @@
           "addr:country=DE", 
           "addr:street=Schutterw\u00e4lder Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.177965, 
         "osm:node_ids": [
           273099982, 
           273099983, 
@@ -65,12 +68,12 @@
         ], 
         "ne_longitude": 13.835471, 
         "longitude": 51.178665, 
-        "ne_latitude": 51.179337, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.833651, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.179337, 
         "latitude": 13.834552, 
         "woe:id": 2147583118, 
-        "sw_latitude": 51.177965
+        "osm:way_id": 25092626
       }
     }
   ]

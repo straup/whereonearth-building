@@ -35,13 +35,16 @@
       }, 
       "id": 2147525187, 
       "properties": {
-        "osm:way_id": 23651239, 
         "woe:parent": "221441881", 
         "tags": [
           "is_in=Wissous"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=221441881", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 22144181, 
+        "sw_latitude": 48.742621, 
         "osm:node_ids": [
           256233307, 
           256233308, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 2.328549, 
         "longitude": 48.742673, 
-        "ne_latitude": 48.742729, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.328291, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.742729, 
         "latitude": 2.328417, 
         "woe:id": 2147525187, 
-        "sw_latitude": 48.742621
+        "osm:way_id": 23651239
       }
     }
   ]

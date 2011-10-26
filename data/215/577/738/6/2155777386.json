@@ -67,7 +67,6 @@
       }, 
       "id": 2155777386, 
       "properties": {
-        "osm:way_id": 58532225, 
         "woe:parent": "125118894", 
         "name": "Delta Vancouver Airport", 
         "tags": [
@@ -79,8 +78,12 @@
           "tourism=hotel", 
           "addr:street=Cessna Drive"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=125118894", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511894, 
+        "sw_latitude": 49.190466, 
         "osm:node_ids": [
           725415581, 
           725415582, 
@@ -98,12 +101,12 @@
         ], 
         "ne_longitude": -123.139866, 
         "longitude": 49.190797, 
-        "ne_latitude": 49.191069, 
-        "woe:placetype": "building", 
         "sw_longitude": -123.140810, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.191069, 
         "latitude": -123.140307, 
         "woe:id": 2155777386, 
-        "sw_latitude": 49.190466
+        "osm:way_id": 58532225
       }
     }
   ]

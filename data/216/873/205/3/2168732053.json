@@ -43,7 +43,6 @@
       }, 
       "id": 2168732053, 
       "properties": {
-        "osm:way_id": 83020807, 
         "woe:parent": "23365569", 
         "tags": [
           "addr:housenumber=49", 
@@ -52,8 +51,12 @@
           "addr:country=CH", 
           "addr:street=Chemin de Mach\u00e9ry"
         ], 
-        "hierarchy": "woe:country=23424957", 
+        "hierarchy": [
+          "woe:airport=23365569", 
+          "woe:country=23424957"
+        ], 
         "parent_woeid": 23365569, 
+        "sw_latitude": 46.242732, 
         "osm:node_ids": [
           965962731, 
           965962732, 
@@ -65,12 +68,12 @@
         ], 
         "ne_longitude": 6.130184, 
         "longitude": 46.242813, 
-        "ne_latitude": 46.242893, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.129967, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.242893, 
         "latitude": 6.130071, 
         "woe:id": 2168732053, 
-        "sw_latitude": 46.242732
+        "osm:way_id": 83020807
       }
     }
   ]

@@ -39,15 +39,18 @@
       }, 
       "id": 2147580744, 
       "properties": {
-        "osm:way_id": 24996688, 
         "woe:parent": "23024911", 
         "name": "ALDI", 
         "tags": [
           "shop=supermarket", 
           "name=ALDI"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.293147, 
         "osm:node_ids": [
           271739899, 
           474576981, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": 6.819043, 
         "longitude": 51.293399, 
-        "ne_latitude": 51.293653, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.818554, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.293653, 
         "latitude": 6.818800, 
         "woe:id": 2147580744, 
-        "sw_latitude": 51.293147
+        "osm:way_id": 24996688
       }
     }
   ]

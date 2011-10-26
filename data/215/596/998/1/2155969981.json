@@ -75,7 +75,6 @@
       }, 
       "id": 2155969981, 
       "properties": {
-        "osm:way_id": 59048789, 
         "woe:parent": "248875607", 
         "name": "\u570b\u6cf0\u57ce Cathay City", 
         "tags": [
@@ -83,8 +82,12 @@
           "name=\u570b\u6cf0\u57ce Cathay City", 
           "name:zh=\u570b\u6cf0\u57ce"
         ], 
-        "hierarchy": "woe:country=2488656988", 
+        "hierarchy": [
+          "woe:airport=248875607", 
+          "woe:country=2488656988"
+        ], 
         "parent_woeid": 24875607, 
+        "sw_latitude": 22.296897, 
         "osm:node_ids": [
           731977007, 
           731977011, 
@@ -104,12 +107,12 @@
         ], 
         "ne_longitude": 113.934733, 
         "longitude": 22.297971, 
-        "ne_latitude": 22.299111, 
-        "woe:placetype": "building", 
         "sw_longitude": 113.933585, 
+        "woe:placetype": "building", 
+        "ne_latitude": 22.299111, 
         "latitude": 113.934227, 
         "woe:id": 2155969981, 
-        "sw_latitude": 22.296897
+        "osm:way_id": 59048789
       }
     }
   ]

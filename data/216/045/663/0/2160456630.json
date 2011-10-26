@@ -39,7 +39,6 @@
       }, 
       "id": 2160456630, 
       "properties": {
-        "osm:way_id": 67267097, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=3137", 
@@ -51,8 +50,12 @@
           "dcgis:lot=0002", 
           "addr:street=Kelly Street SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.840358, 
         "osm:node_ids": [
           812389998, 
           812389995, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": -77.021267, 
         "longitude": 38.840400, 
-        "ne_latitude": 38.840442, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.021420, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.840442, 
         "latitude": -77.021345, 
         "woe:id": 2160456630, 
-        "sw_latitude": 38.840358
+        "osm:way_id": 67267097
       }
     }
   ]

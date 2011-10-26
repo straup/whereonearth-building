@@ -43,14 +43,17 @@
       }, 
       "id": 2149419855, 
       "properties": {
-        "osm:way_id": 39537141, 
         "woe:parent": "23024911", 
         "name": "Mitsubishi", 
         "tags": [
           "name=Mitsubishi"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.289287, 
         "osm:node_ids": [
           473698043, 
           473698044, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": 6.809810, 
         "longitude": 51.289415, 
-        "ne_latitude": 51.289556, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.809559, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.289556, 
         "latitude": 6.809691, 
         "woe:id": 2149419855, 
-        "sw_latitude": 51.289287
+        "osm:way_id": 39537141
       }
     }
   ]

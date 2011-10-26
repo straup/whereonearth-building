@@ -51,7 +51,6 @@
       }, 
       "id": 2156037738, 
       "properties": {
-        "osm:way_id": 59244499, 
         "woe:parent": "125219883", 
         "tags": [
           "amenity=fire_station", 
@@ -64,8 +63,12 @@
           "gnis:feature_id=24596880", 
           "name=Louisville Hazardous Materials Unit 1 Fire Station"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125219883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521983, 
+        "sw_latitude": 38.175002, 
         "osm:node_ids": [
           734819763, 
           734819764, 
@@ -79,12 +82,12 @@
         ], 
         "ne_longitude": -85.720614, 
         "longitude": 38.175196, 
-        "ne_latitude": 38.175381, 
-        "woe:placetype": "building", 
         "sw_longitude": -85.721022, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.175381, 
         "latitude": -85.720814, 
         "woe:id": 2156037738, 
-        "sw_latitude": 38.175002
+        "osm:way_id": 59244499
       }
     }
   ]

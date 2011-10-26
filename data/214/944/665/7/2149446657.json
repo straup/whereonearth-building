@@ -35,15 +35,18 @@
       }, 
       "id": 2149446657, 
       "properties": {
-        "osm:way_id": 39782787, 
         "woe:parent": "22269415", 
         "name": "MWS Hanel GmbH", 
         "tags": [
           "addr:housenumber=E 210", 
           "name=MWS Hanel GmbH"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.767905, 
         "osm:node_ids": [
           476909778, 
           476909779, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 8.082087, 
         "longitude": 48.767986, 
-        "ne_latitude": 48.768064, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.081552, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.768064, 
         "latitude": 8.081821, 
         "woe:id": 2149446657, 
-        "sw_latitude": 48.767905
+        "osm:way_id": 39782787
       }
     }
   ]

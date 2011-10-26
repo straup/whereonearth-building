@@ -35,7 +35,6 @@
       }, 
       "id": 2150184266, 
       "properties": {
-        "osm:way_id": 44646483, 
         "woe:parent": "22269415", 
         "name": "Fachspedition Karl Dischinger GmbH", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Fachspedition Karl Dischinger GmbH", 
           "url=http8c8s8swww.karldischinger.de8s"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.783662, 
         "osm:node_ids": [
           566715097, 
           566715103, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 8.098019, 
         "longitude": 48.784075, 
-        "ne_latitude": 48.784488, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.096488, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.784488, 
         "latitude": 8.097254, 
         "woe:id": 2150184266, 
-        "sw_latitude": 48.783662
+        "osm:way_id": 44646483
       }
     }
   ]

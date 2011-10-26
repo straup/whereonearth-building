@@ -67,7 +67,6 @@
       }, 
       "id": 2168792434, 
       "properties": {
-        "osm:way_id": 83132307, 
         "woe:parent": "22014356", 
         "tags": [
           "addr:housenumber=51", 
@@ -77,8 +76,12 @@
           "addr:country=AT", 
           "addr:street=Flughafenstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=23424750", 
+        "hierarchy": [
+          "woe:airport=22014356", 
+          "woe:country=23424750"
+        ], 
         "parent_woeid": 22014356, 
+        "sw_latitude": 46.994637, 
         "osm:node_ids": [
           967321419, 
           967321424, 
@@ -96,12 +99,12 @@
         ], 
         "ne_longitude": 15.444981, 
         "longitude": 46.996019, 
-        "ne_latitude": 46.997202, 
-        "woe:placetype": "building", 
         "sw_longitude": 15.443728, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.997202, 
         "latitude": 15.444345, 
         "woe:id": 2168792434, 
-        "sw_latitude": 46.994637
+        "osm:way_id": 83132307
       }
     }
   ]

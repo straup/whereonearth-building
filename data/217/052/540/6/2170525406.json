@@ -43,15 +43,18 @@
       }, 
       "id": 2170525406, 
       "properties": {
-        "osm:way_id": 86296761, 
         "woe:parent": "12523415", 
         "name": "Candlewood Suites", 
         "tags": [
           "name=Candlewood Suites", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523415", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523415, 
+        "sw_latitude": 41.123615, 
         "osm:node_ids": [
           1001775019, 
           1001775062, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": -104.843322, 
         "longitude": 41.123958, 
-        "ne_latitude": 41.124236, 
-        "woe:placetype": "building", 
         "sw_longitude": -104.844135, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.124236, 
         "latitude": -104.843693, 
         "woe:id": 2170525406, 
-        "sw_latitude": 41.123615
+        "osm:way_id": 86296761
       }
     }
   ]

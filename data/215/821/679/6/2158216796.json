@@ -403,15 +403,18 @@
       }, 
       "id": 2158216796, 
       "properties": {
-        "osm:way_id": 63850252, 
         "woe:parent": "221441881", 
         "name": "Pavillon d'honneur", 
         "tags": [
           "name=Pavillon d'honneur", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=221441881", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 22144181, 
+        "sw_latitude": 48.731004, 
         "osm:node_ids": [
           788801213, 
           788780980, 
@@ -513,12 +516,12 @@
         ], 
         "ne_longitude": 2.361871, 
         "longitude": 48.731194, 
-        "ne_latitude": 48.731380, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.361223, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.731380, 
         "latitude": 2.361549, 
         "woe:id": 2158216796, 
-        "sw_latitude": 48.731004
+        "osm:way_id": 63850252
       }
     }
   ]

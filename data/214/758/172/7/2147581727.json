@@ -51,15 +51,18 @@
       }, 
       "id": 2147581727, 
       "properties": {
-        "osm:way_id": 25032103, 
         "woe:parent": "12513199", 
         "name": "Dornier Medizintechnik", 
         "tags": [
           "amenity=canteen", 
           "name=Dornier Medizintechnik"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.080777, 
         "osm:node_ids": [
           272311050, 
           272311052, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": 11.272461, 
         "longitude": 48.080921, 
-        "ne_latitude": 48.081077, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.271917, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.081077, 
         "latitude": 11.272197, 
         "woe:id": 2147581727, 
-        "sw_latitude": 48.080777
+        "osm:way_id": 25032103
       }
     }
   ]

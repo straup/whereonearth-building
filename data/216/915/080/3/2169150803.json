@@ -35,14 +35,17 @@
       }, 
       "id": 2169150803, 
       "properties": {
-        "osm:way_id": 83895761, 
         "woe:parent": "125209883", 
         "tags": [
           "note=In area of pad 151, but no exact match with map", 
           "source=usgs_imagery_20088"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.054309, 
         "osm:node_ids": [
           976522018, 
           976522079, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -118.155598, 
         "longitude": 35.054326, 
-        "ne_latitude": 35.054342, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.155647, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.054342, 
         "latitude": -118.155623, 
         "woe:id": 2169150803, 
-        "sw_latitude": 35.054309
+        "osm:way_id": 83895761
       }
     }
   ]

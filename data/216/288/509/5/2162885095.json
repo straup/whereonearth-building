@@ -35,7 +35,6 @@
       }, 
       "id": 2162885095, 
       "properties": {
-        "osm:way_id": 71308982, 
         "woe:parent": "22276234", 
         "name": "E.ON edis BBI Energiezentrale West", 
         "tags": [
@@ -43,8 +42,12 @@
           "power=generator", 
           "power_source=gas"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.358050, 
         "osm:node_ids": [
           848683424, 
           848683433, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 13.480725, 
         "longitude": 52.358203, 
-        "ne_latitude": 52.358355, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.480159, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.358355, 
         "latitude": 13.480442, 
         "woe:id": 2162885095, 
-        "sw_latitude": 52.358050
+        "osm:way_id": 71308982
       }
     }
   ]

@@ -35,7 +35,6 @@
       }, 
       "id": 2169150762, 
       "properties": {
-        "osm:way_id": 83895688, 
         "woe:parent": "125209883", 
         "name": "A.V. General Aviation Services", 
         "tags": [
@@ -49,8 +48,12 @@
           "source_ref=AM909_DSCW1295;AM909_DSCW13188", 
           "addr:street=Flight Line"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.056622, 
         "osm:node_ids": [
           976521420, 
           976520315, 
@@ -60,12 +63,12 @@
         ], 
         "ne_longitude": -118.158057, 
         "longitude": 35.056762, 
-        "ne_latitude": 35.056900, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.158490, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.056900, 
         "latitude": -118.158274, 
         "woe:id": 2169150762, 
-        "sw_latitude": 35.056622
+        "osm:way_id": 83895688
       }
     }
   ]

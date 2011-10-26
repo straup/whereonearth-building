@@ -67,7 +67,6 @@
       }, 
       "id": 2160456624, 
       "properties": {
-        "osm:way_id": 67267091, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=1304", 
@@ -79,8 +78,12 @@
           "dcgis:lot=0004", 
           "addr:street=Luke Avenue SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.838622, 
         "osm:node_ids": [
           812388019, 
           812388031, 
@@ -98,12 +101,12 @@
         ], 
         "ne_longitude": -77.015422, 
         "longitude": 38.838900, 
-        "ne_latitude": 38.839197, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.015792, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.839197, 
         "latitude": -77.015604, 
         "woe:id": 2160456624, 
-        "sw_latitude": 38.838622
+        "osm:way_id": 67267091
       }
     }
   ]

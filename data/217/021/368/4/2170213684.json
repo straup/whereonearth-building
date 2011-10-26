@@ -35,7 +35,6 @@
       }, 
       "id": 2170213684, 
       "properties": {
-        "osm:way_id": 85755059, 
         "woe:parent": "22016347", 
         "tags": [
           "addr:housenumber=1", 
@@ -44,8 +43,12 @@
           "addr:country=AT", 
           "addr:street=Reisingerstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=23424750", 
+        "hierarchy": [
+          "woe:airport=22016347", 
+          "woe:country=23424750"
+        ], 
         "parent_woeid": 22016347, 
+        "sw_latitude": 48.239060, 
         "osm:node_ids": [
           995470847, 
           995470528, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": 14.199787, 
         "longitude": 48.239267, 
-        "ne_latitude": 48.239473, 
-        "woe:placetype": "building", 
         "sw_longitude": 14.199286, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.239473, 
         "latitude": 14.199537, 
         "woe:id": 2170213684, 
-        "sw_latitude": 48.239060
+        "osm:way_id": 85755059
       }
     }
   ]

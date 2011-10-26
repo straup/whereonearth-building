@@ -51,13 +51,16 @@
       }, 
       "id": 2152111521, 
       "properties": {
-        "osm:way_id": 49919360, 
         "woe:parent": "22269415", 
         "tags": [
           "addr:housenumber=C 34"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.774524, 
         "osm:node_ids": [
           634415669, 
           634415672, 
@@ -71,12 +74,12 @@
         ], 
         "ne_longitude": 8.086143, 
         "longitude": 48.774634, 
-        "ne_latitude": 48.774744, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.085649, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.774744, 
         "latitude": 8.085904, 
         "woe:id": 2152111521, 
-        "sw_latitude": 48.774524
+        "osm:way_id": 49919360
       }
     }
   ]

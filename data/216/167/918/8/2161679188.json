@@ -43,14 +43,17 @@
       }, 
       "id": 2161679188, 
       "properties": {
-        "osm:way_id": 69358351, 
         "woe:parent": "125126088", 
         "name": "PC 13\u00b0", 
         "tags": [
           "name=PC 13\u00b0"
         ], 
-        "hierarchy": "woe:country=23424797", 
+        "hierarchy": [
+          "woe:airport=125126088", 
+          "woe:country=23424797"
+        ], 
         "parent_woeid": 12512608, 
+        "sw_latitude": 11.563346, 
         "osm:node_ids": [
           831076623, 
           831076500, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": 43.151181, 
         "longitude": 11.563481, 
-        "ne_latitude": 11.563620, 
-        "woe:placetype": "building", 
         "sw_longitude": 43.150891, 
+        "woe:placetype": "building", 
+        "ne_latitude": 11.563620, 
         "latitude": 43.151024, 
         "woe:id": 2161679188, 
-        "sw_latitude": 11.563346
+        "osm:way_id": 69358351
       }
     }
   ]

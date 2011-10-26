@@ -123,7 +123,6 @@
       }, 
       "id": 2149291481, 
       "properties": {
-        "osm:way_id": 38098670, 
         "woe:parent": "12521741", 
         "name": "Robertson Gymnasium", 
         "tags": [
@@ -137,8 +136,12 @@
           "gnis:feature_id=1665579", 
           "name=Robertson Gymnasium"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.415738, 
         "osm:node_ids": [
           448139301, 
           448139300, 
@@ -170,12 +173,12 @@
         ], 
         "ne_longitude": -119.848644, 
         "longitude": 34.416219, 
-        "ne_latitude": 34.416699, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.849759, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.416699, 
         "latitude": -119.849217, 
         "woe:id": 2149291481, 
-        "sw_latitude": 34.415738
+        "osm:way_id": 38098670
       }
     }
   ]

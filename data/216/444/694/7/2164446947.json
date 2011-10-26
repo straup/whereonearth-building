@@ -35,7 +35,6 @@
       }, 
       "id": 2164446947, 
       "properties": {
-        "osm:way_id": 74009260, 
         "woe:parent": "23046924", 
         "tags": [
           "addr:housenumber=101", 
@@ -45,8 +44,12 @@
           "addr:country=DE", 
           "addr:street=Steinbrinkstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23046924", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23046924, 
+        "sw_latitude": 51.522563, 
         "osm:node_ids": [
           875757289, 
           875757296, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": 7.602694, 
         "longitude": 51.522648, 
-        "ne_latitude": 51.522732, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.602503, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.522732, 
         "latitude": 7.602599, 
         "woe:id": 2164446947, 
-        "sw_latitude": 51.522563
+        "osm:way_id": 74009260
       }
     }
   ]

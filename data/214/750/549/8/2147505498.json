@@ -83,7 +83,6 @@
       }, 
       "id": 2147505498, 
       "properties": {
-        "osm:way_id": 23035967, 
         "woe:parent": "22412043", 
         "name": "Torre de Control", 
         "tags": [
@@ -91,8 +90,12 @@
           "iata=ALC", 
           "icao=LEAL"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=22412043", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 22412043, 
+        "sw_latitude": 38.286943, 
         "osm:node_ids": [
           248522386, 
           559917787, 
@@ -114,12 +117,12 @@
         ], 
         "ne_longitude": -0.560639, 
         "longitude": 38.287053, 
-        "ne_latitude": 38.287188, 
-        "woe:placetype": "building", 
         "sw_longitude": -0.561092, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.287188, 
         "latitude": -0.560876, 
         "woe:id": 2147505498, 
-        "sw_latitude": 38.286943
+        "osm:way_id": 23035967
       }
     }
   ]

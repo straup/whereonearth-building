@@ -111,15 +111,18 @@
       }, 
       "id": 2155105641, 
       "properties": {
-        "osm:way_id": 56176608, 
         "woe:parent": "1251888877", 
         "tags": [
           "addr:housenumber=7201", 
           "old_name=Van Asselt Elementary", 
           "addr:street=Beacon Avenue S"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=1251888877", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12518877, 
+        "sw_latitude": 47.537618, 
         "osm:node_ids": [
           704976340, 
           704976479, 
@@ -148,12 +151,12 @@
         ], 
         "ne_longitude": -122.295266, 
         "longitude": 47.538349, 
-        "ne_latitude": 47.538793, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.297679, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.538793, 
         "latitude": -122.296416, 
         "woe:id": 2155105641, 
-        "sw_latitude": 47.537618
+        "osm:way_id": 56176608
       }
     }
   ]

@@ -79,7 +79,6 @@
       }, 
       "id": 2147495184, 
       "properties": {
-        "osm:way_id": 17954223, 
         "woe:parent": "22454274", 
         "name": "Birmingham Airport Terminal 1", 
         "tags": [
@@ -88,8 +87,12 @@
           "source=Landsat", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22454274", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22454274, 
+        "sw_latitude": 52.452216, 
         "osm:node_ids": [
           324640935, 
           324640937, 
@@ -110,12 +113,12 @@
         ], 
         "ne_longitude": -1.731932, 
         "longitude": 52.453362, 
-        "ne_latitude": 52.454308, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.734852, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.454308, 
         "latitude": -1.733388, 
         "woe:id": 2147495184, 
-        "sw_latitude": 52.452216
+        "osm:way_id": 17954223
       }
     }
   ]

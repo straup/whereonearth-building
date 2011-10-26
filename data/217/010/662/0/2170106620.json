@@ -35,7 +35,6 @@
       }, 
       "id": 2170106620, 
       "properties": {
-        "osm:way_id": 85523588, 
         "woe:parent": "228851127", 
         "tags": [
           "kms:county_no=15", 
@@ -59,8 +58,12 @@
           "osak:revision=19988-11-26T008c008c00", 
           "addr:country=DK"
         ], 
-        "hierarchy": "woe:country=23424796", 
+        "hierarchy": [
+          "woe:airport=228851127", 
+          "woe:country=23424796"
+        ], 
         "parent_woeid": 22851127, 
+        "sw_latitude": 55.609258, 
         "osm:node_ids": [
           991905592, 
           991905690, 
@@ -70,12 +73,12 @@
         ], 
         "ne_longitude": 12.592936, 
         "longitude": 55.609343, 
-        "ne_latitude": 55.609427, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.592548, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.609427, 
         "latitude": 12.592743, 
         "woe:id": 2170106620, 
-        "sw_latitude": 55.609258
+        "osm:way_id": 85523588
       }
     }
   ]

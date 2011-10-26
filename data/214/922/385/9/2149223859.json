@@ -35,7 +35,6 @@
       }, 
       "id": 2149223859, 
       "properties": {
-        "osm:way_id": 37361972, 
         "woe:parent": "12513205", 
         "name": "Grundschule Ottendf.-Okr.", 
         "tags": [
@@ -43,8 +42,12 @@
           "addr:city=Ottendorf-Okrilla", 
           "name=Grundschule Ottendf.-Okr."
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.183243, 
         "osm:node_ids": [
           436124554, 
           436124555, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 13.825126, 
         "longitude": 51.183432, 
-        "ne_latitude": 51.183625, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.824688, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.183625, 
         "latitude": 13.824906, 
         "woe:id": 2149223859, 
-        "sw_latitude": 51.183243
+        "osm:way_id": 37361972
       }
     }
   ]

@@ -71,7 +71,6 @@
       }, 
       "id": 2147569638, 
       "properties": {
-        "osm:way_id": 24659334, 
         "woe:parent": "23024911", 
         "name": "Sky Office", 
         "tags": [
@@ -86,8 +85,12 @@
           "addr:street=Kennedydamm", 
           "built=2009"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.246846, 
         "osm:node_ids": [
           666259313, 
           268026543, 
@@ -106,12 +109,12 @@
         ], 
         "ne_longitude": 6.771550, 
         "longitude": 51.246979, 
-        "ne_latitude": 51.247108, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.771039, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.247108, 
         "latitude": 6.771291, 
         "woe:id": 2147569638, 
-        "sw_latitude": 51.246846
+        "osm:way_id": 24659334
       }
     }
   ]

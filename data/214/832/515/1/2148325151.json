@@ -67,14 +67,17 @@
       }, 
       "id": 2148325151, 
       "properties": {
-        "osm:way_id": 31164826, 
         "woe:parent": "22473264", 
         "name": "Gift Shop", 
         "tags": [
           "name=Gift Shop"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22473264", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22473264, 
+        "sw_latitude": 53.336009, 
         "osm:node_ids": [
           346815220, 
           346815223, 
@@ -92,12 +95,12 @@
         ], 
         "ne_longitude": -2.870202, 
         "longitude": 53.336270, 
-        "ne_latitude": 53.336477, 
-        "woe:placetype": "building", 
         "sw_longitude": -2.871144, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.336477, 
         "latitude": -2.870654, 
         "woe:id": 2148325151, 
-        "sw_latitude": 53.336009
+        "osm:way_id": 31164826
       }
     }
   ]

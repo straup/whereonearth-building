@@ -71,7 +71,6 @@
       }, 
       "id": 2151733984, 
       "properties": {
-        "osm:way_id": 49046610, 
         "woe:parent": "12523042", 
         "tags": [
           "addr:housenumber=11", 
@@ -79,8 +78,12 @@
           "addr:postcode=021889", 
           "addr:street=Rod\u016bnios kelias"
         ], 
-        "hierarchy": "woe:country=234248875", 
+        "hierarchy": [
+          "woe:airport=12523042", 
+          "woe:country=234248875"
+        ], 
         "parent_woeid": 12523042, 
+        "sw_latitude": 54.633993, 
         "osm:node_ids": [
           622354156, 
           622354157, 
@@ -99,12 +102,12 @@
         ], 
         "ne_longitude": 25.276669, 
         "longitude": 54.634339, 
-        "ne_latitude": 54.634731, 
-        "woe:placetype": "building", 
         "sw_longitude": 25.276215, 
+        "woe:placetype": "building", 
+        "ne_latitude": 54.634731, 
         "latitude": 25.276438, 
         "woe:id": 2151733984, 
-        "sw_latitude": 54.633993
+        "osm:way_id": 49046610
       }
     }
   ]

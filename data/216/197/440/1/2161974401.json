@@ -39,7 +39,6 @@
       }, 
       "id": 2161974401, 
       "properties": {
-        "osm:way_id": 69863728, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=17a", 
@@ -48,8 +47,12 @@
           "addr:country=DE", 
           "addr:street=Dorfplatz"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.399577, 
         "osm:node_ids": [
           835197883, 
           835197884, 
@@ -60,12 +63,12 @@
         ], 
         "ne_longitude": 13.554308, 
         "longitude": 52.399632, 
-        "ne_latitude": 52.399687, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.554200, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.399687, 
         "latitude": 13.554255, 
         "woe:id": 2161974401, 
-        "sw_latitude": 52.399577
+        "osm:way_id": 69863728
       }
     }
   ]

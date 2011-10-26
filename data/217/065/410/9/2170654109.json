@@ -107,7 +107,6 @@
       }, 
       "id": 2170654109, 
       "properties": {
-        "osm:way_id": 86631736, 
         "woe:parent": "12520772", 
         "name": "Jewell Instruments", 
         "tags": [
@@ -118,8 +117,12 @@
           "addr:street=Perimeter Rd", 
           "name=Jewell Instruments"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12520772", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520772, 
+        "sw_latitude": 42.935967, 
         "osm:node_ids": [
           1007510707, 
           1007510264, 
@@ -147,12 +150,12 @@
         ], 
         "ne_longitude": -71.442028, 
         "longitude": 42.936531, 
-        "ne_latitude": 42.937009, 
-        "woe:placetype": "building", 
         "sw_longitude": -71.443245, 
+        "woe:placetype": "building", 
+        "ne_latitude": 42.937009, 
         "latitude": -71.442592, 
         "woe:id": 2170654109, 
-        "sw_latitude": 42.935967
+        "osm:way_id": 86631736
       }
     }
   ]

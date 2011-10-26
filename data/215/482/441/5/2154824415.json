@@ -39,7 +39,6 @@
       }, 
       "id": 2154824415, 
       "properties": {
-        "osm:way_id": 55482597, 
         "woe:parent": "23046924", 
         "tags": [
           "addr:housenumber=47", 
@@ -49,8 +48,12 @@
           "addr:country=DE", 
           "addr:street=Langschedestra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23046924", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23046924, 
+        "sw_latitude": 51.524391, 
         "osm:node_ids": [
           697235030, 
           697235032, 
@@ -61,12 +64,12 @@
         ], 
         "ne_longitude": 7.608355, 
         "longitude": 51.524472, 
-        "ne_latitude": 51.524552, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.608183, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.524552, 
         "latitude": 7.608269, 
         "woe:id": 2154824415, 
-        "sw_latitude": 51.524391
+        "osm:way_id": 55482597
       }
     }
   ]

@@ -99,14 +99,17 @@
       }, 
       "id": 2149228522, 
       "properties": {
-        "osm:way_id": 37412449, 
         "woe:parent": "12513205", 
         "name": "Zw\u00f6lfeckhaus", 
         "tags": [
           "name=Zw\u00f6lfeckhaus"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.184729, 
         "osm:node_ids": [
           437216349, 
           437216350, 
@@ -132,12 +135,12 @@
         ], 
         "ne_longitude": 13.826645, 
         "longitude": 51.184879, 
-        "ne_latitude": 51.185025, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.826164, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.185025, 
         "latitude": 13.826408, 
         "woe:id": 2149228522, 
-        "sw_latitude": 51.184729
+        "osm:way_id": 37412449
       }
     }
   ]

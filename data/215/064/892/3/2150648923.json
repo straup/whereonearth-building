@@ -119,7 +119,6 @@
       }, 
       "id": 2150648923, 
       "properties": {
-        "osm:way_id": 46510080, 
         "woe:parent": "12523336", 
         "name": "\u5927\u70ae\u53f0/Fortaleza do Monte", 
         "tags": [
@@ -129,8 +128,12 @@
           "alt_name=Monte Forte", 
           "tourism=attraction"
         ], 
-        "hierarchy": "woe:country=20070017", 
+        "hierarchy": [
+          "woe:airport=12523336", 
+          "woe:country=20070017"
+        ], 
         "parent_woeid": 12523336, 
+        "sw_latitude": 22.196675, 
         "osm:node_ids": [
           594810852, 
           594810854, 
@@ -161,12 +164,12 @@
         ], 
         "ne_longitude": 113.543090, 
         "longitude": 22.197086, 
-        "ne_latitude": 22.197592, 
-        "woe:placetype": "building", 
         "sw_longitude": 113.541670, 
+        "woe:placetype": "building", 
+        "ne_latitude": 22.197592, 
         "latitude": 113.542319, 
         "woe:id": 2150648923, 
-        "sw_latitude": 22.196675
+        "osm:way_id": 46510080
       }
     }
   ]

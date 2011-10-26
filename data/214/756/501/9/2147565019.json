@@ -35,15 +35,18 @@
       }, 
       "id": 2147565019, 
       "properties": {
-        "osm:way_id": 24499304, 
         "woe:parent": "12512502", 
         "name": "New Paphos International Airport", 
         "tags": [
           "name=New Paphos International Airport", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=268812346", 
+        "hierarchy": [
+          "woe:airport=12512502", 
+          "woe:country=268812346"
+        ], 
         "parent_woeid": 12512502, 
+        "sw_latitude": 34.711709, 
         "osm:node_ids": [
           266398469, 
           266398470, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 32.489724, 
         "longitude": 34.712402, 
-        "ne_latitude": 34.713095, 
-        "woe:placetype": "building", 
         "sw_longitude": 32.487892, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.713095, 
         "latitude": 32.488808, 
         "woe:id": 2147565019, 
-        "sw_latitude": 34.711709
+        "osm:way_id": 24499304
       }
     }
   ]

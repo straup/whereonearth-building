@@ -99,7 +99,6 @@
       }, 
       "id": 2148387807, 
       "properties": {
-        "osm:way_id": 31778753, 
         "woe:parent": "12521741", 
         "name": "Buchanan Hall", 
         "tags": [
@@ -112,8 +111,12 @@
           "gnis:feature_id=1665566", 
           "name=Buchanan Hall"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.415233, 
         "osm:node_ids": [
           355761038, 
           355761039, 
@@ -139,12 +142,12 @@
         ], 
         "ne_longitude": -119.844313, 
         "longitude": 34.415456, 
-        "ne_latitude": 34.415680, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.844799, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.415680, 
         "latitude": -119.844558, 
         "woe:id": 2148387807, 
-        "sw_latitude": 34.415233
+        "osm:way_id": 31778753
       }
     }
   ]

@@ -67,15 +67,18 @@
       }, 
       "id": 2148413902, 
       "properties": {
-        "osm:way_id": 31884123, 
         "woe:parent": "22140453", 
         "name": "Ibis", 
         "tags": [
           "name=Ibis", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=22140453", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 22140453, 
+        "sw_latitude": 49.010559, 
         "osm:node_ids": [
           357022802, 
           357022803, 
@@ -93,12 +96,12 @@
         ], 
         "ne_longitude": 2.561147, 
         "longitude": 49.010662, 
-        "ne_latitude": 49.010763, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.560062, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.010763, 
         "latitude": 2.560604, 
         "woe:id": 2148413902, 
-        "sw_latitude": 49.010559
+        "osm:way_id": 31884123
       }
     }
   ]

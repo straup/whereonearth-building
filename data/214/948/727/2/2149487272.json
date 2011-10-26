@@ -35,7 +35,6 @@
       }, 
       "id": 2149487272, 
       "properties": {
-        "osm:way_id": 40247778, 
         "woe:parent": "125155889", 
         "name": "AMBIENT Sibiu", 
         "tags": [
@@ -45,8 +44,12 @@
           "pre-CLC:landuse=retail", 
           "CLC:details=This item has been retagged to make it invisible in renderings, but still available for edits."
         ], 
-        "hierarchy": "woe:country=23424933", 
+        "hierarchy": [
+          "woe:airport=125155889", 
+          "woe:country=23424933"
+        ], 
         "parent_woeid": 12515589, 
+        "sw_latitude": 45.792509, 
         "osm:node_ids": [
           485294729, 
           485294738, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": 24.107673, 
         "longitude": 45.792903, 
-        "ne_latitude": 45.793287, 
-        "woe:placetype": "building", 
         "sw_longitude": 24.106208, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.793287, 
         "latitude": 24.106936, 
         "woe:id": 2149487272, 
-        "sw_latitude": 45.792509
+        "osm:way_id": 40247778
       }
     }
   ]

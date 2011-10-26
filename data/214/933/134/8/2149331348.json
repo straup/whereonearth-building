@@ -35,13 +35,16 @@
       }, 
       "id": 2149331348, 
       "properties": {
-        "osm:way_id": 38568427, 
         "woe:parent": "23095516", 
         "tags": [
           "military=bunker"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=23095516", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 23095516, 
+        "sw_latitude": 45.497792, 
         "osm:node_ids": [
           456810683, 
           456810689, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 12.330698, 
         "longitude": 45.497899, 
-        "ne_latitude": 45.498003, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.330355, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.498003, 
         "latitude": 12.330527, 
         "woe:id": 2149331348, 
-        "sw_latitude": 45.497792
+        "osm:way_id": 38568427
       }
     }
   ]

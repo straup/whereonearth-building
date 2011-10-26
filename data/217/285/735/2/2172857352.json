@@ -75,7 +75,6 @@
       }, 
       "id": 2172857352, 
       "properties": {
-        "osm:way_id": 91658631, 
         "woe:parent": "12521526", 
         "name": "Commissary", 
         "tags": [
@@ -83,8 +82,12 @@
           "name=Commissary", 
           "source=bing"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521526", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521526, 
+        "sw_latitude": 29.535468, 
         "osm:node_ids": [
           1065062467, 
           1065062569, 
@@ -104,12 +107,12 @@
         ], 
         "ne_longitude": -98.284780, 
         "longitude": 29.536052, 
-        "ne_latitude": 29.536613, 
-        "woe:placetype": "building", 
         "sw_longitude": -98.286160, 
+        "woe:placetype": "building", 
+        "ne_latitude": 29.536613, 
         "latitude": -98.285485, 
         "woe:id": 2172857352, 
-        "sw_latitude": 29.535468
+        "osm:way_id": 91658631
       }
     }
   ]

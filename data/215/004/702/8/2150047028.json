@@ -35,15 +35,18 @@
       }, 
       "id": 2150047028, 
       "properties": {
-        "osm:way_id": 44044562, 
         "woe:parent": "22412043", 
         "name": "Guardia Civil", 
         "tags": [
           "amenity=police", 
           "name=Guardia Civil"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=22412043", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 22412043, 
+        "sw_latitude": 38.289590, 
         "osm:node_ids": [
           559941385, 
           559941388, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -0.561302, 
         "longitude": 38.289648, 
-        "ne_latitude": 38.289706, 
-        "woe:placetype": "building", 
         "sw_longitude": -0.561417, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.289706, 
         "latitude": -0.561360, 
         "woe:id": 2150047028, 
-        "sw_latitude": 38.289590
+        "osm:way_id": 44044562
       }
     }
   ]

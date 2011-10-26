@@ -55,14 +55,17 @@
       }, 
       "id": 2150648885, 
       "properties": {
-        "osm:way_id": 46510018, 
         "woe:parent": "12523336", 
         "name": "Macau Ferry Terminal", 
         "tags": [
           "name=Macau Ferry Terminal"
         ], 
-        "hierarchy": "woe:country=20070017", 
+        "hierarchy": [
+          "woe:airport=12523336", 
+          "woe:country=20070017"
+        ], 
         "parent_woeid": 12523336, 
+        "sw_latitude": 22.195930, 
         "osm:node_ids": [
           594811194, 
           594811202, 
@@ -77,12 +80,12 @@
         ], 
         "ne_longitude": 113.560724, 
         "longitude": 22.196918, 
-        "ne_latitude": 22.198157, 
-        "woe:placetype": "building", 
         "sw_longitude": 113.557621, 
+        "woe:placetype": "building", 
+        "ne_latitude": 22.198157, 
         "latitude": 113.559342, 
         "woe:id": 2150648885, 
-        "sw_latitude": 22.195930
+        "osm:way_id": 46510018
       }
     }
   ]

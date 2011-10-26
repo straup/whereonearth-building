@@ -135,14 +135,17 @@
       }, 
       "id": 2148413909, 
       "properties": {
-        "osm:way_id": 31884252, 
         "woe:parent": "22140453", 
         "name": "La gare Roissypole", 
         "tags": [
           "name=La gare Roissypole"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=22140453", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 22140453, 
+        "sw_latitude": 49.009374, 
         "osm:node_ids": [
           357027395, 
           357027397, 
@@ -177,12 +180,12 @@
         ], 
         "ne_longitude": 2.562666, 
         "longitude": 49.009773, 
-        "ne_latitude": 49.010226, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.559557, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.010226, 
         "latitude": 2.561147, 
         "woe:id": 2148413909, 
-        "sw_latitude": 49.009374
+        "osm:way_id": 31884252
       }
     }
   ]

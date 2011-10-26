@@ -51,7 +51,6 @@
       }, 
       "id": 2155857961, 
       "properties": {
-        "osm:way_id": 58772592, 
         "woe:parent": "23046924", 
         "name": "Esso", 
         "tags": [
@@ -59,8 +58,12 @@
           "name=Esso", 
           "operator=Esso"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23046924", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23046924, 
+        "sw_latitude": 51.514181, 
         "osm:node_ids": [
           728357807, 
           728357811, 
@@ -74,12 +77,12 @@
         ], 
         "ne_longitude": 7.625727, 
         "longitude": 51.514307, 
-        "ne_latitude": 51.514423, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.625435, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.514423, 
         "latitude": 7.625589, 
         "woe:id": 2155857961, 
-        "sw_latitude": 51.514181
+        "osm:way_id": 58772592
       }
     }
   ]

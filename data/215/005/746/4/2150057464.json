@@ -35,13 +35,16 @@
       }, 
       "id": 2150057464, 
       "properties": {
-        "osm:way_id": 44110856, 
         "woe:parent": "12517549", 
         "tags": [
           "amenity=fire_station"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=12517549", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 12517549, 
+        "sw_latitude": 36.751422, 
         "osm:node_ids": [
           560554389, 
           560554390, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": -6.060070, 
         "longitude": 36.751629, 
-        "ne_latitude": 36.751842, 
-        "woe:placetype": "building", 
         "sw_longitude": -6.060464, 
+        "woe:placetype": "building", 
+        "ne_latitude": 36.751842, 
         "latitude": -6.060265, 
         "woe:id": 2150057464, 
-        "sw_latitude": 36.751422
+        "osm:way_id": 44110856
       }
     }
   ]

@@ -43,7 +43,6 @@
       }, 
       "id": 2147484119, 
       "properties": {
-        "osm:way_id": 4586935, 
         "woe:parent": "12517573", 
         "name": "Reina Sofia", 
         "tags": [
@@ -54,8 +53,12 @@
           "source=yahoo", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=12517573", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 12517573, 
+        "sw_latitude": 28.046691, 
         "osm:node_ids": [
           29011694, 
           252525926, 
@@ -67,12 +70,12 @@
         ], 
         "ne_longitude": -16.575544, 
         "longitude": 28.047745, 
-        "ne_latitude": 28.048797, 
-        "woe:placetype": "building", 
         "sw_longitude": -16.579726, 
+        "woe:placetype": "building", 
+        "ne_latitude": 28.048797, 
         "latitude": -16.577639, 
         "woe:id": 2147484119, 
-        "sw_latitude": 28.046691
+        "osm:way_id": 4586935
       }
     }
   ]

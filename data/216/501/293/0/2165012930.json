@@ -139,7 +139,6 @@
       }, 
       "id": 2165012930, 
       "properties": {
-        "osm:way_id": 74971043, 
         "woe:parent": "125128856", 
         "name": "Le Colonial", 
         "tags": [
@@ -148,8 +147,12 @@
           "stars=2", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128856", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512856, 
+        "sw_latitude": 43.609301, 
         "osm:node_ids": [
           885281846, 
           885271704, 
@@ -185,12 +188,12 @@
         ], 
         "ne_longitude": 1.328404, 
         "longitude": 43.609467, 
-        "ne_latitude": 43.609638, 
-        "woe:placetype": "building", 
         "sw_longitude": 1.328060, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.609638, 
         "latitude": 1.328245, 
         "woe:id": 2165012930, 
-        "sw_latitude": 43.609301
+        "osm:way_id": 74971043
       }
     }
   ]

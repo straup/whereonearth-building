@@ -59,7 +59,6 @@
       }, 
       "id": 2150065341, 
       "properties": {
-        "osm:way_id": 44143313, 
         "woe:parent": "12513277", 
         "name": "Salle du Royaume", 
         "tags": [
@@ -69,8 +68,12 @@
           "denomination=jehovahs_witness", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre ; mise \u00e0 jour 8c 20088"
         ], 
-        "hierarchy": "woe:country=234248831", 
+        "hierarchy": [
+          "woe:airport=12513277", 
+          "woe:country=234248831"
+        ], 
         "parent_woeid": 12513277, 
+        "sw_latitude": 16.257515, 
         "osm:node_ids": [
           560847801, 
           560847803, 
@@ -86,12 +89,12 @@
         ], 
         "ne_longitude": -61.530488, 
         "longitude": 16.257595, 
-        "ne_latitude": 16.257674, 
-        "woe:placetype": "building", 
         "sw_longitude": -61.530629, 
+        "woe:placetype": "building", 
+        "ne_latitude": 16.257674, 
         "latitude": -61.530557, 
         "woe:id": 2150065341, 
-        "sw_latitude": 16.257515
+        "osm:way_id": 44143313
       }
     }
   ]

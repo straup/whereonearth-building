@@ -35,13 +35,16 @@
       }, 
       "id": 2165133861, 
       "properties": {
-        "osm:way_id": 75237127, 
         "woe:parent": "12513199", 
         "tags": [
           "addr:housenumber=Geb. 322"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.082416, 
         "osm:node_ids": [
           888462728, 
           888462710, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 11.298107, 
         "longitude": 48.083042, 
-        "ne_latitude": 48.083667, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.297829, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.083667, 
         "latitude": 11.297968, 
         "woe:id": 2165133861, 
-        "sw_latitude": 48.082416
+        "osm:way_id": 75237127
       }
     }
   ]

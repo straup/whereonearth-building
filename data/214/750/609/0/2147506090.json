@@ -35,15 +35,18 @@
       }, 
       "id": 2147506090, 
       "properties": {
-        "osm:way_id": 23054853, 
         "woe:parent": "125130882", 
         "name": "Empfangsgeb\u00e4ude", 
         "tags": [
           "name=Empfangsgeb\u00e4ude", 
           "created_by=Potlatch 0.7b"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=125130882", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513082, 
+        "sw_latitude": 51.883271, 
         "osm:node_ids": [
           248779146, 
           248779147, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 14.532164, 
         "longitude": 51.883564, 
-        "ne_latitude": 51.883853, 
-        "woe:placetype": "building", 
         "sw_longitude": 14.530705, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.883853, 
         "latitude": 14.531432, 
         "woe:id": 2147506090, 
-        "sw_latitude": 51.883271
+        "osm:way_id": 23054853
       }
     }
   ]

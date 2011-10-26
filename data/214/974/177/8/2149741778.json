@@ -39,14 +39,17 @@
       }, 
       "id": 2149741778, 
       "properties": {
-        "osm:way_id": 42412641, 
         "woe:parent": "12515124", 
         "name": "Norsk Helikopter:Helicopter Service", 
         "tags": [
           "name=Norsk Helikopter8cHelicopter Service"
         ], 
-        "hierarchy": "woe:country=23424910", 
+        "hierarchy": [
+          "woe:airport=12515124", 
+          "woe:country=23424910"
+        ], 
         "parent_woeid": 12515124, 
+        "sw_latitude": 58.882494, 
         "osm:node_ids": [
           529508945, 
           529508947, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": 5.623524, 
         "longitude": 58.883079, 
-        "ne_latitude": 58.883662, 
-        "woe:placetype": "building", 
         "sw_longitude": 5.621257, 
+        "woe:placetype": "building", 
+        "ne_latitude": 58.883662, 
         "latitude": 5.622394, 
         "woe:id": 2149741778, 
-        "sw_latitude": 58.882494
+        "osm:way_id": 42412641
       }
     }
   ]

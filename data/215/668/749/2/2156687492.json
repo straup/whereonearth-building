@@ -51,15 +51,18 @@
       }, 
       "id": 2156687492, 
       "properties": {
-        "osm:way_id": 61192915, 
         "woe:parent": "125127588", 
         "name": "Cardiac Hospital (?)", 
         "tags": [
           "amenity=hospital", 
           "name=Cardiac Hospital (?)"
         ], 
-        "hierarchy": "woe:country=2342488088", 
+        "hierarchy": [
+          "woe:airport=125127588", 
+          "woe:country=2342488088"
+        ], 
         "parent_woeid": 12512758, 
+        "sw_latitude": 8.984359, 
         "osm:node_ids": [
           765120565, 
           765120516, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": 38.783125, 
         "longitude": 8.984404, 
-        "ne_latitude": 8.984445, 
-        "woe:placetype": "building", 
         "sw_longitude": 38.783036, 
+        "woe:placetype": "building", 
+        "ne_latitude": 8.984445, 
         "latitude": 38.783081, 
         "woe:id": 2156687492, 
-        "sw_latitude": 8.984359
+        "osm:way_id": 61192915
       }
     }
   ]

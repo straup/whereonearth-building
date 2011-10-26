@@ -51,7 +51,6 @@
       }, 
       "id": 2167540217, 
       "properties": {
-        "osm:way_id": 80591412, 
         "woe:parent": "22309691", 
         "name": "Esso", 
         "tags": [
@@ -61,8 +60,12 @@
           "www.prezzibenzina.it=11799", 
           "operator=Esso"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=22309691", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22309691, 
+        "sw_latitude": 45.672731, 
         "osm:node_ids": [
           228287793, 
           940148347, 
@@ -76,12 +79,12 @@
         ], 
         "ne_longitude": 9.717770, 
         "longitude": 45.672886, 
-        "ne_latitude": 45.673048, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.717382, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.673048, 
         "latitude": 9.717590, 
         "woe:id": 2167540217, 
-        "sw_latitude": 45.672731
+        "osm:way_id": 80591412
       }
     }
   ]

@@ -35,7 +35,6 @@
       }, 
       "id": 2149711188, 
       "properties": {
-        "osm:way_id": 42213249, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=23", 
@@ -45,8 +44,12 @@
           "addr:country=DE", 
           "addr:street=Bendenkamp"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.288227, 
         "osm:node_ids": [
           525867027, 
           525867030, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": 6.811847, 
         "longitude": 51.288282, 
-        "ne_latitude": 51.288335, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.811733, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.288335, 
         "latitude": 6.811790, 
         "woe:id": 2149711188, 
-        "sw_latitude": 51.288227
+        "osm:way_id": 42213249
       }
     }
   ]

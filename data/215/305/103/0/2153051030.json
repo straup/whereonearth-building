@@ -35,15 +35,18 @@
       }, 
       "id": 2153051030, 
       "properties": {
-        "osm:way_id": 52205794, 
         "woe:parent": "2245088588", 
         "name": "The One", 
         "tags": [
           "amenity=restaurant", 
           "name=The One"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=2245088588", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22450858, 
+        "sw_latitude": 57.209895, 
         "osm:node_ids": [
           664824989, 
           664824991, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -2.188203, 
         "longitude": 57.210049, 
-        "ne_latitude": 57.210203, 
-        "woe:placetype": "building", 
         "sw_longitude": -2.188675, 
+        "woe:placetype": "building", 
+        "ne_latitude": 57.210203, 
         "latitude": -2.188442, 
         "woe:id": 2153051030, 
-        "sw_latitude": 57.209895
+        "osm:way_id": 52205794
       }
     }
   ]

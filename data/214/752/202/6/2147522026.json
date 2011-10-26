@@ -51,15 +51,18 @@
       }, 
       "id": 2147522026, 
       "properties": {
-        "osm:way_id": 23585105, 
         "woe:parent": "125155588", 
         "name": "Aeroportul Otopeni", 
         "tags": [
           "name=Aeroportul Otopeni", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424933", 
+        "hierarchy": [
+          "woe:airport=125155588", 
+          "woe:country=23424933"
+        ], 
         "parent_woeid": 12515558, 
+        "sw_latitude": 44.568820, 
         "osm:node_ids": [
           255399746, 
           255399747, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": 26.079963, 
         "longitude": 44.570327, 
-        "ne_latitude": 44.571676, 
-        "woe:placetype": "building", 
         "sw_longitude": 26.077070, 
+        "woe:placetype": "building", 
+        "ne_latitude": 44.571676, 
         "latitude": 26.077962, 
         "woe:id": 2147522026, 
-        "sw_latitude": 44.568820
+        "osm:way_id": 23585105
       }
     }
   ]

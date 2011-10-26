@@ -39,7 +39,6 @@
       }, 
       "id": 2160456089, 
       "properties": {
-        "osm:way_id": 67266516, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=4472", 
@@ -51,8 +50,12 @@
           "dcgis:lot=0013", 
           "addr:street=Langley Way SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.841941, 
         "osm:node_ids": [
           812398167, 
           812398172, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": -77.020519, 
         "longitude": 38.842211, 
-        "ne_latitude": 38.842481, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.020973, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.842481, 
         "latitude": -77.020747, 
         "woe:id": 2160456089, 
-        "sw_latitude": 38.841941
+        "osm:way_id": 67266516
       }
     }
   ]

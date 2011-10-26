@@ -35,7 +35,6 @@
       }, 
       "id": 2149521108, 
       "properties": {
-        "osm:way_id": 40620339, 
         "woe:parent": "125191885", 
         "name": "GEA Farm Technologies / So. Cal. Dairy Equipment", 
         "tags": [
@@ -44,8 +43,12 @@
           "source=survey;image;yahoo_imagry", 
           "source_ref=AM909_DSCN8808888"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125191885", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519185, 
+        "sw_latitude": 33.981922, 
         "osm:node_ids": [
           493357708, 
           493357711, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -117.643503, 
         "longitude": 33.981974, 
-        "ne_latitude": 33.982024, 
-        "woe:placetype": "building", 
         "sw_longitude": -117.644167, 
+        "woe:placetype": "building", 
+        "ne_latitude": 33.982024, 
         "latitude": -117.643835, 
         "woe:id": 2149521108, 
-        "sw_latitude": 33.981922
+        "osm:way_id": 40620339
       }
     }
   ]

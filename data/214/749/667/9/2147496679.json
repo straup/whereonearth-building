@@ -35,14 +35,17 @@
       }, 
       "id": 2147496679, 
       "properties": {
-        "osm:way_id": 19322350, 
         "woe:parent": "12511594", 
         "name": "ARAM Systems", 
         "tags": [
           "name=ARAM Systems"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=12511594", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511594, 
+        "sw_latitude": 51.117282, 
         "osm:node_ids": [
           200766028, 
           200766039, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -114.038441, 
         "longitude": 51.117441, 
-        "ne_latitude": 51.117600, 
-        "woe:placetype": "building", 
         "sw_longitude": -114.039267, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.117600, 
         "latitude": -114.038854, 
         "woe:id": 2147496679, 
-        "sw_latitude": 51.117282
+        "osm:way_id": 19322350
       }
     }
   ]

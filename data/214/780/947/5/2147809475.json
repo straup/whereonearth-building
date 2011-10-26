@@ -35,7 +35,6 @@
       }, 
       "id": 2147809475, 
       "properties": {
-        "osm:way_id": 28342819, 
         "woe:parent": "22442771", 
         "name": "Alpenrock House", 
         "tags": [
@@ -44,8 +43,12 @@
           "url=http8c8s8swww.alpenrock-house.ch", 
           "smoking=isolated"
         ], 
-        "hierarchy": "woe:country=23424957", 
+        "hierarchy": [
+          "woe:airport=22442771", 
+          "woe:country=23424957"
+        ], 
         "parent_woeid": 22442771, 
+        "sw_latitude": 47.448692, 
         "osm:node_ids": [
           311287879, 
           311287881, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": 8.567750, 
         "longitude": 47.448912, 
-        "ne_latitude": 47.449131, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.566832, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.449131, 
         "latitude": 8.567292, 
         "woe:id": 2147809475, 
-        "sw_latitude": 47.448692
+        "osm:way_id": 28342819
       }
     }
   ]

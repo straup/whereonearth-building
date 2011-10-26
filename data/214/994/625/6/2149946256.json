@@ -35,14 +35,17 @@
       }, 
       "id": 2149946256, 
       "properties": {
-        "osm:way_id": 43290660, 
         "woe:parent": "125108854", 
         "name": "Vliegtuigloods Onderhoud", 
         "tags": [
           "name=Vliegtuigloods Onderhoud"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=125108854", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 12510854, 
+        "sw_latitude": 51.201013, 
         "osm:node_ids": [
           543891517, 
           543891523, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 2.858698, 
         "longitude": 51.201395, 
-        "ne_latitude": 51.201777, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.857471, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.201777, 
         "latitude": 2.858085, 
         "woe:id": 2149946256, 
-        "sw_latitude": 51.201013
+        "osm:way_id": 43290660
       }
     }
   ]

@@ -43,7 +43,6 @@
       }, 
       "id": 2148304167, 
       "properties": {
-        "osm:way_id": 30911104, 
         "woe:parent": "12513205", 
         "tags": [
           "addr:housenumber=1", 
@@ -51,8 +50,12 @@
           "addr:city=Ottendorf-Okrilla", 
           "addr:street=Bahnhofstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.181649, 
         "osm:node_ids": [
           343632721, 
           343632724, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": 13.815558, 
         "longitude": 51.181821, 
-        "ne_latitude": 51.181981, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.815150, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.181981, 
         "latitude": 13.815369, 
         "woe:id": 2148304167, 
-        "sw_latitude": 51.181649
+        "osm:way_id": 30911104
       }
     }
   ]

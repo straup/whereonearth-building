@@ -35,15 +35,18 @@
       }, 
       "id": 2148378792, 
       "properties": {
-        "osm:way_id": 31672714, 
         "woe:parent": "12513205", 
         "tags": [
           "addr:housenumber=90a", 
           "source=Yahoo", 
           "addr:street=B\u00e4rnsdorfer Hauptstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.160660, 
         "osm:node_ids": [
           354576828, 
           354576831, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 13.731265, 
         "longitude": 51.160721, 
-        "ne_latitude": 51.160782, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.731076, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.160782, 
         "latitude": 13.731171, 
         "woe:id": 2148378792, 
-        "sw_latitude": 51.160660
+        "osm:way_id": 31672714
       }
     }
   ]

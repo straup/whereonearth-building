@@ -35,15 +35,18 @@
       }, 
       "id": 2148344158, 
       "properties": {
-        "osm:way_id": 31453243, 
         "woe:parent": "22463734", 
         "name": "Leonard Hudson", 
         "tags": [
           "name=Leonard Hudson", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22463734", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22463734, 
+        "sw_latitude": 55.937325, 
         "osm:node_ids": [
           351130056, 
           351130058, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -3.391537, 
         "longitude": 55.937523, 
-        "ne_latitude": 55.937700, 
-        "woe:placetype": "building", 
         "sw_longitude": -3.392791, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.937700, 
         "latitude": -3.392187, 
         "woe:id": 2148344158, 
-        "sw_latitude": 55.937325
+        "osm:way_id": 31453243
       }
     }
   ]

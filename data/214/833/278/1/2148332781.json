@@ -39,7 +39,6 @@
       }, 
       "id": 2148332781, 
       "properties": {
-        "osm:way_id": 31289310, 
         "woe:parent": "12512643", 
         "name": "Embajada de Jap\u00f3n", 
         "tags": [
@@ -47,8 +46,12 @@
           "name=Embajada de Jap\u00f3n", 
           "country=JP"
         ], 
-        "hierarchy": "woe:country=234248801", 
+        "hierarchy": [
+          "woe:airport=12512643", 
+          "woe:country=234248801"
+        ], 
         "parent_woeid": 12512643, 
+        "sw_latitude": -0.170821, 
         "osm:node_ids": [
           348117050, 
           348117052, 
@@ -59,12 +62,12 @@
         ], 
         "ne_longitude": -78.484748, 
         "longitude": -0.170639, 
-        "ne_latitude": -0.170435, 
-        "woe:placetype": "building", 
         "sw_longitude": -78.485229, 
+        "woe:placetype": "building", 
+        "ne_latitude": -0.170435, 
         "latitude": -78.484998, 
         "woe:id": 2148332781, 
-        "sw_latitude": -0.170821
+        "osm:way_id": 31289310
       }
     }
   ]

@@ -63,14 +63,17 @@
       }, 
       "id": 2147826904, 
       "properties": {
-        "osm:way_id": 28620165, 
         "woe:parent": "12513205", 
         "name": "Gelos Getr\u00e4nkelogistik", 
         "tags": [
           "name=Gelos Getr\u00e4nkelogistik"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.181087, 
         "osm:node_ids": [
           314611394, 
           314610116, 
@@ -87,12 +90,12 @@
         ], 
         "ne_longitude": 13.839462, 
         "longitude": 51.181637, 
-        "ne_latitude": 51.182212, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.837041, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.182212, 
         "latitude": 13.838355, 
         "woe:id": 2147826904, 
-        "sw_latitude": 51.181087
+        "osm:way_id": 28620165
       }
     }
   ]

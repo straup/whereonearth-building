@@ -75,15 +75,18 @@
       }, 
       "id": 2147555594, 
       "properties": {
-        "osm:way_id": 24210346, 
         "woe:parent": "223074880", 
         "name": "Aerostazione di Ciampino", 
         "tags": [
           "name=Aerostazione di Ciampino", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=223074880", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22307480, 
+        "sw_latitude": 41.798634, 
         "osm:node_ids": [
           262145181, 
           262145182, 
@@ -103,12 +106,12 @@
         ], 
         "ne_longitude": 12.591972, 
         "longitude": 41.799549, 
-        "ne_latitude": 41.800282, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.589410, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.800282, 
         "latitude": 12.590715, 
         "woe:id": 2147555594, 
-        "sw_latitude": 41.798634
+        "osm:way_id": 24210346
       }
     }
   ]

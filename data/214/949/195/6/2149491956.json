@@ -35,7 +35,6 @@
       }, 
       "id": 2149491956, 
       "properties": {
-        "osm:way_id": 40322186, 
         "woe:parent": "12512973", 
         "name": "Gymnase Alice-Milliat", 
         "tags": [
@@ -44,8 +43,12 @@
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour 8c 2009", 
           "sport=gymnastics"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=12512973", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512973, 
+        "sw_latitude": 48.076437, 
         "osm:node_ids": [
           486587159, 
           486587163, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -1.712847, 
         "longitude": 48.076700, 
-        "ne_latitude": 48.076971, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.713608, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.076971, 
         "latitude": -1.713223, 
         "woe:id": 2149491956, 
-        "sw_latitude": 48.076437
+        "osm:way_id": 40322186
       }
     }
   ]

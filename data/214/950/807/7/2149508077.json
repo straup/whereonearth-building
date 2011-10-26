@@ -51,15 +51,18 @@
       }, 
       "id": 2149508077, 
       "properties": {
-        "osm:way_id": 40506633, 
         "woe:parent": "12517672", 
         "tags": [
           "shop=convenience", 
           "amenity=fuel", 
           "operator=OKQ88"
         ], 
-        "hierarchy": "woe:country=23424954", 
+        "hierarchy": [
+          "woe:airport=12517672", 
+          "woe:country=23424954"
+        ], 
         "parent_woeid": 12517672, 
+        "sw_latitude": 58.399281, 
         "osm:node_ids": [
           491171759, 
           491171762, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": 15.654274, 
         "longitude": 58.399500, 
-        "ne_latitude": 58.399677, 
-        "woe:placetype": "building", 
         "sw_longitude": 15.652918, 
+        "woe:placetype": "building", 
+        "ne_latitude": 58.399677, 
         "latitude": 15.653601, 
         "woe:id": 2149508077, 
-        "sw_latitude": 58.399281
+        "osm:way_id": 40506633
       }
     }
   ]

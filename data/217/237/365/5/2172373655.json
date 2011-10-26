@@ -39,14 +39,17 @@
       }, 
       "id": 2172373655, 
       "properties": {
-        "osm:way_id": 90644790, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=32", 
           "addr:street=Haselnussweg"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.288457, 
         "osm:node_ids": [
           1052019621, 
           1052019739, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": 6.815933, 
         "longitude": 51.288522, 
-        "ne_latitude": 51.288588, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.815817, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.288588, 
         "latitude": 6.815876, 
         "woe:id": 2172373655, 
-        "sw_latitude": 51.288457
+        "osm:way_id": 90644790
       }
     }
   ]

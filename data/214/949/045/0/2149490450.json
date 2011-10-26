@@ -35,15 +35,18 @@
       }, 
       "id": 2149490450, 
       "properties": {
-        "osm:way_id": 40285473, 
         "woe:parent": "23024911", 
         "name": "Unterrath Uf", 
         "tags": [
           "name=Unterrath Uf", 
           "railway=signal_box"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.277237, 
         "osm:node_ids": [
           485970835, 
           485970837, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 6.788314, 
         "longitude": 51.277345, 
-        "ne_latitude": 51.277452, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.788134, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.277452, 
         "latitude": 6.788224, 
         "woe:id": 2149490450, 
-        "sw_latitude": 51.277237
+        "osm:way_id": 40285473
       }
     }
   ]

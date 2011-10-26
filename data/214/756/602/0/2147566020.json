@@ -87,7 +87,6 @@
       }, 
       "id": 2147566020, 
       "properties": {
-        "osm:way_id": 24530332, 
         "woe:parent": "23024911", 
         "name": "P2 Parkhaus", 
         "tags": [
@@ -98,8 +97,12 @@
           "maxheight=1.9", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.277850, 
         "osm:node_ids": [
           266731946, 
           266731947, 
@@ -122,12 +125,12 @@
         ], 
         "ne_longitude": 6.767349, 
         "longitude": 51.278628, 
-        "ne_latitude": 51.279354, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.765973, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.279354, 
         "latitude": 6.766541, 
         "woe:id": 2147566020, 
-        "sw_latitude": 51.277850
+        "osm:way_id": 24530332
       }
     }
   ]

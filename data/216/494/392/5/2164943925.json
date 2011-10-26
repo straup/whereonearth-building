@@ -35,15 +35,18 @@
       }, 
       "id": 2164943925, 
       "properties": {
-        "osm:way_id": 74837603, 
         "woe:parent": "12511012", 
         "name": "Hospital S\u00e3o Jos\u00e9", 
         "tags": [
           "amenity=hospital", 
           "name=Hospital S\u00e3o Jos\u00e9"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=12511012", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511012, 
+        "sw_latitude": -25.544047, 
         "osm:node_ids": [
           883642125, 
           883642093, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -49.196260, 
         "longitude": -25.543377, 
-        "ne_latitude": -25.542719, 
-        "woe:placetype": "building", 
         "sw_longitude": -49.197783, 
+        "woe:placetype": "building", 
+        "ne_latitude": -25.542719, 
         "latitude": -49.197021, 
         "woe:id": 2164943925, 
-        "sw_latitude": -25.544047
+        "osm:way_id": 74837603
       }
     }
   ]

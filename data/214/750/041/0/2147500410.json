@@ -107,15 +107,18 @@
       }, 
       "id": 2147500410, 
       "properties": {
-        "osm:way_id": 22717600, 
         "woe:parent": "125152883", 
         "name": "CinemaCity Bemowo", 
         "tags": [
           "amenity=cinema", 
           "name=CinemaCity Bemowo"
         ], 
-        "hierarchy": "woe:country=23424923", 
+        "hierarchy": [
+          "woe:airport=125152883", 
+          "woe:country=23424923"
+        ], 
         "parent_woeid": 12515283, 
+        "sw_latitude": 52.264245, 
         "osm:node_ids": [
           243662021, 
           942642009, 
@@ -143,12 +146,12 @@
         ], 
         "ne_longitude": 20.933431, 
         "longitude": 52.265156, 
-        "ne_latitude": 52.266087, 
-        "woe:placetype": "building", 
         "sw_longitude": 20.930947, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.266087, 
         "latitude": 20.932311, 
         "woe:id": 2147500410, 
-        "sw_latitude": 52.264245
+        "osm:way_id": 22717600
       }
     }
   ]

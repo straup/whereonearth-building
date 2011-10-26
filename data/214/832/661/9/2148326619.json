@@ -35,15 +35,18 @@
       }, 
       "id": 2148326619, 
       "properties": {
-        "osm:way_id": 31233429, 
         "woe:parent": "12512643", 
         "name": "Organizaci\u00f3n Latinoamericana de Energ\u00eda (OLADE)", 
         "tags": [
           "name=Organizaci\u00f3n Latinoamericana de Energ\u00eda (OLADE)", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=234248801", 
+        "hierarchy": [
+          "woe:airport=12512643", 
+          "woe:country=234248801"
+        ], 
         "parent_woeid": 12512643, 
+        "sw_latitude": -0.131266, 
         "osm:node_ids": [
           347275554, 
           347275555, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -78.502533, 
         "longitude": -0.131174, 
-        "ne_latitude": -0.131069, 
-        "woe:placetype": "building", 
         "sw_longitude": -78.502756, 
+        "woe:placetype": "building", 
+        "ne_latitude": -0.131069, 
         "latitude": -78.502642, 
         "woe:id": 2148326619, 
-        "sw_latitude": -0.131266
+        "osm:way_id": 31233429
       }
     }
   ]

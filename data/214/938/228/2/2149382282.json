@@ -111,15 +111,18 @@
       }, 
       "id": 2149382282, 
       "properties": {
-        "osm:way_id": 39241265, 
         "woe:parent": "125200988", 
         "name": "Harrisburg International Airport Terminal Building", 
         "tags": [
           "name=Harrisburg International Airport Terminal Building", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125200988", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520098, 
+        "sw_latitude": 40.194625, 
         "osm:node_ids": [
           470145768, 
           470145774, 
@@ -148,12 +151,12 @@
         ], 
         "ne_longitude": -76.754379, 
         "longitude": 40.195823, 
-        "ne_latitude": 40.196768, 
-        "woe:placetype": "building", 
         "sw_longitude": -76.756843, 
+        "woe:placetype": "building", 
+        "ne_latitude": 40.196768, 
         "latitude": -76.755558, 
         "woe:id": 2149382282, 
-        "sw_latitude": 40.194625
+        "osm:way_id": 39241265
       }
     }
   ]

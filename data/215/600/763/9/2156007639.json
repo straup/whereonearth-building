@@ -99,7 +99,6 @@
       }, 
       "id": 2156007639, 
       "properties": {
-        "osm:way_id": 59153584, 
         "woe:parent": "248875607", 
         "name": "\u653f\u5e9c\u98db\u884c\u670d\u52d9\u968a\u7e3d\u90e8 Government Flying Services Headquarters", 
         "tags": [
@@ -107,8 +106,12 @@
           "name=\u653f\u5e9c\u98db\u884c\u670d\u52d9\u968a\u7e3d\u90e8 Government Flying Services Headquarters", 
           "name:zh=\u653f\u5e9c\u98db\u884c\u670d\u52d9\u968a\u7e3d\u90e8"
         ], 
-        "hierarchy": "woe:country=2488656988", 
+        "hierarchy": [
+          "woe:airport=248875607", 
+          "woe:country=2488656988"
+        ], 
         "parent_woeid": 24875607, 
+        "sw_latitude": 22.295923, 
         "osm:node_ids": [
           733592317, 
           733592318, 
@@ -134,12 +137,12 @@
         ], 
         "ne_longitude": 113.910584, 
         "longitude": 22.296714, 
-        "ne_latitude": 22.297457, 
-        "woe:placetype": "building", 
         "sw_longitude": 113.909511, 
+        "woe:placetype": "building", 
+        "ne_latitude": 22.297457, 
         "latitude": 113.910051, 
         "woe:id": 2156007639, 
-        "sw_latitude": 22.295923
+        "osm:way_id": 59153584
       }
     }
   ]

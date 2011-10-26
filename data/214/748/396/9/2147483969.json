@@ -87,15 +87,18 @@
       }, 
       "id": 2147483969, 
       "properties": {
-        "osm:way_id": 4406146, 
         "woe:parent": "12521243", 
         "name": "Airside 2", 
         "tags": [
           "name=Airside 2", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521243", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521243, 
+        "sw_latitude": 28.433813, 
         "osm:node_ids": [
           26948505, 
           26948475, 
@@ -118,12 +121,12 @@
         ], 
         "ne_longitude": -81.300157, 
         "longitude": 28.435069, 
-        "ne_latitude": 28.435880, 
-        "woe:placetype": "building", 
         "sw_longitude": -81.303282, 
+        "woe:placetype": "building", 
+        "ne_latitude": 28.435880, 
         "latitude": -81.301483, 
         "woe:id": 2147483969, 
-        "sw_latitude": 28.433813
+        "osm:way_id": 4406146
       }
     }
   ]

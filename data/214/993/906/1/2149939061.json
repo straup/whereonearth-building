@@ -59,14 +59,17 @@
       }, 
       "id": 2149939061, 
       "properties": {
-        "osm:way_id": 43211739, 
         "woe:parent": "22235735", 
         "name": "Betriebshof Airport", 
         "tags": [
           "name=Betriebshof Airport"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22235735", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22235735, 
+        "sw_latitude": 52.462508, 
         "osm:node_ids": [
           541696476, 
           541696483, 
@@ -82,12 +85,12 @@
         ], 
         "ne_longitude": 9.704363, 
         "longitude": 52.462601, 
-        "ne_latitude": 52.462769, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.702856, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.462769, 
         "latitude": 9.703601, 
         "woe:id": 2149939061, 
-        "sw_latitude": 52.462508
+        "osm:way_id": 43211739
       }
     }
   ]

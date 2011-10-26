@@ -35,14 +35,17 @@
       }, 
       "id": 2147746360, 
       "properties": {
-        "osm:way_id": 27294450, 
         "woe:parent": "1252218888", 
         "name": "FAA tower", 
         "tags": [
           "name=FAA tower"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=1252218888", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522188, 
+        "sw_latitude": 46.260086, 
         "osm:node_ids": [
           299629182, 
           299629183, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -119.115799, 
         "longitude": 46.260240, 
-        "ne_latitude": 46.260391, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.116212, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.260391, 
         "latitude": -119.116005, 
         "woe:id": 2147746360, 
-        "sw_latitude": 46.260086
+        "osm:way_id": 27294450
       }
     }
   ]

@@ -35,13 +35,16 @@
       }, 
       "id": 2150267450, 
       "properties": {
-        "osm:way_id": 44867275, 
         "woe:parent": "125110388", 
         "tags": [
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.841861, 
         "osm:node_ids": [
           568830918, 
           568830920, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": -35.199716, 
         "longitude": -5.841828, 
-        "ne_latitude": -5.841795, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.199826, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.841795, 
         "latitude": -35.199772, 
         "woe:id": 2150267450, 
-        "sw_latitude": -5.841861
+        "osm:way_id": 44867275
       }
     }
   ]

@@ -171,14 +171,17 @@
       }, 
       "id": 2148264164, 
       "properties": {
-        "osm:way_id": 30549243, 
         "woe:parent": "22022012", 
         "name": "World Trade Center - Office Park 3", 
         "tags": [
           "name=World Trade Center - Office Park 3"
         ], 
-        "hierarchy": "woe:country=23424750", 
+        "hierarchy": [
+          "woe:airport=22022012", 
+          "woe:country=23424750"
+        ], 
         "parent_woeid": 22022012, 
+        "sw_latitude": 48.121787, 
         "osm:node_ids": [
           337532484, 
           337532486, 
@@ -222,12 +225,12 @@
         ], 
         "ne_longitude": 16.563603, 
         "longitude": 48.122303, 
-        "ne_latitude": 48.122831, 
-        "woe:placetype": "building", 
         "sw_longitude": 16.561995, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.122831, 
         "latitude": 16.562788, 
         "woe:id": 2148264164, 
-        "sw_latitude": 48.121787
+        "osm:way_id": 30549243
       }
     }
   ]

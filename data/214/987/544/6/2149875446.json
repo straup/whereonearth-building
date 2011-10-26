@@ -35,15 +35,18 @@
       }, 
       "id": 2149875446, 
       "properties": {
-        "osm:way_id": 42836659, 
         "woe:parent": "12515124", 
         "name": "Pakketelt", 
         "tags": [
           "name=Pakketelt", 
           "operator=Stavanger Fallskjermklubb"
         ], 
-        "hierarchy": "woe:country=23424910", 
+        "hierarchy": [
+          "woe:airport=12515124", 
+          "woe:country=23424910"
+        ], 
         "parent_woeid": 12515124, 
+        "sw_latitude": 58.874999, 
         "osm:node_ids": [
           535943500, 
           535943502, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 5.619457, 
         "longitude": 58.875113, 
-        "ne_latitude": 58.875225, 
-        "woe:placetype": "building", 
         "sw_longitude": 5.618971, 
+        "woe:placetype": "building", 
+        "ne_latitude": 58.875225, 
         "latitude": 5.619215, 
         "woe:id": 2149875446, 
-        "sw_latitude": 58.874999
+        "osm:way_id": 42836659
       }
     }
   ]

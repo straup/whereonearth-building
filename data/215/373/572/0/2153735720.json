@@ -75,15 +75,18 @@
       }, 
       "id": 2153735720, 
       "properties": {
-        "osm:way_id": 53504240, 
         "woe:parent": "125128892", 
         "tags": [
           "addr:housenumber=19", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour 8c 2010", 
           "addr:street=Route de Strasbourg"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128892", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512892, 
+        "sw_latitude": 48.531663, 
         "osm:node_ids": [
           676060807, 
           676075097, 
@@ -103,12 +106,12 @@
         ], 
         "ne_longitude": 7.632531, 
         "longitude": 48.531782, 
-        "ne_latitude": 48.531899, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.632169, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.531899, 
         "latitude": 7.632363, 
         "woe:id": 2153735720, 
-        "sw_latitude": 48.531663
+        "osm:way_id": 53504240
       }
     }
   ]

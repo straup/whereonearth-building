@@ -35,15 +35,18 @@
       }, 
       "id": 2147552557, 
       "properties": {
-        "osm:way_id": 24026499, 
         "woe:parent": "22276234", 
         "name": "Jugendclub", 
         "tags": [
           "amenity=public_building", 
           "name=Jugendclub"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.401846, 
         "osm:node_ids": [
           260561749, 
           260561750, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 13.544299, 
         "longitude": 52.401903, 
-        "ne_latitude": 52.401959, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.543746, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.401959, 
         "latitude": 13.544023, 
         "woe:id": 2147552557, 
-        "sw_latitude": 52.401846
+        "osm:way_id": 24026499
       }
     }
   ]

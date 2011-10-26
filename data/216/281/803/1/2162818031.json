@@ -67,7 +67,6 @@
       }, 
       "id": 2162818031, 
       "properties": {
-        "osm:way_id": 71191074, 
         "woe:parent": "224788032", 
         "name": "Bewleys", 
         "tags": [
@@ -75,8 +74,12 @@
           "source=Yahoo", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=224788032", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22478032, 
+        "sw_latitude": 53.364552, 
         "osm:node_ids": [
           847559084, 
           935175093, 
@@ -94,12 +97,12 @@
         ], 
         "ne_longitude": -2.268739, 
         "longitude": 53.364928, 
-        "ne_latitude": 53.365251, 
-        "woe:placetype": "building", 
         "sw_longitude": -2.270666, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.365251, 
         "latitude": -2.269739, 
         "woe:id": 2162818031, 
-        "sw_latitude": 53.364552
+        "osm:way_id": 71191074
       }
     }
   ]

@@ -163,7 +163,6 @@
       }, 
       "id": 2150197373, 
       "properties": {
-        "osm:way_id": 44669479, 
         "woe:parent": "12511646", 
         "name": "Edmonton International Airport", 
         "tags": [
@@ -173,8 +172,12 @@
           "iata_code=YEG", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=12511646", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511646, 
+        "sw_latitude": 53.304206, 
         "osm:node_ids": [
           254707186, 
           254707188, 
@@ -216,12 +219,12 @@
         ], 
         "ne_longitude": -113.580187, 
         "longitude": 53.306998, 
-        "ne_latitude": 53.309499, 
-        "woe:placetype": "building", 
         "sw_longitude": -113.585351, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.309499, 
         "latitude": -113.583757, 
         "woe:id": 2150197373, 
-        "sw_latitude": 53.304206
+        "osm:way_id": 44669479
       }
     }
   ]

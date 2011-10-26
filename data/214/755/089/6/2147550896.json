@@ -39,7 +39,6 @@
       }, 
       "id": 2147550896, 
       "properties": {
-        "osm:way_id": 23971980, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=2881", 
@@ -48,8 +47,12 @@
           "addr:country=DE", 
           "addr:street=Gr\u00fcnbergallee"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.398425, 
         "osm:node_ids": [
           259865322, 
           259865323, 
@@ -60,12 +63,12 @@
         ], 
         "ne_longitude": 13.547685, 
         "longitude": 52.398500, 
-        "ne_latitude": 52.398573, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.546965, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.398573, 
         "latitude": 13.547325, 
         "woe:id": 2147550896, 
-        "sw_latitude": 52.398425
+        "osm:way_id": 23971980
       }
     }
   ]

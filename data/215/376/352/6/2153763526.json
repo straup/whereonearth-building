@@ -75,15 +75,18 @@
       }, 
       "id": 2153763526, 
       "properties": {
-        "osm:way_id": 53558282, 
         "woe:parent": "125128892", 
         "tags": [
           "addr:housenumber=10", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour 8c 2010", 
           "addr:street=Rue des Airelles"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128892", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512892, 
+        "sw_latitude": 48.532796, 
         "osm:node_ids": [
           676611631, 
           676611632, 
@@ -103,12 +106,12 @@
         ], 
         "ne_longitude": 7.641481, 
         "longitude": 48.532848, 
-        "ne_latitude": 48.532910, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.641297, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.532910, 
         "latitude": 7.641395, 
         "woe:id": 2153763526, 
-        "sw_latitude": 48.532796
+        "osm:way_id": 53558282
       }
     }
   ]

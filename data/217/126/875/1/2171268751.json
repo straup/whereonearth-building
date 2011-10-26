@@ -35,13 +35,16 @@
       }, 
       "id": 2171268751, 
       "properties": {
-        "osm:way_id": 88063296, 
         "woe:parent": "125147883", 
         "tags": [
           "source=Bing Aerial"
         ], 
-        "hierarchy": "woe:country=234248893", 
+        "hierarchy": [
+          "woe:airport=125147883", 
+          "woe:country=234248893"
+        ], 
         "parent_woeid": 12514783, 
+        "sw_latitude": 35.710853, 
         "osm:node_ids": [
           1023460017, 
           1023448537, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": -5.903311, 
         "longitude": 35.711091, 
-        "ne_latitude": 35.711328, 
-        "woe:placetype": "building", 
         "sw_longitude": -5.903962, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.711328, 
         "latitude": -5.903637, 
         "woe:id": 2171268751, 
-        "sw_latitude": 35.710853
+        "osm:way_id": 88063296
       }
     }
   ]

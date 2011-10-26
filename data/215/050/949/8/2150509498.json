@@ -35,15 +35,18 @@
       }, 
       "id": 2150509498, 
       "properties": {
-        "osm:way_id": 45734960, 
         "woe:parent": "125110388", 
         "name": "Edif\u00edcio Jacum\u00e3", 
         "tags": [
           "name=Edif\u00edcio Jacum\u00e3", 
           "landuse=residential"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.833622, 
         "osm:node_ids": [
           582533745, 
           582533747, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -35.212655, 
         "longitude": -5.833401, 
-        "ne_latitude": -5.833179, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.212776, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.833179, 
         "latitude": -35.212716, 
         "woe:id": 2150509498, 
-        "sw_latitude": -5.833622
+        "osm:way_id": 45734960
       }
     }
   ]

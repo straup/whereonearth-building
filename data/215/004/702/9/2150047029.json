@@ -35,14 +35,17 @@
       }, 
       "id": 2150047029, 
       "properties": {
-        "osm:way_id": 44044563, 
         "woe:parent": "22412043", 
         "name": "Perreras Guardia Civil", 
         "tags": [
           "name=Perreras Guardia Civil"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=22412043", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 22412043, 
+        "sw_latitude": 38.289887, 
         "osm:node_ids": [
           559941389, 
           559941390, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -0.561390, 
         "longitude": 38.289950, 
-        "ne_latitude": 38.290011, 
-        "woe:placetype": "building", 
         "sw_longitude": -0.561483, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.290011, 
         "latitude": -0.561437, 
         "woe:id": 2150047029, 
-        "sw_latitude": 38.289887
+        "osm:way_id": 44044563
       }
     }
   ]

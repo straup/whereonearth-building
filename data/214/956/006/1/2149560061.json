@@ -39,7 +39,6 @@
       }, 
       "id": 2149560061, 
       "properties": {
-        "osm:way_id": 40908571, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=90", 
@@ -49,8 +48,12 @@
           "addr:country=DE", 
           "addr:street=Brandenburger Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.287939, 
         "osm:node_ids": [
           498078857, 
           498078860, 
@@ -61,12 +64,12 @@
         ], 
         "ne_longitude": 6.815348, 
         "longitude": 51.287999, 
-        "ne_latitude": 51.288058, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.815252, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.288058, 
         "latitude": 6.815300, 
         "woe:id": 2149560061, 
-        "sw_latitude": 51.287939
+        "osm:way_id": 40908571
       }
     }
   ]

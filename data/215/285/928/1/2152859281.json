@@ -35,15 +35,18 @@
       }, 
       "id": 2152859281, 
       "properties": {
-        "osm:way_id": 51768280, 
         "woe:parent": "22275261", 
         "name": "Feuerwache S\u00fcd", 
         "tags": [
           "amenity=fire_station", 
           "name=Feuerwache S\u00fcd"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22275261", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22275261, 
+        "sw_latitude": 51.407609, 
         "osm:node_ids": [
           660644516, 
           660644518, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 12.209262, 
         "longitude": 51.407870, 
-        "ne_latitude": 51.408128, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.207998, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.408128, 
         "latitude": 12.208628, 
         "woe:id": 2152859281, 
-        "sw_latitude": 51.407609
+        "osm:way_id": 51768280
       }
     }
   ]

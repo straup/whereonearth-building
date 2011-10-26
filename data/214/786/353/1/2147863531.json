@@ -43,7 +43,6 @@
       }, 
       "id": 2147863531, 
       "properties": {
-        "osm:way_id": 28930598, 
         "woe:parent": "22211603", 
         "name": "A/B 37", 
         "tags": [
@@ -51,8 +50,12 @@
           "movable=yes", 
           "aeroway=gates"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22211603", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22211603, 
+        "sw_latitude": 53.628700, 
         "osm:node_ids": [
           318030021, 
           343180258, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": 10.003186, 
         "longitude": 53.628768, 
-        "ne_latitude": 53.628816, 
-        "woe:placetype": "building", 
         "sw_longitude": 10.002533, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.628816, 
         "latitude": 10.002855, 
         "woe:id": 2147863531, 
-        "sw_latitude": 53.628700
+        "osm:way_id": 28930598
       }
     }
   ]

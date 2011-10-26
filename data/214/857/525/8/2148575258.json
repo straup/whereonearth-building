@@ -35,15 +35,18 @@
       }, 
       "id": 2148575258, 
       "properties": {
-        "osm:way_id": 33548248, 
         "woe:parent": "223188195", 
         "name": "Museo delle Navi Romane (2009:chiuso)", 
         "tags": [
           "name=Museo delle Navi Romane (20098cchiuso)", 
           "tourism=museum"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=223188195", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22318195, 
+        "sw_latitude": 41.786863, 
         "osm:node_ids": [
           382939883, 
           382939885, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 12.254438, 
         "longitude": 41.787056, 
-        "ne_latitude": 41.787249, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.253871, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.787249, 
         "latitude": 12.254155, 
         "woe:id": 2148575258, 
-        "sw_latitude": 41.786863
+        "osm:way_id": 33548248
       }
     }
   ]

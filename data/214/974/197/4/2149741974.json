@@ -35,7 +35,6 @@
       }, 
       "id": 2149741974, 
       "properties": {
-        "osm:way_id": 42414178, 
         "woe:parent": "22461793", 
         "name": "Hangar 360", 
         "tags": [
@@ -44,8 +43,12 @@
           "aeroway=hangar", 
           "alt_name=FRA Building"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22461793", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22461793, 
+        "sw_latitude": 54.513922, 
         "osm:node_ids": [
           529534090, 
           529534087, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -1.426670, 
         "longitude": 54.514218, 
-        "ne_latitude": 54.514520, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.427325, 
+        "woe:placetype": "building", 
+        "ne_latitude": 54.514520, 
         "latitude": -1.427002, 
         "woe:id": 2149741974, 
-        "sw_latitude": 54.513922
+        "osm:way_id": 42414178
       }
     }
   ]

@@ -43,15 +43,18 @@
       }, 
       "id": 2147877470, 
       "properties": {
-        "osm:way_id": 29109435, 
         "woe:parent": "22442771", 
         "name": "Bahnhofterminal", 
         "tags": [
           "layer=1", 
           "name=Bahnhofterminal"
         ], 
-        "hierarchy": "woe:country=23424957", 
+        "hierarchy": [
+          "woe:airport=22442771", 
+          "woe:country=23424957"
+        ], 
         "parent_woeid": 22442771, 
+        "sw_latitude": 47.449715, 
         "osm:node_ids": [
           320195933, 
           318782741, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 8.563040, 
         "longitude": 47.450045, 
-        "ne_latitude": 47.450313, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.562096, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.450313, 
         "latitude": 8.562538, 
         "woe:id": 2147877470, 
-        "sw_latitude": 47.449715
+        "osm:way_id": 29109435
       }
     }
   ]

@@ -43,7 +43,6 @@
       }, 
       "id": 2149539497, 
       "properties": {
-        "osm:way_id": 40752003, 
         "woe:parent": "221640886", 
         "name": "FOX", 
         "tags": [
@@ -56,8 +55,12 @@
           "operator=FOX", 
           "addr:street=Kapweg"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=221640886", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22164086, 
+        "sw_latitude": 52.550217, 
         "osm:node_ids": [
           495282514, 
           495282518, 
@@ -69,12 +72,12 @@
         ], 
         "ne_longitude": 13.297608, 
         "longitude": 52.550402, 
-        "ne_latitude": 52.550518, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.297210, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.550518, 
         "latitude": 13.297430, 
         "woe:id": 2149539497, 
-        "sw_latitude": 52.550217
+        "osm:way_id": 40752003
       }
     }
   ]

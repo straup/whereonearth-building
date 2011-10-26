@@ -91,7 +91,6 @@
       }, 
       "id": 2151525640, 
       "properties": {
-        "osm:way_id": 48386360, 
         "woe:parent": "125125889", 
         "name": "K\u00e6rhuset", 
         "tags": [
@@ -101,8 +100,12 @@
           "name=K\u00e6rhuset", 
           "addr:street=K\u00e6rhusvej"
         ], 
-        "hierarchy": "woe:country=23424796", 
+        "hierarchy": [
+          "woe:airport=125125889", 
+          "woe:country=23424796"
+        ], 
         "parent_woeid": 12512589, 
+        "sw_latitude": 55.721748, 
         "osm:node_ids": [
           614553813, 
           614553815, 
@@ -126,12 +129,12 @@
         ], 
         "ne_longitude": 9.108854, 
         "longitude": 55.722047, 
-        "ne_latitude": 55.722297, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.108029, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.722297, 
         "latitude": 9.108448, 
         "woe:id": 2151525640, 
-        "sw_latitude": 55.721748
+        "osm:way_id": 48386360
       }
     }
   ]

@@ -35,15 +35,18 @@
       }, 
       "id": 2153908652, 
       "properties": {
-        "osm:way_id": 53872064, 
         "woe:parent": "125175880", 
         "name": "Iglesia de Estarrona", 
         "tags": [
           "amenity=place_of_worship", 
           "name=Iglesia de Estarrona"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=125175880", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 12517580, 
+        "sw_latitude": 42.866527, 
         "osm:node_ids": [
           680111864, 
           680111866, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -2.747689, 
         "longitude": 42.866621, 
-        "ne_latitude": 42.866723, 
-        "woe:placetype": "building", 
         "sw_longitude": -2.748150, 
+        "woe:placetype": "building", 
+        "ne_latitude": 42.866723, 
         "latitude": -2.747912, 
         "woe:id": 2153908652, 
-        "sw_latitude": 42.866527
+        "osm:way_id": 53872064
       }
     }
   ]

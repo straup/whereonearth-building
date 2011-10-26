@@ -39,15 +39,18 @@
       }, 
       "id": 2148411631, 
       "properties": {
-        "osm:way_id": 31860414, 
         "woe:parent": "12512614", 
         "name": "Caros Y Repuestas", 
         "tags": [
           "name=Caros Y Repuestas", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=234248800", 
+        "hierarchy": [
+          "woe:airport=12512614", 
+          "woe:country=234248800"
+        ], 
         "parent_woeid": 12512614, 
+        "sw_latitude": 19.458289, 
         "osm:node_ids": [
           356704401, 
           356705645, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": -70.693475, 
         "longitude": 19.458463, 
-        "ne_latitude": 19.458638, 
-        "woe:placetype": "building", 
         "sw_longitude": -70.693995, 
+        "woe:placetype": "building", 
+        "ne_latitude": 19.458638, 
         "latitude": -70.693734, 
         "woe:id": 2148411631, 
-        "sw_latitude": 19.458289
+        "osm:way_id": 31860414
       }
     }
   ]

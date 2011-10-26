@@ -35,14 +35,17 @@
       }, 
       "id": 2147516636, 
       "properties": {
-        "osm:way_id": 23399230, 
         "woe:parent": "248875607", 
         "name": "\u6a5f\u5834\u7ba1\u7406\u5c40\u7dad\u4fee\u7e3d\u90e8 Airport Authority Maintenance Headquarters", 
         "tags": [
           "name=\u6a5f\u5834\u7ba1\u7406\u5c40\u7dad\u4fee\u7e3d\u90e8 Airport Authority Maintenance Headquarters"
         ], 
-        "hierarchy": "woe:country=2488656988", 
+        "hierarchy": [
+          "woe:airport=248875607", 
+          "woe:country=2488656988"
+        ], 
         "parent_woeid": 24875607, 
+        "sw_latitude": 22.319391, 
         "osm:node_ids": [
           253337092, 
           253337093, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 113.934982, 
         "longitude": 22.319734, 
-        "ne_latitude": 22.320074, 
-        "woe:placetype": "building", 
         "sw_longitude": 113.933617, 
+        "woe:placetype": "building", 
+        "ne_latitude": 22.320074, 
         "latitude": 113.934295, 
         "woe:id": 2147516636, 
-        "sw_latitude": 22.319391
+        "osm:way_id": 23399230
       }
     }
   ]

@@ -51,15 +51,18 @@
       }, 
       "id": 2152890508, 
       "properties": {
-        "osm:way_id": 51843900, 
         "woe:parent": "2245088588", 
         "name": "CHC", 
         "tags": [
           "name=CHC", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=2245088588", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22450858, 
+        "sw_latitude": 57.204513, 
         "osm:node_ids": [
           661314247, 
           661314248, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": -2.207160, 
         "longitude": 57.204760, 
-        "ne_latitude": 57.204987, 
-        "woe:placetype": "building", 
         "sw_longitude": -2.208057, 
+        "woe:placetype": "building", 
+        "ne_latitude": 57.204987, 
         "latitude": -2.207596, 
         "woe:id": 2152890508, 
-        "sw_latitude": 57.204513
+        "osm:way_id": 51843900
       }
     }
   ]

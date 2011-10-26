@@ -39,14 +39,17 @@
       }, 
       "id": 2147515721, 
       "properties": {
-        "osm:way_id": 23361923, 
         "woe:parent": "23024911", 
         "name": "Halle 8", 
         "tags": [
           "name=Halle 88"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.286600, 
         "osm:node_ids": [
           252952301, 
           252952302, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": 6.782388, 
         "longitude": 51.287316, 
-        "ne_latitude": 51.288039, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.779916, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.288039, 
         "latitude": 6.781152, 
         "woe:id": 2147515721, 
-        "sw_latitude": 51.286600
+        "osm:way_id": 23361923
       }
     }
   ]

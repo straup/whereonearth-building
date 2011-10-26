@@ -67,7 +67,6 @@
       }, 
       "id": 2151592223, 
       "properties": {
-        "osm:way_id": 48642100, 
         "woe:parent": "223886730", 
         "name": "Sportcentrum de Wildenhorst", 
         "tags": [
@@ -82,8 +81,12 @@
           "3dshapes:ggmodelk=1", 
           "addr:street=Sloterweg"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.333385, 
         "osm:node_ids": [
           617689617, 
           617689666, 
@@ -101,12 +104,12 @@
         ], 
         "ne_longitude": 4.771664, 
         "longitude": 52.334124, 
-        "ne_latitude": 52.334923, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.769738, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.334923, 
         "latitude": 4.770774, 
         "woe:id": 2151592223, 
-        "sw_latitude": 52.333385
+        "osm:way_id": 48642100
       }
     }
   ]

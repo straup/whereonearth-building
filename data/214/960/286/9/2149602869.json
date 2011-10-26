@@ -35,7 +35,6 @@
       }, 
       "id": 2149602869, 
       "properties": {
-        "osm:way_id": 41372407, 
         "woe:parent": "125110388", 
         "name": "LAMP", 
         "tags": [
@@ -44,8 +43,12 @@
           "alt_name=Laborat\u00f3rio de Automa\u00e7\u00e3o da Medi\u00e7\u00e3o em Petr\u00f3leo", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.843772, 
         "osm:node_ids": [
           506025689, 
           506025691, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -35.197268, 
         "longitude": -5.843568, 
-        "ne_latitude": -5.843363, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.197460, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.843363, 
         "latitude": -35.197364, 
         "woe:id": 2149602869, 
-        "sw_latitude": -5.843772
+        "osm:way_id": 41372407
       }
     }
   ]

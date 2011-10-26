@@ -39,15 +39,18 @@
       }, 
       "id": 2152108867, 
       "properties": {
-        "osm:way_id": 49905490, 
         "woe:parent": "12511112", 
         "name": "Atacad\u00e3o", 
         "tags": [
           "shop=supermarket", 
           "name=Atacad\u00e3o"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=12511112", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511112, 
+        "sw_latitude": -12.876749, 
         "osm:node_ids": [
           634224384, 
           634224385, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": -38.309349, 
         "longitude": -12.876030, 
-        "ne_latitude": -12.875329, 
-        "woe:placetype": "building", 
         "sw_longitude": -38.310657, 
+        "woe:placetype": "building", 
+        "ne_latitude": -12.875329, 
         "latitude": -38.310020, 
         "woe:id": 2152108867, 
-        "sw_latitude": -12.876749
+        "osm:way_id": 49905490
       }
     }
   ]

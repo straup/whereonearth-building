@@ -43,14 +43,17 @@
       }, 
       "id": 2152630409, 
       "properties": {
-        "osm:way_id": 51176384, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=11", 
           "addr:street=K\u00fcnnekeweg"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.416345, 
         "osm:node_ids": [
           652819946, 
           652819948, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": 13.516381, 
         "longitude": 52.416445, 
-        "ne_latitude": 52.416562, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.516074, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.416562, 
         "latitude": 13.516235, 
         "woe:id": 2152630409, 
-        "sw_latitude": 52.416345
+        "osm:way_id": 51176384
       }
     }
   ]

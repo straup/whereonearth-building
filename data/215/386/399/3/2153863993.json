@@ -43,14 +43,17 @@
       }, 
       "id": 2153863993, 
       "properties": {
-        "osm:way_id": 53751960, 
         "woe:parent": "12513775", 
         "name": "Eastern Maintanance Area Building 3", 
         "tags": [
           "name=Eastern Maintanance Area Building 3"
         ], 
-        "hierarchy": "woe:country=234248852", 
+        "hierarchy": [
+          "woe:airport=12513775", 
+          "woe:country=234248852"
+        ], 
         "parent_woeid": 12513775, 
+        "sw_latitude": 31.997600, 
         "osm:node_ids": [
           678552688, 
           678552689, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": 34.880863, 
         "longitude": 31.997974, 
-        "ne_latitude": 31.998377, 
-        "woe:placetype": "building", 
         "sw_longitude": 34.879935, 
+        "woe:placetype": "building", 
+        "ne_latitude": 31.998377, 
         "latitude": 34.880402, 
         "woe:id": 2153863993, 
-        "sw_latitude": 31.997600
+        "osm:way_id": 53751960
       }
     }
   ]

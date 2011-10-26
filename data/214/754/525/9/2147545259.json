@@ -35,15 +35,18 @@
       }, 
       "id": 2147545259, 
       "properties": {
-        "osm:way_id": 23778300, 
         "woe:parent": "12511754", 
         "tags": [
           "created_by=Potlatch 0.88a", 
           "icao=CYQM", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=12511754", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511754, 
+        "sw_latitude": 46.114398, 
         "osm:node_ids": [
           257657244, 
           257657246, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -64.686059, 
         "longitude": 46.115616, 
-        "ne_latitude": 46.116825, 
-        "woe:placetype": "building", 
         "sw_longitude": -64.689492, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.116825, 
         "latitude": -64.687781, 
         "woe:id": 2147545259, 
-        "sw_latitude": 46.114398
+        "osm:way_id": 23778300
       }
     }
   ]

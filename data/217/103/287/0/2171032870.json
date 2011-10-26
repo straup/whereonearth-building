@@ -35,7 +35,6 @@
       }, 
       "id": 2171032870, 
       "properties": {
-        "osm:way_id": 87540009, 
         "woe:parent": "12522975", 
         "name": "Ministry of Mines & Energy", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Ministry of Mines & Energy", 
           "addr:housename=Ministry of Mines & Energy"
         ], 
-        "hierarchy": "woe:country=234249887", 
+        "hierarchy": [
+          "woe:airport=12522975", 
+          "woe:country=234249887"
+        ], 
         "parent_woeid": 12522975, 
+        "sw_latitude": -22.604674, 
         "osm:node_ids": [
           1018418297, 
           1018418293, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 17.086008, 
         "longitude": -22.602023, 
-        "ne_latitude": -22.598381, 
-        "woe:placetype": "building", 
         "sw_longitude": 17.082286, 
+        "woe:placetype": "building", 
+        "ne_latitude": -22.598381, 
         "latitude": 17.083932, 
         "woe:id": 2171032870, 
-        "sw_latitude": -22.604674
+        "osm:way_id": 87540009
       }
     }
   ]

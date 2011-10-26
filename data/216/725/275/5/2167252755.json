@@ -51,15 +51,18 @@
       }, 
       "id": 2167252755, 
       "properties": {
-        "osm:way_id": 79999528, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=1", 
           "building:use=residential", 
           "addr:street=Stra\u00dfe des Friedens"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.381465, 
         "osm:node_ids": [
           933601105, 
           933602136, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": 13.460864, 
         "longitude": 52.381711, 
-        "ne_latitude": 52.381955, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.460401, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.381955, 
         "latitude": 13.460633, 
         "woe:id": 2167252755, 
-        "sw_latitude": 52.381465
+        "osm:way_id": 79999528
       }
     }
   ]

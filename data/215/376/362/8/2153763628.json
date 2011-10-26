@@ -135,15 +135,18 @@
       }, 
       "id": 2153763628, 
       "properties": {
-        "osm:way_id": 53558390, 
         "woe:parent": "125128892", 
         "tags": [
           "addr:housenumber=21", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour 8c 2010", 
           "addr:street=Rue des An\u00e9mones"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128892", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512892, 
+        "sw_latitude": 48.535744, 
         "osm:node_ids": [
           676612465, 
           676612467, 
@@ -178,12 +181,12 @@
         ], 
         "ne_longitude": 7.644476, 
         "longitude": 48.535843, 
-        "ne_latitude": 48.535920, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.644258, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.535920, 
         "latitude": 7.644354, 
         "woe:id": 2153763628, 
-        "sw_latitude": 48.535744
+        "osm:way_id": 53558390
       }
     }
   ]

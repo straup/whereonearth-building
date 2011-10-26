@@ -43,14 +43,17 @@
       }, 
       "id": 2147919871, 
       "properties": {
-        "osm:way_id": 29530389, 
         "woe:parent": "125198874", 
         "tags": [
           "area=yes", 
           "source=MassGIS Buildings (http8c8s8swww.mass.gov8smgis8slidarbuildingfp2d.htm)"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125198874", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519874, 
+        "sw_latitude": 42.373151, 
         "osm:node_ids": [
           325491936, 
           325491939, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": -70.991547, 
         "longitude": 42.373209, 
-        "ne_latitude": 42.373271, 
-        "woe:placetype": "building", 
         "sw_longitude": -70.991786, 
+        "woe:placetype": "building", 
+        "ne_latitude": 42.373271, 
         "latitude": -70.991672, 
         "woe:id": 2147919871, 
-        "sw_latitude": 42.373151
+        "osm:way_id": 29530389
       }
     }
   ]

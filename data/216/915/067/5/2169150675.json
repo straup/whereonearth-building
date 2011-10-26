@@ -43,15 +43,18 @@
       }, 
       "id": 2169150675, 
       "properties": {
-        "osm:way_id": 83895524, 
         "woe:parent": "125209883", 
         "tags": [
           "source=usgs_imagery_20088;survey;image", 
           "ref=Bldg 79", 
           "source_ref=AM909_DSCW1295"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.055567, 
         "osm:node_ids": [
           976520942, 
           976520178, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": -118.154043, 
         "longitude": 35.055886, 
-        "ne_latitude": 35.056205, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.154328, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.056205, 
         "latitude": -118.154186, 
         "woe:id": 2169150675, 
-        "sw_latitude": 35.055567
+        "osm:way_id": 83895524
       }
     }
   ]

@@ -43,14 +43,17 @@
       }, 
       "id": 2149723137, 
       "properties": {
-        "osm:way_id": 42297111, 
         "woe:parent": "22177393", 
         "name": "Postbriefzentrum 28", 
         "tags": [
           "name=Postbriefzentrum 288"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22177393", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22177393, 
+        "sw_latitude": 53.050587, 
         "osm:node_ids": [
           527797179, 
           527797180, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": 8.777076, 
         "longitude": 53.051277, 
-        "ne_latitude": 53.051939, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.774699, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.051939, 
         "latitude": 8.775883, 
         "woe:id": 2149723137, 
-        "sw_latitude": 53.050587
+        "osm:way_id": 42297111
       }
     }
   ]

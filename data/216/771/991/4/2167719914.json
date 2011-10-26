@@ -35,7 +35,6 @@
       }, 
       "id": 2167719914, 
       "properties": {
-        "osm:way_id": 81012895, 
         "woe:parent": "23365569", 
         "tags": [
           "addr:housenumber=36", 
@@ -44,8 +43,12 @@
           "addr:country=CH", 
           "addr:street=Avenue de la Foretaille"
         ], 
-        "hierarchy": "woe:country=23424957", 
+        "hierarchy": [
+          "woe:airport=23365569", 
+          "woe:country=23424957"
+        ], 
         "parent_woeid": 23365569, 
+        "sw_latitude": 46.243950, 
         "osm:node_ids": [
           944464519, 
           944464522, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": 6.130259, 
         "longitude": 46.243998, 
-        "ne_latitude": 46.244046, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.130082, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.244046, 
         "latitude": 6.130170, 
         "woe:id": 2167719914, 
-        "sw_latitude": 46.243950
+        "osm:way_id": 81012895
       }
     }
   ]

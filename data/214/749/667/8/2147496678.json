@@ -35,14 +35,17 @@
       }, 
       "id": 2147496678, 
       "properties": {
-        "osm:way_id": 19322348, 
         "woe:parent": "12511594", 
         "name": "NovAtel Inc.", 
         "tags": [
           "name=NovAtel Inc."
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=12511594", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511594, 
+        "sw_latitude": 51.116027, 
         "osm:node_ids": [
           200765982, 
           200765995, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -114.037511, 
         "longitude": 51.116316, 
-        "ne_latitude": 51.116604, 
-        "woe:placetype": "building", 
         "sw_longitude": -114.038740, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.116604, 
         "latitude": -114.038126, 
         "woe:id": 2147496678, 
-        "sw_latitude": 51.116027
+        "osm:way_id": 19322348
       }
     }
   ]

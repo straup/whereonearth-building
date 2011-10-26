@@ -67,14 +67,17 @@
       }, 
       "id": 2165869690, 
       "properties": {
-        "osm:way_id": 76779975, 
         "woe:parent": "22276234", 
         "name": "Technische Instandhaltung", 
         "tags": [
           "name=Technische Instandhaltung"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.364023, 
         "osm:node_ids": [
           904514406, 
           904514418, 
@@ -92,12 +95,12 @@
         ], 
         "ne_longitude": 13.528740, 
         "longitude": 52.364454, 
-        "ne_latitude": 52.364898, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.527465, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.364898, 
         "latitude": 13.528106, 
         "woe:id": 2165869690, 
-        "sw_latitude": 52.364023
+        "osm:way_id": 76779975
       }
     }
   ]

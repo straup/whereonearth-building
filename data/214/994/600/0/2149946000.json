@@ -35,14 +35,17 @@
       }, 
       "id": 2149946000, 
       "properties": {
-        "osm:way_id": 43286899, 
         "woe:parent": "125108854", 
         "name": "Vlaams Luchtvaart Opleidings Centrum", 
         "tags": [
           "name=Vlaams Luchtvaart Opleidings Centrum"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=125108854", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 12510854, 
+        "sw_latitude": 51.199713, 
         "osm:node_ids": [
           543807341, 
           543807312, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 2.856022, 
         "longitude": 51.200118, 
-        "ne_latitude": 51.200518, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.854793, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.200518, 
         "latitude": 2.855411, 
         "woe:id": 2149946000, 
-        "sw_latitude": 51.199713
+        "osm:way_id": 43286899
       }
     }
   ]

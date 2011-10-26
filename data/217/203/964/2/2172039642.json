@@ -43,7 +43,6 @@
       }, 
       "id": 2172039642, 
       "properties": {
-        "osm:way_id": 89803157, 
         "woe:parent": "12521322", 
         "tags": [
           "addr:housenumber=29", 
@@ -52,8 +51,12 @@
           "addr:country=US", 
           "addr:street=Airport Road"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521322", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521322, 
+        "sw_latitude": 43.067570, 
         "osm:node_ids": [
           1040888097, 
           1040887972, 
@@ -65,12 +68,12 @@
         ], 
         "ne_longitude": -70.828163, 
         "longitude": 43.067616, 
-        "ne_latitude": 43.067664, 
-        "woe:placetype": "building", 
         "sw_longitude": -70.828355, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.067664, 
         "latitude": -70.828259, 
         "woe:id": 2172039642, 
-        "sw_latitude": 43.067570
+        "osm:way_id": 89803157
       }
     }
   ]

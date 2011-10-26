@@ -35,7 +35,6 @@
       }, 
       "id": 2166096615, 
       "properties": {
-        "osm:way_id": 77470495, 
         "woe:parent": "22309691", 
         "name": "Supernova Car Outlet", 
         "tags": [
@@ -47,8 +46,12 @@
           "addr:country=IT", 
           "addr:street=Via Piemonte"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=22309691", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22309691, 
+        "sw_latitude": 45.663363, 
         "osm:node_ids": [
           911859163, 
           911858726, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": 9.700555, 
         "longitude": 45.663588, 
-        "ne_latitude": 45.663811, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.699922, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.663811, 
         "latitude": 9.700239, 
         "woe:id": 2166096615, 
-        "sw_latitude": 45.663363
+        "osm:way_id": 77470495
       }
     }
   ]

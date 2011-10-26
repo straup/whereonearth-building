@@ -67,7 +67,6 @@
       }, 
       "id": 2148736391, 
       "properties": {
-        "osm:way_id": 35667218, 
         "woe:parent": "125138850", 
         "name": "Torre pendente di Pisa", 
         "tags": [
@@ -82,8 +81,12 @@
           "tower:type=bell_tower", 
           "tourism=attraction"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=125138850", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 12513850, 
+        "sw_latitude": 43.722970, 
         "osm:node_ids": [
           417641718, 
           417641719, 
@@ -101,12 +104,12 @@
         ], 
         "ne_longitude": 10.396713, 
         "longitude": 43.723046, 
-        "ne_latitude": 43.723120, 
-        "woe:placetype": "building", 
         "sw_longitude": 10.396509, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.723120, 
         "latitude": 10.396614, 
         "woe:id": 2148736391, 
-        "sw_latitude": 43.722970
+        "osm:way_id": 35667218
       }
     }
   ]

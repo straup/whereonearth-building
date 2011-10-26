@@ -43,7 +43,6 @@
       }, 
       "id": 2170007083, 
       "properties": {
-        "osm:way_id": 85334400, 
         "woe:parent": "228851127", 
         "name": "Skelg\u00e5rdskirken", 
         "tags": [
@@ -52,8 +51,12 @@
           "denomination=lutheran", 
           "religion=christian"
         ], 
-        "hierarchy": "woe:country=23424796", 
+        "hierarchy": [
+          "woe:airport=228851127", 
+          "woe:country=23424796"
+        ], 
         "parent_woeid": 22851127, 
+        "sw_latitude": 55.602693, 
         "osm:node_ids": [
           989308906, 
           989309170, 
@@ -65,12 +68,12 @@
         ], 
         "ne_longitude": 12.588271, 
         "longitude": 55.602901, 
-        "ne_latitude": 55.603111, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.587379, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.603111, 
         "latitude": 12.587813, 
         "woe:id": 2170007083, 
-        "sw_latitude": 55.602693
+        "osm:way_id": 85334400
       }
     }
   ]

@@ -95,15 +95,18 @@
       }, 
       "id": 2149550205, 
       "properties": {
-        "osm:way_id": 40847193, 
         "woe:parent": "1251548888", 
         "name": "Amphi Th\u00e9r\u00e9sien Cadet", 
         "tags": [
           "name=Amphi Th\u00e9r\u00e9sien Cadet", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre ; mise \u00e0 jour 8c 20088"
         ], 
-        "hierarchy": "woe:country=23424931", 
+        "hierarchy": [
+          "woe:airport=1251548888", 
+          "woe:country=23424931"
+        ], 
         "parent_woeid": 12515488, 
+        "sw_latitude": -20.902421, 
         "osm:node_ids": [
           496953584, 
           496953587, 
@@ -128,12 +131,12 @@
         ], 
         "ne_longitude": 55.484918, 
         "longitude": -20.902285, 
-        "ne_latitude": -20.902140, 
-        "woe:placetype": "building", 
         "sw_longitude": 55.484618, 
+        "woe:placetype": "building", 
+        "ne_latitude": -20.902140, 
         "latitude": 55.484765, 
         "woe:id": 2149550205, 
-        "sw_latitude": -20.902421
+        "osm:way_id": 40847193
       }
     }
   ]

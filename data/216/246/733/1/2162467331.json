@@ -63,14 +63,17 @@
       }, 
       "id": 2162467331, 
       "properties": {
-        "osm:way_id": 70644814, 
         "woe:parent": "2338888202", 
         "name": "Mercedes Benz", 
         "tags": [
           "name=Mercedes Benz"
         ], 
-        "hierarchy": "woe:country=234247488", 
+        "hierarchy": [
+          "woe:airport=2338888202", 
+          "woe:country=234247488"
+        ], 
         "parent_woeid": 23388202, 
+        "sw_latitude": -37.674019, 
         "osm:node_ids": [
           842838308, 
           842838309, 
@@ -87,12 +90,12 @@
         ], 
         "ne_longitude": 144.856100, 
         "longitude": -37.673801, 
-        "ne_latitude": -37.673533, 
-        "woe:placetype": "building", 
         "sw_longitude": 144.855421, 
+        "woe:placetype": "building", 
+        "ne_latitude": -37.673533, 
         "latitude": 144.855770, 
         "woe:id": 2162467331, 
-        "sw_latitude": -37.674019
+        "osm:way_id": 70644814
       }
     }
   ]

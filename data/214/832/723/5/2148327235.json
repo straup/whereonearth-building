@@ -35,7 +35,6 @@
       }, 
       "id": 2148327235, 
       "properties": {
-        "osm:way_id": 31237920, 
         "woe:parent": "12512643", 
         "name": "Instituto de Altos Estudios Nacionales", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Instituto de Altos Estudios Nacionales", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=234248801", 
+        "hierarchy": [
+          "woe:airport=12512643", 
+          "woe:country=234248801"
+        ], 
         "parent_woeid": 12512643, 
+        "sw_latitude": -0.173732, 
         "osm:node_ids": [
           347314990, 
           347314991, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -78.485381, 
         "longitude": -0.173582, 
-        "ne_latitude": -0.173423, 
-        "woe:placetype": "building", 
         "sw_longitude": -78.485605, 
+        "woe:placetype": "building", 
+        "ne_latitude": -0.173423, 
         "latitude": -78.485488, 
         "woe:id": 2148327235, 
-        "sw_latitude": -0.173732
+        "osm:way_id": 31237920
       }
     }
   ]

@@ -35,14 +35,17 @@
       }, 
       "id": 2173146435, 
       "properties": {
-        "osm:way_id": 92205087, 
         "woe:parent": "22235735", 
         "name": "Landekurssender S\u00fcd-West", 
         "tags": [
           "name=Landekurssender S\u00fcd-West"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22235735", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22235735, 
+        "sw_latitude": 52.455750, 
         "osm:node_ids": [
           1070491621, 
           1070491625, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 9.673094, 
         "longitude": 52.455775, 
-        "ne_latitude": 52.455799, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.673012, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.455799, 
         "latitude": 9.673053, 
         "woe:id": 2173146435, 
-        "sw_latitude": 52.455750
+        "osm:way_id": 92205087
       }
     }
   ]

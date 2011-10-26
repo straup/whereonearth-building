@@ -111,13 +111,16 @@
       }, 
       "id": 2164613800, 
       "properties": {
-        "osm:way_id": 74287470, 
         "woe:parent": "12513199", 
         "tags": [
           "addr:housenumber=Geb. 1088"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.083798, 
         "osm:node_ids": [
           878414531, 
           878414236, 
@@ -146,12 +149,12 @@
         ], 
         "ne_longitude": 11.277380, 
         "longitude": 48.083871, 
-        "ne_latitude": 48.083955, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.277079, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.083955, 
         "latitude": 11.277241, 
         "woe:id": 2164613800, 
-        "sw_latitude": 48.083798
+        "osm:way_id": 74287470
       }
     }
   ]

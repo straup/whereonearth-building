@@ -59,15 +59,18 @@
       }, 
       "id": 2153763561, 
       "properties": {
-        "osm:way_id": 53558317, 
         "woe:parent": "125128892", 
         "tags": [
           "addr:housenumber=5", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour 8c 2010", 
           "addr:street=Impasse des Mirabelles"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128892", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512892, 
+        "sw_latitude": 48.533727, 
         "osm:node_ids": [
           676611914, 
           676611863, 
@@ -83,12 +86,12 @@
         ], 
         "ne_longitude": 7.641479, 
         "longitude": 48.533786, 
-        "ne_latitude": 48.533836, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.641326, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.533836, 
         "latitude": 7.641402, 
         "woe:id": 2153763561, 
-        "sw_latitude": 48.533727
+        "osm:way_id": 53558317
       }
     }
   ]

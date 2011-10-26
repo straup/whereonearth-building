@@ -35,14 +35,17 @@
       }, 
       "id": 2149319326, 
       "properties": {
-        "osm:way_id": 38414885, 
         "woe:parent": "12521741", 
         "name": "El Dorado Apartments", 
         "tags": [
           "name=El Dorado Apartments"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.416390, 
         "osm:node_ids": [
           454076397, 
           454076398, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -119.861002, 
         "longitude": 34.416817, 
-        "ne_latitude": 34.417243, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.861447, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.417243, 
         "latitude": -119.861225, 
         "woe:id": 2149319326, 
-        "sw_latitude": 34.416390
+        "osm:way_id": 38414885
       }
     }
   ]

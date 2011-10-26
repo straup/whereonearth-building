@@ -95,7 +95,6 @@
       }, 
       "id": 2147525437, 
       "properties": {
-        "osm:way_id": 23655533, 
         "woe:parent": "12521721", 
         "name": "Domestic Garage", 
         "tags": [
@@ -103,8 +102,12 @@
           "name=Domestic Garage", 
           "created_by=Potlatch 0.10b"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521721", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521721, 
+        "sw_latitude": 37.615077, 
         "osm:node_ids": [
           256306030, 
           256306031, 
@@ -129,12 +132,12 @@
         ], 
         "ne_longitude": -122.384518, 
         "longitude": 37.616340, 
-        "ne_latitude": 37.617601, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.387889, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.617601, 
         "latitude": -122.386220, 
         "woe:id": 2147525437, 
-        "sw_latitude": 37.615077
+        "osm:way_id": 23655533
       }
     }
   ]

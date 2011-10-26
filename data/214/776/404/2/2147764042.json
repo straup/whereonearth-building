@@ -35,7 +35,6 @@
       }, 
       "id": 2147764042, 
       "properties": {
-        "osm:way_id": 27637993, 
         "woe:parent": "12520772", 
         "name": "Ammon Center", 
         "tags": [
@@ -43,8 +42,12 @@
           "created_by=Potlatch 0.10d", 
           "source=image"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12520772", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520772, 
+        "sw_latitude": 42.933162, 
         "osm:node_ids": [
           303546524, 
           303546525, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -71.438383, 
         "longitude": 42.933592, 
-        "ne_latitude": 42.934010, 
-        "woe:placetype": "building", 
         "sw_longitude": -71.439061, 
+        "woe:placetype": "building", 
+        "ne_latitude": 42.934010, 
         "latitude": -71.438721, 
         "woe:id": 2147764042, 
-        "sw_latitude": 42.933162
+        "osm:way_id": 27637993
       }
     }
   ]

@@ -139,7 +139,6 @@
       }, 
       "id": 2147805979, 
       "properties": {
-        "osm:way_id": 28273576, 
         "woe:parent": "22276234", 
         "name": "Hornbach", 
         "tags": [
@@ -151,8 +150,12 @@
           "addr:country=DE", 
           "addr:street=Gr\u00fcnbergallee"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.396695, 
         "osm:node_ids": [
           310484013, 
           310484386, 
@@ -188,12 +191,12 @@
         ], 
         "ne_longitude": 13.546141, 
         "longitude": 52.397746, 
-        "ne_latitude": 52.398283, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.542699, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.398283, 
         "latitude": 13.544606, 
         "woe:id": 2147805979, 
-        "sw_latitude": 52.396695
+        "osm:way_id": 28273576
       }
     }
   ]

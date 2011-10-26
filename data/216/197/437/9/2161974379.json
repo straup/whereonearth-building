@@ -47,7 +47,6 @@
       }, 
       "id": 2161974379, 
       "properties": {
-        "osm:way_id": 69863670, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=523", 
@@ -56,8 +55,12 @@
           "addr:country=DE", 
           "addr:street=Glienicker Weg"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.399779, 
         "osm:node_ids": [
           835197358, 
           835197252, 
@@ -70,12 +73,12 @@
         ], 
         "ne_longitude": 13.553374, 
         "longitude": 52.399873, 
-        "ne_latitude": 52.399988, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.553192, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.399988, 
         "latitude": 13.553288, 
         "woe:id": 2161974379, 
-        "sw_latitude": 52.399779
+        "osm:way_id": 69863670
       }
     }
   ]

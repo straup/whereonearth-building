@@ -59,7 +59,6 @@
       }, 
       "id": 2155969951, 
       "properties": {
-        "osm:way_id": 59048556, 
         "woe:parent": "248875607", 
         "name": "\u4e9e\u6d32\u7a7a\u904b\u4e2d\u5fc3 Asia Airfreight Terminal", 
         "tags": [
@@ -67,8 +66,12 @@
           "name=\u4e9e\u6d32\u7a7a\u904b\u4e2d\u5fc3 Asia Airfreight Terminal", 
           "name:zh=\u4e9e\u6d32\u7a7a\u904b\u4e2d\u5fc3"
         ], 
-        "hierarchy": "woe:country=2488656988", 
+        "hierarchy": [
+          "woe:airport=248875607", 
+          "woe:country=2488656988"
+        ], 
         "parent_woeid": 24875607, 
+        "sw_latitude": 22.296798, 
         "osm:node_ids": [
           731960118, 
           731960121, 
@@ -84,12 +87,12 @@
         ], 
         "ne_longitude": 113.923210, 
         "longitude": 22.297549, 
-        "ne_latitude": 22.298257, 
-        "woe:placetype": "building", 
         "sw_longitude": 113.920389, 
+        "woe:placetype": "building", 
+        "ne_latitude": 22.298257, 
         "latitude": 113.921815, 
         "woe:id": 2155969951, 
-        "sw_latitude": 22.296798
+        "osm:way_id": 59048556
       }
     }
   ]

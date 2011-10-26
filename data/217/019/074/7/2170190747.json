@@ -39,7 +39,6 @@
       }, 
       "id": 2170190747, 
       "properties": {
-        "osm:way_id": 85702063, 
         "woe:parent": "12511112", 
         "name": "Menor Pre\u00e7o", 
         "tags": [
@@ -47,8 +46,12 @@
           "name=Menor Pre\u00e7o", 
           "source=survey"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=12511112", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511112, 
+        "sw_latitude": -12.887962, 
         "osm:node_ids": [
           994633126, 
           994633132, 
@@ -59,12 +62,12 @@
         ], 
         "ne_longitude": -38.321489, 
         "longitude": -12.887823, 
-        "ne_latitude": -12.887735, 
-        "woe:placetype": "building", 
         "sw_longitude": -38.321730, 
+        "woe:placetype": "building", 
+        "ne_latitude": -12.887735, 
         "latitude": -38.321631, 
         "woe:id": 2170190747, 
-        "sw_latitude": -12.887962
+        "osm:way_id": 85702063
       }
     }
   ]

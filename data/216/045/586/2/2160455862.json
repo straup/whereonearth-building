@@ -35,7 +35,6 @@
       }, 
       "id": 2160455862, 
       "properties": {
-        "osm:way_id": 67266275, 
         "woe:parent": "12523409", 
         "tags": [
           "amenity=fuel", 
@@ -45,8 +44,12 @@
           "source=dcgis", 
           "operator=AAFES"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.840352, 
         "osm:node_ids": [
           812387276, 
           812387274, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": -77.016476, 
         "longitude": 38.840564, 
-        "ne_latitude": 38.840774, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.016680, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.840774, 
         "latitude": -77.016579, 
         "woe:id": 2160455862, 
-        "sw_latitude": 38.840352
+        "osm:way_id": 67266275
       }
     }
   ]

@@ -115,15 +115,18 @@
       }, 
       "id": 2152640643, 
       "properties": {
-        "osm:way_id": 51208291, 
         "woe:parent": "12515124", 
         "name": "Helikopterterminalen", 
         "tags": [
           "name=Helikopterterminalen", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424910", 
+        "hierarchy": [
+          "woe:airport=12515124", 
+          "woe:country=23424910"
+        ], 
         "parent_woeid": 12515124, 
+        "sw_latitude": 58.881188, 
         "osm:node_ids": [
           653387013, 
           653386801, 
@@ -153,12 +156,12 @@
         ], 
         "ne_longitude": 5.626205, 
         "longitude": 58.881627, 
-        "ne_latitude": 58.882042, 
-        "woe:placetype": "building", 
         "sw_longitude": 5.624451, 
+        "woe:placetype": "building", 
+        "ne_latitude": 58.882042, 
         "latitude": 5.625319, 
         "woe:id": 2152640643, 
-        "sw_latitude": 58.881188
+        "osm:way_id": 51208291
       }
     }
   ]

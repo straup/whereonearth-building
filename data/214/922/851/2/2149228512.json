@@ -43,7 +43,6 @@
       }, 
       "id": 2149228512, 
       "properties": {
-        "osm:way_id": 37412158, 
         "woe:parent": "12513205", 
         "name": "R\u00f6dertalschenke", 
         "tags": [
@@ -53,8 +52,12 @@
           "name=R\u00f6dertalschenke", 
           "addr:street=Radeburger Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.181200, 
         "osm:node_ids": [
           437201910, 
           437201914, 
@@ -66,12 +69,12 @@
         ], 
         "ne_longitude": 13.810139, 
         "longitude": 51.181269, 
-        "ne_latitude": 51.181329, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.809848, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.181329, 
         "latitude": 13.809994, 
         "woe:id": 2149228512, 
-        "sw_latitude": 51.181200
+        "osm:way_id": 37412158
       }
     }
   ]

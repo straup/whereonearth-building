@@ -43,15 +43,18 @@
       }, 
       "id": 2150131175, 
       "properties": {
-        "osm:way_id": 44423044, 
         "woe:parent": "22309691", 
         "name": "Brico OK", 
         "tags": [
           "shop=doityourself", 
           "name=Brico OK"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=22309691", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22309691, 
+        "sw_latitude": 45.664012, 
         "osm:node_ids": [
           564684957, 
           564684954, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 9.689013, 
         "longitude": 45.664250, 
-        "ne_latitude": 45.664487, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.688269, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.664487, 
         "latitude": 9.688641, 
         "woe:id": 2150131175, 
-        "sw_latitude": 45.664012
+        "osm:way_id": 44423044
       }
     }
   ]

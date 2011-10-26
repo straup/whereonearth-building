@@ -35,15 +35,18 @@
       }, 
       "id": 2150057377, 
       "properties": {
-        "osm:way_id": 44110319, 
         "woe:parent": "22269415", 
         "name": "Karcher Tauchtechnik", 
         "tags": [
           "addr:housenumber=B 301", 
           "name=Karcher Tauchtechnik"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.782786, 
         "osm:node_ids": [
           560547117, 
           560547120, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 8.094299, 
         "longitude": 48.782876, 
-        "ne_latitude": 48.782964, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.094058, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.782964, 
         "latitude": 8.094179, 
         "woe:id": 2150057377, 
-        "sw_latitude": 48.782786
+        "osm:way_id": 44110319
       }
     }
   ]

@@ -35,15 +35,18 @@
       }, 
       "id": 2156140354, 
       "properties": {
-        "osm:way_id": 59531746, 
         "woe:parent": "12515279", 
         "tags": [
           "addr:housenumber=67", 
           "addr:postcode=66-111", 
           "addr:street=Powsta\u0144c\u00f3w Wielkopolskich"
         ], 
-        "hierarchy": "woe:country=23424923", 
+        "hierarchy": [
+          "woe:airport=12515279", 
+          "woe:country=23424923"
+        ], 
         "parent_woeid": 12515279, 
+        "sw_latitude": 52.142761, 
         "osm:node_ids": [
           738259255, 
           738259105, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 15.775147, 
         "longitude": 52.142843, 
-        "ne_latitude": 52.142924, 
-        "woe:placetype": "building", 
         "sw_longitude": 15.774857, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.142924, 
         "latitude": 15.775002, 
         "woe:id": 2156140354, 
-        "sw_latitude": 52.142761
+        "osm:way_id": 59531746
       }
     }
   ]

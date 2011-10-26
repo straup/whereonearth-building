@@ -75,15 +75,18 @@
       }, 
       "id": 2148413903, 
       "properties": {
-        "osm:way_id": 31884127, 
         "woe:parent": "22140453", 
         "name": "Novotel", 
         "tags": [
           "name=Novotel", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=22140453", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 22140453, 
+        "sw_latitude": 49.009995, 
         "osm:node_ids": [
           357022848, 
           357022850, 
@@ -103,12 +106,12 @@
         ], 
         "ne_longitude": 2.561038, 
         "longitude": 49.010245, 
-        "ne_latitude": 49.010382, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.560271, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.010382, 
         "latitude": 2.560755, 
         "woe:id": 2148413903, 
-        "sw_latitude": 49.009995
+        "osm:way_id": 31884127
       }
     }
   ]

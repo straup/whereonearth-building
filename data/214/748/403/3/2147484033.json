@@ -67,7 +67,6 @@
       }, 
       "id": 2147484033, 
       "properties": {
-        "osm:way_id": 4446887, 
         "woe:parent": "22923040", 
         "name": "Parkhaus P6", 
         "tags": [
@@ -77,8 +76,12 @@
           "ref=P6", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22923040", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22923040, 
+        "sw_latitude": 48.354880, 
         "osm:node_ids": [
           27307228, 
           27308786, 
@@ -96,12 +99,12 @@
         ], 
         "ne_longitude": 11.786525, 
         "longitude": 48.355696, 
-        "ne_latitude": 48.356522, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.785148, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.356522, 
         "latitude": 11.785833, 
         "woe:id": 2147484033, 
-        "sw_latitude": 48.354880
+        "osm:way_id": 4446887
       }
     }
   ]

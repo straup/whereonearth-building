@@ -59,15 +59,18 @@
       }, 
       "id": 2147564138, 
       "properties": {
-        "osm:way_id": 24478521, 
         "woe:parent": "12517610", 
         "name": "Versailles", 
         "tags": [
           "name=Versailles", 
           "created_by=Potlatch 0.9a"
         ], 
-        "hierarchy": "woe:country=23424954", 
+        "hierarchy": [
+          "woe:airport=12517610", 
+          "woe:country=23424954"
+        ], 
         "parent_woeid": 12517610, 
+        "sw_latitude": 59.648515, 
         "osm:node_ids": [
           266147315, 
           266147316, 
@@ -83,12 +86,12 @@
         ], 
         "ne_longitude": 17.939479, 
         "longitude": 59.649013, 
-        "ne_latitude": 59.649404, 
-        "woe:placetype": "building", 
         "sw_longitude": 17.937909, 
+        "woe:placetype": "building", 
+        "ne_latitude": 59.649404, 
         "latitude": 17.938680, 
         "woe:id": 2147564138, 
-        "sw_latitude": 59.648515
+        "osm:way_id": 24478521
       }
     }
   ]

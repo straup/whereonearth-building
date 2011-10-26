@@ -35,14 +35,17 @@
       }, 
       "id": 2149416341, 
       "properties": {
-        "osm:way_id": 39496728, 
         "woe:parent": "12517539", 
         "name": "Terminal de Autoridades", 
         "tags": [
           "name=Terminal de Autoridades"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=12517539", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 12517539, 
+        "sw_latitude": 40.457355, 
         "osm:node_ids": [
           473118688, 
           473118689, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -3.577985, 
         "longitude": 40.457625, 
-        "ne_latitude": 40.457891, 
-        "woe:placetype": "building", 
         "sw_longitude": -3.578697, 
+        "woe:placetype": "building", 
+        "ne_latitude": 40.457891, 
         "latitude": -3.578343, 
         "woe:id": 2149416341, 
-        "sw_latitude": 40.457355
+        "osm:way_id": 39496728
       }
     }
   ]

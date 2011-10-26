@@ -35,7 +35,6 @@
       }, 
       "id": 2155985954, 
       "properties": {
-        "osm:way_id": 59094606, 
         "woe:parent": "22211603", 
         "tags": [
           "addr:housenumber=1288", 
@@ -49,8 +48,12 @@
           "onkz=40", 
           "addr:street=Kollaustra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22211603", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22211603, 
+        "sw_latitude": 53.610950, 
         "osm:node_ids": [
           307179512, 
           732383857, 
@@ -60,12 +63,12 @@
         ], 
         "ne_longitude": 9.957790, 
         "longitude": 53.611094, 
-        "ne_latitude": 53.611238, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.957323, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.611238, 
         "latitude": 9.957558, 
         "woe:id": 2155985954, 
-        "sw_latitude": 53.610950
+        "osm:way_id": 59094606
       }
     }
   ]

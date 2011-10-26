@@ -35,15 +35,18 @@
       }, 
       "id": 2147555798, 
       "properties": {
-        "osm:way_id": 24226676, 
         "woe:parent": "22276234", 
         "name": "Kita", 
         "tags": [
           "name=Kita", 
           "created_by=Potlatch 0.88c"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.396854, 
         "osm:node_ids": [
           262314152, 
           262314153, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 13.534227, 
         "longitude": 52.397002, 
-        "ne_latitude": 52.397149, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.533337, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.397149, 
         "latitude": 13.533782, 
         "woe:id": 2147555798, 
-        "sw_latitude": 52.396854
+        "osm:way_id": 24226676
       }
     }
   ]

@@ -51,14 +51,17 @@
       }, 
       "id": 2148632007, 
       "properties": {
-        "osm:way_id": 34235740, 
         "woe:parent": "125137882", 
         "name": "Dan Hotel", 
         "tags": [
           "name=Dan Hotel"
         ], 
-        "hierarchy": "woe:country=234248852", 
+        "hierarchy": [
+          "woe:airport=125137882", 
+          "woe:country=234248852"
+        ], 
         "parent_woeid": 12513782, 
+        "sw_latitude": 29.548017, 
         "osm:node_ids": [
           392639662, 
           392639663, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 34.966083, 
         "longitude": 29.548591, 
-        "ne_latitude": 29.549032, 
-        "woe:placetype": "building", 
         "sw_longitude": 34.964444, 
+        "woe:placetype": "building", 
+        "ne_latitude": 29.549032, 
         "latitude": 34.965308, 
         "woe:id": 2148632007, 
-        "sw_latitude": 29.548017
+        "osm:way_id": 34235740
       }
     }
   ]

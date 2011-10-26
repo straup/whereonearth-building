@@ -35,15 +35,18 @@
       }, 
       "id": 2147839693, 
       "properties": {
-        "osm:way_id": 28667650, 
         "woe:parent": "12523042", 
         "name": "Antano Gustai\u010dio aviacijos institutas", 
         "tags": [
           "name:en=Antanas Gustaitis aviation institute", 
           "name=Antano Gustai\u010dio aviacijos institutas"
         ], 
-        "hierarchy": "woe:country=234248875", 
+        "hierarchy": [
+          "woe:airport=12523042", 
+          "woe:country=234248875"
+        ], 
         "parent_woeid": 12523042, 
+        "sw_latitude": 54.634307, 
         "osm:node_ids": [
           315052377, 
           315052378, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 25.278911, 
         "longitude": 54.634504, 
-        "ne_latitude": 54.634700, 
-        "woe:placetype": "building", 
         "sw_longitude": 25.278662, 
+        "woe:placetype": "building", 
+        "ne_latitude": 54.634700, 
         "latitude": 25.278792, 
         "woe:id": 2147839693, 
-        "sw_latitude": 54.634307
+        "osm:way_id": 28667650
       }
     }
   ]

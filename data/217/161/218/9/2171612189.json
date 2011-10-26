@@ -35,7 +35,6 @@
       }, 
       "id": 2171612189, 
       "properties": {
-        "osm:way_id": 88876099, 
         "woe:parent": "12511112", 
         "name": "Terminal de Cargo", 
         "tags": [
@@ -46,8 +45,12 @@
           "operator=Correios", 
           "network=Correios"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=12511112", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511112, 
+        "sw_latitude": -12.913434, 
         "osm:node_ids": [
           1031570971, 
           1031570974, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": -38.325535, 
         "longitude": -12.913186, 
-        "ne_latitude": -12.912928, 
-        "woe:placetype": "building", 
         "sw_longitude": -38.326433, 
+        "woe:placetype": "building", 
+        "ne_latitude": -12.912928, 
         "latitude": -38.325987, 
         "woe:id": 2171612189, 
-        "sw_latitude": -12.913434
+        "osm:way_id": 88876099
       }
     }
   ]

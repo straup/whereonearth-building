@@ -99,7 +99,6 @@
       }, 
       "id": 2155224299, 
       "properties": {
-        "osm:way_id": 56688295, 
         "woe:parent": "12515135", 
         "name": "Boudhanath", 
         "tags": [
@@ -107,8 +106,12 @@
           "name=Boudhanath", 
           "religion=buddhist"
         ], 
-        "hierarchy": "woe:country=23424911", 
+        "hierarchy": [
+          "woe:airport=12515135", 
+          "woe:country=23424911"
+        ], 
         "parent_woeid": 12515135, 
+        "sw_latitude": 27.721077, 
         "osm:node_ids": [
           708987902, 
           708987900, 
@@ -134,12 +137,12 @@
         ], 
         "ne_longitude": 85.362385, 
         "longitude": 27.721469, 
-        "ne_latitude": 27.721858, 
-        "woe:placetype": "building", 
         "sw_longitude": 85.361514, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.721858, 
         "latitude": 85.361950, 
         "woe:id": 2155224299, 
-        "sw_latitude": 27.721077
+        "osm:way_id": 56688295
       }
     }
   ]

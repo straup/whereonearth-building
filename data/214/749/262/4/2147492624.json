@@ -35,7 +35,6 @@
       }, 
       "id": 2147492624, 
       "properties": {
-        "osm:way_id": 15692382, 
         "woe:parent": "229881759", 
         "name": "Rathaus", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Rathaus", 
           "created_by=Potlatch 0.5d"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=229881759", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22981759, 
+        "sw_latitude": 50.005268, 
         "osm:node_ids": [
           156646983, 
           156646984, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 8.577743, 
         "longitude": 50.005584, 
-        "ne_latitude": 50.005903, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.577090, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.005903, 
         "latitude": 8.577419, 
         "woe:id": 2147492624, 
-        "sw_latitude": 50.005268
+        "osm:way_id": 15692382
       }
     }
   ]

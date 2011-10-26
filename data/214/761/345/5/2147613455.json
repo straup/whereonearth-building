@@ -67,7 +67,6 @@
       }, 
       "id": 2147613455, 
       "properties": {
-        "osm:way_id": 25595588, 
         "woe:parent": "230309881", 
         "name": "P2", 
         "tags": [
@@ -80,8 +79,12 @@
           "maxheight=1.95", 
           "capacity:disabled=33"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=230309881", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23030981, 
+        "sw_latitude": 50.879462, 
         "osm:node_ids": [
           279006221, 
           975856473, 
@@ -99,12 +102,12 @@
         ], 
         "ne_longitude": 7.119225, 
         "longitude": 50.880383, 
-        "ne_latitude": 50.881433, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.114653, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.881433, 
         "latitude": 7.116843, 
         "woe:id": 2147613455, 
-        "sw_latitude": 50.879462
+        "osm:way_id": 25595588
       }
     }
   ]

@@ -35,13 +35,16 @@
       }, 
       "id": 2149359636, 
       "properties": {
-        "osm:way_id": 38912667, 
         "woe:parent": "233188094", 
         "tags": [
           "aeroway=apron"
         ], 
-        "hierarchy": "woe:country=23424954", 
+        "hierarchy": [
+          "woe:airport=233188094", 
+          "woe:country=23424954"
+        ], 
         "parent_woeid": 23318094, 
+        "sw_latitude": 55.538450, 
         "osm:node_ids": [
           462260404, 
           462260405, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 13.370496, 
         "longitude": 55.539381, 
-        "ne_latitude": 55.540315, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.365458, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.540315, 
         "latitude": 13.367980, 
         "woe:id": 2149359636, 
-        "sw_latitude": 55.538450
+        "osm:way_id": 38912667
       }
     }
   ]

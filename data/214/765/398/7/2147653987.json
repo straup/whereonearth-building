@@ -39,7 +39,6 @@
       }, 
       "id": 2147653987, 
       "properties": {
-        "osm:way_id": 26702758, 
         "woe:parent": "22211603", 
         "name": "Airport Plaza", 
         "tags": [
@@ -51,8 +50,12 @@
           "access=permissive", 
           "addr:street=Flughafenstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22211603", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22211603, 
+        "sw_latitude": 53.631378, 
         "osm:node_ids": [
           292847772, 
           292847907, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 10.006412, 
         "longitude": 53.631911, 
-        "ne_latitude": 53.632451, 
-        "woe:placetype": "building", 
         "sw_longitude": 10.005004, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.632451, 
         "latitude": 10.005710, 
         "woe:id": 2147653987, 
-        "sw_latitude": 53.631378
+        "osm:way_id": 26702758
       }
     }
   ]

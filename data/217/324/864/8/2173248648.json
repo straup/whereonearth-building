@@ -43,7 +43,6 @@
       }, 
       "id": 2173248648, 
       "properties": {
-        "osm:way_id": 92416470, 
         "woe:parent": "22454274", 
         "name": "Marston Green Baptist Church", 
         "tags": [
@@ -52,8 +51,12 @@
           "religion=christian", 
           "source=bing"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22454274", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22454274, 
+        "sw_latitude": 52.464787, 
         "osm:node_ids": [
           1072805315, 
           1072805101, 
@@ -65,12 +68,12 @@
         ], 
         "ne_longitude": -1.748443, 
         "longitude": 52.464962, 
-        "ne_latitude": 52.465136, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.749007, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.465136, 
         "latitude": -1.748729, 
         "woe:id": 2173248648, 
-        "sw_latitude": 52.464787
+        "osm:way_id": 92416470
       }
     }
   ]

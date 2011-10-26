@@ -43,7 +43,6 @@
       }, 
       "id": 2167685269, 
       "properties": {
-        "osm:way_id": 80913704, 
         "woe:parent": "12515135", 
         "name": "Pashupatinath", 
         "tags": [
@@ -51,8 +50,12 @@
           "name=Pashupatinath", 
           "religion=hindu"
         ], 
-        "hierarchy": "woe:country=23424911", 
+        "hierarchy": [
+          "woe:airport=12515135", 
+          "woe:country=23424911"
+        ], 
         "parent_woeid": 12515135, 
+        "sw_latitude": 27.710023, 
         "osm:node_ids": [
           943251177, 
           943251178, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": 85.349089, 
         "longitude": 27.710448, 
-        "ne_latitude": 27.710908, 
-        "woe:placetype": "building", 
         "sw_longitude": 85.348058, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.710908, 
         "latitude": 85.348557, 
         "woe:id": 2167685269, 
-        "sw_latitude": 27.710023
+        "osm:way_id": 80913704
       }
     }
   ]

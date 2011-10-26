@@ -35,15 +35,18 @@
       }, 
       "id": 2147865174, 
       "properties": {
-        "osm:way_id": 28948415, 
         "woe:parent": "12522343", 
         "name": "General Aviation - South Hangar", 
         "tags": [
           "name=General Aviation - South Hangar", 
           "aeroway=hanger"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12522343", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522343, 
+        "sw_latitude": 38.845333, 
         "osm:node_ids": [
           318272743, 
           318272744, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -77.042973, 
         "longitude": 38.847076, 
-        "ne_latitude": 38.848828, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.048506, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.848828, 
         "latitude": -77.045750, 
         "woe:id": 2147865174, 
-        "sw_latitude": 38.845333
+        "osm:way_id": 28948415
       }
     }
   ]

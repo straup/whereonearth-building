@@ -79,7 +79,6 @@
       }, 
       "id": 2153565610, 
       "properties": {
-        "osm:way_id": 53201003, 
         "woe:parent": "12522066", 
         "name": "SeaTac Airport Fire Station", 
         "tags": [
@@ -87,8 +86,12 @@
           "name=SeaTac Airport Fire Station", 
           "source=yahoo_wms"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12522066", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522066, 
+        "sw_latitude": 47.450769, 
         "osm:node_ids": [
           673345124, 
           673345125, 
@@ -109,12 +112,12 @@
         ], 
         "ne_longitude": -122.301938, 
         "longitude": 47.451051, 
-        "ne_latitude": 47.451279, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.303128, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.451279, 
         "latitude": -122.302484, 
         "woe:id": 2153565610, 
-        "sw_latitude": 47.450769
+        "osm:way_id": 53201003
       }
     }
   ]

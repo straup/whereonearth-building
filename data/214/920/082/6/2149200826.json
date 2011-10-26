@@ -99,7 +99,6 @@
       }, 
       "id": 2149200826, 
       "properties": {
-        "osm:way_id": 37098980, 
         "woe:parent": "125138850", 
         "name": "Chiesa di Santo Stefano dei Cavalieri", 
         "tags": [
@@ -108,8 +107,12 @@
           "denomination=catholic", 
           "religion=christian"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=125138850", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 12513850, 
+        "sw_latitude": 43.719127, 
         "osm:node_ids": [
           431423424, 
           431423425, 
@@ -135,12 +138,12 @@
         ], 
         "ne_longitude": 10.401475, 
         "longitude": 43.719357, 
-        "ne_latitude": 43.719601, 
-        "woe:placetype": "building", 
         "sw_longitude": 10.400645, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.719601, 
         "latitude": 10.401037, 
         "woe:id": 2149200826, 
-        "sw_latitude": 43.719127
+        "osm:way_id": 37098980
       }
     }
   ]

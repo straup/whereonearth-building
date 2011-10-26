@@ -35,13 +35,16 @@
       }, 
       "id": 2149445469, 
       "properties": {
-        "osm:way_id": 39765656, 
         "woe:parent": "22276234", 
         "tags": [
           "sport=shooting"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.399799, 
         "osm:node_ids": [
           476734674, 
           476734683, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 13.534279, 
         "longitude": 52.399905, 
-        "ne_latitude": 52.400010, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.533930, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.400010, 
         "latitude": 13.534105, 
         "woe:id": 2149445469, 
-        "sw_latitude": 52.399799
+        "osm:way_id": 39765656
       }
     }
   ]

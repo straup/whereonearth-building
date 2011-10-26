@@ -35,15 +35,18 @@
       }, 
       "id": 2150327396, 
       "properties": {
-        "osm:way_id": 45011128, 
         "woe:parent": "223074880", 
         "name": "Aviazione Generale", 
         "tags": [
           "name=Aviazione Generale", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=223074880", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22307480, 
+        "sw_latitude": 41.797145, 
         "osm:node_ids": [
           570629084, 
           570629102, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 12.591709, 
         "longitude": 41.797355, 
-        "ne_latitude": 41.797565, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.591101, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.797565, 
         "latitude": 12.591405, 
         "woe:id": 2150327396, 
-        "sw_latitude": 41.797145
+        "osm:way_id": 45011128
       }
     }
   ]

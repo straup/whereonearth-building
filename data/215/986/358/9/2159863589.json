@@ -95,7 +95,6 @@
       }, 
       "id": 2159863589, 
       "properties": {
-        "osm:way_id": 66272308, 
         "woe:parent": "125128869", 
         "name": "Ajaccio - Napol\u00e9on Bonaparte", 
         "tags": [
@@ -103,8 +102,12 @@
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour 8c 2010", 
           "aeroway=aerodrome"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128869", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512869, 
+        "sw_latitude": 41.919072, 
         "osm:node_ids": [
           803379622, 
           803386905, 
@@ -129,12 +132,12 @@
         ], 
         "ne_longitude": 8.795102, 
         "longitude": 41.919720, 
-        "ne_latitude": 41.920360, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.793673, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.920360, 
         "latitude": 8.794378, 
         "woe:id": 2159863589, 
-        "sw_latitude": 41.919072
+        "osm:way_id": 66272308
       }
     }
   ]

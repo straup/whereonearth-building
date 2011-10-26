@@ -51,7 +51,6 @@
       }, 
       "id": 2148628180, 
       "properties": {
-        "osm:way_id": 34200931, 
         "woe:parent": "230309881", 
         "name": "K\u00f6ln/Bonn Flughafen", 
         "tags": [
@@ -59,8 +58,12 @@
           "name=K\u00f6ln8sBonn Flughafen", 
           "railway=station"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=230309881", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23030981, 
+        "sw_latitude": 50.878152, 
         "osm:node_ids": [
           392234941, 
           392234942, 
@@ -74,12 +77,12 @@
         ], 
         "ne_longitude": 7.119923, 
         "longitude": 50.878885, 
-        "ne_latitude": 50.879625, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.118682, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.879625, 
         "latitude": 7.119305, 
         "woe:id": 2148628180, 
-        "sw_latitude": 50.878152
+        "osm:way_id": 34200931
       }
     }
   ]

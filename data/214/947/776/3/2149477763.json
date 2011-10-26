@@ -59,7 +59,6 @@
       }, 
       "id": 2149477763, 
       "properties": {
-        "osm:way_id": 40144883, 
         "woe:parent": "12521750", 
         "name": "Hamilton Classrooms", 
         "tags": [
@@ -69,8 +68,12 @@
           "emergency=phone", 
           "source=FDOT"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.385223, 
         "osm:node_ids": [
           483282742, 
           622029497, 
@@ -86,12 +89,12 @@
         ], 
         "ne_longitude": -82.555716, 
         "longitude": 27.385314, 
-        "ne_latitude": 27.385419, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.556445, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.385419, 
         "latitude": -82.556077, 
         "woe:id": 2149477763, 
-        "sw_latitude": 27.385223
+        "osm:way_id": 40144883
       }
     }
   ]

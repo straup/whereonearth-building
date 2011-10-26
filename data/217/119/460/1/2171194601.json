@@ -67,15 +67,18 @@
       }, 
       "id": 2171194601, 
       "properties": {
-        "osm:way_id": 87918186, 
         "woe:parent": "12517750", 
         "name": "\u0e02\u0e19\u0e2a\u0e48\u0e07\u0e08\u0e31\u0e07\u0e2b\u0e27\u0e31\u0e14\u0e40\u0e0a\u0e35\u0e22\u0e07\u0e43\u0e2b\u0e21\u0e48", 
         "tags": [
           "amenity=public_building", 
           "name=\u0e02\u0e19\u0e2a\u0e48\u0e07\u0e08\u0e31\u0e07\u0e2b\u0e27\u0e31\u0e14\u0e40\u0e0a\u0e35\u0e22\u0e07\u0e43\u0e2b\u0e21\u0e48"
         ], 
-        "hierarchy": "woe:country=23424960", 
+        "hierarchy": [
+          "woe:airport=12517750", 
+          "woe:country=23424960"
+        ], 
         "parent_woeid": 12517750, 
+        "sw_latitude": 18.744493, 
         "osm:node_ids": [
           1022129254, 
           1022129283, 
@@ -93,12 +96,12 @@
         ], 
         "ne_longitude": 98.962253, 
         "longitude": 18.744946, 
-        "ne_latitude": 18.745389, 
-        "woe:placetype": "building", 
         "sw_longitude": 98.961907, 
+        "woe:placetype": "building", 
+        "ne_latitude": 18.745389, 
         "latitude": 98.962074, 
         "woe:id": 2171194601, 
-        "sw_latitude": 18.744493
+        "osm:way_id": 87918186
       }
     }
   ]

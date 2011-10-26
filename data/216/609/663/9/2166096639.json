@@ -35,7 +35,6 @@
       }, 
       "id": 2166096639, 
       "properties": {
-        "osm:way_id": 77470535, 
         "woe:parent": "22309691", 
         "tags": [
           "addr:housenumber=5", 
@@ -44,8 +43,12 @@
           "addr:country=IT", 
           "addr:street=Via Liguria"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=22309691", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22309691, 
+        "sw_latitude": 45.662285, 
         "osm:node_ids": [
           911858719, 
           911859018, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": 9.698764, 
         "longitude": 45.662564, 
-        "ne_latitude": 45.662841, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.697661, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.662841, 
         "latitude": 9.698213, 
         "woe:id": 2166096639, 
-        "sw_latitude": 45.662285
+        "osm:way_id": 77470535
       }
     }
   ]

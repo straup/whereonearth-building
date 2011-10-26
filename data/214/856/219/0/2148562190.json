@@ -35,7 +35,6 @@
       }, 
       "id": 2148562190, 
       "properties": {
-        "osm:way_id": 33322808, 
         "woe:parent": "223188195", 
         "name": "Multipiano B", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Multipiano B", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=223188195", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22318195, 
+        "sw_latitude": 41.793611, 
         "osm:node_ids": [
           378978250, 
           378978302, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 12.254416, 
         "longitude": 41.794150, 
-        "ne_latitude": 41.794690, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.253138, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.794690, 
         "latitude": 12.253775, 
         "woe:id": 2148562190, 
-        "sw_latitude": 41.793611
+        "osm:way_id": 33322808
       }
     }
   ]

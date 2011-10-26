@@ -35,7 +35,6 @@
       }, 
       "id": 2152451281, 
       "properties": {
-        "osm:way_id": 50730525, 
         "woe:parent": "125110388", 
         "name": "Biblioteca Sebasti\u00e3o Fernandes", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Biblioteca Sebasti\u00e3o Fernandes", 
           "is_in=IFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.812057, 
         "osm:node_ids": [
           646731928, 
           646731881, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -35.203269, 
         "longitude": -5.811846, 
-        "ne_latitude": -5.811633, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.203692, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.811633, 
         "latitude": -35.203481, 
         "woe:id": 2152451281, 
-        "sw_latitude": -5.812057
+        "osm:way_id": 50730525
       }
     }
   ]

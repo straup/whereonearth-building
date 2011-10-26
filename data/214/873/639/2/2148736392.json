@@ -35,7 +35,6 @@
       }, 
       "id": 2148736392, 
       "properties": {
-        "osm:way_id": 35667219, 
         "woe:parent": "125138850", 
         "name": "Camposanto monumentale", 
         "tags": [
@@ -46,8 +45,12 @@
           "name:it=Camposanto Monumentale", 
           "tourism=attraction"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=125138850", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 12513850, 
+        "sw_latitude": 43.723785, 
         "osm:node_ids": [
           417641730, 
           417641731, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": 10.395758, 
         "longitude": 43.724031, 
-        "ne_latitude": 43.724287, 
-        "woe:placetype": "building", 
         "sw_longitude": 10.394118, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.724287, 
         "latitude": 10.394923, 
         "woe:id": 2148736392, 
-        "sw_latitude": 43.723785
+        "osm:way_id": 35667219
       }
     }
   ]

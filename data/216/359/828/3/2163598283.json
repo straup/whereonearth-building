@@ -99,15 +99,18 @@
       }, 
       "id": 2163598283, 
       "properties": {
-        "osm:way_id": 72595021, 
         "woe:parent": "125167887", 
         "name": "\u0422\u0435\u0440\u0435\u043c\u043e\u043a", 
         "tags": [
           "amenity=kindergarten", 
           "name=\u0422\u0435\u0440\u0435\u043c\u043e\u043a"
         ], 
-        "hierarchy": "woe:country=23424936", 
+        "hierarchy": [
+          "woe:airport=125167887", 
+          "woe:country=23424936"
+        ], 
         "parent_woeid": 12516787, 
+        "sw_latitude": 47.256058, 
         "osm:node_ids": [
           861594600, 
           861594611, 
@@ -133,12 +136,12 @@
         ], 
         "ne_longitude": 39.859029, 
         "longitude": 47.256383, 
-        "ne_latitude": 47.256663, 
-        "woe:placetype": "building", 
         "sw_longitude": 39.858385, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.256663, 
         "latitude": 39.858720, 
         "woe:id": 2163598283, 
-        "sw_latitude": 47.256058
+        "osm:way_id": 72595021
       }
     }
   ]

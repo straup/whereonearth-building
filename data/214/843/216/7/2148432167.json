@@ -35,7 +35,6 @@
       }, 
       "id": 2148432167, 
       "properties": {
-        "osm:way_id": 32091828, 
         "woe:parent": "23024911", 
         "name": "Pizzeria in Chicago", 
         "tags": [
@@ -47,8 +46,12 @@
           "name=Pizzeria in Chicago", 
           "addr:street=Dieselstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.295748, 
         "osm:node_ids": [
           360308875, 
           360308878, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": 6.817573, 
         "longitude": 51.295845, 
-        "ne_latitude": 51.295939, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.817429, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.295939, 
         "latitude": 6.817503, 
         "woe:id": 2148432167, 
-        "sw_latitude": 51.295748
+        "osm:way_id": 32091828
       }
     }
   ]

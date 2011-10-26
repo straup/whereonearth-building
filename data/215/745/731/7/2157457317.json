@@ -35,14 +35,17 @@
       }, 
       "id": 2157457317, 
       "properties": {
-        "osm:way_id": 62908818, 
         "woe:parent": "125127588", 
         "name": "ABCO Building", 
         "tags": [
           "name=ABCO Building"
         ], 
-        "hierarchy": "woe:country=2342488088", 
+        "hierarchy": [
+          "woe:airport=125127588", 
+          "woe:country=2342488088"
+        ], 
         "parent_woeid": 12512758, 
+        "sw_latitude": 8.990446, 
         "osm:node_ids": [
           782857866, 
           782857882, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 38.793015, 
         "longitude": 8.990505, 
-        "ne_latitude": 8.990564, 
-        "woe:placetype": "building", 
         "sw_longitude": 38.792903, 
+        "woe:placetype": "building", 
+        "ne_latitude": 8.990564, 
         "latitude": 38.792959, 
         "woe:id": 2157457317, 
-        "sw_latitude": 8.990446
+        "osm:way_id": 62908818
       }
     }
   ]

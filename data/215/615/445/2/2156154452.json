@@ -35,7 +35,6 @@
       }, 
       "id": 2156154452, 
       "properties": {
-        "osm:way_id": 59570547, 
         "woe:parent": "1252088881", 
         "tags": [
           "description2=MEADOWS FIELD AIRPLANE HANGARS", 
@@ -50,8 +49,12 @@
           "owner=PUBLIC", 
           "description3=<Null>"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=1252088881", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520881, 
+        "sw_latitude": 35.422477, 
         "osm:node_ids": [
           738285270, 
           738628951, 
@@ -61,12 +64,12 @@
         ], 
         "ne_longitude": -119.039493, 
         "longitude": 35.422572, 
-        "ne_latitude": 35.422666, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.039784, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.422666, 
         "latitude": -119.039639, 
         "woe:id": 2156154452, 
-        "sw_latitude": 35.422477
+        "osm:way_id": 59570547
       }
     }
   ]

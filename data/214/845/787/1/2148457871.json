@@ -35,14 +35,17 @@
       }, 
       "id": 2148457871, 
       "properties": {
-        "osm:way_id": 32481454, 
         "woe:parent": "125194881", 
         "name": "Control Tower", 
         "tags": [
           "name=Control Tower"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125194881", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519481, 
+        "sw_latitude": 42.212442, 
         "osm:node_ids": [
           365202217, 
           365202218, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -83.353671, 
         "longitude": 42.212692, 
-        "ne_latitude": 42.212946, 
-        "woe:placetype": "building", 
         "sw_longitude": -83.354452, 
+        "woe:placetype": "building", 
+        "ne_latitude": 42.212946, 
         "latitude": -83.354065, 
         "woe:id": 2148457871, 
-        "sw_latitude": 42.212442
+        "osm:way_id": 32481454
       }
     }
   ]

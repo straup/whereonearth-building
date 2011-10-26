@@ -67,14 +67,17 @@
       }, 
       "id": 2152743669, 
       "properties": {
-        "osm:way_id": 51415105, 
         "woe:parent": "125128856", 
         "tags": [
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre ; mise \u00e0 jour 8c 2010", 
           "sport=skating"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128856", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512856, 
+        "sw_latitude": 43.640753, 
         "osm:node_ids": [
           656345604, 
           656345617, 
@@ -92,12 +95,12 @@
         ], 
         "ne_longitude": 1.382918, 
         "longitude": 43.641156, 
-        "ne_latitude": 43.641472, 
-        "woe:placetype": "building", 
         "sw_longitude": 1.381931, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.641472, 
         "latitude": 1.382438, 
         "woe:id": 2152743669, 
-        "sw_latitude": 43.640753
+        "osm:way_id": 51415105
       }
     }
   ]

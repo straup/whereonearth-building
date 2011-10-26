@@ -35,7 +35,6 @@
       }, 
       "id": 2149711554, 
       "properties": {
-        "osm:way_id": 42216368, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=4", 
@@ -45,8 +44,12 @@
           "addr:country=DE", 
           "addr:street=Vogelbeerweg"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.286905, 
         "osm:node_ids": [
           525944442, 
           525944443, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": 6.812214, 
         "longitude": 51.286935, 
-        "ne_latitude": 51.286964, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.812046, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.286964, 
         "latitude": 6.812131, 
         "woe:id": 2149711554, 
-        "sw_latitude": 51.286905
+        "osm:way_id": 42216368
       }
     }
   ]

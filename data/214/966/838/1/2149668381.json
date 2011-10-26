@@ -67,15 +67,18 @@
       }, 
       "id": 2149668381, 
       "properties": {
-        "osm:way_id": 41931711, 
         "woe:parent": "22269415", 
         "name": "Parkleitzentrum", 
         "tags": [
           "addr:housenumber=B 4088", 
           "name=Parkleitzentrum"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.779808, 
         "osm:node_ids": [
           519368401, 
           560546988, 
@@ -93,12 +96,12 @@
         ], 
         "ne_longitude": 8.090184, 
         "longitude": 48.780151, 
-        "ne_latitude": 48.780473, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.089324, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.780473, 
         "latitude": 8.089758, 
         "woe:id": 2149668381, 
-        "sw_latitude": 48.779808
+        "osm:way_id": 41931711
       }
     }
   ]

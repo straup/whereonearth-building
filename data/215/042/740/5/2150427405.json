@@ -35,14 +35,17 @@
       }, 
       "id": 2150427405, 
       "properties": {
-        "osm:way_id": 45373564, 
         "woe:parent": "223074880", 
         "tags": [
           "aeroway=hangar", 
           "operator=Airone Executive"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=223074880", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22307480, 
+        "sw_latitude": 41.792426, 
         "osm:node_ids": [
           576980475, 
           576980477, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 12.594377, 
         "longitude": 41.792800, 
-        "ne_latitude": 41.793178, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.593423, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.793178, 
         "latitude": 12.593901, 
         "woe:id": 2150427405, 
-        "sw_latitude": 41.792426
+        "osm:way_id": 45373564
       }
     }
   ]

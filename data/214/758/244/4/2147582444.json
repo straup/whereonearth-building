@@ -35,13 +35,16 @@
       }, 
       "id": 2147582444, 
       "properties": {
-        "osm:way_id": 25055178, 
         "woe:parent": "12513199", 
         "tags": [
           "addr:housenumber=Geb. 101"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.084665, 
         "osm:node_ids": [
           272588507, 
           272588508, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 11.277102, 
         "longitude": 48.084735, 
-        "ne_latitude": 48.084805, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.276910, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.084805, 
         "latitude": 11.277007, 
         "woe:id": 2147582444, 
-        "sw_latitude": 48.084665
+        "osm:way_id": 25055178
       }
     }
   ]

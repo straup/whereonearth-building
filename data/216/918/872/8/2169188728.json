@@ -35,7 +35,6 @@
       }, 
       "id": 2169188728, 
       "properties": {
-        "osm:way_id": 84008558, 
         "woe:parent": "125209883", 
         "name": "Orbital Sciences Corporation Aircraft Field Operations", 
         "tags": [
@@ -44,8 +43,12 @@
           "source=usgs_imagery_20088;survey;image", 
           "source_ref=AM909_DSCW1353"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.056084, 
         "osm:node_ids": [
           977463381, 
           977463204, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -118.148665, 
         "longitude": 35.056142, 
-        "ne_latitude": 35.056199, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.148953, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.056199, 
         "latitude": -118.148809, 
         "woe:id": 2169188728, 
-        "sw_latitude": 35.056084
+        "osm:way_id": 84008558
       }
     }
   ]

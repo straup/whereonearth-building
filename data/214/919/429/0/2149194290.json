@@ -59,14 +59,17 @@
       }, 
       "id": 2149194290, 
       "properties": {
-        "osm:way_id": 37042851, 
         "woe:parent": "22276234", 
         "name": "Lufthansa Trainingcenter", 
         "tags": [
           "name=Lufthansa Trainingcenter"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.395494, 
         "osm:node_ids": [
           430806060, 
           430806064, 
@@ -82,12 +85,12 @@
         ], 
         "ne_longitude": 13.537012, 
         "longitude": 52.395832, 
-        "ne_latitude": 52.396185, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.535545, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.396185, 
         "latitude": 13.536281, 
         "woe:id": 2149194290, 
-        "sw_latitude": 52.395494
+        "osm:way_id": 37042851
       }
     }
   ]

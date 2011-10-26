@@ -67,14 +67,17 @@
       }, 
       "id": 2155972199, 
       "properties": {
-        "osm:way_id": 59056029, 
         "woe:parent": "248875607", 
         "name": "\u570b\u6cf0\u822a\u7a7a\u98f2\u98df\u670d\u52d9 Cathay Pacific Catering Services", 
         "tags": [
           "name=\u570b\u6cf0\u822a\u7a7a\u98f2\u98df\u670d\u52d9 Cathay Pacific Catering Services"
         ], 
-        "hierarchy": "woe:country=2488656988", 
+        "hierarchy": [
+          "woe:airport=248875607", 
+          "woe:country=2488656988"
+        ], 
         "parent_woeid": 24875607, 
+        "sw_latitude": 22.302664, 
         "osm:node_ids": [
           732048885, 
           732048886, 
@@ -92,12 +95,12 @@
         ], 
         "ne_longitude": 113.934755, 
         "longitude": 22.303456, 
-        "ne_latitude": 22.304242, 
-        "woe:placetype": "building", 
         "sw_longitude": 113.932974, 
+        "woe:placetype": "building", 
+        "ne_latitude": 22.304242, 
         "latitude": 113.933877, 
         "woe:id": 2155972199, 
-        "sw_latitude": 22.302664
+        "osm:way_id": 59056029
       }
     }
   ]

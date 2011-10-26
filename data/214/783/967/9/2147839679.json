@@ -51,7 +51,6 @@
       }, 
       "id": 2147839679, 
       "properties": {
-        "osm:way_id": 28667590, 
         "woe:parent": "12523042", 
         "name": "Vilniaus tarptautinio oro uosto administracija", 
         "tags": [
@@ -61,8 +60,12 @@
           "addr:country=LT", 
           "name=Vilniaus tarptautinio oro uosto administracija"
         ], 
-        "hierarchy": "woe:country=234248875", 
+        "hierarchy": [
+          "woe:airport=12523042", 
+          "woe:country=234248875"
+        ], 
         "parent_woeid": 12523042, 
+        "sw_latitude": 54.640501, 
         "osm:node_ids": [
           315051689, 
           315051690, 
@@ -76,12 +79,12 @@
         ], 
         "ne_longitude": 25.278491, 
         "longitude": 54.640591, 
-        "ne_latitude": 54.640662, 
-        "woe:placetype": "building", 
         "sw_longitude": 25.277666, 
+        "woe:placetype": "building", 
+        "ne_latitude": 54.640662, 
         "latitude": 25.278046, 
         "woe:id": 2147839679, 
-        "sw_latitude": 54.640501
+        "osm:way_id": 28667590
       }
     }
   ]

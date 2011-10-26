@@ -47,15 +47,18 @@
       }, 
       "id": 2147732477, 
       "properties": {
-        "osm:way_id": 26991173, 
         "woe:parent": "22276234", 
         "name": "stop+go", 
         "tags": [
           "shop=car_repair", 
           "name=stop+go"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.425805, 
         "osm:node_ids": [
           295848942, 
           295848943, 
@@ -68,12 +71,12 @@
         ], 
         "ne_longitude": 13.544599, 
         "longitude": 52.425947, 
-        "ne_latitude": 52.426088, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.543509, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.426088, 
         "latitude": 13.544063, 
         "woe:id": 2147732477, 
-        "sw_latitude": 52.425805
+        "osm:way_id": 26991173
       }
     }
   ]

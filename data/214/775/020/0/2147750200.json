@@ -35,7 +35,6 @@
       }, 
       "id": 2147750200, 
       "properties": {
-        "osm:way_id": 27380406, 
         "woe:parent": "12513205", 
         "tags": [
           "addr:housenumber=3", 
@@ -43,8 +42,12 @@
           "source=Yahoo", 
           "addr:street=Medinger Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.163922, 
         "osm:node_ids": [
           300568580, 
           300568604, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 13.733494, 
         "longitude": 51.163967, 
-        "ne_latitude": 51.164011, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.733351, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.164011, 
         "latitude": 13.733423, 
         "woe:id": 2147750200, 
-        "sw_latitude": 51.163922
+        "osm:way_id": 27380406
       }
     }
   ]

@@ -35,13 +35,16 @@
       }, 
       "id": 2149543216, 
       "properties": {
-        "osm:way_id": 40794676, 
         "woe:parent": "125168860", 
         "tags": [
           "amenity=fuel"
         ], 
-        "hierarchy": "woe:country=23424936", 
+        "hierarchy": [
+          "woe:airport=125168860", 
+          "woe:country=23424936"
+        ], 
         "parent_woeid": 12516860, 
+        "sw_latitude": 55.989052, 
         "osm:node_ids": [
           495968222, 
           495968228, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 37.415317, 
         "longitude": 55.989138, 
-        "ne_latitude": 55.989223, 
-        "woe:placetype": "building", 
         "sw_longitude": 37.415171, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.989223, 
         "latitude": 37.415244, 
         "woe:id": 2149543216, 
-        "sw_latitude": 55.989052
+        "osm:way_id": 40794676
       }
     }
   ]

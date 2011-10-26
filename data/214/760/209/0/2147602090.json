@@ -43,14 +43,17 @@
       }, 
       "id": 2147602090, 
       "properties": {
-        "osm:way_id": 25425661, 
         "woe:parent": "125212288", 
         "name": "\"Old\" terminal 1A", 
         "tags": [
           "name=\"Old\" terminal 1A"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125212288", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521228, 
+        "sw_latitude": 34.061183, 
         "osm:node_ids": [
           277094256, 
           277094259, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": -117.606118, 
         "longitude": 34.061482, 
-        "ne_latitude": 34.061769, 
-        "woe:placetype": "building", 
         "sw_longitude": -117.606802, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.061769, 
         "latitude": -117.606485, 
         "woe:id": 2147602090, 
-        "sw_latitude": 34.061183
+        "osm:way_id": 25425661
       }
     }
   ]

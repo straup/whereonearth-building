@@ -35,7 +35,6 @@
       }, 
       "id": 2154824395, 
       "properties": {
-        "osm:way_id": 55482576, 
         "woe:parent": "23046924", 
         "tags": [
           "addr:housenumber=23", 
@@ -45,8 +44,12 @@
           "addr:country=DE", 
           "addr:street=Emkraft"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23046924", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23046924, 
+        "sw_latitude": 51.523916, 
         "osm:node_ids": [
           697234914, 
           697234917, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": 7.607180, 
         "longitude": 51.523975, 
-        "ne_latitude": 51.524033, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.606923, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.524033, 
         "latitude": 7.607052, 
         "woe:id": 2154824395, 
-        "sw_latitude": 51.523916
+        "osm:way_id": 55482576
       }
     }
   ]

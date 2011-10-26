@@ -35,7 +35,6 @@
       }, 
       "id": 2169150679, 
       "properties": {
-        "osm:way_id": 83895533, 
         "woe:parent": "125209883", 
         "name": "REM Industries", 
         "tags": [
@@ -49,8 +48,12 @@
           "source_ref=AM909_DSCW1295;AM909_DSCW13988", 
           "addr:street=Sabovich St"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.055302, 
         "osm:node_ids": [
           976521095, 
           976521927, 
@@ -60,12 +63,12 @@
         ], 
         "ne_longitude": -118.163306, 
         "longitude": 35.055522, 
-        "ne_latitude": 35.055741, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.163446, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.055741, 
         "latitude": -118.163376, 
         "woe:id": 2169150679, 
-        "sw_latitude": 35.055302
+        "osm:way_id": 83895533
       }
     }
   ]

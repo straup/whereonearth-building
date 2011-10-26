@@ -35,15 +35,18 @@
       }, 
       "id": 2149423921, 
       "properties": {
-        "osm:way_id": 39595855, 
         "woe:parent": "12520579", 
         "name": "Civil Air Terminal", 
         "tags": [
           "name=Civil Air Terminal", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12520579", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520579, 
+        "sw_latitude": 42.463055, 
         "osm:node_ids": [
           474654398, 
           474654399, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -71.290716, 
         "longitude": 42.463171, 
-        "ne_latitude": 42.463289, 
-        "woe:placetype": "building", 
         "sw_longitude": -71.291677, 
+        "woe:placetype": "building", 
+        "ne_latitude": 42.463289, 
         "latitude": -71.291201, 
         "woe:id": 2149423921, 
-        "sw_latitude": 42.463055
+        "osm:way_id": 39595855
       }
     }
   ]

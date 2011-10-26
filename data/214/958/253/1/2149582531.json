@@ -43,13 +43,16 @@
       }, 
       "id": 2149582531, 
       "properties": {
-        "osm:way_id": 41166516, 
         "woe:parent": "125110388", 
         "tags": [
           "shop=car"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.855093, 
         "osm:node_ids": [
           502818107, 
           502818112, 
@@ -61,12 +64,12 @@
         ], 
         "ne_longitude": -35.211462, 
         "longitude": -5.854402, 
-        "ne_latitude": -5.853741, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.213024, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.853741, 
         "latitude": -35.212259, 
         "woe:id": 2149582531, 
-        "sw_latitude": -5.855093
+        "osm:way_id": 41166516
       }
     }
   ]

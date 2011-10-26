@@ -35,7 +35,6 @@
       }, 
       "id": 2150423976, 
       "properties": {
-        "osm:way_id": 45353677, 
         "woe:parent": "125110388", 
         "name": "Comunica", 
         "tags": [
@@ -43,8 +42,12 @@
           "alt_name=Superintend\u00eancia de Comunica\u00e7\u00e3o", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.838300, 
         "osm:node_ids": [
           576565089, 
           576565085, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -35.200296, 
         "longitude": -5.838171, 
-        "ne_latitude": -5.838018, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.200813, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.838018, 
         "latitude": -35.200599, 
         "woe:id": 2150423976, 
-        "sw_latitude": -5.838300
+        "osm:way_id": 45353677
       }
     }
   ]

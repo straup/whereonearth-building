@@ -75,7 +75,6 @@
       }, 
       "id": 2149577476, 
       "properties": {
-        "osm:way_id": 41113576, 
         "woe:parent": "125110388", 
         "name": "NUPLAM", 
         "tags": [
@@ -83,8 +82,12 @@
           "url=http8c8s8swww.nuplam.ufrn.br8s", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.840634, 
         "osm:node_ids": [
           501619979, 
           501620006, 
@@ -104,12 +107,12 @@
         ], 
         "ne_longitude": -35.202930, 
         "longitude": -5.840102, 
-        "ne_latitude": -5.839402, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.203902, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.839402, 
         "latitude": -35.203375, 
         "woe:id": 2149577476, 
-        "sw_latitude": -5.840634
+        "osm:way_id": 41113576
       }
     }
   ]

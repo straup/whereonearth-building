@@ -91,15 +91,18 @@
       }, 
       "id": 2149937027, 
       "properties": {
-        "osm:way_id": 43194984, 
         "woe:parent": "12519544", 
         "name": "National Air & Space Museum Udvar-Hazy Center", 
         "tags": [
           "name=National Air & Space Museum Udvar-Hazy Center", 
           "tourism=museum"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12519544", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519544, 
+        "sw_latitude": 38.909576, 
         "osm:node_ids": [
           541327188, 
           541327189, 
@@ -123,12 +126,12 @@
         ], 
         "ne_longitude": -77.443032, 
         "longitude": 38.911050, 
-        "ne_latitude": 38.912381, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.445718, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.912381, 
         "latitude": -77.444175, 
         "woe:id": 2149937027, 
-        "sw_latitude": 38.909576
+        "osm:way_id": 43194984
       }
     }
   ]

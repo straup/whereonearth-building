@@ -295,7 +295,6 @@
       }, 
       "id": 2147499781, 
       "properties": {
-        "osm:way_id": 22561769, 
         "woe:parent": "12517576", 
         "name": "Centro Comercial Parque Corredor", 
         "tags": [
@@ -303,8 +302,12 @@
           "name=Centro Comercial Parque Corredor", 
           "landuse=commercial"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=12517576", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 12517576, 
+        "sw_latitude": 40.473783, 
         "osm:node_ids": [
           538591771, 
           247793791, 
@@ -379,12 +382,12 @@
         ], 
         "ne_longitude": -3.477732, 
         "longitude": 40.476272, 
-        "ne_latitude": 40.478657, 
-        "woe:placetype": "building", 
         "sw_longitude": -3.483284, 
+        "woe:placetype": "building", 
+        "ne_latitude": 40.478657, 
         "latitude": -3.480495, 
         "woe:id": 2147499781, 
-        "sw_latitude": 40.473783
+        "osm:way_id": 22561769
       }
     }
   ]

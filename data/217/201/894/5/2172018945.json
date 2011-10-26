@@ -35,14 +35,17 @@
       }, 
       "id": 2172018945, 
       "properties": {
-        "osm:way_id": 89761718, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=16", 
           "addr:street=Niederkasseler Lohweg"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.241719, 
         "osm:node_ids": [
           1040207847, 
           1040207848, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 6.736818, 
         "longitude": 51.241941, 
-        "ne_latitude": 51.242159, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.736175, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.242159, 
         "latitude": 6.736496, 
         "woe:id": 2172018945, 
-        "sw_latitude": 51.241719
+        "osm:way_id": 89761718
       }
     }
   ]

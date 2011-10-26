@@ -83,15 +83,18 @@
       }, 
       "id": 2148563226, 
       "properties": {
-        "osm:way_id": 33383870, 
         "woe:parent": "12520561", 
         "name": "Lancaster Airport", 
         "tags": [
           "name=Lancaster Airport", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12520561", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520561, 
+        "sw_latitude": 40.118492, 
         "osm:node_ids": [
           379751346, 
           379751348, 
@@ -113,12 +116,12 @@
         ], 
         "ne_longitude": -76.298868, 
         "longitude": 40.118858, 
-        "ne_latitude": 40.119161, 
-        "woe:placetype": "building", 
         "sw_longitude": -76.299761, 
+        "woe:placetype": "building", 
+        "ne_latitude": 40.119161, 
         "latitude": -76.299300, 
         "woe:id": 2148563226, 
-        "sw_latitude": 40.118492
+        "osm:way_id": 33383870
       }
     }
   ]

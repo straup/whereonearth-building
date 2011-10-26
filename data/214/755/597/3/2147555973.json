@@ -39,7 +39,6 @@
       }, 
       "id": 2147555973, 
       "properties": {
-        "osm:way_id": 24235752, 
         "woe:parent": "22276234", 
         "name": "Rathaus", 
         "tags": [
@@ -51,8 +50,12 @@
           "addr:country=DE", 
           "addr:street=Hans-Grade-Allee"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.391432, 
         "osm:node_ids": [
           262409162, 
           262409163, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 13.500769, 
         "longitude": 52.391706, 
-        "ne_latitude": 52.391978, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.499799, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.391978, 
         "latitude": 13.500284, 
         "woe:id": 2147555973, 
-        "sw_latitude": 52.391432
+        "osm:way_id": 24235752
       }
     }
   ]

@@ -35,14 +35,17 @@
       }, 
       "id": 2170644215, 
       "properties": {
-        "osm:way_id": 86615327, 
         "woe:parent": "125138827", 
         "name": "Alenia", 
         "tags": [
           "name=Alenia"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=125138827", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 12513827, 
+        "sw_latitude": 40.511872, 
         "osm:node_ids": [
           1007263932, 
           1007263935, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 17.395906, 
         "longitude": 40.512405, 
-        "ne_latitude": 40.512937, 
-        "woe:placetype": "building", 
         "sw_longitude": 17.393794, 
+        "woe:placetype": "building", 
+        "ne_latitude": 40.512937, 
         "latitude": 17.394851, 
         "woe:id": 2170644215, 
-        "sw_latitude": 40.511872
+        "osm:way_id": 86615327
       }
     }
   ]

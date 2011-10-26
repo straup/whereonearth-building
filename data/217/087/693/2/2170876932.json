@@ -35,7 +35,6 @@
       }, 
       "id": 2170876932, 
       "properties": {
-        "osm:way_id": 87162544, 
         "woe:parent": "12517539", 
         "name": "REPSOL", 
         "tags": [
@@ -52,8 +51,12 @@
           "is_in:municipality=MADRID", 
           "addr:street=ZONA AEROPUERTO DE BARAJAS, TERMINAL 2, S8sN"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=12517539", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 12517539, 
+        "sw_latitude": 40.466474, 
         "osm:node_ids": [
           1013529321, 
           1013529339, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": -3.572563, 
         "longitude": 40.466572, 
-        "ne_latitude": 40.466669, 
-        "woe:placetype": "building", 
         "sw_longitude": -3.573101, 
+        "woe:placetype": "building", 
+        "ne_latitude": 40.466669, 
         "latitude": -3.572832, 
         "woe:id": 2170876932, 
-        "sw_latitude": 40.466474
+        "osm:way_id": 87162544
       }
     }
   ]

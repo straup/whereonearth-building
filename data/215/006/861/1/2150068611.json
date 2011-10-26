@@ -55,7 +55,6 @@
       }, 
       "id": 2150068611, 
       "properties": {
-        "osm:way_id": 44149023, 
         "woe:parent": "22269415", 
         "name": "Air Alliance GmbH", 
         "tags": [
@@ -63,8 +62,12 @@
           "name=Air Alliance GmbH", 
           "url=http8c8s8swww.air-alliance.de8s"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.772322, 
         "osm:node_ids": [
           560888310, 
           560888313, 
@@ -79,12 +82,12 @@
         ], 
         "ne_longitude": 8.083086, 
         "longitude": 48.772746, 
-        "ne_latitude": 48.773147, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.081970, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.773147, 
         "latitude": 8.082513, 
         "woe:id": 2150068611, 
-        "sw_latitude": 48.772322
+        "osm:way_id": 44149023
       }
     }
   ]

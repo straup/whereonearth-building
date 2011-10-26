@@ -67,15 +67,18 @@
       }, 
       "id": 2148835821, 
       "properties": {
-        "osm:way_id": 36074402, 
         "woe:parent": "224118879", 
         "name": "T2A", 
         "tags": [
           "name=T2A", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=224118879", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 22411879, 
+        "sw_latitude": 41.300647, 
         "osm:node_ids": [
           421449997, 
           206138082, 
@@ -93,12 +96,12 @@
         ], 
         "ne_longitude": 2.075433, 
         "longitude": 41.301629, 
-        "ne_latitude": 41.302435, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.073127, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.302435, 
         "latitude": 2.074192, 
         "woe:id": 2148835821, 
-        "sw_latitude": 41.300647
+        "osm:way_id": 36074402
       }
     }
   ]

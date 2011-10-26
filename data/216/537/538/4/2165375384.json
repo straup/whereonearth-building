@@ -87,15 +87,18 @@
       }, 
       "id": 2165375384, 
       "properties": {
-        "osm:way_id": 75715388, 
         "woe:parent": "125118894", 
         "name": "Parkade", 
         "tags": [
           "amenity=parking", 
           "name=Parkade"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=125118894", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511894, 
+        "sw_latitude": 49.192401, 
         "osm:node_ids": [
           893880829, 
           893880804, 
@@ -118,12 +121,12 @@
         ], 
         "ne_longitude": -123.177821, 
         "longitude": 49.193308, 
-        "ne_latitude": 49.194161, 
-        "woe:placetype": "building", 
         "sw_longitude": -123.179452, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.194161, 
         "latitude": -123.178641, 
         "woe:id": 2165375384, 
-        "sw_latitude": 49.192401
+        "osm:way_id": 75715388
       }
     }
   ]

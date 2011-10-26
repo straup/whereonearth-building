@@ -43,14 +43,17 @@
       }, 
       "id": 2153266868, 
       "properties": {
-        "osm:way_id": 52618251, 
         "woe:parent": "23195459", 
         "tags": [
           "amenity=restaurant", 
           "3dshapes:ggmodelk=19"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=23195459", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 23195459, 
+        "sw_latitude": 52.132947, 
         "osm:node_ids": [
           668227206, 
           668227204, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": 5.290621, 
         "longitude": 52.133039, 
-        "ne_latitude": 52.133128, 
-        "woe:placetype": "building", 
         "sw_longitude": 5.290365, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.133128, 
         "latitude": 5.290488, 
         "woe:id": 2153266868, 
-        "sw_latitude": 52.132947
+        "osm:way_id": 52618251
       }
     }
   ]

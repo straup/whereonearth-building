@@ -43,15 +43,18 @@
       }, 
       "id": 2149863979, 
       "properties": {
-        "osm:way_id": 42754954, 
         "woe:parent": "12521741", 
         "name": "FreeBirds World Burrito", 
         "tags": [
           "name=FreeBirds World Burrito", 
           "landuse=commercial"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.413240, 
         "osm:node_ids": [
           534644251, 
           534644252, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": -119.855519, 
         "longitude": 34.413302, 
-        "ne_latitude": 34.413380, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.855830, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.413380, 
         "latitude": -119.855668, 
         "woe:id": 2149863979, 
-        "sw_latitude": 34.413240
+        "osm:way_id": 42754954
       }
     }
   ]

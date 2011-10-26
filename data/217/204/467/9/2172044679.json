@@ -43,7 +43,6 @@
       }, 
       "id": 2172044679, 
       "properties": {
-        "osm:way_id": 89815962, 
         "woe:parent": "23024911", 
         "name": "Dehner Garten-Center D\u00fcsseldorf GmbH & Co. KG", 
         "tags": [
@@ -55,8 +54,12 @@
           "addr:street=Am H\u00fclserhof", 
           "addr:city=D\u00fcsseldorf"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.277302, 
         "osm:node_ids": [
           1041087942, 
           1041088143, 
@@ -68,12 +71,12 @@
         ], 
         "ne_longitude": 6.808615, 
         "longitude": 51.277563, 
-        "ne_latitude": 51.277821, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.807943, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.277821, 
         "latitude": 6.808279, 
         "woe:id": 2172044679, 
-        "sw_latitude": 51.277302
+        "osm:way_id": 89815962
       }
     }
   ]

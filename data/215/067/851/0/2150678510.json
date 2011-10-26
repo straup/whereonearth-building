@@ -91,14 +91,17 @@
       }, 
       "id": 2150678510, 
       "properties": {
-        "osm:way_id": 46607090, 
         "woe:parent": "125110388", 
         "name": "SESI", 
         "tags": [
           "name=SESI"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.825331, 
         "osm:node_ids": [
           595641625, 
           595641617, 
@@ -122,12 +125,12 @@
         ], 
         "ne_longitude": -35.225046, 
         "longitude": -5.824703, 
-        "ne_latitude": -5.824071, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.227071, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.824071, 
         "latitude": -35.226004, 
         "woe:id": 2150678510, 
-        "sw_latitude": -5.825331
+        "osm:way_id": 46607090
       }
     }
   ]

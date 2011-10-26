@@ -35,7 +35,6 @@
       }, 
       "id": 2147582432, 
       "properties": {
-        "osm:way_id": 25054515, 
         "woe:parent": "12513199", 
         "name": "DLR Pforte", 
         "tags": [
@@ -45,8 +44,12 @@
           "url=DLR.de", 
           "phone=+49 88153 288 0"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.084838, 
         "osm:node_ids": [
           272579683, 
           272579684, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": 11.276357, 
         "longitude": 48.084922, 
-        "ne_latitude": 48.085004, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.276106, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.085004, 
         "latitude": 11.276232, 
         "woe:id": 2147582432, 
-        "sw_latitude": 48.084838
+        "osm:way_id": 25054515
       }
     }
   ]

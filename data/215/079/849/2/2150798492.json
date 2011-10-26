@@ -51,7 +51,6 @@
       }, 
       "id": 2150798492, 
       "properties": {
-        "osm:way_id": 46829948, 
         "woe:parent": "12514691", 
         "name": "Sheraton Hotel", 
         "tags": [
@@ -59,8 +58,12 @@
           "tourism=hotel", 
           "stars=5"
         ], 
-        "hierarchy": "woe:country=2342488883", 
+        "hierarchy": [
+          "woe:airport=12514691", 
+          "woe:country=2342488883"
+        ], 
         "parent_woeid": 12514691, 
+        "sw_latitude": -18.814955, 
         "osm:node_ids": [
           598160533, 
           598160534, 
@@ -74,12 +77,12 @@
         ], 
         "ne_longitude": 47.477034, 
         "longitude": -18.814469, 
-        "ne_latitude": -18.813980, 
-        "woe:placetype": "building", 
         "sw_longitude": 47.476293, 
+        "woe:placetype": "building", 
+        "ne_latitude": -18.813980, 
         "latitude": 47.476709, 
         "woe:id": 2150798492, 
-        "sw_latitude": -18.814955
+        "osm:way_id": 46829948
       }
     }
   ]

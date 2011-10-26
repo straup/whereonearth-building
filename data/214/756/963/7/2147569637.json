@@ -35,14 +35,17 @@
       }, 
       "id": 2147569637, 
       "properties": {
-        "osm:way_id": 24659312, 
         "woe:parent": "23024911", 
         "name": "Arbeitsagentur", 
         "tags": [
           "name=Arbeitsagentur"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.247681, 
         "osm:node_ids": [
           268026413, 
           268026414, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 6.771091, 
         "longitude": 51.247935, 
-        "ne_latitude": 51.248186, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.770044, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.248186, 
         "latitude": 6.770562, 
         "woe:id": 2147569637, 
-        "sw_latitude": 51.247681
+        "osm:way_id": 24659312
       }
     }
   ]

@@ -71,15 +71,18 @@
       }, 
       "id": 2171684874, 
       "properties": {
-        "osm:way_id": 89028560, 
         "woe:parent": "12522975", 
         "name": "Haven Zoological Park", 
         "tags": [
           "name=Haven Zoological Park", 
           "tourism=zoo"
         ], 
-        "hierarchy": "woe:country=234249887", 
+        "hierarchy": [
+          "woe:airport=12522975", 
+          "woe:country=234249887"
+        ], 
         "parent_woeid": 12522975, 
+        "sw_latitude": -22.619328, 
         "osm:node_ids": [
           1033121857, 
           1033121861, 
@@ -98,12 +101,12 @@
         ], 
         "ne_longitude": 17.102229, 
         "longitude": -22.617829, 
-        "ne_latitude": -22.616219, 
-        "woe:placetype": "building", 
         "sw_longitude": 17.099403, 
+        "woe:placetype": "building", 
+        "ne_latitude": -22.616219, 
         "latitude": 17.100961, 
         "woe:id": 2171684874, 
-        "sw_latitude": -22.619328
+        "osm:way_id": 89028560
       }
     }
   ]

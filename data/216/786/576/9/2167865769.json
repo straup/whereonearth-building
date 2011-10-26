@@ -35,15 +35,18 @@
       }, 
       "id": 2167865769, 
       "properties": {
-        "osm:way_id": 81283296, 
         "woe:parent": "12514720", 
         "name": "Casa de Cultura \"Orion\"", 
         "tags": [
           "addr:housenumber=7928s2", 
           "name=Casa de Cultura \"Orion\""
         ], 
-        "hierarchy": "woe:country=2342488885", 
+        "hierarchy": [
+          "woe:airport=12514720", 
+          "woe:country=2342488885"
+        ], 
         "parent_woeid": 12514720, 
+        "sw_latitude": 46.939544, 
         "osm:node_ids": [
           946945830, 
           946945589, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 28.943379, 
         "longitude": 46.939785, 
-        "ne_latitude": 46.940026, 
-        "woe:placetype": "building", 
         "sw_longitude": 28.942706, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.940026, 
         "latitude": 28.943043, 
         "woe:id": 2167865769, 
-        "sw_latitude": 46.939544
+        "osm:way_id": 81283296
       }
     }
   ]

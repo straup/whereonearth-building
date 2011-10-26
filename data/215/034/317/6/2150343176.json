@@ -55,7 +55,6 @@
       }, 
       "id": 2150343176, 
       "properties": {
-        "osm:way_id": 45081885, 
         "woe:parent": "230309881", 
         "name": "Lufthansa CityLine", 
         "tags": [
@@ -67,8 +66,12 @@
           "addr:country=DE", 
           "addr:street=Waldstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=230309881", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23030981, 
+        "sw_latitude": 50.880282, 
         "osm:node_ids": [
           571605808, 
           571605775, 
@@ -83,12 +86,12 @@
         ], 
         "ne_longitude": 7.111399, 
         "longitude": 50.880548, 
-        "ne_latitude": 50.880821, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.110536, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.880821, 
         "latitude": 7.110982, 
         "woe:id": 2150343176, 
-        "sw_latitude": 50.880282
+        "osm:way_id": 45081885
       }
     }
   ]

@@ -83,15 +83,18 @@
       }, 
       "id": 2147503052, 
       "properties": {
-        "osm:way_id": 22955046, 
         "woe:parent": "223886730", 
         "name": "F-pier", 
         "tags": [
           "name=F-pier", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.311097, 
         "osm:node_ids": [
           247324446, 
           247324447, 
@@ -113,12 +116,12 @@
         ], 
         "ne_longitude": 4.762679, 
         "longitude": 52.312475, 
-        "ne_latitude": 52.313369, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.760935, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.313369, 
         "latitude": 4.761878, 
         "woe:id": 2147503052, 
-        "sw_latitude": 52.311097
+        "osm:way_id": 22955046
       }
     }
   ]

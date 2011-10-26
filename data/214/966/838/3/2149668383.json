@@ -43,15 +43,18 @@
       }, 
       "id": 2149668383, 
       "properties": {
-        "osm:way_id": 41931719, 
         "woe:parent": "22269415", 
         "name": "bunker", 
         "tags": [
           "addr:housenumber=B 219", 
           "name=bunker"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.777843, 
         "osm:node_ids": [
           519368512, 
           519368515, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 8.091188, 
         "longitude": 48.777932, 
-        "ne_latitude": 48.778024, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.090779, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.778024, 
         "latitude": 8.090982, 
         "woe:id": 2149668383, 
-        "sw_latitude": 48.777843
+        "osm:way_id": 41931719
       }
     }
   ]

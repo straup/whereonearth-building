@@ -127,7 +127,6 @@
       }, 
       "id": 2147544970, 
       "properties": {
-        "osm:way_id": 23772487, 
         "woe:parent": "22022012", 
         "name": "P 3", 
         "tags": [
@@ -137,8 +136,12 @@
           "created_by=JOSM", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=23424750", 
+        "hierarchy": [
+          "woe:airport=22022012", 
+          "woe:country=23424750"
+        ], 
         "parent_woeid": 22022012, 
+        "sw_latitude": 48.121808, 
         "osm:node_ids": [
           257568303, 
           257568304, 
@@ -171,12 +174,12 @@
         ], 
         "ne_longitude": 16.560305, 
         "longitude": 48.122335, 
-        "ne_latitude": 48.122807, 
-        "woe:placetype": "building", 
         "sw_longitude": 16.558394, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.122807, 
         "latitude": 16.559310, 
         "woe:id": 2147544970, 
-        "sw_latitude": 48.121808
+        "osm:way_id": 23772487
       }
     }
   ]

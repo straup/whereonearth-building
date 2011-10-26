@@ -35,7 +35,6 @@
       }, 
       "id": 2149602766, 
       "properties": {
-        "osm:way_id": 41365720, 
         "woe:parent": "125110388", 
         "name": "Museu de Morfologia", 
         "tags": [
@@ -45,8 +44,12 @@
           "highway=footway", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.842033, 
         "osm:node_ids": [
           505929289, 
           505929299, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": -35.202833, 
         "longitude": -5.841792, 
-        "ne_latitude": -5.841550, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.203232, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.841550, 
         "latitude": -35.203033, 
         "woe:id": 2149602766, 
-        "sw_latitude": -5.842033
+        "osm:way_id": 41365720
       }
     }
   ]

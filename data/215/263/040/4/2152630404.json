@@ -43,14 +43,17 @@
       }, 
       "id": 2152630404, 
       "properties": {
-        "osm:way_id": 51176379, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=13", 
           "addr:street=Pfarrsiedlung"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.417614, 
         "osm:node_ids": [
           652819927, 
           652819931, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": 13.515836, 
         "longitude": 52.417712, 
-        "ne_latitude": 52.417800, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.515480, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.417800, 
         "latitude": 13.515673, 
         "woe:id": 2152630404, 
-        "sw_latitude": 52.417614
+        "osm:way_id": 51176379
       }
     }
   ]

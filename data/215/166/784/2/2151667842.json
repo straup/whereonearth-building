@@ -43,14 +43,17 @@
       }, 
       "id": 2151667842, 
       "properties": {
-        "osm:way_id": 48868049, 
         "woe:parent": "22276234", 
         "tags": [
           "building:use=equestrian", 
           "building:type=cot"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.409955, 
         "osm:node_ids": [
           620050257, 
           619867371, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": 13.519011, 
         "longitude": 52.410160, 
-        "ne_latitude": 52.410363, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.518526, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.410363, 
         "latitude": 13.518765, 
         "woe:id": 2151667842, 
-        "sw_latitude": 52.409955
+        "osm:way_id": 48868049
       }
     }
   ]

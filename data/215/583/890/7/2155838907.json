@@ -91,15 +91,18 @@
       }, 
       "id": 2155838907, 
       "properties": {
-        "osm:way_id": 58718062, 
         "woe:parent": "22462097", 
         "name": "Thistle Hotel", 
         "tags": [
           "name=Thistle Hotel", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22462097", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22462097, 
+        "sw_latitude": 52.824579, 
         "osm:node_ids": [
           727627765, 
           727627767, 
@@ -123,12 +126,12 @@
         ], 
         "ne_longitude": -1.322490, 
         "longitude": 52.824965, 
-        "ne_latitude": 52.825452, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.324686, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.825452, 
         "latitude": -1.323699, 
         "woe:id": 2155838907, 
-        "sw_latitude": 52.824579
+        "osm:way_id": 58718062
       }
     }
   ]

@@ -51,14 +51,17 @@
       }, 
       "id": 2149670380, 
       "properties": {
-        "osm:way_id": 41953797, 
         "woe:parent": "12514635", 
         "name": "Luxair Ground Maintenance", 
         "tags": [
           "name=Luxair Ground Maintenance"
         ], 
-        "hierarchy": "woe:country=2342488881", 
+        "hierarchy": [
+          "woe:airport=12514635", 
+          "woe:country=2342488881"
+        ], 
         "parent_woeid": 12514635, 
+        "sw_latitude": 49.628234, 
         "osm:node_ids": [
           519811086, 
           519811100, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 6.205640, 
         "longitude": 49.628416, 
-        "ne_latitude": 49.628595, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.204823, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.628595, 
         "latitude": 6.205237, 
         "woe:id": 2149670380, 
-        "sw_latitude": 49.628234
+        "osm:way_id": 41953797
       }
     }
   ]

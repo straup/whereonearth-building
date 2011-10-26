@@ -71,7 +71,6 @@
       }, 
       "id": 2147503135, 
       "properties": {
-        "osm:way_id": 22962198, 
         "woe:parent": "223886730", 
         "name": "Schiphol Plaza", 
         "tags": [
@@ -81,8 +80,12 @@
           "aeroway=terminal", 
           "railway=station"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.308141, 
         "osm:node_ids": [
           247323947, 
           247323946, 
@@ -101,12 +104,12 @@
         ], 
         "ne_longitude": 4.763689, 
         "longitude": 52.309683, 
-        "ne_latitude": 52.310452, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.759073, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.310452, 
         "latitude": 4.761882, 
         "woe:id": 2147503135, 
-        "sw_latitude": 52.308141
+        "osm:way_id": 22962198
       }
     }
   ]

@@ -43,7 +43,6 @@
       }, 
       "id": 2147739197, 
       "properties": {
-        "osm:way_id": 27138879, 
         "woe:parent": "22276234", 
         "name": "Flughafensicherheit", 
         "tags": [
@@ -51,8 +50,12 @@
           "name=Flughafensicherheit", 
           "created_by=Potlatch 0.10b"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.385171, 
         "osm:node_ids": [
           297752800, 
           297752801, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": 13.512434, 
         "longitude": 52.385318, 
-        "ne_latitude": 52.385475, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.511587, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.385475, 
         "latitude": 13.511978, 
         "woe:id": 2147739197, 
-        "sw_latitude": 52.385171
+        "osm:way_id": 27138879
       }
     }
   ]

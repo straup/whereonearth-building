@@ -35,14 +35,17 @@
       }, 
       "id": 2169800922, 
       "properties": {
-        "osm:way_id": 84999352, 
         "woe:parent": "12517525", 
         "name": "CIAS Cargo Centre", 
         "tags": [
           "name=CIAS Cargo Centre"
         ], 
-        "hierarchy": "woe:country=234249488", 
+        "hierarchy": [
+          "woe:airport=12517525", 
+          "woe:country=234249488"
+        ], 
         "parent_woeid": 12517525, 
+        "sw_latitude": 1.370597, 
         "osm:node_ids": [
           986551812, 
           986551815, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 103.997488, 
         "longitude": 1.372557, 
-        "ne_latitude": 1.374566, 
-        "woe:placetype": "building", 
         "sw_longitude": 103.995300, 
+        "woe:placetype": "building", 
+        "ne_latitude": 1.374566, 
         "latitude": 103.996398, 
         "woe:id": 2169800922, 
-        "sw_latitude": 1.370597
+        "osm:way_id": 84999352
       }
     }
   ]

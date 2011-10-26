@@ -79,15 +79,18 @@
       }, 
       "id": 2147518781, 
       "properties": {
-        "osm:way_id": 23473353, 
         "woe:parent": "23024911", 
         "name": "Messe-Center", 
         "tags": [
           "name=Messe-Center", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.258206, 
         "osm:node_ids": [
           254197986, 
           254197989, 
@@ -108,12 +111,12 @@
         ], 
         "ne_longitude": 6.742751, 
         "longitude": 51.259040, 
-        "ne_latitude": 51.259783, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.740771, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.259783, 
         "latitude": 6.741865, 
         "woe:id": 2147518781, 
-        "sw_latitude": 51.258206
+        "osm:way_id": 23473353
       }
     }
   ]

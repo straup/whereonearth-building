@@ -151,7 +151,6 @@
       }, 
       "id": 2169149201, 
       "properties": {
-        "osm:way_id": 83890388, 
         "woe:parent": "12513775", 
         "name": "Gate B", 
         "tags": [
@@ -161,8 +160,12 @@
           "aeroway=terminal", 
           "ref=B"
         ], 
-        "hierarchy": "woe:country=234248852", 
+        "hierarchy": [
+          "woe:airport=12513775", 
+          "woe:country=234248852"
+        ], 
         "parent_woeid": 12513775, 
+        "sw_latitude": 32.004431, 
         "osm:node_ids": [
           976474684, 
           309930191, 
@@ -201,12 +204,12 @@
         ], 
         "ne_longitude": 34.872506, 
         "longitude": 32.005249, 
-        "ne_latitude": 32.005974, 
-        "woe:placetype": "building", 
         "sw_longitude": 34.871181, 
+        "woe:placetype": "building", 
+        "ne_latitude": 32.005974, 
         "latitude": 34.871871, 
         "woe:id": 2169149201, 
-        "sw_latitude": 32.004431
+        "osm:way_id": 83890388
       }
     }
   ]

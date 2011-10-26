@@ -75,15 +75,18 @@
       }, 
       "id": 2147595426, 
       "properties": {
-        "osm:way_id": 25373322, 
         "woe:parent": "12521721", 
         "name": "International Terminal G", 
         "tags": [
           "name=International Terminal G", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521721", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521721, 
+        "sw_latitude": 37.616554, 
         "osm:node_ids": [
           256281463, 
           276556196, 
@@ -103,12 +106,12 @@
         ], 
         "ne_longitude": -122.388620, 
         "longitude": 37.617588, 
-        "ne_latitude": 37.618823, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.393485, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.618823, 
         "latitude": -122.390914, 
         "woe:id": 2147595426, 
-        "sw_latitude": 37.616554
+        "osm:way_id": 25373322
       }
     }
   ]

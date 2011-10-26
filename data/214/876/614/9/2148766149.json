@@ -35,13 +35,16 @@
       }, 
       "id": 2148766149, 
       "properties": {
-        "osm:way_id": 35956541, 
         "woe:parent": "12513445", 
         "tags": [
           "source=http8c8s8swww.asbru.is8sresources8sFiles8sasbru_skilti_kort_v6.pdf"
         ], 
-        "hierarchy": "woe:country=234248845", 
+        "hierarchy": [
+          "woe:airport=12513445", 
+          "woe:country=234248845"
+        ], 
         "parent_woeid": 12513445, 
+        "sw_latitude": 63.974870, 
         "osm:node_ids": [
           420308003, 
           420308004, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": -22.575842, 
         "longitude": 63.974907, 
-        "ne_latitude": 63.974943, 
-        "woe:placetype": "building", 
         "sw_longitude": -22.576109, 
+        "woe:placetype": "building", 
+        "ne_latitude": 63.974943, 
         "latitude": -22.575976, 
         "woe:id": 2148766149, 
-        "sw_latitude": 63.974870
+        "osm:way_id": 35956541
       }
     }
   ]

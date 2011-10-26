@@ -123,15 +123,18 @@
       }, 
       "id": 2147555922, 
       "properties": {
-        "osm:way_id": 24233901, 
         "woe:parent": "22276234", 
         "name": "Konferenzzentrum", 
         "tags": [
           "name=Konferenzzentrum", 
           "created_by=Potlatch 0.10b"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.385610, 
         "osm:node_ids": [
           262390568, 
           262390569, 
@@ -163,12 +166,12 @@
         ], 
         "ne_longitude": 13.513114, 
         "longitude": 52.386545, 
-        "ne_latitude": 52.387077, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.509443, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.387077, 
         "latitude": 13.511530, 
         "woe:id": 2147555922, 
-        "sw_latitude": 52.385610
+        "osm:way_id": 24233901
       }
     }
   ]

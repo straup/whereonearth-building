@@ -91,15 +91,18 @@
       }, 
       "id": 2147520190, 
       "properties": {
-        "osm:way_id": 23518379, 
         "woe:parent": "12511646", 
         "name": "Short Term Parking", 
         "tags": [
           "amenity=parking", 
           "name=Short Term Parking"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=12511646", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511646, 
+        "sw_latitude": 53.307017, 
         "osm:node_ids": [
           254706056, 
           550433688, 
@@ -123,12 +126,12 @@
         ], 
         "ne_longitude": -113.581309, 
         "longitude": 53.307896, 
-        "ne_latitude": 53.308709, 
-        "woe:placetype": "building", 
         "sw_longitude": -113.583446, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.308709, 
         "latitude": -113.582547, 
         "woe:id": 2147520190, 
-        "sw_latitude": 53.307017
+        "osm:way_id": 23518379
       }
     }
   ]

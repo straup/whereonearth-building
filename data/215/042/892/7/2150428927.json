@@ -83,7 +83,6 @@
       }, 
       "id": 2150428927, 
       "properties": {
-        "osm:way_id": 45389137, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=11", 
@@ -92,8 +91,12 @@
           "addr:postcode=4088880", 
           "addr:street=Daimlerstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.297574, 
         "osm:node_ids": [
           577242273, 
           577242274, 
@@ -115,12 +118,12 @@
         ], 
         "ne_longitude": 6.820444, 
         "longitude": 51.297718, 
-        "ne_latitude": 51.297879, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.819889, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.297879, 
         "latitude": 6.820156, 
         "woe:id": 2150428927, 
-        "sw_latitude": 51.297574
+        "osm:way_id": 45389137
       }
     }
   ]

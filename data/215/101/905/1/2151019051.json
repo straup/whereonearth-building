@@ -39,7 +39,6 @@
       }, 
       "id": 2151019051, 
       "properties": {
-        "osm:way_id": 47329797, 
         "woe:parent": "125116388", 
         "name": "ExpressParc", 
         "tags": [
@@ -49,8 +48,12 @@
           "amenity=parking", 
           "source=CanVec_Import_2009"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=125116388", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511638, 
+        "sw_latitude": 45.456243, 
         "osm:node_ids": [
           602789721, 
           602789719, 
@@ -61,12 +64,12 @@
         ], 
         "ne_longitude": -73.747955, 
         "longitude": 45.456785, 
-        "ne_latitude": 45.457341, 
-        "woe:placetype": "building", 
         "sw_longitude": -73.750494, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.457341, 
         "latitude": -73.749237, 
         "woe:id": 2151019051, 
-        "sw_latitude": 45.456243
+        "osm:way_id": 47329797
       }
     }
   ]

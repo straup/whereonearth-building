@@ -99,7 +99,6 @@
       }, 
       "id": 2169150724, 
       "properties": {
-        "osm:way_id": 83895609, 
         "woe:parent": "125209883", 
         "tags": [
           "addr:housenumber=16922", 
@@ -111,8 +110,12 @@
           "source_ref=AM909_DSCW1295;AM909_DSCW1309", 
           "addr:street=Airport Blvd"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.052910, 
         "osm:node_ids": [
           976521154, 
           976521963, 
@@ -138,12 +141,12 @@
         ], 
         "ne_longitude": -118.157150, 
         "longitude": 35.053210, 
-        "ne_latitude": 35.053498, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.157515, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.053498, 
         "latitude": -118.157373, 
         "woe:id": 2169150724, 
-        "sw_latitude": 35.052910
+        "osm:way_id": 83895609
       }
     }
   ]

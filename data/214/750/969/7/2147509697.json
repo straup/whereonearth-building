@@ -35,15 +35,18 @@
       }, 
       "id": 2147509697, 
       "properties": {
-        "osm:way_id": 23189849, 
         "woe:parent": "22177393", 
         "name": "Lufthansa Flight Training (LFT)", 
         "tags": [
           "name=Lufthansa Flight Training (LFT)", 
           "created_by=JOSM"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22177393", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22177393, 
+        "sw_latitude": 53.050851, 
         "osm:node_ids": [
           250767024, 
           250767025, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 8.788458, 
         "longitude": 53.051284, 
-        "ne_latitude": 53.051710, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.787194, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.051710, 
         "latitude": 8.787830, 
         "woe:id": 2147509697, 
-        "sw_latitude": 53.050851
+        "osm:way_id": 23189849
       }
     }
   ]

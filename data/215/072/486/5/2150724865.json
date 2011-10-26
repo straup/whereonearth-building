@@ -35,13 +35,16 @@
       }, 
       "id": 2150724865, 
       "properties": {
-        "osm:way_id": 46688665, 
         "woe:parent": "125110388", 
         "tags": [
           "leisure=sports_centre"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.811621, 
         "osm:node_ids": [
           596686290, 
           596686291, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": -35.203065, 
         "longitude": -5.811389, 
-        "ne_latitude": -5.811155, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.203563, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.811155, 
         "latitude": -35.203314, 
         "woe:id": 2150724865, 
-        "sw_latitude": -5.811621
+        "osm:way_id": 46688665
       }
     }
   ]

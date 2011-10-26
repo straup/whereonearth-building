@@ -67,15 +67,18 @@
       }, 
       "id": 2173606232, 
       "properties": {
-        "osm:way_id": 93320225, 
         "woe:parent": "125110388", 
         "name": "Shopping Cidade Jardim", 
         "tags": [
           "name=Shopping Cidade Jardim", 
           "landuse=commercial"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.851630, 
         "osm:node_ids": [
           1081990497, 
           1081990480, 
@@ -93,12 +96,12 @@
         ], 
         "ne_longitude": -35.204842, 
         "longitude": -5.851170, 
-        "ne_latitude": -5.850621, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.205983, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.850621, 
         "latitude": -35.205484, 
         "woe:id": 2173606232, 
-        "sw_latitude": -5.851630
+        "osm:way_id": 93320225
       }
     }
   ]

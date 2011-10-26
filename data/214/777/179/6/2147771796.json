@@ -51,15 +51,18 @@
       }, 
       "id": 2147771796, 
       "properties": {
-        "osm:way_id": 27797162, 
         "woe:parent": "125211988", 
         "name": "Intermountain Health Care WorkMed Physical Therapy", 
         "tags": [
           "amenity=hospital", 
           "name=Intermountain Health Care WorkMed Physical Therapy"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125211988", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521198, 
+        "sw_latitude": 41.202043, 
         "osm:node_ids": [
           305200069, 
           305200070, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": -112.012867, 
         "longitude": 41.202179, 
-        "ne_latitude": 41.202295, 
-        "woe:placetype": "building", 
         "sw_longitude": -112.013193, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.202295, 
         "latitude": -112.013033, 
         "woe:id": 2147771796, 
-        "sw_latitude": 41.202043
+        "osm:way_id": 27797162
       }
     }
   ]

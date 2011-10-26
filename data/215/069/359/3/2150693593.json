@@ -171,7 +171,6 @@
       }, 
       "id": 2150693593, 
       "properties": {
-        "osm:way_id": 46640228, 
         "woe:parent": "12515094", 
         "name": "Woonboulevard \"van Gils\"", 
         "tags": [
@@ -180,8 +179,12 @@
           "source=3dShapes", 
           "3dshapes:ggmodelk=5"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=12515094", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 12515094, 
+        "sw_latitude": 52.294421, 
         "osm:node_ids": [
           595919489, 
           595919484, 
@@ -225,12 +228,12 @@
         ], 
         "ne_longitude": 6.924084, 
         "longitude": 52.296156, 
-        "ne_latitude": 52.297536, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.922121, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.297536, 
         "latitude": 6.922959, 
         "woe:id": 2150693593, 
-        "sw_latitude": 52.294421
+        "osm:way_id": 46640228
       }
     }
   ]

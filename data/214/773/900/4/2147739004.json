@@ -99,7 +99,6 @@
       }, 
       "id": 2147739004, 
       "properties": {
-        "osm:way_id": 27134556, 
         "woe:parent": "12515363", 
         "name": "Cargo", 
         "tags": [
@@ -109,8 +108,12 @@
           "aeroway=terminal", 
           "addr:street=Wira\u017cowa"
         ], 
-        "hierarchy": "woe:country=23424923", 
+        "hierarchy": [
+          "woe:airport=12515363", 
+          "woe:country=23424923"
+        ], 
         "parent_woeid": 12515363, 
+        "sw_latitude": 52.154944, 
         "osm:node_ids": [
           297703010, 
           297703013, 
@@ -136,12 +139,12 @@
         ], 
         "ne_longitude": 20.985030, 
         "longitude": 52.156039, 
-        "ne_latitude": 52.157305, 
-        "woe:placetype": "building", 
         "sw_longitude": 20.981951, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.157305, 
         "latitude": 20.983491, 
         "woe:id": 2147739004, 
-        "sw_latitude": 52.154944
+        "osm:way_id": 27134556
       }
     }
   ]

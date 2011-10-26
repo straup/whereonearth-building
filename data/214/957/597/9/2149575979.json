@@ -51,7 +51,6 @@
       }, 
       "id": 2149575979, 
       "properties": {
-        "osm:way_id": 41100667, 
         "woe:parent": "125110388", 
         "name": "CT", 
         "tags": [
@@ -60,8 +59,12 @@
           "alt_name=Centro de Tecnologia", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.842899, 
         "osm:node_ids": [
           501404692, 
           501404697, 
@@ -75,12 +78,12 @@
         ], 
         "ne_longitude": -35.198485, 
         "longitude": -5.842739, 
-        "ne_latitude": -5.842572, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.199215, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.842572, 
         "latitude": -35.198852, 
         "woe:id": 2149575979, 
-        "sw_latitude": -5.842899
+        "osm:way_id": 41100667
       }
     }
   ]

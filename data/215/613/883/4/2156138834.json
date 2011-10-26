@@ -43,7 +43,6 @@
       }, 
       "id": 2156138834, 
       "properties": {
-        "osm:way_id": 59526243, 
         "woe:parent": "12519595", 
         "name": "The Two Pines Wedding Chapel", 
         "tags": [
@@ -51,8 +50,12 @@
           "name=The Two Pines Wedding Chapel", 
           "name:es=Iglesia Advetista el Santuario"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12519595", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519595, 
+        "sw_latitude": 34.735231, 
         "osm:node_ids": [
           738194667, 
           738194668, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": -117.776194, 
         "longitude": 34.735354, 
-        "ne_latitude": 34.735465, 
-        "woe:placetype": "building", 
         "sw_longitude": -117.776351, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.735465, 
         "latitude": -117.776280, 
         "woe:id": 2156138834, 
-        "sw_latitude": 34.735231
+        "osm:way_id": 59526243
       }
     }
   ]

@@ -51,13 +51,16 @@
       }, 
       "id": 2147582431, 
       "properties": {
-        "osm:way_id": 25054513, 
         "woe:parent": "12513199", 
         "tags": [
           "addr:housenumber=Geb. 1318s132"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.084086, 
         "osm:node_ids": [
           272579655, 
           272579656, 
@@ -71,12 +74,12 @@
         ], 
         "ne_longitude": 11.276691, 
         "longitude": 48.084441, 
-        "ne_latitude": 48.084749, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.275732, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.084749, 
         "latitude": 11.276237, 
         "woe:id": 2147582431, 
-        "sw_latitude": 48.084086
+        "osm:way_id": 25054513
       }
     }
   ]

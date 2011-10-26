@@ -51,14 +51,17 @@
       }, 
       "id": 2150428944, 
       "properties": {
-        "osm:way_id": 45391431, 
         "woe:parent": "125110388", 
         "name": "Portugal Center", 
         "tags": [
           "name=Portugal Center"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.820462, 
         "osm:node_ids": [
           577244343, 
           577244345, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": -35.208016, 
         "longitude": -5.820070, 
-        "ne_latitude": -5.819678, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.208365, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.819678, 
         "latitude": -35.208161, 
         "woe:id": 2150428944, 
-        "sw_latitude": -5.820462
+        "osm:way_id": 45391431
       }
     }
   ]

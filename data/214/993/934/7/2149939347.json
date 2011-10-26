@@ -83,14 +83,17 @@
       }, 
       "id": 2149939347, 
       "properties": {
-        "osm:way_id": 43215208, 
         "woe:parent": "22235735", 
         "name": "Alter Tower", 
         "tags": [
           "name=Alter Tower"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22235735", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22235735, 
+        "sw_latitude": 52.459869, 
         "osm:node_ids": [
           541817492, 
           1070469574, 
@@ -112,12 +115,12 @@
         ], 
         "ne_longitude": 9.694625, 
         "longitude": 52.459967, 
-        "ne_latitude": 52.460063, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.694307, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.460063, 
         "latitude": 9.694467, 
         "woe:id": 2149939347, 
-        "sw_latitude": 52.459869
+        "osm:way_id": 43215208
       }
     }
   ]

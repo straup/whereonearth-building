@@ -35,7 +35,6 @@
       }, 
       "id": 2147750149, 
       "properties": {
-        "osm:way_id": 27380342, 
         "woe:parent": "12513205", 
         "tags": [
           "addr:housenumber=35", 
@@ -43,8 +42,12 @@
           "source=Yahoo", 
           "addr:street=An der Promnitz"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.162126, 
         "osm:node_ids": [
           300567827, 
           300567830, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 13.733480, 
         "longitude": 51.162206, 
-        "ne_latitude": 51.162286, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.733221, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.162286, 
         "latitude": 13.733351, 
         "woe:id": 2147750149, 
-        "sw_latitude": 51.162126
+        "osm:way_id": 27380342
       }
     }
   ]

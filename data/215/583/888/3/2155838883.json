@@ -51,14 +51,17 @@
       }, 
       "id": 2155838883, 
       "properties": {
-        "osm:way_id": 58717956, 
         "woe:parent": "22462097", 
         "name": "EMA HQ", 
         "tags": [
           "name=EMA HQ"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22462097", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22462097, 
+        "sw_latitude": 52.825119, 
         "osm:node_ids": [
           727627247, 
           727627251, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": -1.339369, 
         "longitude": 52.825537, 
-        "ne_latitude": 52.826053, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.340296, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.826053, 
         "latitude": -1.339856, 
         "woe:id": 2155838883, 
-        "sw_latitude": 52.825119
+        "osm:way_id": 58717956
       }
     }
   ]

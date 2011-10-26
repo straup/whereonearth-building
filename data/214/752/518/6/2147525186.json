@@ -71,15 +71,18 @@
       }, 
       "id": 2147525186, 
       "properties": {
-        "osm:way_id": 23651234, 
         "woe:parent": "221441881", 
         "name": "Atelier OrlyVAL Service", 
         "tags": [
           "name=Atelier OrlyVAL Service", 
           "is_in=Wissous"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=221441881", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 22144181, 
+        "sw_latitude": 48.742401, 
         "osm:node_ids": [
           256233275, 
           256233276, 
@@ -98,12 +101,12 @@
         ], 
         "ne_longitude": 2.330454, 
         "longitude": 48.742759, 
-        "ne_latitude": 48.743153, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.328987, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.743153, 
         "latitude": 2.329668, 
         "woe:id": 2147525186, 
-        "sw_latitude": 48.742401
+        "osm:way_id": 23651234
       }
     }
   ]

@@ -35,15 +35,18 @@
       }, 
       "id": 2148444171, 
       "properties": {
-        "osm:way_id": 32274168, 
         "woe:parent": "12521741", 
         "name": "UCSB Gym", 
         "tags": [
           "name=UCSB Gym", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.418948, 
         "osm:node_ids": [
           362772949, 
           362772953, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -119.848669, 
         "longitude": 34.419115, 
-        "ne_latitude": 34.419281, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.849141, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.419281, 
         "latitude": -119.848907, 
         "woe:id": 2148444171, 
-        "sw_latitude": 34.418948
+        "osm:way_id": 32274168
       }
     }
   ]

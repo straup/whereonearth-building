@@ -39,7 +39,6 @@
       }, 
       "id": 2147488466, 
       "properties": {
-        "osm:way_id": 10676878, 
         "woe:parent": "22442771", 
         "name": "Dock E", 
         "tags": [
@@ -47,8 +46,12 @@
           "aeroway=terminal", 
           "loc_name=Dock Midfield"
         ], 
-        "hierarchy": "woe:country=23424957", 
+        "hierarchy": [
+          "woe:airport=22442771", 
+          "woe:country=23424957"
+        ], 
         "parent_woeid": 22442771, 
+        "sw_latitude": 47.460717, 
         "osm:node_ids": [
           94572201, 
           346111829, 
@@ -59,12 +62,12 @@
         ], 
         "ne_longitude": 8.558093, 
         "longitude": 47.461126, 
-        "ne_latitude": 47.461533, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.551778, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.461533, 
         "latitude": 8.554933, 
         "woe:id": 2147488466, 
-        "sw_latitude": 47.460717
+        "osm:way_id": 10676878
       }
     }
   ]

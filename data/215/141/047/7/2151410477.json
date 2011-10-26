@@ -147,13 +147,16 @@
       }, 
       "id": 2151410477, 
       "properties": {
-        "osm:way_id": 48057185, 
         "woe:parent": "125138850", 
         "tags": [
           "railway=station"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=125138850", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 12513850, 
+        "sw_latitude": 43.708147, 
         "osm:node_ids": [
           610964815, 
           610964819, 
@@ -191,12 +194,12 @@
         ], 
         "ne_longitude": 10.400194, 
         "longitude": 43.708450, 
-        "ne_latitude": 43.708820, 
-        "woe:placetype": "building", 
         "sw_longitude": 10.397508, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.708820, 
         "latitude": 10.398912, 
         "woe:id": 2151410477, 
-        "sw_latitude": 43.708147
+        "osm:way_id": 48057185
       }
     }
   ]

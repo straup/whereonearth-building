@@ -35,7 +35,6 @@
       }, 
       "id": 2149575909, 
       "properties": {
-        "osm:way_id": 41098940, 
         "woe:parent": "125110388", 
         "name": "SInfo", 
         "tags": [
@@ -45,8 +44,12 @@
           "alt_name=Superintend\u00eancia de Inform\u00e1tica", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.841600, 
         "osm:node_ids": [
           501359035, 
           501359043, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": -35.198423, 
         "longitude": -5.841515, 
-        "ne_latitude": -5.841429, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.198981, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.841429, 
         "latitude": -35.198702, 
         "woe:id": 2149575909, 
-        "sw_latitude": -5.841600
+        "osm:way_id": 41098940
       }
     }
   ]

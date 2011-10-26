@@ -43,7 +43,6 @@
       }, 
       "id": 2147810215, 
       "properties": {
-        "osm:way_id": 28355832, 
         "woe:parent": "12512692", 
         "name": "Airport Hurghada", 
         "tags": [
@@ -51,8 +50,12 @@
           "name=Airport Hurghada", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=234248802", 
+        "hierarchy": [
+          "woe:airport=12512692", 
+          "woe:country=234248802"
+        ], 
         "parent_woeid": 12512692, 
+        "sw_latitude": 27.187181, 
         "osm:node_ids": [
           311424608, 
           311424609, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": 33.806684, 
         "longitude": 27.189120, 
-        "ne_latitude": 27.191447, 
-        "woe:placetype": "building", 
         "sw_longitude": 33.803899, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.191447, 
         "latitude": 33.805000, 
         "woe:id": 2147810215, 
-        "sw_latitude": 27.187181
+        "osm:way_id": 28355832
       }
     }
   ]

@@ -83,7 +83,6 @@
       }, 
       "id": 2151582294, 
       "properties": {
-        "osm:way_id": 48618579, 
         "woe:parent": "223886730", 
         "name": "TNO", 
         "tags": [
@@ -91,8 +90,12 @@
           "source=3dShapes", 
           "3dshapes:ggmodelk=5"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.292256, 
         "osm:node_ids": [
           617448322, 
           617448319, 
@@ -114,12 +117,12 @@
         ], 
         "ne_longitude": 4.709445, 
         "longitude": 52.292445, 
-        "ne_latitude": 52.292748, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.708580, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.292748, 
         "latitude": 4.709041, 
         "woe:id": 2151582294, 
-        "sw_latitude": 52.292256
+        "osm:way_id": 48618579
       }
     }
   ]

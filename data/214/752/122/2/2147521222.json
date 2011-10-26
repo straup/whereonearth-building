@@ -67,15 +67,18 @@
       }, 
       "id": 2147521222, 
       "properties": {
-        "osm:way_id": 23558195, 
         "woe:parent": "22276234", 
         "name": "Deutsche Post Briefzentrum Berlin S\u00fcd-Ost", 
         "tags": [
           "name=Deutsche Post Briefzentrum Berlin S\u00fcd-Ost", 
           "created_by=Potlatch 0.88c"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.384144, 
         "osm:node_ids": [
           255107052, 
           262400468, 
@@ -93,12 +96,12 @@
         ], 
         "ne_longitude": 13.490962, 
         "longitude": 52.384851, 
-        "ne_latitude": 52.385611, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.489121, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.385611, 
         "latitude": 13.490034, 
         "woe:id": 2147521222, 
-        "sw_latitude": 52.384144
+        "osm:way_id": 23558195
       }
     }
   ]

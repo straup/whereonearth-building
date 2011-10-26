@@ -75,14 +75,17 @@
       }, 
       "id": 2147496690, 
       "properties": {
-        "osm:way_id": 19322382, 
         "woe:parent": "12511594", 
         "name": "Calgary Police", 
         "tags": [
           "name=Calgary Police"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=12511594", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511594, 
+        "sw_latitude": 51.111474, 
         "osm:node_ids": [
           200766856, 
           200766874, 
@@ -102,12 +105,12 @@
         ], 
         "ne_longitude": -114.034416, 
         "longitude": 51.111856, 
-        "ne_latitude": 51.112237, 
-        "woe:placetype": "building", 
         "sw_longitude": -114.035700, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.112237, 
         "latitude": -114.034938, 
         "woe:id": 2147496690, 
-        "sw_latitude": 51.111474
+        "osm:way_id": 19322382
       }
     }
   ]

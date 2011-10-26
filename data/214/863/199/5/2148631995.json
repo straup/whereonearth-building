@@ -47,14 +47,17 @@
       }, 
       "id": 2148631995, 
       "properties": {
-        "osm:way_id": 34235698, 
         "woe:parent": "125137882", 
         "name": "Isrotel Sport Club Eilat", 
         "tags": [
           "name=Isrotel Sport Club Eilat"
         ], 
-        "hierarchy": "woe:country=234248852", 
+        "hierarchy": [
+          "woe:airport=125137882", 
+          "woe:country=234248852"
+        ], 
         "parent_woeid": 12513782, 
+        "sw_latitude": 29.549600, 
         "osm:node_ids": [
           392639227, 
           392639228, 
@@ -67,12 +70,12 @@
         ], 
         "ne_longitude": 34.965471, 
         "longitude": 29.549926, 
-        "ne_latitude": 29.550168, 
-        "woe:placetype": "building", 
         "sw_longitude": 34.964330, 
+        "woe:placetype": "building", 
+        "ne_latitude": 29.550168, 
         "latitude": 34.964859, 
         "woe:id": 2148631995, 
-        "sw_latitude": 29.549600
+        "osm:way_id": 34235698
       }
     }
   ]

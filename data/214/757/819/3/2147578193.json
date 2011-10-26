@@ -51,15 +51,18 @@
       }, 
       "id": 2147578193, 
       "properties": {
-        "osm:way_id": 24916877, 
         "woe:parent": "22177393", 
         "name": "Terminal E (Ryanair)", 
         "tags": [
           "name=Terminal E (Ryanair)", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22177393", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22177393, 
+        "sw_latitude": 53.052666, 
         "osm:node_ids": [
           270746205, 
           270746206, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": 8.784229, 
         "longitude": 53.053107, 
-        "ne_latitude": 53.053473, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.782526, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.053473, 
         "latitude": 8.783433, 
         "woe:id": 2147578193, 
-        "sw_latitude": 53.052666
+        "osm:way_id": 24916877
       }
     }
   ]

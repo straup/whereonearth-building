@@ -35,7 +35,6 @@
       }, 
       "id": 2149623507, 
       "properties": {
-        "osm:way_id": 41526095, 
         "woe:parent": "22235735", 
         "name": "Parkhaus Ost", 
         "tags": [
@@ -45,8 +44,12 @@
           "ref=P Ost", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22235735", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22235735, 
+        "sw_latitude": 52.457067, 
         "osm:node_ids": [
           508538075, 
           508538104, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": 9.704693, 
         "longitude": 52.457508, 
-        "ne_latitude": 52.457949, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.703007, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.457949, 
         "latitude": 9.703851, 
         "woe:id": 2149623507, 
-        "sw_latitude": 52.457067
+        "osm:way_id": 41526095
       }
     }
   ]

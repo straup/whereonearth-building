@@ -35,15 +35,18 @@
       }, 
       "id": 2152881297, 
       "properties": {
-        "osm:way_id": 51816806, 
         "woe:parent": "2245088588", 
         "name": "Flying club", 
         "tags": [
           "name=Flying club", 
           "source=AIS"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=2245088588", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22450858, 
+        "sw_latitude": 57.198586, 
         "osm:node_ids": [
           661052417, 
           661052418, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -2.191653, 
         "longitude": 57.198681, 
-        "ne_latitude": 57.198765, 
-        "woe:placetype": "building", 
         "sw_longitude": -2.191917, 
+        "woe:placetype": "building", 
+        "ne_latitude": 57.198765, 
         "latitude": -2.191780, 
         "woe:id": 2152881297, 
-        "sw_latitude": 57.198586
+        "osm:way_id": 51816806
       }
     }
   ]

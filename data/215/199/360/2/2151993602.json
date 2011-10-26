@@ -35,15 +35,18 @@
       }, 
       "id": 2151993602, 
       "properties": {
-        "osm:way_id": 49643320, 
         "woe:parent": "12521741", 
         "name": "Baggage Claim", 
         "tags": [
           "name=Baggage Claim", 
           "landuse=industrial"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.425148, 
         "osm:node_ids": [
           631192834, 
           631192837, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -119.836568, 
         "longitude": 34.425211, 
-        "ne_latitude": 34.425272, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.836707, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.425272, 
         "latitude": -119.836636, 
         "woe:id": 2151993602, 
-        "sw_latitude": 34.425148
+        "osm:way_id": 49643320
       }
     }
   ]

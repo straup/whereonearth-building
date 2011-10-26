@@ -39,14 +39,17 @@
       }, 
       "id": 2150108232, 
       "properties": {
-        "osm:way_id": 44334042, 
         "woe:parent": "12521722", 
         "name": "Sony", 
         "tags": [
           "name=Sony"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521722", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521722, 
+        "sw_latitude": 37.367633, 
         "osm:node_ids": [
           563317571, 
           563317572, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": -121.911941, 
         "longitude": 37.368294, 
-        "ne_latitude": 37.368908, 
-        "woe:placetype": "building", 
         "sw_longitude": -121.913280, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.368908, 
         "latitude": -121.912614, 
         "woe:id": 2150108232, 
-        "sw_latitude": 37.367633
+        "osm:way_id": 44334042
       }
     }
   ]

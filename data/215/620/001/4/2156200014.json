@@ -91,7 +91,6 @@
       }, 
       "id": 2156200014, 
       "properties": {
-        "osm:way_id": 59719073, 
         "woe:parent": "22211603", 
         "name": "1001 Nacht", 
         "tags": [
@@ -102,8 +101,12 @@
           "addr:country=DE", 
           "addr:street=Papenreye"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22211603", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22211603, 
+        "sw_latitude": 53.612055, 
         "osm:node_ids": [
           741140469, 
           741140123, 
@@ -127,12 +130,12 @@
         ], 
         "ne_longitude": 9.957130, 
         "longitude": 53.612221, 
-        "ne_latitude": 53.612404, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.956283, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.612404, 
         "latitude": 9.956706, 
         "woe:id": 2156200014, 
-        "sw_latitude": 53.612055
+        "osm:way_id": 59719073
       }
     }
   ]

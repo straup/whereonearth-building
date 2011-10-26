@@ -91,7 +91,6 @@
       }, 
       "id": 2147545008, 
       "properties": {
-        "osm:way_id": 23772636, 
         "woe:parent": "12522066", 
         "name": "North Satellite", 
         "tags": [
@@ -100,8 +99,12 @@
           "aeroway=terminal", 
           "ref=N2"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12522066", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522066, 
+        "sw_latitude": 47.447774, 
         "osm:node_ids": [
           257569912, 
           460248724, 
@@ -125,12 +128,12 @@
         ], 
         "ne_longitude": -122.301160, 
         "longitude": 47.448400, 
-        "ne_latitude": 47.449021, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.303158, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.449021, 
         "latitude": -122.302158, 
         "woe:id": 2147545008, 
-        "sw_latitude": 47.447774
+        "osm:way_id": 23772636
       }
     }
   ]

@@ -99,14 +99,17 @@
       }, 
       "id": 2170218560, 
       "properties": {
-        "osm:way_id": 85768248, 
         "woe:parent": "22016347", 
         "name": "Frachtterminal 1-4", 
         "tags": [
           "name=Frachtterminal 1-4"
         ], 
-        "hierarchy": "woe:country=23424750", 
+        "hierarchy": [
+          "woe:airport=22016347", 
+          "woe:country=23424750"
+        ], 
         "parent_woeid": 22016347, 
+        "sw_latitude": 48.238309, 
         "osm:node_ids": [
           995554459, 
           995554386, 
@@ -132,12 +135,12 @@
         ], 
         "ne_longitude": 14.184067, 
         "longitude": 48.238739, 
-        "ne_latitude": 48.239160, 
-        "woe:placetype": "building", 
         "sw_longitude": 14.180125, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.239160, 
         "latitude": 14.182131, 
         "woe:id": 2170218560, 
-        "sw_latitude": 48.238309
+        "osm:way_id": 85768248
       }
     }
   ]

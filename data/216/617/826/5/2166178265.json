@@ -35,14 +35,17 @@
       }, 
       "id": 2166178265, 
       "properties": {
-        "osm:way_id": 77662034, 
         "woe:parent": "23024911", 
         "name": "Airport B\u00fcrgerb\u00fcro", 
         "tags": [
           "name=Airport B\u00fcrgerb\u00fcro"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.272440, 
         "osm:node_ids": [
           913633347, 
           913633350, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 6.764320, 
         "longitude": 51.272547, 
-        "ne_latitude": 51.272652, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.763955, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.272652, 
         "latitude": 6.764136, 
         "woe:id": 2166178265, 
-        "sw_latitude": 51.272440
+        "osm:way_id": 77662034
       }
     }
   ]

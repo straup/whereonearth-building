@@ -63,7 +63,6 @@
       }, 
       "id": 2147486284, 
       "properties": {
-        "osm:way_id": 8045956, 
         "woe:parent": "224788032", 
         "name": "Manchester Airport", 
         "tags": [
@@ -74,8 +73,12 @@
           "railway=station", 
           "building:name=The Station"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=224788032", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22478032, 
+        "sw_latitude": 53.364741, 
         "osm:node_ids": [
           60166201, 
           60166202, 
@@ -92,12 +95,12 @@
         ], 
         "ne_longitude": -2.271381, 
         "longitude": 53.365062, 
-        "ne_latitude": 53.365355, 
-        "woe:placetype": "building", 
         "sw_longitude": -2.273758, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.365355, 
         "latitude": -2.272663, 
         "woe:id": 2147486284, 
-        "sw_latitude": 53.364741
+        "osm:way_id": 8045956
       }
     }
   ]

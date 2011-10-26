@@ -115,7 +115,6 @@
       }, 
       "id": 2147484831, 
       "properties": {
-        "osm:way_id": 5052799, 
         "woe:parent": "12512766", 
         "name": "P3a", 
         "tags": [
@@ -123,8 +122,12 @@
           "name=P3a", 
           "amenity=parking"
         ], 
-        "hierarchy": "woe:country=234248812", 
+        "hierarchy": [
+          "woe:airport=12512766", 
+          "woe:country=234248812"
+        ], 
         "parent_woeid": 12512766, 
+        "sw_latitude": 60.314628, 
         "osm:node_ids": [
           33975625, 
           1074236238, 
@@ -154,12 +157,12 @@
         ], 
         "ne_longitude": 24.970663, 
         "longitude": 60.315108, 
-        "ne_latitude": 60.315589, 
-        "woe:placetype": "building", 
         "sw_longitude": 24.968723, 
+        "woe:placetype": "building", 
+        "ne_latitude": 60.315589, 
         "latitude": 24.969699, 
         "woe:id": 2147484831, 
-        "sw_latitude": 60.314628
+        "osm:way_id": 5052799
       }
     }
   ]

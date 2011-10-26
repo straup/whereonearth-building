@@ -51,7 +51,6 @@
       }, 
       "id": 2169188733, 
       "properties": {
-        "osm:way_id": 84008565, 
         "woe:parent": "125209883", 
         "name": "County of Kern Animal Shelter Mojave", 
         "tags": [
@@ -61,8 +60,12 @@
           "animal=shelter", 
           "source_ref=AM909_DSCW1295"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.050380, 
         "osm:node_ids": [
           977463365, 
           977463189, 
@@ -76,12 +79,12 @@
         ], 
         "ne_longitude": -118.147925, 
         "longitude": 35.050521, 
-        "ne_latitude": 35.050648, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.148101, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.050648, 
         "latitude": -118.148016, 
         "woe:id": 2169188733, 
-        "sw_latitude": 35.050380
+        "osm:way_id": 84008565
       }
     }
   ]

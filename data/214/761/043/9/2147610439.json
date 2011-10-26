@@ -51,14 +51,17 @@
       }, 
       "id": 2147610439, 
       "properties": {
-        "osm:way_id": 25479845, 
         "woe:parent": "221640886", 
         "name": "L'Aiglon", 
         "tags": [
           "name=L'Aiglon"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=221640886", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22164086, 
+        "sw_latitude": 52.558749, 
         "osm:node_ids": [
           277646299, 
           277646302, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 13.315215, 
         "longitude": 52.558890, 
-        "ne_latitude": 52.559029, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.314825, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.559029, 
         "latitude": 13.315042, 
         "woe:id": 2147610439, 
-        "sw_latitude": 52.558749
+        "osm:way_id": 25479845
       }
     }
   ]

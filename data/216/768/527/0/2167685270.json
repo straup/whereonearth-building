@@ -39,7 +39,6 @@
       }, 
       "id": 2167685270, 
       "properties": {
-        "osm:way_id": 80913705, 
         "woe:parent": "12515135", 
         "name": "Vishvarup Temple", 
         "tags": [
@@ -47,8 +46,12 @@
           "name=Vishvarup Temple", 
           "religion=hindu"
         ], 
-        "hierarchy": "woe:country=23424911", 
+        "hierarchy": [
+          "woe:airport=12515135", 
+          "woe:country=23424911"
+        ], 
         "parent_woeid": 12515135, 
+        "sw_latitude": 27.708834, 
         "osm:node_ids": [
           943251185, 
           943251186, 
@@ -59,12 +62,12 @@
         ], 
         "ne_longitude": 85.352997, 
         "longitude": 27.709138, 
-        "ne_latitude": 27.709444, 
-        "woe:placetype": "building", 
         "sw_longitude": 85.352298, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.709444, 
         "latitude": 85.352652, 
         "woe:id": 2167685270, 
-        "sw_latitude": 27.708834
+        "osm:way_id": 80913705
       }
     }
   ]

@@ -83,7 +83,6 @@
       }, 
       "id": 2151652560, 
       "properties": {
-        "osm:way_id": 48805108, 
         "woe:parent": "22211603", 
         "name": "Radisson BLU", 
         "tags": [
@@ -91,8 +90,12 @@
           "area=yes", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22211603", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22211603, 
+        "sw_latitude": 53.632159, 
         "osm:node_ids": [
           619244215, 
           619244212, 
@@ -114,12 +117,12 @@
         ], 
         "ne_longitude": 10.008815, 
         "longitude": 53.632403, 
-        "ne_latitude": 53.632646, 
-        "woe:placetype": "building", 
         "sw_longitude": 10.007992, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.632646, 
         "latitude": 10.008404, 
         "woe:id": 2151652560, 
-        "sw_latitude": 53.632159
+        "osm:way_id": 48805108
       }
     }
   ]

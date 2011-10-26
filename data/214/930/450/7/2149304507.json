@@ -51,14 +51,17 @@
       }, 
       "id": 2149304507, 
       "properties": {
-        "osm:way_id": 38268884, 
         "woe:parent": "12521741", 
         "name": "Central Stores", 
         "tags": [
           "name=Central Stores"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.422928, 
         "osm:node_ids": [
           451497810, 
           451497812, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": -119.856635, 
         "longitude": 34.423185, 
-        "ne_latitude": 34.423448, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.857237, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.423448, 
         "latitude": -119.856889, 
         "woe:id": 2149304507, 
-        "sw_latitude": 34.422928
+        "osm:way_id": 38268884
       }
     }
   ]

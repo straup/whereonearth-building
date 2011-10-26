@@ -35,7 +35,6 @@
       }, 
       "id": 2149345053, 
       "properties": {
-        "osm:way_id": 38744348, 
         "woe:parent": "12511292", 
         "name": "Confeitaria e Lanchonete Pra\u00e7a do Avi\u00e3o", 
         "tags": [
@@ -44,8 +43,12 @@
           "shop=bakery", 
           "addr:postcode=21941005"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=12511292", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511292, 
+        "sw_latitude": -22.816026, 
         "osm:node_ids": [
           459407689, 
           459407690, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -43.222694, 
         "longitude": -22.815910, 
-        "ne_latitude": -22.815794, 
-        "woe:placetype": "building", 
         "sw_longitude": -43.222943, 
+        "woe:placetype": "building", 
+        "ne_latitude": -22.815794, 
         "latitude": -43.222819, 
         "woe:id": 2149345053, 
-        "sw_latitude": -22.816026
+        "osm:way_id": 38744348
       }
     }
   ]

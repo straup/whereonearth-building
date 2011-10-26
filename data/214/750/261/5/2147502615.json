@@ -143,7 +143,6 @@
       }, 
       "id": 2147502615, 
       "properties": {
-        "osm:way_id": 22945163, 
         "woe:parent": "125138850", 
         "name": "Cattedrale di Santa Maria Assunta", 
         "tags": [
@@ -157,8 +156,12 @@
           "loc_name=Duomo di Pisa", 
           "name=Cattedrale di Santa Maria Assunta"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=125138850", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 12513850, 
+        "sw_latitude": 43.722960, 
         "osm:node_ids": [
           247183856, 
           247183870, 
@@ -195,12 +198,12 @@
         ], 
         "ne_longitude": 10.396320, 
         "longitude": 43.723308, 
-        "ne_latitude": 43.723652, 
-        "woe:placetype": "building", 
         "sw_longitude": 10.395091, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.723652, 
         "latitude": 10.395708, 
         "woe:id": 2147502615, 
-        "sw_latitude": 43.722960
+        "osm:way_id": 22945163
       }
     }
   ]

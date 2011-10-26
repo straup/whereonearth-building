@@ -43,15 +43,18 @@
       }, 
       "id": 2147518773, 
       "properties": {
-        "osm:way_id": 23473302, 
         "woe:parent": "23024911", 
         "name": "Halle 3", 
         "tags": [
           "name=Halle 3", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.256535, 
         "osm:node_ids": [
           254195347, 
           254195349, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 6.740330, 
         "longitude": 51.257493, 
-        "ne_latitude": 51.258456, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.737385, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.258456, 
         "latitude": 6.738858, 
         "woe:id": 2147518773, 
-        "sw_latitude": 51.256535
+        "osm:way_id": 23473302
       }
     }
   ]

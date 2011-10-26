@@ -35,7 +35,6 @@
       }, 
       "id": 2152399330, 
       "properties": {
-        "osm:way_id": 50620161, 
         "woe:parent": "12515637", 
         "name": "Marjorie's Cakes and Cookies", 
         "tags": [
@@ -46,8 +45,12 @@
           "addr:street=Belvedere", 
           "addr:city=Paranaque"
         ], 
-        "hierarchy": "woe:country=23424934", 
+        "hierarchy": [
+          "woe:airport=12515637", 
+          "woe:country=23424934"
+        ], 
         "parent_woeid": 12515637, 
+        "sw_latitude": 14.501703, 
         "osm:node_ids": [
           644471458, 
           644471462, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": 121.026411, 
         "longitude": 14.501836, 
-        "ne_latitude": 14.501973, 
-        "woe:placetype": "building", 
         "sw_longitude": 121.026175, 
+        "woe:placetype": "building", 
+        "ne_latitude": 14.501973, 
         "latitude": 121.026292, 
         "woe:id": 2152399330, 
-        "sw_latitude": 14.501703
+        "osm:way_id": 50620161
       }
     }
   ]

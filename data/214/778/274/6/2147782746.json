@@ -107,7 +107,6 @@
       }, 
       "id": 2147782746, 
       "properties": {
-        "osm:way_id": 27904465, 
         "woe:parent": "12519977", 
         "name": "Buffalo-Niagara International Airport", 
         "tags": [
@@ -115,8 +114,12 @@
           "created_by=Potlatch 0.10e", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12519977", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519977, 
+        "sw_latitude": 42.932646, 
         "osm:node_ids": [
           306332448, 
           306332449, 
@@ -144,12 +147,12 @@
         ], 
         "ne_longitude": -78.729079, 
         "longitude": 42.934620, 
-        "ne_latitude": 42.936831, 
-        "woe:placetype": "building", 
         "sw_longitude": -78.734701, 
+        "woe:placetype": "building", 
+        "ne_latitude": 42.936831, 
         "latitude": -78.731712, 
         "woe:id": 2147782746, 
-        "sw_latitude": 42.932646
+        "osm:way_id": 27904465
       }
     }
   ]

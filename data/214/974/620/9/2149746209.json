@@ -51,7 +51,6 @@
       }, 
       "id": 2149746209, 
       "properties": {
-        "osm:way_id": 42439536, 
         "woe:parent": "2338888207", 
         "name": "Park Long", 
         "tags": [
@@ -60,8 +59,12 @@
           "storeys=6", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=234247488", 
+        "hierarchy": [
+          "woe:airport=2338888207", 
+          "woe:country=234247488"
+        ], 
         "parent_woeid": 23388207, 
+        "sw_latitude": -27.385300, 
         "osm:node_ids": [
           529842977, 
           529842979, 
@@ -75,12 +78,12 @@
         ], 
         "ne_longitude": 153.118476, 
         "longitude": -27.384124, 
-        "ne_latitude": -27.382935, 
-        "woe:placetype": "building", 
         "sw_longitude": 153.116661, 
+        "woe:placetype": "building", 
+        "ne_latitude": -27.382935, 
         "latitude": 153.117581, 
         "woe:id": 2149746209, 
-        "sw_latitude": -27.385300
+        "osm:way_id": 42439536
       }
     }
   ]

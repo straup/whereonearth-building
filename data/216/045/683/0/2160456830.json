@@ -55,7 +55,6 @@
       }, 
       "id": 2160456830, 
       "properties": {
-        "osm:way_id": 67268993, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=902", 
@@ -65,8 +64,12 @@
           "source=dcgis", 
           "addr:street=Arnold Avenue SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.835922, 
         "osm:node_ids": [
           812476350, 
           812476353, 
@@ -81,12 +84,12 @@
         ], 
         "ne_longitude": -77.023441, 
         "longitude": 38.836038, 
-        "ne_latitude": 38.836149, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.023783, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.836149, 
         "latitude": -77.023611, 
         "woe:id": 2160456830, 
-        "sw_latitude": 38.835922
+        "osm:way_id": 67268993
       }
     }
   ]

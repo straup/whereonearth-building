@@ -75,14 +75,17 @@
       }, 
       "id": 2149290980, 
       "properties": {
-        "osm:way_id": 38094722, 
         "woe:parent": "12521741", 
         "name": "Intercollegiate Athletics", 
         "tags": [
           "name=Intercollegiate Athletics"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.415758, 
         "osm:node_ids": [
           448090895, 
           448090896, 
@@ -102,12 +105,12 @@
         ], 
         "ne_longitude": -119.849951, 
         "longitude": 34.415991, 
-        "ne_latitude": 34.416328, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.850855, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.416328, 
         "latitude": -119.850388, 
         "woe:id": 2149290980, 
-        "sw_latitude": 34.415758
+        "osm:way_id": 38094722
       }
     }
   ]

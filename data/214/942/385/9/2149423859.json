@@ -151,7 +151,6 @@
       }, 
       "id": 2149423859, 
       "properties": {
-        "osm:way_id": 39591069, 
         "woe:parent": "12521750", 
         "name": "Jane Bancroft Cook Library", 
         "tags": [
@@ -162,8 +161,12 @@
           "emergency=phone", 
           "source=FDOT"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.384624, 
         "osm:node_ids": [
           474589988, 
           474589990, 
@@ -202,12 +205,12 @@
         ], 
         "ne_longitude": -82.558286, 
         "longitude": 27.384883, 
-        "ne_latitude": 27.385260, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.559016, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.385260, 
         "latitude": -82.558611, 
         "woe:id": 2149423859, 
-        "sw_latitude": 27.384624
+        "osm:way_id": 39591069
       }
     }
   ]

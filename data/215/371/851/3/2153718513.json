@@ -63,15 +63,18 @@
       }, 
       "id": 2153718513, 
       "properties": {
-        "osm:way_id": 53473231, 
         "woe:parent": "125128892", 
         "tags": [
           "addr:housenumber=17", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour 8c 2010", 
           "addr:street=Rue Icare"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128892", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512892, 
+        "sw_latitude": 48.546835, 
         "osm:node_ids": [
           675848216, 
           675848218, 
@@ -88,12 +91,12 @@
         ], 
         "ne_longitude": 7.652674, 
         "longitude": 48.546995, 
-        "ne_latitude": 48.547162, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.652190, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.547162, 
         "latitude": 7.652439, 
         "woe:id": 2153718513, 
-        "sw_latitude": 48.546835
+        "osm:way_id": 53473231
       }
     }
   ]

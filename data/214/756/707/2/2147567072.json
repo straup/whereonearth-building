@@ -55,14 +55,17 @@
       }, 
       "id": 2147567072, 
       "properties": {
-        "osm:way_id": 24551137, 
         "woe:parent": "12512766", 
         "tags": [
           "addr:housenumber=14", 
           "addr:street=Tietotie"
         ], 
-        "hierarchy": "woe:country=234248812", 
+        "hierarchy": [
+          "woe:airport=12512766", 
+          "woe:country=234248812"
+        ], 
         "parent_woeid": 12512766, 
+        "sw_latitude": 60.311491, 
         "osm:node_ids": [
           266941017, 
           266941018, 
@@ -77,12 +80,12 @@
         ], 
         "ne_longitude": 24.965024, 
         "longitude": 60.311733, 
-        "ne_latitude": 60.311934, 
-        "woe:placetype": "building", 
         "sw_longitude": 24.963783, 
+        "woe:placetype": "building", 
+        "ne_latitude": 60.311934, 
         "latitude": 24.964373, 
         "woe:id": 2147567072, 
-        "sw_latitude": 60.311491
+        "osm:way_id": 24551137
       }
     }
   ]

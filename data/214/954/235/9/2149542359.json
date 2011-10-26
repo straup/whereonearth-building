@@ -35,7 +35,6 @@
       }, 
       "id": 2149542359, 
       "properties": {
-        "osm:way_id": 40783942, 
         "woe:parent": "125188915", 
         "name": "Short term and long term parking garage", 
         "tags": [
@@ -44,8 +43,12 @@
           "name=Short term and long term parking garage", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125188915", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12518915, 
+        "sw_latitude": 41.928130, 
         "osm:node_ids": [
           495753193, 
           495753202, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -72.684310, 
         "longitude": 41.929134, 
-        "ne_latitude": 41.930142, 
-        "woe:placetype": "building", 
         "sw_longitude": -72.687023, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.930142, 
         "latitude": -72.685670, 
         "woe:id": 2149542359, 
-        "sw_latitude": 41.928130
+        "osm:way_id": 40783942
       }
     }
   ]

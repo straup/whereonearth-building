@@ -35,7 +35,6 @@
       }, 
       "id": 2149511527, 
       "properties": {
-        "osm:way_id": 40539711, 
         "woe:parent": "12521722", 
         "name": "McDonald's", 
         "tags": [
@@ -44,8 +43,12 @@
           "name=McDonald's", 
           "operator=McDonald's"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521722", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521722, 
+        "sw_latitude": 37.356775, 
         "osm:node_ids": [
           491825577, 
           491825590, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -121.936317, 
         "longitude": 37.356900, 
-        "ne_latitude": 37.357025, 
-        "woe:placetype": "building", 
         "sw_longitude": -121.936689, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.357025, 
         "latitude": -121.936503, 
         "woe:id": 2149511527, 
-        "sw_latitude": 37.356775
+        "osm:way_id": 40539711
       }
     }
   ]

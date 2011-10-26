@@ -75,7 +75,6 @@
       }, 
       "id": 2168484511, 
       "properties": {
-        "osm:way_id": 82535011, 
         "woe:parent": "125190588", 
         "name": "Abraham Lincoln Capital Airport", 
         "tags": [
@@ -83,8 +82,12 @@
           "source=Yahoo", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125190588", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519058, 
+        "sw_latitude": 39.843842, 
         "osm:node_ids": [
           960538535, 
           960538536, 
@@ -104,12 +107,12 @@
         ], 
         "ne_longitude": -89.671499, 
         "longitude": 39.844403, 
-        "ne_latitude": 39.845003, 
-        "woe:placetype": "building", 
         "sw_longitude": -89.672722, 
+        "woe:placetype": "building", 
+        "ne_latitude": 39.845003, 
         "latitude": -89.672120, 
         "woe:id": 2168484511, 
-        "sw_latitude": 39.843842
+        "osm:way_id": 82535011
       }
     }
   ]

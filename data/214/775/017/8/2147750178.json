@@ -35,15 +35,18 @@
       }, 
       "id": 2147750178, 
       "properties": {
-        "osm:way_id": 27380379, 
         "woe:parent": "12513205", 
         "name": "Kantor-Tittel-Haus", 
         "tags": [
           "name=Kantor-Tittel-Haus", 
           "source=Yahoo"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.163793, 
         "osm:node_ids": [
           300568371, 
           300568375, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 13.731696, 
         "longitude": 51.163880, 
-        "ne_latitude": 51.163965, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.731517, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.163965, 
         "latitude": 13.731607, 
         "woe:id": 2147750178, 
-        "sw_latitude": 51.163793
+        "osm:way_id": 27380379
       }
     }
   ]

@@ -35,7 +35,6 @@
       }, 
       "id": 2149521353, 
       "properties": {
-        "osm:way_id": 40627365, 
         "woe:parent": "125191885", 
         "name": "Chino Airport Administration", 
         "tags": [
@@ -44,8 +43,12 @@
           "source=survey;image;yahoo_imagry;usgs_imagery", 
           "source_ref=AM909_DSCN88113"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125191885", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519185, 
+        "sw_latitude": 33.979246, 
         "osm:node_ids": [
           493446779, 
           493446781, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -117.640014, 
         "longitude": 33.979434, 
-        "ne_latitude": 33.979622, 
-        "woe:placetype": "building", 
         "sw_longitude": -117.640485, 
+        "woe:placetype": "building", 
+        "ne_latitude": 33.979622, 
         "latitude": -117.640250, 
         "woe:id": 2149521353, 
-        "sw_latitude": 33.979246
+        "osm:way_id": 40627365
       }
     }
   ]

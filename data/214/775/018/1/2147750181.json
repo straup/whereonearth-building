@@ -63,7 +63,6 @@
       }, 
       "id": 2147750181, 
       "properties": {
-        "osm:way_id": 27380384, 
         "woe:parent": "12513205", 
         "name": "Kirche zu B\u00e4rnsdorf", 
         "tags": [
@@ -73,8 +72,12 @@
           "denomination=evangelical", 
           "religion=christian"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.164117, 
         "osm:node_ids": [
           300568407, 
           300568408, 
@@ -91,12 +94,12 @@
         ], 
         "ne_longitude": 13.730861, 
         "longitude": 51.164184, 
-        "ne_latitude": 51.164250, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.730439, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.164250, 
         "latitude": 13.730627, 
         "woe:id": 2147750181, 
-        "sw_latitude": 51.164117
+        "osm:way_id": 27380384
       }
     }
   ]

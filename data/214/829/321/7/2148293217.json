@@ -95,7 +95,6 @@
       }, 
       "id": 2148293217, 
       "properties": {
-        "osm:way_id": 30832546, 
         "woe:parent": "125197884", 
         "name": "Fort Wayne International", 
         "tags": [
@@ -103,8 +102,12 @@
           "created_by=Potlatch 0.10f", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125197884", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519784, 
+        "sw_latitude": 40.986113, 
         "osm:node_ids": [
           342694066, 
           342694067, 
@@ -129,12 +132,12 @@
         ], 
         "ne_longitude": -85.186675, 
         "longitude": 40.986465, 
-        "ne_latitude": 40.987182, 
-        "woe:placetype": "building", 
         "sw_longitude": -85.188907, 
+        "woe:placetype": "building", 
+        "ne_latitude": 40.987182, 
         "latitude": -85.187971, 
         "woe:id": 2148293217, 
-        "sw_latitude": 40.986113
+        "osm:way_id": 30832546
       }
     }
   ]

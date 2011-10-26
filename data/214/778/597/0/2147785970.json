@@ -35,15 +35,18 @@
       }, 
       "id": 2147785970, 
       "properties": {
-        "osm:way_id": 27941005, 
         "woe:parent": "125128897", 
         "name": "Locaux techniques", 
         "tags": [
           "layer=1", 
           "name=Locaux techniques"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128897", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512897, 
+        "sw_latitude": 43.572679, 
         "osm:node_ids": [
           306676380, 
           306676381, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 3.953450, 
         "longitude": 43.572902, 
-        "ne_latitude": 43.573125, 
-        "woe:placetype": "building", 
         "sw_longitude": 3.952868, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.573125, 
         "latitude": 3.953159, 
         "woe:id": 2147785970, 
-        "sw_latitude": 43.572679
+        "osm:way_id": 27941005
       }
     }
   ]

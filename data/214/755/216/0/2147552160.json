@@ -67,7 +67,6 @@
       }, 
       "id": 2147552160, 
       "properties": {
-        "osm:way_id": 24016815, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=1", 
@@ -77,8 +76,12 @@
           "addr:country=DE", 
           "addr:street=An der BAB 117"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.378250, 
         "osm:node_ids": [
           260443840, 
           472783964, 
@@ -96,12 +99,12 @@
         ], 
         "ne_longitude": 13.561756, 
         "longitude": 52.378372, 
-        "ne_latitude": 52.378531, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.560948, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.378531, 
         "latitude": 13.561384, 
         "woe:id": 2147552160, 
-        "sw_latitude": 52.378250
+        "osm:way_id": 24016815
       }
     }
   ]

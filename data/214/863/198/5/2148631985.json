@@ -43,14 +43,17 @@
       }, 
       "id": 2148631985, 
       "properties": {
-        "osm:way_id": 34235575, 
         "woe:parent": "125137882", 
         "name": "Mall Hayam", 
         "tags": [
           "name=Mall Hayam"
         ], 
-        "hierarchy": "woe:country=234248852", 
+        "hierarchy": [
+          "woe:airport=125137882", 
+          "woe:country=234248852"
+        ], 
         "parent_woeid": 12513782, 
+        "sw_latitude": 29.549259, 
         "osm:node_ids": [
           392638375, 
           1060368664, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": 34.954448, 
         "longitude": 29.549753, 
-        "ne_latitude": 29.550278, 
-        "woe:placetype": "building", 
         "sw_longitude": 34.953319, 
+        "woe:placetype": "building", 
+        "ne_latitude": 29.550278, 
         "latitude": 34.953916, 
         "woe:id": 2148631985, 
-        "sw_latitude": 29.549259
+        "osm:way_id": 34235575
       }
     }
   ]

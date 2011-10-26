@@ -51,7 +51,6 @@
       }, 
       "id": 2171919929, 
       "properties": {
-        "osm:way_id": 89527551, 
         "woe:parent": "125138850", 
         "name": "Leopolda", 
         "tags": [
@@ -59,8 +58,12 @@
           "name=Leopolda", 
           "created_by=JOSM"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=125138850", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 12513850, 
+        "sw_latitude": 43.708363, 
         "osm:node_ids": [
           1037919067, 
           1037919079, 
@@ -74,12 +77,12 @@
         ], 
         "ne_longitude": 10.405892, 
         "longitude": 43.708756, 
-        "ne_latitude": 43.709161, 
-        "woe:placetype": "building", 
         "sw_longitude": 10.405227, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.709161, 
         "latitude": 10.405575, 
         "woe:id": 2171919929, 
-        "sw_latitude": 43.708363
+        "osm:way_id": 89527551
       }
     }
   ]

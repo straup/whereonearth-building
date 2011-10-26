@@ -59,7 +59,6 @@
       }, 
       "id": 2150343644, 
       "properties": {
-        "osm:way_id": 45083857, 
         "woe:parent": "230309881", 
         "tags": [
           "addr:housenumber=88", 
@@ -71,8 +70,12 @@
           "addr:country=DE", 
           "addr:street=Germanwings-Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=230309881", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23030981, 
+        "sw_latitude": 50.878773, 
         "osm:node_ids": [
           571622786, 
           975856176, 
@@ -88,12 +91,12 @@
         ], 
         "ne_longitude": 7.114087, 
         "longitude": 50.878963, 
-        "ne_latitude": 50.879179, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.113573, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.879179, 
         "latitude": 7.113828, 
         "woe:id": 2150343644, 
-        "sw_latitude": 50.878773
+        "osm:way_id": 45083857
       }
     }
   ]

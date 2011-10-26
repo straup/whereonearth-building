@@ -35,7 +35,6 @@
       }, 
       "id": 2149997525, 
       "properties": {
-        "osm:way_id": 43760362, 
         "woe:parent": "12517505", 
         "name": "Mosqu\u00e9e de la Divinit\u00e9", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Mosqu\u00e9e de la Divinit\u00e9", 
           "religion=muslim"
         ], 
-        "hierarchy": "woe:country=23424943", 
+        "hierarchy": [
+          "woe:airport=12517505", 
+          "woe:country=23424943"
+        ], 
         "parent_woeid": 12517505, 
+        "sw_latitude": 14.715674, 
         "osm:node_ids": [
           554172911, 
           554172913, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -17.490295, 
         "longitude": 14.715784, 
-        "ne_latitude": 14.715898, 
-        "woe:placetype": "building", 
         "sw_longitude": -17.490621, 
+        "woe:placetype": "building", 
+        "ne_latitude": 14.715898, 
         "latitude": -17.490461, 
         "woe:id": 2149997525, 
-        "sw_latitude": 14.715674
+        "osm:way_id": 43760362
       }
     }
   ]

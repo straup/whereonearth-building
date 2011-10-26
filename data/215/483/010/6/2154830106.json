@@ -35,7 +35,6 @@
       }, 
       "id": 2154830106, 
       "properties": {
-        "osm:way_id": 55492600, 
         "woe:parent": "23046924", 
         "tags": [
           "addr:housenumber=9", 
@@ -45,8 +44,12 @@
           "addr:country=DE", 
           "addr:street=Windfl\u00fcgelweg"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23046924", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23046924, 
+        "sw_latitude": 51.524107, 
         "osm:node_ids": [
           697309406, 
           697309407, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": 7.604850, 
         "longitude": 51.524154, 
-        "ne_latitude": 51.524199, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.604748, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.524199, 
         "latitude": 7.604799, 
         "woe:id": 2154830106, 
-        "sw_latitude": 51.524107
+        "osm:way_id": 55492600
       }
     }
   ]

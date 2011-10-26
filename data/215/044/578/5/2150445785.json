@@ -79,7 +79,6 @@
       }, 
       "id": 2150445785, 
       "properties": {
-        "osm:way_id": 45499286, 
         "woe:parent": "23024911", 
         "name": "Heilig Geist", 
         "tags": [
@@ -89,8 +88,12 @@
           "denomination=roman_catholic", 
           "religion=christian"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.292568, 
         "osm:node_ids": [
           579810387, 
           579810388, 
@@ -111,12 +114,12 @@
         ], 
         "ne_longitude": 6.823323, 
         "longitude": 51.292704, 
-        "ne_latitude": 51.292821, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.822907, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.292821, 
         "latitude": 6.823119, 
         "woe:id": 2150445785, 
-        "sw_latitude": 51.292568
+        "osm:way_id": 45499286
       }
     }
   ]

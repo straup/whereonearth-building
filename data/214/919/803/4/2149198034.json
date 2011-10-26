@@ -35,7 +35,6 @@
       }, 
       "id": 2149198034, 
       "properties": {
-        "osm:way_id": 37078670, 
         "woe:parent": "22276234", 
         "name": "Beechcraft Berlin", 
         "tags": [
@@ -46,8 +45,12 @@
           "addr:country=DE", 
           "addr:street=Flughafen Sch\u00f6nefeld"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.369066, 
         "osm:node_ids": [
           431221631, 
           431221634, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": 13.517148, 
         "longitude": 52.369219, 
-        "ne_latitude": 52.369370, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.516641, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.369370, 
         "latitude": 13.516895, 
         "woe:id": 2149198034, 
-        "sw_latitude": 52.369066
+        "osm:way_id": 37078670
       }
     }
   ]

@@ -51,14 +51,17 @@
       }, 
       "id": 2149943156, 
       "properties": {
-        "osm:way_id": 43247845, 
         "woe:parent": "12519544", 
         "name": "Cargo terminal", 
         "tags": [
           "name=Cargo terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12519544", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519544, 
+        "sw_latitude": 38.953111, 
         "osm:node_ids": [
           542802495, 
           542802502, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": -77.453447, 
         "longitude": 38.955862, 
-        "ne_latitude": 38.958470, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.453774, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.958470, 
         "latitude": -77.453617, 
         "woe:id": 2149943156, 
-        "sw_latitude": 38.953111
+        "osm:way_id": 43247845
       }
     }
   ]

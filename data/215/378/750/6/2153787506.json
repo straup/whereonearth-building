@@ -63,15 +63,18 @@
       }, 
       "id": 2153787506, 
       "properties": {
-        "osm:way_id": 53609566, 
         "woe:parent": "223188195", 
         "name": "Tamoil", 
         "tags": [
           "amenity=fuel", 
           "name=Tamoil"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=223188195", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22318195, 
+        "sw_latitude": 41.784299, 
         "osm:node_ids": [
           677133966, 
           677133968, 
@@ -88,12 +91,12 @@
         ], 
         "ne_longitude": 12.235769, 
         "longitude": 41.784491, 
-        "ne_latitude": 41.784663, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.235391, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.784663, 
         "latitude": 12.235594, 
         "woe:id": 2153787506, 
-        "sw_latitude": 41.784299
+        "osm:way_id": 53609566
       }
     }
   ]

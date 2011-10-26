@@ -119,7 +119,6 @@
       }, 
       "id": 2152287981, 
       "properties": {
-        "osm:way_id": 50325000, 
         "woe:parent": "12515094", 
         "name": "St. Jacobus de Meerdere-kerk", 
         "tags": [
@@ -130,8 +129,12 @@
           "religion=christian", 
           "3dshapes:ggmodelk=1"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=12515094", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 12515094, 
+        "sw_latitude": 52.249674, 
         "osm:node_ids": [
           639319253, 
           639319257, 
@@ -162,12 +165,12 @@
         ], 
         "ne_longitude": 6.912968, 
         "longitude": 52.249791, 
-        "ne_latitude": 52.249947, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.912051, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.249947, 
         "latitude": 6.912504, 
         "woe:id": 2152287981, 
-        "sw_latitude": 52.249674
+        "osm:way_id": 50325000
       }
     }
   ]

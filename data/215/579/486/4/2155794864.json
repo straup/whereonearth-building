@@ -35,13 +35,16 @@
       }, 
       "id": 2155794864, 
       "properties": {
-        "osm:way_id": 58562290, 
         "woe:parent": "125198869", 
         "tags": [
           "barrier=toll_booth"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125198869", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519869, 
+        "sw_latitude": 41.613165, 
         "osm:node_ids": [
           725636001, 
           725636005, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": -87.421427, 
         "longitude": 41.613239, 
-        "ne_latitude": 41.613313, 
-        "woe:placetype": "building", 
         "sw_longitude": -87.422323, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.613313, 
         "latitude": -87.421876, 
         "woe:id": 2155794864, 
-        "sw_latitude": 41.613165
+        "osm:way_id": 58562290
       }
     }
   ]

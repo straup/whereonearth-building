@@ -267,15 +267,18 @@
       }, 
       "id": 2151362213, 
       "properties": {
-        "osm:way_id": 47968290, 
         "woe:parent": "125212889", 
         "name": "Palm Springs Mall", 
         "tags": [
           "shop=mall", 
           "name=Palm Springs Mall"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125212889", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521289, 
+        "sw_latitude": 33.820266, 
         "osm:node_ids": [
           610156496, 
           1016047095, 
@@ -343,12 +346,12 @@
         ], 
         "ne_longitude": -116.518773, 
         "longitude": 33.821568, 
-        "ne_latitude": 33.822401, 
-        "woe:placetype": "building", 
         "sw_longitude": -116.521473, 
+        "woe:placetype": "building", 
+        "ne_latitude": 33.822401, 
         "latitude": -116.519770, 
         "woe:id": 2151362213, 
-        "sw_latitude": 33.820266
+        "osm:way_id": 47968290
       }
     }
   ]

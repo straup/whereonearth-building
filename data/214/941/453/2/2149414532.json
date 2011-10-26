@@ -35,7 +35,6 @@
       }, 
       "id": 2149414532, 
       "properties": {
-        "osm:way_id": 39480646, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=122", 
@@ -43,8 +42,12 @@
           "source=survey, yahoo", 
           "addr:street=An der Piwipp"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.262542, 
         "osm:node_ids": [
           472876228, 
           472876222, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 6.778160, 
         "longitude": 51.262613, 
-        "ne_latitude": 51.262683, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.777912, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.262683, 
         "latitude": 6.778036, 
         "woe:id": 2149414532, 
-        "sw_latitude": 51.262542
+        "osm:way_id": 39480646
       }
     }
   ]

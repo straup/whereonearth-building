@@ -79,15 +79,18 @@
       }, 
       "id": 2153023655, 
       "properties": {
-        "osm:way_id": 52171857, 
         "woe:parent": "12515124", 
         "name": "Hovedredningssentralen for S\u00f8r-Norge", 
         "tags": [
           "amenity=public_building", 
           "name=Hovedredningssentralen for S\u00f8r-Norge"
         ], 
-        "hierarchy": "woe:country=23424910", 
+        "hierarchy": [
+          "woe:airport=12515124", 
+          "woe:country=23424910"
+        ], 
         "parent_woeid": 12515124, 
+        "sw_latitude": 58.889049, 
         "osm:node_ids": [
           664597810, 
           664597816, 
@@ -108,12 +111,12 @@
         ], 
         "ne_longitude": 5.631110, 
         "longitude": 58.889350, 
-        "ne_latitude": 58.889598, 
-        "woe:placetype": "building", 
         "sw_longitude": 5.630481, 
+        "woe:placetype": "building", 
+        "ne_latitude": 58.889598, 
         "latitude": 5.630800, 
         "woe:id": 2153023655, 
-        "sw_latitude": 58.889049
+        "osm:way_id": 52171857
       }
     }
   ]

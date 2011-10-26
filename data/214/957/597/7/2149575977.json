@@ -55,15 +55,18 @@
       }, 
       "id": 2149575977, 
       "properties": {
-        "osm:way_id": 41100665, 
         "woe:parent": "125110388", 
         "name": "Anfiteatros do CCET", 
         "tags": [
           "name=Anfiteatros do CCET", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.841607, 
         "osm:node_ids": [
           501404607, 
           567712480, 
@@ -78,12 +81,12 @@
         ], 
         "ne_longitude": -35.199251, 
         "longitude": -5.841481, 
-        "ne_latitude": -5.841378, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.199498, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.841378, 
         "latitude": -35.199363, 
         "woe:id": 2149575977, 
-        "sw_latitude": -5.841607
+        "osm:way_id": 41100665
       }
     }
   ]

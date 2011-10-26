@@ -35,14 +35,17 @@
       }, 
       "id": 2149175753, 
       "properties": {
-        "osm:way_id": 36861614, 
         "woe:parent": "23365569", 
         "name": "Batiment 2884", 
         "tags": [
           "name=Batiment 288884"
         ], 
-        "hierarchy": "woe:country=23424957", 
+        "hierarchy": [
+          "woe:airport=23365569", 
+          "woe:country=23424957"
+        ], 
         "parent_woeid": 23365569, 
+        "sw_latitude": 46.241662, 
         "osm:node_ids": [
           428591097, 
           428591098, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 6.096996, 
         "longitude": 46.241854, 
-        "ne_latitude": 46.242044, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.096536, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.242044, 
         "latitude": 6.096767, 
         "woe:id": 2149175753, 
-        "sw_latitude": 46.241662
+        "osm:way_id": 36861614
       }
     }
   ]

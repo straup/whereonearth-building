@@ -55,15 +55,18 @@
       }, 
       "id": 2163379138, 
       "properties": {
-        "osm:way_id": 72166592, 
         "woe:parent": "125167887", 
         "tags": [
           "amenity=hospital", 
           "name=\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u0430\u044f \u0440\u0430\u0439\u043e\u043d\u043d\u0430\u044f \u0431\u043e\u043b\u044c\u043d\u0438\u0446\u0430", 
           "operator=\u0421\u0431\u0435\u0440\u0431\u0430\u043d\u043a"
         ], 
-        "hierarchy": "woe:country=23424936", 
+        "hierarchy": [
+          "woe:airport=125167887", 
+          "woe:country=23424936"
+        ], 
         "parent_woeid": 12516787, 
+        "sw_latitude": 47.267301, 
         "osm:node_ids": [
           857964443, 
           860340632, 
@@ -78,12 +81,12 @@
         ], 
         "ne_longitude": 39.862645, 
         "longitude": 47.267509, 
-        "ne_latitude": 47.267763, 
-        "woe:placetype": "building", 
         "sw_longitude": 39.861187, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.267763, 
         "latitude": 39.861928, 
         "woe:id": 2163379138, 
-        "sw_latitude": 47.267301
+        "osm:way_id": 72166592
       }
     }
   ]

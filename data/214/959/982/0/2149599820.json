@@ -47,15 +47,18 @@
       }, 
       "id": 2149599820, 
       "properties": {
-        "osm:way_id": 41311701, 
         "woe:parent": "125110388", 
         "name": "Pra\u00e7a C\u00edvica do Campus", 
         "tags": [
           "name=Pra\u00e7a C\u00edvica do Campus", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.838191, 
         "osm:node_ids": [
           505096115, 
           505096124, 
@@ -68,12 +71,12 @@
         ], 
         "ne_longitude": -35.209636, 
         "longitude": -5.837834, 
-        "ne_latitude": -5.837474, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.210631, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.837474, 
         "latitude": -35.210141, 
         "woe:id": 2149599820, 
-        "sw_latitude": -5.838191
+        "osm:way_id": 41311701
       }
     }
   ]

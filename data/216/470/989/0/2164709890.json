@@ -35,15 +35,18 @@
       }, 
       "id": 2164709890, 
       "properties": {
-        "osm:way_id": 74461044, 
         "woe:parent": "12513199", 
         "name": "Grislyb\u00e4r", 
         "tags": [
           "amenity=pub", 
           "name=Grislyb\u00e4r"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.088479, 
         "osm:node_ids": [
           880095870, 
           880095872, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 11.278724, 
         "longitude": 48.088523, 
-        "ne_latitude": 48.088567, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.278598, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.088567, 
         "latitude": 11.278662, 
         "woe:id": 2164709890, 
-        "sw_latitude": 48.088479
+        "osm:way_id": 74461044
       }
     }
   ]

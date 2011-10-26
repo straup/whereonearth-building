@@ -51,14 +51,17 @@
       }, 
       "id": 2149945219, 
       "properties": {
-        "osm:way_id": 43271586, 
         "woe:parent": "125108854", 
         "name": "Cargogebouw", 
         "tags": [
           "name=Cargogebouw"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=125108854", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 12510854, 
+        "sw_latitude": 51.204326, 
         "osm:node_ids": [
           540938323, 
           540938322, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 2.875564, 
         "longitude": 51.204865, 
-        "ne_latitude": 51.205471, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.872465, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.205471, 
         "latitude": 2.874103, 
         "woe:id": 2149945219, 
-        "sw_latitude": 51.204326
+        "osm:way_id": 43271586
       }
     }
   ]

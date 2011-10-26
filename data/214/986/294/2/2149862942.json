@@ -51,14 +51,17 @@
       }, 
       "id": 2149862942, 
       "properties": {
-        "osm:way_id": 42751735, 
         "woe:parent": "12521741", 
         "name": "Donner", 
         "tags": [
           "name=Donner"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.417594, 
         "osm:node_ids": [
           534608597, 
           534608603, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": -119.857138, 
         "longitude": 34.417853, 
-        "ne_latitude": 34.418157, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.857745, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.418157, 
         "latitude": -119.857447, 
         "woe:id": 2149862942, 
-        "sw_latitude": 34.417594
+        "osm:way_id": 42751735
       }
     }
   ]

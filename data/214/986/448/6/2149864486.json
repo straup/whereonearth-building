@@ -51,14 +51,17 @@
       }, 
       "id": 2149864486, 
       "properties": {
-        "osm:way_id": 42756223, 
         "woe:parent": "248875607", 
         "name": "\u5929\u969b\u842c\u8c6a\u9152\u5e97 Marriott SkyCity", 
         "tags": [
           "name=\u5929\u969b\u842c\u8c6a\u9152\u5e97 Marriott SkyCity"
         ], 
-        "hierarchy": "woe:country=2488656988", 
+        "hierarchy": [
+          "woe:airport=248875607", 
+          "woe:country=2488656988"
+        ], 
         "parent_woeid": 24875607, 
+        "sw_latitude": 22.318700, 
         "osm:node_ids": [
           534651245, 
           534651576, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 113.944282, 
         "longitude": 22.319593, 
-        "ne_latitude": 22.320546, 
-        "woe:placetype": "building", 
         "sw_longitude": 113.943026, 
+        "woe:placetype": "building", 
+        "ne_latitude": 22.320546, 
         "latitude": 113.943733, 
         "woe:id": 2149864486, 
-        "sw_latitude": 22.318700
+        "osm:way_id": 42756223
       }
     }
   ]

@@ -59,13 +59,16 @@
       }, 
       "id": 2151063659, 
       "properties": {
-        "osm:way_id": 47426070, 
         "woe:parent": "22269415", 
         "tags": [
           "addr:housenumber=D 506"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.775113, 
         "osm:node_ids": [
           603648825, 
           603648828, 
@@ -81,12 +84,12 @@
         ], 
         "ne_longitude": 8.084114, 
         "longitude": 48.775251, 
-        "ne_latitude": 48.775388, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.083644, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.775388, 
         "latitude": 8.083886, 
         "woe:id": 2151063659, 
-        "sw_latitude": 48.775113
+        "osm:way_id": 47426070
       }
     }
   ]

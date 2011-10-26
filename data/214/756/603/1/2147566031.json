@@ -39,15 +39,18 @@
       }, 
       "id": 2147566031, 
       "properties": {
-        "osm:way_id": 24530906, 
         "woe:parent": "23024911", 
         "name": "Sch\u00fctzenhaus Unterrather Sch\u00fctzen", 
         "tags": [
           "name=Sch\u00fctzenhaus Unterrather Sch\u00fctzen", 
           "created_by=Potlatch 0.9a"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.278789, 
         "osm:node_ids": [
           266737352, 
           266737353, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": 6.780340, 
         "longitude": 51.278895, 
-        "ne_latitude": 51.278993, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.779164, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.278993, 
         "latitude": 6.779734, 
         "woe:id": 2147566031, 
-        "sw_latitude": 51.278789
+        "osm:way_id": 24530906
       }
     }
   ]

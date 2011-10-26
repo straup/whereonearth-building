@@ -75,14 +75,17 @@
       }, 
       "id": 2149399181, 
       "properties": {
-        "osm:way_id": 39333358, 
         "woe:parent": "125188620", 
         "name": "Air Force One Hangar", 
         "tags": [
           "name=Air Force One Hangar"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125188620", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12518620, 
+        "sw_latitude": 38.799986, 
         "osm:node_ids": [
           471228283, 
           471233988, 
@@ -102,12 +105,12 @@
         ], 
         "ne_longitude": -76.878394, 
         "longitude": 38.800737, 
-        "ne_latitude": 38.801420, 
-        "woe:placetype": "building", 
         "sw_longitude": -76.880618, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.801420, 
         "latitude": -76.879491, 
         "woe:id": 2149399181, 
-        "sw_latitude": 38.799986
+        "osm:way_id": 39333358
       }
     }
   ]

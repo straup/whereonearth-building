@@ -35,7 +35,6 @@
       }, 
       "id": 2156687490, 
       "properties": {
-        "osm:way_id": 61192913, 
         "woe:parent": "125127588", 
         "name": "National Meteorological Agency", 
         "tags": [
@@ -46,8 +45,12 @@
           "source=Photo (Alex_SX110_IS 8s IMG_3353.jpg) http8c8s8swww.flickr.com8sphotos8saddismap8s476092500888s", 
           "contact:pobox=1090"
         ], 
-        "hierarchy": "woe:country=2342488088", 
+        "hierarchy": [
+          "woe:airport=125127588", 
+          "woe:country=2342488088"
+        ], 
         "parent_woeid": 12512758, 
+        "sw_latitude": 8.985519, 
         "osm:node_ids": [
           765120596, 
           765120481, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": 38.787519, 
         "longitude": 8.985606, 
-        "ne_latitude": 8.985692, 
-        "woe:placetype": "building", 
         "sw_longitude": 38.787271, 
+        "woe:placetype": "building", 
+        "ne_latitude": 8.985692, 
         "latitude": 38.787396, 
         "woe:id": 2156687490, 
-        "sw_latitude": 8.985519
+        "osm:way_id": 61192913
       }
     }
   ]

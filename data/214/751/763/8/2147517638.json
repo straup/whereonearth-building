@@ -35,14 +35,17 @@
       }, 
       "id": 2147517638, 
       "properties": {
-        "osm:way_id": 23434197, 
         "woe:parent": "23024911", 
         "name": "Halle 5/6", 
         "tags": [
           "name=Halle 58s6"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.279817, 
         "osm:node_ids": [
           253806982, 
           253806983, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 6.769839, 
         "longitude": 51.280686, 
-        "ne_latitude": 51.281535, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.768208, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.281535, 
         "latitude": 6.769018, 
         "woe:id": 2147517638, 
-        "sw_latitude": 51.279817
+        "osm:way_id": 23434197
       }
     }
   ]

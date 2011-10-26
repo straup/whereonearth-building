@@ -43,14 +43,17 @@
       }, 
       "id": 2149319327, 
       "properties": {
-        "osm:way_id": 38414902, 
         "woe:parent": "12521741", 
         "name": "West Gate Apartments", 
         "tags": [
           "name=West Gate Apartments"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.416659, 
         "osm:node_ids": [
           454076569, 
           454076570, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": -119.855470, 
         "longitude": 34.416968, 
-        "ne_latitude": 34.417198, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.855918, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.417198, 
         "latitude": -119.855640, 
         "woe:id": 2149319327, 
-        "sw_latitude": 34.416659
+        "osm:way_id": 38414902
       }
     }
   ]

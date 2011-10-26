@@ -35,7 +35,6 @@
       }, 
       "id": 2149575961, 
       "properties": {
-        "osm:way_id": 41100259, 
         "woe:parent": "125110388", 
         "name": "Biblioteca Central Zila Mamede", 
         "tags": [
@@ -45,8 +44,12 @@
           "alt_name=BCZM", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.840262, 
         "osm:node_ids": [
           501392192, 
           501392204, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": -35.198990, 
         "longitude": -5.839850, 
-        "ne_latitude": -5.839437, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.199337, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.839437, 
         "latitude": -35.199164, 
         "woe:id": 2149575961, 
-        "sw_latitude": -5.840262
+        "osm:way_id": 41100259
       }
     }
   ]

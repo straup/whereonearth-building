@@ -79,14 +79,17 @@
       }, 
       "id": 2147564160, 
       "properties": {
-        "osm:way_id": 24478732, 
         "woe:parent": "12517610", 
         "name": "Skycity", 
         "tags": [
           "name=Skycity"
         ], 
-        "hierarchy": "woe:country=23424954", 
+        "hierarchy": [
+          "woe:airport=12517610", 
+          "woe:country=23424954"
+        ], 
         "parent_woeid": 12517610, 
+        "sw_latitude": 59.648255, 
         "osm:node_ids": [
           266149139, 
           266149140, 
@@ -107,12 +110,12 @@
         ], 
         "ne_longitude": 17.930236, 
         "longitude": 59.649381, 
-        "ne_latitude": 59.650545, 
-        "woe:placetype": "building", 
         "sw_longitude": 17.928673, 
+        "woe:placetype": "building", 
+        "ne_latitude": 59.650545, 
         "latitude": 17.929444, 
         "woe:id": 2147564160, 
-        "sw_latitude": 59.648255
+        "osm:way_id": 24478732
       }
     }
   ]

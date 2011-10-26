@@ -135,14 +135,17 @@
       }, 
       "id": 2150337706, 
       "properties": {
-        "osm:way_id": 45055245, 
         "woe:parent": "12519750", 
         "name": "Kroll OnTrack", 
         "tags": [
           "name=Kroll OnTrack"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12519750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519750, 
+        "sw_latitude": 44.839544, 
         "osm:node_ids": [
           571335669, 
           571335671, 
@@ -177,12 +180,12 @@
         ], 
         "ne_longitude": -93.440339, 
         "longitude": 44.839804, 
-        "ne_latitude": 44.840030, 
-        "woe:placetype": "building", 
         "sw_longitude": -93.442082, 
+        "woe:placetype": "building", 
+        "ne_latitude": 44.840030, 
         "latitude": -93.441285, 
         "woe:id": 2150337706, 
-        "sw_latitude": 44.839544
+        "osm:way_id": 45055245
       }
     }
   ]

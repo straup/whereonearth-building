@@ -59,7 +59,6 @@
       }, 
       "id": 2149577396, 
       "properties": {
-        "osm:way_id": 41113184, 
         "woe:parent": "125110388", 
         "name": "Reitoria", 
         "tags": [
@@ -68,8 +67,12 @@
           "url=http8c8s8swww.reitoria.ufrn.br8s", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.840224, 
         "osm:node_ids": [
           501611174, 
           501611179, 
@@ -85,12 +88,12 @@
         ], 
         "ne_longitude": -35.201298, 
         "longitude": -5.839701, 
-        "ne_latitude": -5.839293, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.202207, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.839293, 
         "latitude": -35.201665, 
         "woe:id": 2149577396, 
-        "sw_latitude": -5.840224
+        "osm:way_id": 41113184
       }
     }
   ]

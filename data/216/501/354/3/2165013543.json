@@ -35,7 +35,6 @@
       }, 
       "id": 2165013543, 
       "properties": {
-        "osm:way_id": 74971825, 
         "woe:parent": "125128856", 
         "name": "Chapelle Sainte Bernadette", 
         "tags": [
@@ -45,8 +44,12 @@
           "denomination=catholic", 
           "religion=christian"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128856", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512856, 
+        "sw_latitude": 43.612413, 
         "osm:node_ids": [
           885275067, 
           885283957, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": 1.332294, 
         "longitude": 43.612497, 
-        "ne_latitude": 43.612579, 
-        "woe:placetype": "building", 
         "sw_longitude": 1.331826, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.612579, 
         "latitude": 1.332061, 
         "woe:id": 2165013543, 
-        "sw_latitude": 43.612413
+        "osm:way_id": 74971825
       }
     }
   ]

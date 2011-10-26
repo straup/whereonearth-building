@@ -103,15 +103,18 @@
       }, 
       "id": 2153817318, 
       "properties": {
-        "osm:way_id": 53673995, 
         "woe:parent": "1251988880", 
         "name": "Hourly/Daily Parking", 
         "tags": [
           "amenity=parking", 
           "name=Hourly8sDaily Parking"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=1251988880", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519880, 
+        "sw_latitude": 42.947077, 
         "osm:node_ids": [
           677832142, 
           677832145, 
@@ -138,12 +141,12 @@
         ], 
         "ne_longitude": -87.902890, 
         "longitude": 42.948457, 
-        "ne_latitude": 42.949947, 
-        "woe:placetype": "building", 
         "sw_longitude": -87.906082, 
+        "woe:placetype": "building", 
+        "ne_latitude": 42.949947, 
         "latitude": -87.904470, 
         "woe:id": 2153817318, 
-        "sw_latitude": 42.947077
+        "osm:way_id": 53673995
       }
     }
   ]

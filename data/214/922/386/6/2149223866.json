@@ -71,15 +71,18 @@
       }, 
       "id": 2149223866, 
       "properties": {
-        "osm:way_id": 37362356, 
         "woe:parent": "12513205", 
         "name": "Diakonie-Altenpflegeheim", 
         "tags": [
           "addr:city=Ottendorf-Okrilla", 
           "name=Diakonie-Altenpflegeheim"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.184087, 
         "osm:node_ids": [
           436125680, 
           436125685, 
@@ -98,12 +101,12 @@
         ], 
         "ne_longitude": 13.827271, 
         "longitude": 51.184334, 
-        "ne_latitude": 51.184604, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.826636, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.184604, 
         "latitude": 13.826911, 
         "woe:id": 2149223866, 
-        "sw_latitude": 51.184087
+        "osm:way_id": 37362356
       }
     }
   ]

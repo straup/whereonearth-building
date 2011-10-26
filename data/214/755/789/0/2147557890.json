@@ -79,15 +79,18 @@
       }, 
       "id": 2147557890, 
       "properties": {
-        "osm:way_id": 24294331, 
         "woe:parent": "12521721", 
         "name": "Garage G", 
         "tags": [
           "amenity=parking", 
           "name=Garage G"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521721", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521721, 
+        "sw_latitude": 37.615315, 
         "osm:node_ids": [
           263064227, 
           461474939, 
@@ -108,12 +111,12 @@
         ], 
         "ne_longitude": -122.391675, 
         "longitude": 37.615632, 
-        "ne_latitude": 37.615954, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.393460, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.615954, 
         "latitude": -122.392556, 
         "woe:id": 2147557890, 
-        "sw_latitude": 37.615315
+        "osm:way_id": 24294331
       }
     }
   ]

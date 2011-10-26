@@ -59,7 +59,6 @@
       }, 
       "id": 2169150782, 
       "properties": {
-        "osm:way_id": 83895723, 
         "woe:parent": "125209883", 
         "name": "Airport Administration", 
         "tags": [
@@ -68,8 +67,12 @@
           "source=usgs_imagery_20088;survey;image", 
           "source_ref=AM909_DSCW1295;AM909_DSCW1317"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.056373, 
         "osm:node_ids": [
           976521475, 
           976520370, 
@@ -85,12 +88,12 @@
         ], 
         "ne_longitude": -118.157510, 
         "longitude": 35.056701, 
-        "ne_latitude": 35.056895, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.158041, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.056895, 
         "latitude": -118.157778, 
         "woe:id": 2169150782, 
-        "sw_latitude": 35.056373
+        "osm:way_id": 83895723
       }
     }
   ]

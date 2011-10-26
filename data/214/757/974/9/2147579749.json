@@ -67,13 +67,16 @@
       }, 
       "id": 2147579749, 
       "properties": {
-        "osm:way_id": 24963667, 
         "woe:parent": "125220188", 
         "tags": [
           "created_by=Potlatch 0.9c"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125220188", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522018, 
+        "sw_latitude": 37.893987, 
         "osm:node_ids": [
           271275408, 
           271275409, 
@@ -91,12 +94,12 @@
         ], 
         "ne_longitude": -121.248966, 
         "longitude": 37.894382, 
-        "ne_latitude": 37.894746, 
-        "woe:placetype": "building", 
         "sw_longitude": -121.250185, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.894746, 
         "latitude": -121.249540, 
         "woe:id": 2147579749, 
-        "sw_latitude": 37.893987
+        "osm:way_id": 24963667
       }
     }
   ]

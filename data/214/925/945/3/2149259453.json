@@ -91,7 +91,6 @@
       }, 
       "id": 2149259453, 
       "properties": {
-        "osm:way_id": 37760619, 
         "woe:parent": "12516207", 
         "name": "\u0422\u0435\u0440\u043c\u0438\u043d\u0430\u043b B", 
         "tags": [
@@ -100,8 +99,12 @@
           "aeroway=terminal B", 
           "addr:street=\u043f\u043b\u043e\u0449\u0430\u0434\u044c \u0411\u0430\u0445\u0447\u0438\u0432\u0430\u043d\u0434\u0436\u0438"
         ], 
-        "hierarchy": "woe:country=23424936", 
+        "hierarchy": [
+          "woe:airport=12516207", 
+          "woe:country=23424936"
+        ], 
         "parent_woeid": 12516207, 
+        "sw_latitude": 56.749745, 
         "osm:node_ids": [
           442926498, 
           442926499, 
@@ -125,12 +128,12 @@
         ], 
         "ne_longitude": 60.808001, 
         "longitude": 56.750114, 
-        "ne_latitude": 56.750572, 
-        "woe:placetype": "building", 
         "sw_longitude": 60.802514, 
+        "woe:placetype": "building", 
+        "ne_latitude": 56.750572, 
         "latitude": 60.804756, 
         "woe:id": 2149259453, 
-        "sw_latitude": 56.749745
+        "osm:way_id": 37760619
       }
     }
   ]

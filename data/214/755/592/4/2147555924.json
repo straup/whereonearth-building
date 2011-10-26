@@ -51,15 +51,18 @@
       }, 
       "id": 2147555924, 
       "properties": {
-        "osm:way_id": 24233995, 
         "woe:parent": "22276234", 
         "name": "Cargo Center", 
         "tags": [
           "name=Cargo Center", 
           "created_by=Potlatch 0.10b"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.381903, 
         "osm:node_ids": [
           262391075, 
           431164513, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": 13.511111, 
         "longitude": 52.382375, 
-        "ne_latitude": 52.382854, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.509683, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.382854, 
         "latitude": 13.510393, 
         "woe:id": 2147555924, 
-        "sw_latitude": 52.381903
+        "osm:way_id": 24233995
       }
     }
   ]

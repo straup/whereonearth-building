@@ -51,15 +51,18 @@
       }, 
       "id": 2149297580, 
       "properties": {
-        "osm:way_id": 38171414, 
         "woe:parent": "12521741", 
         "name": "Embarcadero Hall", 
         "tags": [
           "amenity=university", 
           "name=Embarcadero Hall"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.411989, 
         "osm:node_ids": [
           449488575, 
           449488576, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": -119.855495, 
         "longitude": 34.412149, 
-        "ne_latitude": 34.412310, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.855991, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.412310, 
         "latitude": -119.855723, 
         "woe:id": 2149297580, 
-        "sw_latitude": 34.411989
+        "osm:way_id": 38171414
       }
     }
   ]

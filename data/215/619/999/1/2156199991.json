@@ -47,7 +47,6 @@
       }, 
       "id": 2156199991, 
       "properties": {
-        "osm:way_id": 59719049, 
         "woe:parent": "22211603", 
         "tags": [
           "addr:housenumber=23", 
@@ -56,8 +55,12 @@
           "addr:country=DE", 
           "addr:street=Papenreye"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22211603", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22211603, 
+        "sw_latitude": 53.612664, 
         "osm:node_ids": [
           741140509, 
           741140308, 
@@ -70,12 +73,12 @@
         ], 
         "ne_longitude": 9.961441, 
         "longitude": 53.612836, 
-        "ne_latitude": 53.612992, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.961209, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.612992, 
         "latitude": 9.961326, 
         "woe:id": 2156199991, 
-        "sw_latitude": 53.612664
+        "osm:way_id": 59719049
       }
     }
   ]

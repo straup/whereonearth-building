@@ -31,15 +31,18 @@
       }, 
       "id": 2173551504, 
       "properties": {
-        "osm:way_id": 93178279, 
         "woe:parent": "125126788", 
         "name": "Air Mall", 
         "tags": [
           "shop=mall", 
           "name=Air Mall"
         ], 
-        "hierarchy": "woe:country=234248802", 
+        "hierarchy": [
+          "woe:airport=125126788", 
+          "woe:country=234248802"
+        ], 
         "parent_woeid": 12512678, 
+        "sw_latitude": 30.124806, 
         "osm:node_ids": [
           1080164406, 
           1080164407, 
@@ -48,12 +51,12 @@
         ], 
         "ne_longitude": 31.404294, 
         "longitude": 30.125171, 
-        "ne_latitude": 30.125715, 
-        "woe:placetype": "building", 
         "sw_longitude": 31.403403, 
+        "woe:placetype": "building", 
+        "ne_latitude": 30.125715, 
         "latitude": 31.403790, 
         "woe:id": 2173551504, 
-        "sw_latitude": 30.124806
+        "osm:way_id": 93178279
       }
     }
   ]

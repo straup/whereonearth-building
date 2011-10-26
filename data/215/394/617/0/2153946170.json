@@ -51,15 +51,18 @@
       }, 
       "id": 2153946170, 
       "properties": {
-        "osm:way_id": 53914818, 
         "woe:parent": "12520974", 
         "name": "Missoula International Airport", 
         "tags": [
           "name=Missoula International Airport", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12520974", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520974, 
+        "sw_latitude": 46.918209, 
         "osm:node_ids": [
           680450251, 
           680450252, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": -114.082983, 
         "longitude": 46.918745, 
-        "ne_latitude": 46.919337, 
-        "woe:placetype": "building", 
         "sw_longitude": -114.084442, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.919337, 
         "latitude": -114.083831, 
         "woe:id": 2153946170, 
-        "sw_latitude": 46.918209
+        "osm:way_id": 53914818
       }
     }
   ]

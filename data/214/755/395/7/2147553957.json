@@ -35,15 +35,18 @@
       }, 
       "id": 2147553957, 
       "properties": {
-        "osm:way_id": 24058421, 
         "woe:parent": "22276234", 
         "name": "RentACar", 
         "tags": [
           "amenity=car_rental", 
           "name=RentACar"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.388980, 
         "osm:node_ids": [
           260983395, 
           260983396, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 13.518834, 
         "longitude": 52.389100, 
-        "ne_latitude": 52.389219, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.518264, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.389219, 
         "latitude": 13.518550, 
         "woe:id": 2147553957, 
-        "sw_latitude": 52.388980
+        "osm:way_id": 24058421
       }
     }
   ]

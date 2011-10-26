@@ -59,7 +59,6 @@
       }, 
       "id": 2172033851, 
       "properties": {
-        "osm:way_id": 89781750, 
         "woe:parent": "12521322", 
         "tags": [
           "addr:housenumber=34", 
@@ -68,8 +67,12 @@
           "addr:country=US", 
           "addr:street=Swan Island Lane"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521322", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521322, 
+        "sw_latitude": 43.065226, 
         "osm:node_ids": [
           1040530326, 
           1040530366, 
@@ -85,12 +88,12 @@
         ], 
         "ne_longitude": -70.834513, 
         "longitude": 43.065332, 
-        "ne_latitude": 43.065438, 
-        "woe:placetype": "building", 
         "sw_longitude": -70.834761, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.065438, 
         "latitude": -70.834636, 
         "woe:id": 2172033851, 
-        "sw_latitude": 43.065226
+        "osm:way_id": 89781750
       }
     }
   ]

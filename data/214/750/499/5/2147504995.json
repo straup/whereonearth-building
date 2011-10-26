@@ -35,15 +35,18 @@
       }, 
       "id": 2147504995, 
       "properties": {
-        "osm:way_id": 23016777, 
         "woe:parent": "223886730", 
         "name": "410 Engine Services", 
         "tags": [
           "name=410 Engine Services", 
           "created_by=Potlatch 0.88a"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.303165, 
         "osm:node_ids": [
           248163332, 
           248163333, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 4.799324, 
         "longitude": 52.304203, 
-        "ne_latitude": 52.305233, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.796023, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.305233, 
         "latitude": 4.797671, 
         "woe:id": 2147504995, 
-        "sw_latitude": 52.303165
+        "osm:way_id": 23016777
       }
     }
   ]

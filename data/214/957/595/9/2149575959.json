@@ -219,7 +219,6 @@
       }, 
       "id": 2149575959, 
       "properties": {
-        "osm:way_id": 41100249, 
         "woe:parent": "125110388", 
         "name": "NTI", 
         "tags": [
@@ -227,8 +226,12 @@
           "alt_name=N\u00facleo de Tecnologia", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.842967, 
         "osm:node_ids": [
           501391941, 
           700177262, 
@@ -284,12 +287,12 @@
         ], 
         "ne_longitude": -35.195929, 
         "longitude": -5.842564, 
-        "ne_latitude": -5.842094, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.197321, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.842094, 
         "latitude": -35.196623, 
         "woe:id": 2149575959, 
-        "sw_latitude": -5.842967
+        "osm:way_id": 41100249
       }
     }
   ]

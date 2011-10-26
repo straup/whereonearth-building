@@ -43,7 +43,6 @@
       }, 
       "id": 2164464333, 
       "properties": {
-        "osm:way_id": 74033489, 
         "woe:parent": "125112988", 
         "name": "Pepsi On Stage", 
         "tags": [
@@ -57,8 +56,12 @@
           "addr:country=BR", 
           "addr:street=Avenida Severo Dulius"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125112988", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511298, 
+        "sw_latitude": -29.988173, 
         "osm:node_ids": [
           875921930, 
           875921931, 
@@ -70,12 +73,12 @@
         ], 
         "ne_longitude": -51.175707, 
         "longitude": -29.987602, 
-        "ne_latitude": -29.987030, 
-        "woe:placetype": "building", 
         "sw_longitude": -51.177949, 
+        "woe:placetype": "building", 
+        "ne_latitude": -29.987030, 
         "latitude": -51.176794, 
         "woe:id": 2164464333, 
-        "sw_latitude": -29.988173
+        "osm:way_id": 74033489
       }
     }
   ]

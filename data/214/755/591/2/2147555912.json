@@ -83,7 +83,6 @@
       }, 
       "id": 2147555912, 
       "properties": {
-        "osm:way_id": 24233779, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=5", 
@@ -93,8 +92,12 @@
           "addr:country=DE", 
           "addr:street=Mittelstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.388051, 
         "osm:node_ids": [
           262389318, 
           262389319, 
@@ -116,12 +119,12 @@
         ], 
         "ne_longitude": 13.510299, 
         "longitude": 52.388387, 
-        "ne_latitude": 52.388790, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.508659, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.388790, 
         "latitude": 13.509516, 
         "woe:id": 2147555912, 
-        "sw_latitude": 52.388051
+        "osm:way_id": 24233779
       }
     }
   ]

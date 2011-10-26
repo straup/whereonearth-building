@@ -55,15 +55,18 @@
       }, 
       "id": 2167427253, 
       "properties": {
-        "osm:way_id": 80341391, 
         "woe:parent": "224788032", 
         "name": "Olympic House", 
         "tags": [
           "name=Olympic House", 
           "source=Yahoo"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=224788032", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22478032, 
+        "sw_latitude": 53.361795, 
         "osm:node_ids": [
           270732415, 
           270732416, 
@@ -78,12 +81,12 @@
         ], 
         "ne_longitude": -2.270139, 
         "longitude": 53.361943, 
-        "ne_latitude": 53.362108, 
-        "woe:placetype": "building", 
         "sw_longitude": -2.271598, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.362108, 
         "latitude": -2.270907, 
         "woe:id": 2167427253, 
-        "sw_latitude": 53.361795
+        "osm:way_id": 80341391
       }
     }
   ]

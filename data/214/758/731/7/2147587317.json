@@ -71,14 +71,17 @@
       }, 
       "id": 2147587317, 
       "properties": {
-        "osm:way_id": 25304315, 
         "woe:parent": "12521693", 
         "tags": [
           "amenity=parking", 
           "note=multi-storey car park"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521693", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521693, 
+        "sw_latitude": 38.690576, 
         "osm:node_ids": [
           275629662, 
           442584796, 
@@ -97,12 +100,12 @@
         ], 
         "ne_longitude": -121.587303, 
         "longitude": 38.691576, 
-        "ne_latitude": 38.692730, 
-        "woe:placetype": "building", 
         "sw_longitude": -121.589971, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.692730, 
         "latitude": -121.588771, 
         "woe:id": 2147587317, 
-        "sw_latitude": 38.690576
+        "osm:way_id": 25304315
       }
     }
   ]

@@ -55,7 +55,6 @@
       }, 
       "id": 2160456665, 
       "properties": {
-        "osm:way_id": 67268797, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=99", 
@@ -68,8 +67,12 @@
           "dcgis:captureyear=19990331", 
           "addr:street=Duncan Avenue SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.833578, 
         "osm:node_ids": [
           812477655, 
           812477647, 
@@ -84,12 +87,12 @@
         ], 
         "ne_longitude": -77.014727, 
         "longitude": 38.833640, 
-        "ne_latitude": 38.833712, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.014952, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.833712, 
         "latitude": -77.014836, 
         "woe:id": 2160456665, 
-        "sw_latitude": 38.833578
+        "osm:way_id": 67268797
       }
     }
   ]

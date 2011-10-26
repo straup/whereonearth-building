@@ -51,7 +51,6 @@
       }, 
       "id": 2147737919, 
       "properties": {
-        "osm:way_id": 27121163, 
         "woe:parent": "228851127", 
         "name": "Restaurant Kastrup Strandpark", 
         "tags": [
@@ -59,8 +58,12 @@
           "amenity=restaurant", 
           "name=Restaurant Kastrup Strandpark"
         ], 
-        "hierarchy": "woe:country=23424796", 
+        "hierarchy": [
+          "woe:airport=228851127", 
+          "woe:country=23424796"
+        ], 
         "parent_woeid": 22851127, 
+        "sw_latitude": 55.640484, 
         "osm:node_ids": [
           297558912, 
           297558915, 
@@ -74,12 +77,12 @@
         ], 
         "ne_longitude": 12.652534, 
         "longitude": 55.640655, 
-        "ne_latitude": 55.640758, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.651910, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.640758, 
         "latitude": 12.652202, 
         "woe:id": 2147737919, 
-        "sw_latitude": 55.640484
+        "osm:way_id": 27121163
       }
     }
   ]

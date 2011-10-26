@@ -43,14 +43,17 @@
       }, 
       "id": 2156082675, 
       "properties": {
-        "osm:way_id": 59367907, 
         "woe:parent": "12517571", 
         "name": "EADS Military", 
         "tags": [
           "name=EADS Military"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=12517571", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 12517571, 
+        "sw_latitude": 37.411082, 
         "osm:node_ids": [
           736349971, 
           736349933, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": -5.878365, 
         "longitude": 37.411956, 
-        "ne_latitude": 37.412512, 
-        "woe:placetype": "building", 
         "sw_longitude": -5.884572, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.412512, 
         "latitude": -5.880944, 
         "woe:id": 2156082675, 
-        "sw_latitude": 37.411082
+        "osm:way_id": 59367907
       }
     }
   ]

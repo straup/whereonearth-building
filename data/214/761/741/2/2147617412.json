@@ -35,15 +35,18 @@
       }, 
       "id": 2147617412, 
       "properties": {
-        "osm:way_id": 25727981, 
         "woe:parent": "2338888266", 
         "name": "SIPTU Office", 
         "tags": [
           "name=SIPTU Office", 
           "created_by=Potlatch 0.10"
         ], 
-        "hierarchy": "woe:country=234248803", 
+        "hierarchy": [
+          "woe:airport=2338888266", 
+          "woe:country=234248803"
+        ], 
         "parent_woeid": 23388266, 
+        "sw_latitude": 53.422263, 
         "osm:node_ids": [
           280544344, 
           280544345, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -6.233508, 
         "longitude": 53.422364, 
-        "ne_latitude": 53.422463, 
-        "woe:placetype": "building", 
         "sw_longitude": -6.233872, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.422463, 
         "latitude": -6.233691, 
         "woe:id": 2147617412, 
-        "sw_latitude": 53.422263
+        "osm:way_id": 25727981
       }
     }
   ]

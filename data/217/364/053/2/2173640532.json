@@ -35,7 +35,6 @@
       }, 
       "id": 2173640532, 
       "properties": {
-        "osm:way_id": 93396548, 
         "woe:parent": "12520204", 
         "name": "Plateau Espresso", 
         "tags": [
@@ -47,8 +46,12 @@
           "phone=+1-575-479-4466 \u200e ", 
           "addr:street=United States Route 70"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12520204", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520204, 
+        "sw_latitude": 32.839077, 
         "osm:node_ids": [
           1082891108, 
           1082891109, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": -106.050658, 
         "longitude": 32.839151, 
-        "ne_latitude": 32.839224, 
-        "woe:placetype": "building", 
         "sw_longitude": -106.050851, 
+        "woe:placetype": "building", 
+        "ne_latitude": 32.839224, 
         "latitude": -106.050755, 
         "woe:id": 2173640532, 
-        "sw_latitude": 32.839077
+        "osm:way_id": 93396548
       }
     }
   ]

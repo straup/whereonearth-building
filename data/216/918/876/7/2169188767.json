@@ -35,7 +35,6 @@
       }, 
       "id": 2169188767, 
       "properties": {
-        "osm:way_id": 84008612, 
         "woe:parent": "125209883", 
         "tags": [
           "addr:housenumber=1636", 
@@ -47,8 +46,12 @@
           "source_ref=AM909_DSCW1295;AM909_DSCW13887", 
           "addr:street=Kinnicutt Street"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.048351, 
         "osm:node_ids": [
           977463511, 
           977463348, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": -118.160574, 
         "longitude": 35.048581, 
-        "ne_latitude": 35.048810, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.160689, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.048810, 
         "latitude": -118.160632, 
         "woe:id": 2169188767, 
-        "sw_latitude": 35.048351
+        "osm:way_id": 84008612
       }
     }
   ]

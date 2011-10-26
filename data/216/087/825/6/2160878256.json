@@ -43,15 +43,18 @@
       }, 
       "id": 2160878256, 
       "properties": {
-        "osm:way_id": 67976696, 
         "woe:parent": "12513199", 
         "name": "Earth Observation Center (EOC)", 
         "tags": [
           "addr:housenumber=Geb. 122", 
           "name=Earth Observation Center (EOC)"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.086023, 
         "osm:node_ids": [
           820074266, 
           820074267, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 11.279235, 
         "longitude": 48.086301, 
-        "ne_latitude": 48.086579, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.278256, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.086579, 
         "latitude": 11.278749, 
         "woe:id": 2160878256, 
-        "sw_latitude": 48.086023
+        "osm:way_id": 67976696
       }
     }
   ]

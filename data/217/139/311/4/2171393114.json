@@ -95,14 +95,17 @@
       }, 
       "id": 2171393114, 
       "properties": {
-        "osm:way_id": 88373484, 
         "woe:parent": "12510517", 
         "name": "Centro de Convenciones", 
         "tags": [
           "name=Centro de Convenciones"
         ], 
-        "hierarchy": "woe:country=23424747", 
+        "hierarchy": [
+          "woe:airport=12510517", 
+          "woe:country=23424747"
+        ], 
         "parent_woeid": 12510517, 
+        "sw_latitude": -35.462464, 
         "osm:node_ids": [
           1026494662, 
           1026494652, 
@@ -127,12 +130,12 @@
         ], 
         "ne_longitude": -69.586575, 
         "longitude": -35.462198, 
-        "ne_latitude": -35.461988, 
-        "woe:placetype": "building", 
         "sw_longitude": -69.587258, 
+        "woe:placetype": "building", 
+        "ne_latitude": -35.461988, 
         "latitude": -69.587001, 
         "woe:id": 2171393114, 
-        "sw_latitude": -35.462464
+        "osm:way_id": 88373484
       }
     }
   ]

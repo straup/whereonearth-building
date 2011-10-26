@@ -51,15 +51,18 @@
       }, 
       "id": 2147617406, 
       "properties": {
-        "osm:way_id": 25727912, 
         "woe:parent": "2338888266", 
         "name": "TNT Cargo", 
         "tags": [
           "name=TNT Cargo", 
           "created_by=Potlatch 0.10"
         ], 
-        "hierarchy": "woe:country=234248803", 
+        "hierarchy": [
+          "woe:airport=2338888266", 
+          "woe:country=234248803"
+        ], 
         "parent_woeid": 23388266, 
+        "sw_latitude": 53.422392, 
         "osm:node_ids": [
           280542869, 
           280542870, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": -6.231439, 
         "longitude": 53.422734, 
-        "ne_latitude": 53.423107, 
-        "woe:placetype": "building", 
         "sw_longitude": -6.232417, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.423107, 
         "latitude": -6.231877, 
         "woe:id": 2147617406, 
-        "sw_latitude": 53.422392
+        "osm:way_id": 25727912
       }
     }
   ]

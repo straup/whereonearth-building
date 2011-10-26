@@ -35,7 +35,6 @@
       }, 
       "id": 2169150665, 
       "properties": {
-        "osm:way_id": 83895498, 
         "woe:parent": "125209883", 
         "name": "Flight Research Inc.", 
         "tags": [
@@ -44,8 +43,12 @@
           "source=usgs_imagery_20088;survey;image", 
           "source_ref=AM909_DSCW1295;AM909_DSCW1334;AM909_DSCW1335"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.056520, 
         "osm:node_ids": [
           976521451, 
           976521182, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -118.151470, 
         "longitude": 35.056698, 
-        "ne_latitude": 35.056874, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.151752, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.056874, 
         "latitude": -118.151611, 
         "woe:id": 2169150665, 
-        "sw_latitude": 35.056520
+        "osm:way_id": 83895498
       }
     }
   ]

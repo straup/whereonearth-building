@@ -51,15 +51,18 @@
       }, 
       "id": 2168415515, 
       "properties": {
-        "osm:way_id": 82348116, 
         "woe:parent": "125119188", 
         "tags": [
           "attribution=2001 Her Majesty the Queen in Right of Manitoba, as represented by the Minister of Conservation. All rights reserved.", 
           "source=Manitoba Lands Initiative", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=125119188", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511918, 
+        "sw_latitude": 49.902573, 
         "osm:node_ids": [
           959084033, 
           959087753, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": -97.226228, 
         "longitude": 49.903436, 
-        "ne_latitude": 49.904351, 
-        "woe:placetype": "building", 
         "sw_longitude": -97.227974, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.904351, 
         "latitude": -97.227085, 
         "woe:id": 2168415515, 
-        "sw_latitude": 49.902573
+        "osm:way_id": 82348116
       }
     }
   ]

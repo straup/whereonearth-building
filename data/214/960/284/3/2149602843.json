@@ -35,7 +35,6 @@
       }, 
       "id": 2149602843, 
       "properties": {
-        "osm:way_id": 41368201, 
         "woe:parent": "125110388", 
         "name": "LAUT", 
         "tags": [
@@ -44,8 +43,12 @@
           "alt_name=Laborat\u00f3rio de Automa\u00e7\u00e3o em Petr\u00f3leo", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.843312, 
         "osm:node_ids": [
           505976095, 
           505976103, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -35.197126, 
         "longitude": -5.843214, 
-        "ne_latitude": -5.843115, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.197471, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.843115, 
         "latitude": -35.197299, 
         "woe:id": 2149602843, 
-        "sw_latitude": -5.843312
+        "osm:way_id": 41368201
       }
     }
   ]

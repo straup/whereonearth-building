@@ -35,14 +35,17 @@
       }, 
       "id": 2147569645, 
       "properties": {
-        "osm:way_id": 24659411, 
         "woe:parent": "23024911", 
         "name": "ZDF Landesstudio D\u00fcsseldorf", 
         "tags": [
           "name=ZDF Landesstudio D\u00fcsseldorf"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.247637, 
         "osm:node_ids": [
           268027903, 
           268027904, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 6.768265, 
         "longitude": 51.247794, 
-        "ne_latitude": 51.247949, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.767802, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.247949, 
         "latitude": 6.768035, 
         "woe:id": 2147569645, 
-        "sw_latitude": 51.247637
+        "osm:way_id": 24659411
       }
     }
   ]

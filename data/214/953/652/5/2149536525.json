@@ -59,7 +59,6 @@
       }, 
       "id": 2149536525, 
       "properties": {
-        "osm:way_id": 40730692, 
         "woe:parent": "1251548888", 
         "name": "M\u00e9decine Pr\u00e9ventive", 
         "tags": [
@@ -67,8 +66,12 @@
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre ; mise \u00e0 jour 8c 20088", 
           "highway=emergency_access_point"
         ], 
-        "hierarchy": "woe:country=23424931", 
+        "hierarchy": [
+          "woe:airport=1251548888", 
+          "woe:country=23424931"
+        ], 
         "parent_woeid": 12515488, 
+        "sw_latitude": -20.902886, 
         "osm:node_ids": [
           494875745, 
           494875748, 
@@ -84,12 +87,12 @@
         ], 
         "ne_longitude": 55.484669, 
         "longitude": -20.902779, 
-        "ne_latitude": -20.902674, 
-        "woe:placetype": "building", 
         "sw_longitude": 55.484455, 
+        "woe:placetype": "building", 
+        "ne_latitude": -20.902674, 
         "latitude": 55.484567, 
         "woe:id": 2149536525, 
-        "sw_latitude": -20.902886
+        "osm:way_id": 40730692
       }
     }
   ]

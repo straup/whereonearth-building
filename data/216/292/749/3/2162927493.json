@@ -35,14 +35,17 @@
       }, 
       "id": 2162927493, 
       "properties": {
-        "osm:way_id": 71407597, 
         "woe:parent": "22923040", 
         "name": "Schwaiger Sporthalle", 
         "tags": [
           "name=Schwaiger Sporthalle"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22923040", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22923040, 
+        "sw_latitude": 48.342363, 
         "osm:node_ids": [
           849701165, 
           849701068, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 11.835317, 
         "longitude": 48.342624, 
-        "ne_latitude": 48.342885, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.834739, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.342885, 
         "latitude": 11.835029, 
         "woe:id": 2162927493, 
-        "sw_latitude": 48.342363
+        "osm:way_id": 71407597
       }
     }
   ]

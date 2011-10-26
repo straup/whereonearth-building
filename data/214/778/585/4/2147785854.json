@@ -195,7 +195,6 @@
       }, 
       "id": 2147785854, 
       "properties": {
-        "osm:way_id": 27939131, 
         "woe:parent": "125128897", 
         "name": "Hall d'acceuil - Entr\u00e9e Nord", 
         "tags": [
@@ -203,8 +202,12 @@
           "name=Hall d'acceuil - Entr\u00e9e Nord", 
           "created_by=Potlatch 0.10"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128897", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512897, 
+        "sw_latitude": 43.572468, 
         "osm:node_ids": [
           306680887, 
           306680889, 
@@ -254,12 +257,12 @@
         ], 
         "ne_longitude": 3.951067, 
         "longitude": 43.572773, 
-        "ne_latitude": 43.573301, 
-        "woe:placetype": "building", 
         "sw_longitude": 3.949777, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.573301, 
         "latitude": 3.950504, 
         "woe:id": 2147785854, 
-        "sw_latitude": 43.572468
+        "osm:way_id": 27939131
       }
     }
   ]

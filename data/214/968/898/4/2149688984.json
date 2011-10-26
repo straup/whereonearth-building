@@ -91,15 +91,18 @@
       }, 
       "id": 2149688984, 
       "properties": {
-        "osm:way_id": 42102839, 
         "woe:parent": "12511529", 
         "name": "Varna Airport", 
         "tags": [
           "name=Varna Airport", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424771", 
+        "hierarchy": [
+          "woe:airport=12511529", 
+          "woe:country=23424771"
+        ], 
         "parent_woeid": 12511529, 
+        "sw_latitude": 43.236511, 
         "osm:node_ids": [
           523166706, 
           523166717, 
@@ -123,12 +126,12 @@
         ], 
         "ne_longitude": 27.830809, 
         "longitude": 43.236872, 
-        "ne_latitude": 43.237312, 
-        "woe:placetype": "building", 
         "sw_longitude": 27.828331, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.237312, 
         "latitude": 27.829521, 
         "woe:id": 2149688984, 
-        "sw_latitude": 43.236511
+        "osm:way_id": 42102839
       }
     }
   ]

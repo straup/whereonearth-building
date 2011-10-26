@@ -99,7 +99,6 @@
       }, 
       "id": 2149477762, 
       "properties": {
-        "osm:way_id": 40144882, 
         "woe:parent": "12521750", 
         "name": "Harry Sudakoff Center", 
         "tags": [
@@ -107,8 +106,12 @@
           "name=Harry Sudakoff Center", 
           "source=FDOT"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.384962, 
         "osm:node_ids": [
           483282679, 
           483282680, 
@@ -134,12 +137,12 @@
         ], 
         "ne_longitude": -82.556615, 
         "longitude": 27.385103, 
-        "ne_latitude": 27.385277, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.557097, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.385277, 
         "latitude": -82.556856, 
         "woe:id": 2149477762, 
-        "sw_latitude": 27.384962
+        "osm:way_id": 40144882
       }
     }
   ]

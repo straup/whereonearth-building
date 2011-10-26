@@ -51,14 +51,17 @@
       }, 
       "id": 2147518267, 
       "properties": {
-        "osm:way_id": 23453612, 
         "woe:parent": "23024911", 
         "name": "L\u00e4rmschutzhalle", 
         "tags": [
           "name=L\u00e4rmschutzhalle"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.287778, 
         "osm:node_ids": [
           254001370, 
           254001371, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 6.783846, 
         "longitude": 51.288209, 
-        "ne_latitude": 51.288723, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.782387, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.288723, 
         "latitude": 6.783214, 
         "woe:id": 2147518267, 
-        "sw_latitude": 51.287778
+        "osm:way_id": 23453612
       }
     }
   ]

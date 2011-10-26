@@ -51,7 +51,6 @@
       }, 
       "id": 2167529442, 
       "properties": {
-        "osm:way_id": 80575197, 
         "woe:parent": "12517349", 
         "name": "Terminal 1", 
         "tags": [
@@ -59,8 +58,12 @@
           "note=International flights- (except Saudia)", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=234249388", 
+        "hierarchy": [
+          "woe:airport=12517349", 
+          "woe:country=234249388"
+        ], 
         "parent_woeid": 12517349, 
+        "sw_latitude": 24.962765, 
         "osm:node_ids": [
           939987435, 
           939987436, 
@@ -74,12 +77,12 @@
         ], 
         "ne_longitude": 46.701758, 
         "longitude": 24.963670, 
-        "ne_latitude": 24.964312, 
-        "woe:placetype": "building", 
         "sw_longitude": 46.699773, 
+        "woe:placetype": "building", 
+        "ne_latitude": 24.964312, 
         "latitude": 46.700724, 
         "woe:id": 2167529442, 
-        "sw_latitude": 24.962765
+        "osm:way_id": 80575197
       }
     }
   ]

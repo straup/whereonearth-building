@@ -123,7 +123,6 @@
       }, 
       "id": 2153154283, 
       "properties": {
-        "osm:way_id": 52393121, 
         "woe:parent": "12521750", 
         "name": "Ulla R. Searing Residence Hall", 
         "tags": [
@@ -132,8 +131,12 @@
           "source=FDOT", 
           "old_name=X"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.384278, 
         "osm:node_ids": [
           666242774, 
           666242770, 
@@ -165,12 +168,12 @@
         ], 
         "ne_longitude": -82.555243, 
         "longitude": 27.384375, 
-        "ne_latitude": 27.384478, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.555550, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.384478, 
         "latitude": -82.555397, 
         "woe:id": 2153154283, 
-        "sw_latitude": 27.384278
+        "osm:way_id": 52393121
       }
     }
   ]

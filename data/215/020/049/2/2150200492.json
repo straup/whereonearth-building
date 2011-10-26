@@ -51,13 +51,16 @@
       }, 
       "id": 2150200492, 
       "properties": {
-        "osm:way_id": 44685515, 
         "woe:parent": "22269415", 
         "tags": [
           "addr:housenumber=E 410"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.768394, 
         "osm:node_ids": [
           567074803, 
           567074805, 
@@ -71,12 +74,12 @@
         ], 
         "ne_longitude": 8.077722, 
         "longitude": 48.768505, 
-        "ne_latitude": 48.768615, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.077386, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.768615, 
         "latitude": 8.077554, 
         "woe:id": 2150200492, 
-        "sw_latitude": 48.768394
+        "osm:way_id": 44685515
       }
     }
   ]

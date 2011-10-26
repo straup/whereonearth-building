@@ -131,7 +131,6 @@
       }, 
       "id": 2147486087, 
       "properties": {
-        "osm:way_id": 7998454, 
         "woe:parent": "56051751", 
         "name": "Centre Commercial R\u00e9gional V\u00e9lizy 2", 
         "tags": [
@@ -139,8 +138,12 @@
           "name=Centre Commercial R\u00e9gional V\u00e9lizy 2", 
           "source=Direction g\u00e9n\u00e9rale des finances publiques - f\u00e9vrier 2010"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=56051751", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 56051751, 
+        "sw_latitude": 48.778850, 
         "osm:node_ids": [
           59852701, 
           59852720, 
@@ -174,12 +177,12 @@
         ], 
         "ne_longitude": 2.222072, 
         "longitude": 48.780857, 
-        "ne_latitude": 48.783178, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.218091, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.783178, 
         "latitude": 2.220293, 
         "woe:id": 2147486087, 
-        "sw_latitude": 48.778850
+        "osm:way_id": 7998454
       }
     }
   ]

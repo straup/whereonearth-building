@@ -35,15 +35,18 @@
       }, 
       "id": 2151993746, 
       "properties": {
-        "osm:way_id": 49643625, 
         "woe:parent": "12521741", 
         "name": "Automobile Rental Building", 
         "tags": [
           "name=Automobile Rental Building", 
           "landuse=commercial"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.423920, 
         "osm:node_ids": [
           631196391, 
           631196394, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -119.835599, 
         "longitude": 34.424144, 
-        "ne_latitude": 34.424368, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.835865, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.424368, 
         "latitude": -119.835733, 
         "woe:id": 2151993746, 
-        "sw_latitude": 34.423920
+        "osm:way_id": 49643625
       }
     }
   ]

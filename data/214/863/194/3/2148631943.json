@@ -59,14 +59,17 @@
       }, 
       "id": 2148631943, 
       "properties": {
-        "osm:way_id": 34235337, 
         "woe:parent": "125137882", 
         "name": "Hilton Eilat", 
         "tags": [
           "name=Hilton Eilat"
         ], 
-        "hierarchy": "woe:country=234248852", 
+        "hierarchy": [
+          "woe:airport=125137882", 
+          "woe:country=234248852"
+        ], 
         "parent_woeid": 12513782, 
+        "sw_latitude": 29.549709, 
         "osm:node_ids": [
           392635383, 
           392635384, 
@@ -82,12 +85,12 @@
         ], 
         "ne_longitude": 34.961955, 
         "longitude": 29.550328, 
-        "ne_latitude": 29.550639, 
-        "woe:placetype": "building", 
         "sw_longitude": 34.960780, 
+        "woe:placetype": "building", 
+        "ne_latitude": 29.550639, 
         "latitude": 34.961485, 
         "woe:id": 2148631943, 
-        "sw_latitude": 29.549709
+        "osm:way_id": 34235337
       }
     }
   ]

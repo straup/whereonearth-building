@@ -99,14 +99,17 @@
       }, 
       "id": 2149290448, 
       "properties": {
-        "osm:way_id": 38089642, 
         "woe:parent": "22442771", 
         "name": "Waldhof", 
         "tags": [
           "name=Waldhof"
         ], 
-        "hierarchy": "woe:country=23424957", 
+        "hierarchy": [
+          "woe:airport=22442771", 
+          "woe:country=23424957"
+        ], 
         "parent_woeid": 22442771, 
+        "sw_latitude": 47.475103, 
         "osm:node_ids": [
           448011298, 
           448011299, 
@@ -132,12 +135,12 @@
         ], 
         "ne_longitude": 8.562400, 
         "longitude": 47.475465, 
-        "ne_latitude": 47.475835, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.561255, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.475835, 
         "latitude": 8.561849, 
         "woe:id": 2149290448, 
-        "sw_latitude": 47.475103
+        "osm:way_id": 38089642
       }
     }
   ]

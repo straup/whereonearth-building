@@ -35,7 +35,6 @@
       }, 
       "id": 2150009885, 
       "properties": {
-        "osm:way_id": 43868219, 
         "woe:parent": "125152880", 
         "name": "Bramka Balice", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Bramka Balice", 
           "barrier=toll_booth"
         ], 
-        "hierarchy": "woe:country=23424923", 
+        "hierarchy": [
+          "woe:airport=125152880", 
+          "woe:country=23424923"
+        ], 
         "parent_woeid": 12515280, 
+        "sw_latitude": 50.082823, 
         "osm:node_ids": [
           557121941, 
           557121937, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 19.791569, 
         "longitude": 50.083171, 
-        "ne_latitude": 50.083519, 
-        "woe:placetype": "building", 
         "sw_longitude": 19.791127, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.083519, 
         "latitude": 19.791348, 
         "woe:id": 2150009885, 
-        "sw_latitude": 50.082823
+        "osm:way_id": 43868219
       }
     }
   ]

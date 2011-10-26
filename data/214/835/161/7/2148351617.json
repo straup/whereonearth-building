@@ -55,15 +55,18 @@
       }, 
       "id": 2148351617, 
       "properties": {
-        "osm:way_id": 31542941, 
         "woe:parent": "12514635", 
         "name": "NH Hotel", 
         "tags": [
           "name=NH Hotel", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=2342488881", 
+        "hierarchy": [
+          "woe:airport=12514635", 
+          "woe:country=2342488881"
+        ], 
         "parent_woeid": 12514635, 
+        "sw_latitude": 49.637009, 
         "osm:node_ids": [
           352968508, 
           352968677, 
@@ -78,12 +81,12 @@
         ], 
         "ne_longitude": 6.219001, 
         "longitude": 49.637287, 
-        "ne_latitude": 49.637589, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.218286, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.637589, 
         "latitude": 6.218609, 
         "woe:id": 2148351617, 
-        "sw_latitude": 49.637009
+        "osm:way_id": 31542941
       }
     }
   ]

@@ -123,14 +123,17 @@
       }, 
       "id": 2154828392, 
       "properties": {
-        "osm:way_id": 55487691, 
         "woe:parent": "12510331", 
         "name": "Nouveau si\u00e8ge de MOBILIS", 
         "tags": [
           "name=Nouveau si\u00e8ge de MOBILIS"
         ], 
-        "hierarchy": "woe:country=23424740", 
+        "hierarchy": [
+          "woe:airport=12510331", 
+          "woe:country=23424740"
+        ], 
         "parent_woeid": 12510331, 
+        "sw_latitude": 36.714363, 
         "osm:node_ids": [
           697270692, 
           697270693, 
@@ -162,12 +165,12 @@
         ], 
         "ne_longitude": 3.204519, 
         "longitude": 36.714590, 
-        "ne_latitude": 36.714810, 
-        "woe:placetype": "building", 
         "sw_longitude": 3.203543, 
+        "woe:placetype": "building", 
+        "ne_latitude": 36.714810, 
         "latitude": 3.204026, 
         "woe:id": 2154828392, 
-        "sw_latitude": 36.714363
+        "osm:way_id": 55487691
       }
     }
   ]

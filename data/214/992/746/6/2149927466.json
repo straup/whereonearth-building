@@ -35,14 +35,17 @@
       }, 
       "id": 2149927466, 
       "properties": {
-        "osm:way_id": 43138216, 
         "woe:parent": "22235735", 
         "name": "JVA Hannover ZAST", 
         "tags": [
           "name=JVA Hannover ZAST"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22235735", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22235735, 
+        "sw_latitude": 52.463363, 
         "osm:node_ids": [
           540415011, 
           540415012, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 9.702345, 
         "longitude": 52.463677, 
-        "ne_latitude": 52.463989, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.702107, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.463989, 
         "latitude": 9.702226, 
         "woe:id": 2149927466, 
-        "sw_latitude": 52.463363
+        "osm:way_id": 43138216
       }
     }
   ]

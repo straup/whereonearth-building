@@ -39,15 +39,18 @@
       }, 
       "id": 2147732479, 
       "properties": {
-        "osm:way_id": 26991275, 
         "woe:parent": "22276234", 
         "name": "drive-thru bakery", 
         "tags": [
           "shop=bakery", 
           "name=drive-thru bakery"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.425842, 
         "osm:node_ids": [
           295849232, 
           295849233, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": 13.542591, 
         "longitude": 52.425903, 
-        "ne_latitude": 52.425968, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.542230, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.425968, 
         "latitude": 13.542383, 
         "woe:id": 2147732479, 
-        "sw_latitude": 52.425842
+        "osm:way_id": 26991275
       }
     }
   ]

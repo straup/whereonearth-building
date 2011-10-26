@@ -39,7 +39,6 @@
       }, 
       "id": 2149927038, 
       "properties": {
-        "osm:way_id": 43136087, 
         "woe:parent": "22235735", 
         "name": "Ringeltaube-Markt", 
         "tags": [
@@ -56,8 +55,12 @@
           "email=ringeltaube.haj@lsgskychefs.com", 
           "addr:street=Nordstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22235735", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22235735, 
+        "sw_latitude": 52.462270, 
         "osm:node_ids": [
           540397716, 
           540397719, 
@@ -68,12 +71,12 @@
         ], 
         "ne_longitude": 9.695109, 
         "longitude": 52.462419, 
-        "ne_latitude": 52.462568, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.694302, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.462568, 
         "latitude": 9.694701, 
         "woe:id": 2149927038, 
-        "sw_latitude": 52.462270
+        "osm:way_id": 43136087
       }
     }
   ]

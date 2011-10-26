@@ -35,14 +35,17 @@
       }, 
       "id": 2155838908, 
       "properties": {
-        "osm:way_id": 58718064, 
         "woe:parent": "22462097", 
         "name": "Air Cargo Services", 
         "tags": [
           "name=Air Cargo Services"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22462097", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22462097, 
+        "sw_latitude": 52.826356, 
         "osm:node_ids": [
           727628205, 
           727628210, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -1.322781, 
         "longitude": 52.826421, 
-        "ne_latitude": 52.826491, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.323708, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.826491, 
         "latitude": -1.323238, 
         "woe:id": 2155838908, 
-        "sw_latitude": 52.826356
+        "osm:way_id": 58718064
       }
     }
   ]

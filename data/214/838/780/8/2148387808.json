@@ -43,7 +43,6 @@
       }, 
       "id": 2148387808, 
       "properties": {
-        "osm:way_id": 31778791, 
         "woe:parent": "12521741", 
         "name": "Coral Tree Cafe", 
         "tags": [
@@ -51,8 +50,12 @@
           "name=Coral Tree Cafe", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.415756, 
         "osm:node_ids": [
           355761434, 
           355761435, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": -119.846568, 
         "longitude": 34.415833, 
-        "ne_latitude": 34.415895, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.846853, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.415895, 
         "latitude": -119.846736, 
         "woe:id": 2148387808, 
-        "sw_latitude": 34.415756
+        "osm:way_id": 31778791
       }
     }
   ]

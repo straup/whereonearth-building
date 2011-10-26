@@ -35,7 +35,6 @@
       }, 
       "id": 2147507417, 
       "properties": {
-        "osm:way_id": 23108349, 
         "woe:parent": "125138862", 
         "name": "Multipiano", 
         "tags": [
@@ -44,8 +43,12 @@
           "area=yes", 
           "created_by=Potlatch 0.7b"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=125138862", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 12513862, 
+        "sw_latitude": 45.190704, 
         "osm:node_ids": [
           249481844, 
           249481845, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": 7.642870, 
         "longitude": 45.191855, 
-        "ne_latitude": 45.192960, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.642129, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.192960, 
         "latitude": 7.642491, 
         "woe:id": 2147507417, 
-        "sw_latitude": 45.190704
+        "osm:way_id": 23108349
       }
     }
   ]

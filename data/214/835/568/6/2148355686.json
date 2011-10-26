@@ -51,7 +51,6 @@
       }, 
       "id": 2148355686, 
       "properties": {
-        "osm:way_id": 31578010, 
         "woe:parent": "228851127", 
         "name": "Brandstation Vest", 
         "tags": [
@@ -60,8 +59,12 @@
           "icao=EKCH", 
           "source=Yahoo!"
         ], 
-        "hierarchy": "woe:country=23424796", 
+        "hierarchy": [
+          "woe:airport=228851127", 
+          "woe:country=23424796"
+        ], 
         "parent_woeid": 22851127, 
+        "sw_latitude": 55.606845, 
         "osm:node_ids": [
           353328965, 
           353328966, 
@@ -75,12 +78,12 @@
         ], 
         "ne_longitude": 12.622485, 
         "longitude": 55.607132, 
-        "ne_latitude": 55.607394, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.621570, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.607394, 
         "latitude": 12.621996, 
         "woe:id": 2148355686, 
-        "sw_latitude": 55.606845
+        "osm:way_id": 31578010
       }
     }
   ]

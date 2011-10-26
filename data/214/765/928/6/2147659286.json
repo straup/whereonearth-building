@@ -379,7 +379,6 @@
       }, 
       "id": 2147659286, 
       "properties": {
-        "osm:way_id": 26788172, 
         "woe:parent": "12521721", 
         "name": "Terminal 1", 
         "tags": [
@@ -392,8 +391,12 @@
           "gnis:feature_id=2124417", 
           "name=Terminal 1"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521721", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521721, 
+        "sw_latitude": 37.612158, 
         "osm:node_ids": [
           256281441, 
           256281442, 
@@ -489,12 +492,12 @@
         ], 
         "ne_longitude": -122.382130, 
         "longitude": 37.614352, 
-        "ne_latitude": 37.615763, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.387582, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.615763, 
         "latitude": -122.384881, 
         "woe:id": 2147659286, 
-        "sw_latitude": 37.612158
+        "osm:way_id": 26788172
       }
     }
   ]

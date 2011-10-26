@@ -183,7 +183,6 @@
       }, 
       "id": 2160455947, 
       "properties": {
-        "osm:way_id": 67266360, 
         "woe:parent": "12523409", 
         "name": "Joint Base Anacostia-Bolling Base Exchange", 
         "tags": [
@@ -199,8 +198,12 @@
           "dcgis:lot=0020", 
           "addr:street=Chappie James Boulevard SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.840649, 
         "osm:node_ids": [
           812389203, 
           812389212, 
@@ -247,12 +250,12 @@
         ], 
         "ne_longitude": -77.017218, 
         "longitude": 38.841170, 
-        "ne_latitude": 38.841627, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.018719, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.841627, 
         "latitude": -77.018077, 
         "woe:id": 2160455947, 
-        "sw_latitude": 38.840649
+        "osm:way_id": 67266360
       }
     }
   ]

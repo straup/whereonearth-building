@@ -35,14 +35,17 @@
       }, 
       "id": 2147553604, 
       "properties": {
-        "osm:way_id": 24050993, 
         "woe:parent": "222576887", 
         "name": "Cargocenter", 
         "tags": [
           "name=Cargocenter"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=222576887", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22257687, 
+        "sw_latitude": 49.492347, 
         "osm:node_ids": [
           260862256, 
           260862258, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 11.087178, 
         "longitude": 49.492736, 
-        "ne_latitude": 49.493125, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.085274, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.493125, 
         "latitude": 11.086227, 
         "woe:id": 2147553604, 
-        "sw_latitude": 49.492347
+        "osm:way_id": 24050993
       }
     }
   ]

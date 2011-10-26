@@ -35,15 +35,18 @@
       }, 
       "id": 2152493847, 
       "properties": {
-        "osm:way_id": 50844781, 
         "woe:parent": "12521741", 
         "name": "YMCA", 
         "tags": [
           "name=YMCA", 
           "landuse=commercial"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.413201, 
         "osm:node_ids": [
           648517829, 
           648517830, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -119.862758, 
         "longitude": 34.413252, 
-        "ne_latitude": 34.413301, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.862962, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.413301, 
         "latitude": -119.862860, 
         "woe:id": 2152493847, 
-        "sw_latitude": 34.413201
+        "osm:way_id": 50844781
       }
     }
   ]

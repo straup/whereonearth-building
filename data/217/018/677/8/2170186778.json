@@ -35,14 +35,17 @@
       }, 
       "id": 2170186778, 
       "properties": {
-        "osm:way_id": 85693244, 
         "woe:parent": "12522975", 
         "name": "MTC Head Office", 
         "tags": [
           "name=MTC Head Office"
         ], 
-        "hierarchy": "woe:country=234249887", 
+        "hierarchy": [
+          "woe:airport=12522975", 
+          "woe:country=234249887"
+        ], 
         "parent_woeid": 12522975, 
+        "sw_latitude": -22.603890, 
         "osm:node_ids": [
           994388530, 
           994388533, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 17.100585, 
         "longitude": -22.603600, 
-        "ne_latitude": -22.603296, 
-        "woe:placetype": "building", 
         "sw_longitude": 17.099684, 
+        "woe:placetype": "building", 
+        "ne_latitude": -22.603296, 
         "latitude": 17.100142, 
         "woe:id": 2170186778, 
-        "sw_latitude": -22.603890
+        "osm:way_id": 85693244
       }
     }
   ]

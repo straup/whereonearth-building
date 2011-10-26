@@ -87,14 +87,17 @@
       }, 
       "id": 2156451281, 
       "properties": {
-        "osm:way_id": 60500069, 
         "woe:parent": "12521721", 
         "name": "Main Hall", 
         "tags": [
           "name=Main Hall"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521721", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521721, 
+        "sw_latitude": 37.614328, 
         "osm:node_ids": [
           754496377, 
           754496379, 
@@ -117,12 +120,12 @@
         ], 
         "ne_longitude": -122.387536, 
         "longitude": 37.615618, 
-        "ne_latitude": 37.617041, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.390339, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.617041, 
         "latitude": -122.389204, 
         "woe:id": 2156451281, 
-        "sw_latitude": 37.614328
+        "osm:way_id": 60500069
       }
     }
   ]

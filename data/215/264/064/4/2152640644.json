@@ -87,7 +87,6 @@
       }, 
       "id": 2152640644, 
       "properties": {
-        "osm:way_id": 51208295, 
         "woe:parent": "12515124", 
         "name": "P-hus", 
         "tags": [
@@ -97,8 +96,12 @@
           "ref=P4", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=23424910", 
+        "hierarchy": [
+          "woe:airport=12515124", 
+          "woe:country=23424910"
+        ], 
         "parent_woeid": 12515124, 
+        "sw_latitude": 58.881792, 
         "osm:node_ids": [
           653387134, 
           653387401, 
@@ -121,12 +124,12 @@
         ], 
         "ne_longitude": 5.628451, 
         "longitude": 58.882212, 
-        "ne_latitude": 58.882705, 
-        "woe:placetype": "building", 
         "sw_longitude": 5.626633, 
+        "woe:placetype": "building", 
+        "ne_latitude": 58.882705, 
         "latitude": 5.627606, 
         "woe:id": 2152640644, 
-        "sw_latitude": 58.881792
+        "osm:way_id": 51208295
       }
     }
   ]

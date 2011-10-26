@@ -51,7 +51,6 @@
       }, 
       "id": 2147553958, 
       "properties": {
-        "osm:way_id": 24058602, 
         "woe:parent": "22276234", 
         "name": "airportworld bbi", 
         "tags": [
@@ -64,8 +63,12 @@
           "addr:country=DE", 
           "addr:street=Mittelstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.389016, 
         "osm:node_ids": [
           260985953, 
           260985954, 
@@ -79,12 +82,12 @@
         ], 
         "ne_longitude": 13.512637, 
         "longitude": 52.389328, 
-        "ne_latitude": 52.389635, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.511605, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.389635, 
         "latitude": 13.512144, 
         "woe:id": 2147553958, 
-        "sw_latitude": 52.389016
+        "osm:way_id": 24058602
       }
     }
   ]

@@ -219,7 +219,6 @@
       }, 
       "id": 2156104658, 
       "properties": {
-        "osm:way_id": 59434972, 
         "woe:parent": "1252088881", 
         "name": "tank", 
         "tags": [
@@ -237,8 +236,12 @@
           "owner=UNKNOWN", 
           "description3=<Null>"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=1252088881", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520881, 
+        "sw_latitude": 35.447701, 
         "osm:node_ids": [
           736453235, 
           736045020, 
@@ -294,12 +297,12 @@
         ], 
         "ne_longitude": -119.043690, 
         "longitude": 35.447810, 
-        "ne_latitude": 35.447919, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.043954, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.447919, 
         "latitude": -119.043822, 
         "woe:id": 2156104658, 
-        "sw_latitude": 35.447701
+        "osm:way_id": 59434972
       }
     }
   ]

@@ -35,7 +35,6 @@
       }, 
       "id": 2164613808, 
       "properties": {
-        "osm:way_id": 74287494, 
         "woe:parent": "12513199", 
         "name": "Peterchens Mondfahrt", 
         "tags": [
@@ -43,8 +42,12 @@
           "amenity=kindergarten", 
           "name=Peterchens Mondfahrt"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.088287, 
         "osm:node_ids": [
           878414345, 
           878414427, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 11.280491, 
         "longitude": 48.088342, 
-        "ne_latitude": 48.088397, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.280301, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.088397, 
         "latitude": 11.280396, 
         "woe:id": 2164613808, 
-        "sw_latitude": 48.088287
+        "osm:way_id": 74287494
       }
     }
   ]

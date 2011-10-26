@@ -51,14 +51,17 @@
       }, 
       "id": 2172469031, 
       "properties": {
-        "osm:way_id": 90827235, 
         "woe:parent": "23024911", 
         "tags": [
           "leisure=pitch", 
           "sport=tennis"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.286294, 
         "osm:node_ids": [
           1054442702, 
           1054442798, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 6.809647, 
         "longitude": 51.286461, 
-        "ne_latitude": 51.286636, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.808860, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.286636, 
         "latitude": 6.809255, 
         "woe:id": 2172469031, 
-        "sw_latitude": 51.286294
+        "osm:way_id": 90827235
       }
     }
   ]

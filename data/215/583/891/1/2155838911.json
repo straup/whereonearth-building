@@ -43,7 +43,6 @@
       }, 
       "id": 2155838911, 
       "properties": {
-        "osm:way_id": 58718071, 
         "woe:parent": "22462097", 
         "name": "Premier Inn", 
         "tags": [
@@ -51,8 +50,12 @@
           "source=os_opendata_streetview", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22462097", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22462097, 
+        "sw_latitude": 52.824714, 
         "osm:node_ids": [
           727628291, 
           727628289, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": -1.313621, 
         "longitude": 52.824820, 
-        "ne_latitude": 52.824995, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.314339, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.824995, 
         "latitude": -1.313921, 
         "woe:id": 2155838911, 
-        "sw_latitude": 52.824714
+        "osm:way_id": 58718071
       }
     }
   ]

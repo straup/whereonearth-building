@@ -123,7 +123,6 @@
       }, 
       "id": 2147629123, 
       "properties": {
-        "osm:way_id": 26163903, 
         "woe:parent": "23365569", 
         "name": "Movenpick", 
         "tags": [
@@ -131,8 +130,12 @@
           "note=Changed from amenity8chotel", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=23424957", 
+        "hierarchy": [
+          "woe:airport=23365569", 
+          "woe:country=23424957"
+        ], 
         "parent_woeid": 23365569, 
+        "sw_latitude": 46.223561, 
         "osm:node_ids": [
           286500530, 
           903977658, 
@@ -164,12 +167,12 @@
         ], 
         "ne_longitude": 6.101457, 
         "longitude": 46.224256, 
-        "ne_latitude": 46.224762, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.100251, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.224762, 
         "latitude": 6.100887, 
         "woe:id": 2147629123, 
-        "sw_latitude": 46.223561
+        "osm:way_id": 26163903
       }
     }
   ]

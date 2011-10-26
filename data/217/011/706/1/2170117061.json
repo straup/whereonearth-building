@@ -35,7 +35,6 @@
       }, 
       "id": 2170117061, 
       "properties": {
-        "osm:way_id": 85551873, 
         "woe:parent": "22923040", 
         "name": "BAULIFT Arbeitsb\u00fchnen GmbH & Co. KG", 
         "tags": [
@@ -47,8 +46,12 @@
           "addr:country=DE", 
           "addr:street=Hallbergmooser Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22923040", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22923040, 
+        "sw_latitude": 48.344967, 
         "osm:node_ids": [
           992479091, 
           992479083, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": 11.830416, 
         "longitude": 48.345089, 
-        "ne_latitude": 48.345211, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.830050, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.345211, 
         "latitude": 11.830233, 
         "woe:id": 2170117061, 
-        "sw_latitude": 48.344967
+        "osm:way_id": 85551873
       }
     }
   ]

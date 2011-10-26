@@ -35,7 +35,6 @@
       }, 
       "id": 2150057380, 
       "properties": {
-        "osm:way_id": 44110322, 
         "woe:parent": "22269415", 
         "name": "Quinte Beschallungstechnik", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Quinte Beschallungstechnik", 
           "url=http8c8s8swww.quinte-online.de8s"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.781995, 
         "osm:node_ids": [
           560547125, 
           560547060, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 8.096327, 
         "longitude": 48.782132, 
-        "ne_latitude": 48.782268, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.096000, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.782268, 
         "latitude": 8.096164, 
         "woe:id": 2150057380, 
-        "sw_latitude": 48.781995
+        "osm:way_id": 44110322
       }
     }
   ]

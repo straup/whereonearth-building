@@ -67,13 +67,16 @@
       }, 
       "id": 2153551940, 
       "properties": {
-        "osm:way_id": 53163133, 
         "woe:parent": "22463734", 
         "tags": [
           "aeroway=control_tower"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22463734", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22463734, 
+        "sw_latitude": 55.945456, 
         "osm:node_ids": [
           672788087, 
           672788088, 
@@ -91,12 +94,12 @@
         ], 
         "ne_longitude": -3.363938, 
         "longitude": 55.945591, 
-        "ne_latitude": 55.945727, 
-        "woe:placetype": "building", 
         "sw_longitude": -3.364389, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.945727, 
         "latitude": -3.364166, 
         "woe:id": 2153551940, 
-        "sw_latitude": 55.945456
+        "osm:way_id": 53163133
       }
     }
   ]

@@ -35,7 +35,6 @@
       }, 
       "id": 2148324913, 
       "properties": {
-        "osm:way_id": 31150642, 
         "woe:parent": "12512643", 
         "name": "Corte Nacional de Justicia", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Corte Nacional de Justicia", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=234248801", 
+        "hierarchy": [
+          "woe:airport=12512643", 
+          "woe:country=234248801"
+        ], 
         "parent_woeid": 12512643, 
+        "sw_latitude": -0.175015, 
         "osm:node_ids": [
           346592051, 
           346592052, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -78.485498, 
         "longitude": -0.174838, 
-        "ne_latitude": -0.174663, 
-        "woe:placetype": "building", 
         "sw_longitude": -78.485987, 
+        "woe:placetype": "building", 
+        "ne_latitude": -0.174663, 
         "latitude": -78.485752, 
         "woe:id": 2148324913, 
-        "sw_latitude": -0.175015
+        "osm:way_id": 31150642
       }
     }
   ]

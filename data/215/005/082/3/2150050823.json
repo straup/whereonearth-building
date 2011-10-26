@@ -75,7 +75,6 @@
       }, 
       "id": 2150050823, 
       "properties": {
-        "osm:way_id": 44061182, 
         "woe:parent": "12512501", 
         "name": "Larnaca International Airport", 
         "tags": [
@@ -86,8 +85,12 @@
           "type=Public", 
           "is_in=Larnaca"
         ], 
-        "hierarchy": "woe:country=268812346", 
+        "hierarchy": [
+          "woe:airport=12512501", 
+          "woe:country=268812346"
+        ], 
         "parent_woeid": 12512501, 
+        "sw_latitude": 34.868636, 
         "osm:node_ids": [
           560069557, 
           560069556, 
@@ -107,12 +110,12 @@
         ], 
         "ne_longitude": 33.611563, 
         "longitude": 34.870539, 
-        "ne_latitude": 34.872218, 
-        "woe:placetype": "building", 
         "sw_longitude": 33.607017, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.872218, 
         "latitude": 33.609087, 
         "woe:id": 2150050823, 
-        "sw_latitude": 34.868636
+        "osm:way_id": 44061182
       }
     }
   ]

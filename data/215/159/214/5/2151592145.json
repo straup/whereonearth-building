@@ -39,7 +39,6 @@
       }, 
       "id": 2151592145, 
       "properties": {
-        "osm:way_id": 48642015, 
         "woe:parent": "223886730", 
         "name": "Novotel amsterdam", 
         "tags": [
@@ -55,8 +54,12 @@
           "3dshapes:ggmodelk=1", 
           "addr:street=Sloterweg"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.333095, 
         "osm:node_ids": [
           617689522, 
           617689520, 
@@ -67,12 +70,12 @@
         ], 
         "ne_longitude": 4.772166, 
         "longitude": 52.333355, 
-        "ne_latitude": 52.333614, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.771332, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.333614, 
         "latitude": 4.771750, 
         "woe:id": 2151592145, 
-        "sw_latitude": 52.333095
+        "osm:way_id": 48642015
       }
     }
   ]

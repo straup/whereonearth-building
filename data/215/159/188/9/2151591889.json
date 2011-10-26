@@ -67,7 +67,6 @@
       }, 
       "id": 2151591889, 
       "properties": {
-        "osm:way_id": 48641716, 
         "woe:parent": "223886730", 
         "name": "Detentiecentrum Oude Meer", 
         "tags": [
@@ -81,8 +80,12 @@
           "3dshapes:ggmodelk=5", 
           "name=Detentiecentrum Oude Meer"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.291426, 
         "osm:node_ids": [
           617686276, 
           617686243, 
@@ -100,12 +103,12 @@
         ], 
         "ne_longitude": 4.784719, 
         "longitude": 52.291761, 
-        "ne_latitude": 52.292094, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.783639, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.292094, 
         "latitude": 4.784177, 
         "woe:id": 2151591889, 
-        "sw_latitude": 52.291426
+        "osm:way_id": 48641716
       }
     }
   ]

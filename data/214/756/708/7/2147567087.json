@@ -67,14 +67,17 @@
       }, 
       "id": 2147567087, 
       "properties": {
-        "osm:way_id": 24551193, 
         "woe:parent": "12512766", 
         "tags": [
           "addr:housenumber=3", 
           "addr:street=Lent\u00e4j\u00e4ntie"
         ], 
-        "hierarchy": "woe:country=234248812", 
+        "hierarchy": [
+          "woe:airport=12512766", 
+          "woe:country=234248812"
+        ], 
         "parent_woeid": 12512766, 
+        "sw_latitude": 60.315511, 
         "osm:node_ids": [
           266941698, 
           266941699, 
@@ -92,12 +95,12 @@
         ], 
         "ne_longitude": 24.965739, 
         "longitude": 60.315688, 
-        "ne_latitude": 60.315866, 
-        "woe:placetype": "building", 
         "sw_longitude": 24.964844, 
+        "woe:placetype": "building", 
+        "ne_latitude": 60.315866, 
         "latitude": 24.965292, 
         "woe:id": 2147567087, 
-        "sw_latitude": 60.315511
+        "osm:way_id": 24551193
       }
     }
   ]

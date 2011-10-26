@@ -43,7 +43,6 @@
       }, 
       "id": 2171547713, 
       "properties": {
-        "osm:way_id": 88733381, 
         "woe:parent": "233887567", 
         "tags": [
           "amenity=place_of_worship", 
@@ -51,8 +50,12 @@
           "denomination=seventh_day_adventist", 
           "religion=christian"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=233887567", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 23387567, 
+        "sw_latitude": 51.145898, 
         "osm:node_ids": [
           1030001259, 
           1030001265, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": -0.179535, 
         "longitude": 51.145985, 
-        "ne_latitude": 51.146046, 
-        "woe:placetype": "building", 
         "sw_longitude": -0.179943, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.146046, 
         "latitude": -0.179766, 
         "woe:id": 2171547713, 
-        "sw_latitude": 51.145898
+        "osm:way_id": 88733381
       }
     }
   ]

@@ -43,7 +43,6 @@
       }, 
       "id": 2170884338, 
       "properties": {
-        "osm:way_id": 87172053, 
         "woe:parent": "12517539", 
         "name": "Parque plataforma contraincendios", 
         "tags": [
@@ -51,8 +50,12 @@
           "name=Parque plataforma contraincendios", 
           "source=PNOA"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=12517539", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 12517539, 
+        "sw_latitude": 40.474490, 
         "osm:node_ids": [
           1013569248, 
           1013569161, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": -3.572743, 
         "longitude": 40.474842, 
-        "ne_latitude": 40.475197, 
-        "woe:placetype": "building", 
         "sw_longitude": -3.573641, 
+        "woe:placetype": "building", 
+        "ne_latitude": 40.475197, 
         "latitude": -3.573207, 
         "woe:id": 2170884338, 
-        "sw_latitude": 40.474490
+        "osm:way_id": 87172053
       }
     }
   ]

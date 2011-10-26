@@ -115,13 +115,16 @@
       }, 
       "id": 2168472465, 
       "properties": {
-        "osm:way_id": 82518945, 
         "woe:parent": "232881165", 
         "tags": [
           "source=ideib WMS layer (see wiki)"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=232881165", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 23281165, 
+        "sw_latitude": 39.543141, 
         "osm:node_ids": [
           960395447, 
           960395385, 
@@ -151,12 +154,12 @@
         ], 
         "ne_longitude": 2.715946, 
         "longitude": 39.543602, 
-        "ne_latitude": 39.544076, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.714965, 
+        "woe:placetype": "building", 
+        "ne_latitude": 39.544076, 
         "latitude": 2.715457, 
         "woe:id": 2168472465, 
-        "sw_latitude": 39.543141
+        "osm:way_id": 82518945
       }
     }
   ]

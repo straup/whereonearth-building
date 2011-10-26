@@ -219,7 +219,6 @@
       }, 
       "id": 2147552759, 
       "properties": {
-        "osm:way_id": 24030159, 
         "woe:parent": "22103751", 
         "name": "Brussels Airport", 
         "tags": [
@@ -230,8 +229,12 @@
           "aeroway=terminal", 
           "alt_name=Luchthaven Zaventem"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=22103751", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 22103751, 
+        "sw_latitude": 50.894471, 
         "osm:node_ids": [
           260603806, 
           260603807, 
@@ -287,12 +290,12 @@
         ], 
         "ne_longitude": 4.492664, 
         "longitude": 50.898569, 
-        "ne_latitude": 50.901737, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.482349, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.901737, 
         "latitude": 4.485860, 
         "woe:id": 2147552759, 
-        "sw_latitude": 50.894471
+        "osm:way_id": 24030159
       }
     }
   ]

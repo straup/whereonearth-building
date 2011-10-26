@@ -51,15 +51,18 @@
       }, 
       "id": 2172038908, 
       "properties": {
-        "osm:way_id": 89801341, 
         "woe:parent": "12521322", 
         "tags": [
           "addr:city=Newington", 
           "addr:country=US", 
           "addr:street=Newington Road"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521322", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521322, 
+        "sw_latitude": 43.064476, 
         "osm:node_ids": [
           1040864774, 
           1040864813, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": -70.831193, 
         "longitude": 43.064586, 
-        "ne_latitude": 43.064695, 
-        "woe:placetype": "building", 
         "sw_longitude": -70.831500, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.064695, 
         "latitude": -70.831345, 
         "woe:id": 2172038908, 
-        "sw_latitude": 43.064476
+        "osm:way_id": 89801341
       }
     }
   ]

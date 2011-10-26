@@ -43,14 +43,17 @@
       }, 
       "id": 2147827198, 
       "properties": {
-        "osm:way_id": 28627833, 
         "woe:parent": "12513205", 
         "name": "Kirchgemeindezentrum", 
         "tags": [
           "name=Kirchgemeindezentrum"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.186904, 
         "osm:node_ids": [
           314659422, 
           314659424, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": 13.834635, 
         "longitude": 51.187032, 
-        "ne_latitude": 51.187186, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.834138, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.187186, 
         "latitude": 13.834404, 
         "woe:id": 2147827198, 
-        "sw_latitude": 51.186904
+        "osm:way_id": 28627833
       }
     }
   ]

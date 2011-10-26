@@ -91,15 +91,18 @@
       }, 
       "id": 2155105642, 
       "properties": {
-        "osm:way_id": 56176613, 
         "woe:parent": "1251888877", 
         "name": "Van Asselt Community Center", 
         "tags": [
           "website=http8c8s8swww.seattle.gov8sparks8sCenters8svanasseltcc.htm", 
           "name=Van Asselt Community Center"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=1251888877", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12518877, 
+        "sw_latitude": 47.539193, 
         "osm:node_ids": [
           704976332, 
           704976439, 
@@ -123,12 +126,12 @@
         ], 
         "ne_longitude": -122.295164, 
         "longitude": 47.539395, 
-        "ne_latitude": 47.539587, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.295732, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.539587, 
         "latitude": -122.295466, 
         "woe:id": 2155105642, 
-        "sw_latitude": 47.539193
+        "osm:way_id": 56176613
       }
     }
   ]

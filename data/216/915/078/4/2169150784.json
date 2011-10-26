@@ -35,7 +35,6 @@
       }, 
       "id": 2169150784, 
       "properties": {
-        "osm:way_id": 83895732, 
         "woe:parent": "125209883", 
         "name": "XCOR Aerospace", 
         "tags": [
@@ -49,8 +48,12 @@
           "source_ref=AM909_DSCW1295;AM909_DSCW1324", 
           "addr:street=Flight Line"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.056531, 
         "osm:node_ids": [
           976520595, 
           976520336, 
@@ -60,12 +63,12 @@
         ], 
         "ne_longitude": -118.155702, 
         "longitude": 35.056713, 
-        "ne_latitude": 35.056892, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.155977, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.056892, 
         "latitude": -118.155841, 
         "woe:id": 2169150784, 
-        "sw_latitude": 35.056531
+        "osm:way_id": 83895732
       }
     }
   ]

@@ -35,14 +35,17 @@
       }, 
       "id": 2147553872, 
       "properties": {
-        "osm:way_id": 24057074, 
         "woe:parent": "22276234", 
         "name": "Lufthansa Technik", 
         "tags": [
           "name=Lufthansa Technik"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.371500, 
         "osm:node_ids": [
           260967946, 
           260967948, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 13.526001, 
         "longitude": 52.372164, 
-        "ne_latitude": 52.372829, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.523890, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.372829, 
         "latitude": 13.524951, 
         "woe:id": 2147553872, 
-        "sw_latitude": 52.371500
+        "osm:way_id": 24057074
       }
     }
   ]

@@ -935,7 +935,6 @@
       }, 
       "id": 2162206173, 
       "properties": {
-        "osm:way_id": 70231653, 
         "woe:parent": "221441881", 
         "name": "Piscine Athis Paray", 
         "tags": [
@@ -943,8 +942,12 @@
           "leisure=sports_centre", 
           "source=extraction vectorielle v1 cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadas. Mise \u00e0 jour 8c 2010"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=221441881", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 22144181, 
+        "sw_latitude": 48.715245, 
         "osm:node_ids": [
           838483491, 
           838479151, 
@@ -1179,12 +1182,12 @@
         ], 
         "ne_longitude": 2.368796, 
         "longitude": 48.715541, 
-        "ne_latitude": 48.715907, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.367687, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.715907, 
         "latitude": 2.368338, 
         "woe:id": 2162206173, 
-        "sw_latitude": 48.715245
+        "osm:way_id": 70231653
       }
     }
   ]

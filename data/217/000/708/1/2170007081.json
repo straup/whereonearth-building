@@ -83,15 +83,18 @@
       }, 
       "id": 2170007081, 
       "properties": {
-        "osm:way_id": 85334398, 
         "woe:parent": "228851127", 
         "name": "Vestamagercentret", 
         "tags": [
           "layer=1", 
           "name=Vestamagercentret"
         ], 
-        "hierarchy": "woe:country=23424796", 
+        "hierarchy": [
+          "woe:airport=228851127", 
+          "woe:country=23424796"
+        ], 
         "parent_woeid": 22851127, 
+        "sw_latitude": 55.602657, 
         "osm:node_ids": [
           989309041, 
           989308989, 
@@ -113,12 +116,12 @@
         ], 
         "ne_longitude": 12.586990, 
         "longitude": 55.603270, 
-        "ne_latitude": 55.603746, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.585452, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.603746, 
         "latitude": 12.586218, 
         "woe:id": 2170007081, 
-        "sw_latitude": 55.602657
+        "osm:way_id": 85334398
       }
     }
   ]

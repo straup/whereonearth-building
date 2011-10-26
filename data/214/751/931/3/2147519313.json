@@ -35,7 +35,6 @@
       }, 
       "id": 2147519313, 
       "properties": {
-        "osm:way_id": 23493505, 
         "woe:parent": "22306432", 
         "name": "Terminal Cargo", 
         "tags": [
@@ -43,8 +42,12 @@
           "created_by=JOSM", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=22306432", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22306432, 
+        "sw_latitude": 45.613984, 
         "osm:node_ids": [
           254427178, 
           254427180, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 8.720770, 
         "longitude": 45.617951, 
-        "ne_latitude": 45.621918, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.717456, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.621918, 
         "latitude": 8.719114, 
         "woe:id": 2147519313, 
-        "sw_latitude": 45.613984
+        "osm:way_id": 23493505
       }
     }
   ]

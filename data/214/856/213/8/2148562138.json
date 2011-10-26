@@ -91,15 +91,18 @@
       }, 
       "id": 2148562138, 
       "properties": {
-        "osm:way_id": 33313153, 
         "woe:parent": "223188195", 
         "name": "Terminal T5", 
         "tags": [
           "name=Terminal T5", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=223188195", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22318195, 
+        "sw_latitude": 41.790270, 
         "osm:node_ids": [
           378890085, 
           378889577, 
@@ -123,12 +126,12 @@
         ], 
         "ne_longitude": 12.247987, 
         "longitude": 41.791302, 
-        "ne_latitude": 41.792212, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.244630, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.792212, 
         "latitude": 12.246417, 
         "woe:id": 2148562138, 
-        "sw_latitude": 41.790270
+        "osm:way_id": 33313153
       }
     }
   ]

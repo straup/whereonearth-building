@@ -59,14 +59,17 @@
       }, 
       "id": 2148599191, 
       "properties": {
-        "osm:way_id": 33851890, 
         "woe:parent": "12521765", 
         "name": "Visitors Center & IMAX theater", 
         "tags": [
           "name=Visitors Center & IMAX theater"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521765", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521765, 
+        "sw_latitude": 29.275118, 
         "osm:node_ids": [
           387819413, 
           387819414, 
@@ -82,12 +85,12 @@
         ], 
         "ne_longitude": -94.851467, 
         "longitude": 29.275622, 
-        "ne_latitude": 29.276174, 
-        "woe:placetype": "building", 
         "sw_longitude": -94.852222, 
+        "woe:placetype": "building", 
+        "ne_latitude": 29.276174, 
         "latitude": -94.851840, 
         "woe:id": 2148599191, 
-        "sw_latitude": 29.275118
+        "osm:way_id": 33851890
       }
     }
   ]

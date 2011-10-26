@@ -63,15 +63,18 @@
       }, 
       "id": 2147819482, 
       "properties": {
-        "osm:way_id": 28517305, 
         "woe:parent": "12521322", 
         "tags": [
           "iata=PSM", 
           "icao=KPSM", 
           "airport_ref=PSM"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521322", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521322, 
+        "sw_latitude": 43.080593, 
         "osm:node_ids": [
           313246557, 
           313246558, 
@@ -88,12 +91,12 @@
         ], 
         "ne_longitude": -70.813152, 
         "longitude": 43.080904, 
-        "ne_latitude": 43.081178, 
-        "woe:placetype": "building", 
         "sw_longitude": -70.814270, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.081178, 
         "latitude": -70.813744, 
         "woe:id": 2147819482, 
-        "sw_latitude": 43.080593
+        "osm:way_id": 28517305
       }
     }
   ]

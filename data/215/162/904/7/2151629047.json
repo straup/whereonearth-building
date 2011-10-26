@@ -51,15 +51,18 @@
       }, 
       "id": 2151629047, 
       "properties": {
-        "osm:way_id": 48730025, 
         "woe:parent": "12515637", 
         "name": "Philippine Veterans Museum", 
         "tags": [
           "name=Philippine Veterans Museum", 
           "tourism=museum"
         ], 
-        "hierarchy": "woe:country=23424934", 
+        "hierarchy": [
+          "woe:airport=12515637", 
+          "woe:country=23424934"
+        ], 
         "parent_woeid": 12515637, 
+        "sw_latitude": 14.513918, 
         "osm:node_ids": [
           618530003, 
           618530004, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": 121.048460, 
         "longitude": 14.514161, 
-        "ne_latitude": 14.514489, 
-        "woe:placetype": "building", 
         "sw_longitude": 121.047891, 
+        "woe:placetype": "building", 
+        "ne_latitude": 14.514489, 
         "latitude": 121.048170, 
         "woe:id": 2151629047, 
-        "sw_latitude": 14.513918
+        "osm:way_id": 48730025
       }
     }
   ]

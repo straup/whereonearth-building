@@ -59,14 +59,17 @@
       }, 
       "id": 2164693584, 
       "properties": {
-        "osm:way_id": 74416305, 
         "woe:parent": "12523162", 
         "tags": [
           "note:import-bati=v0.3", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour 8c 2010"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=12523162", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12523162, 
+        "sw_latitude": 50.556934, 
         "osm:node_ids": [
           879476737, 
           879460010, 
@@ -82,12 +85,12 @@
         ], 
         "ne_longitude": 3.091968, 
         "longitude": 50.557000, 
-        "ne_latitude": 50.557073, 
-        "woe:placetype": "building", 
         "sw_longitude": 3.091740, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.557073, 
         "latitude": 3.091853, 
         "woe:id": 2164693584, 
-        "sw_latitude": 50.556934
+        "osm:way_id": 74416305
       }
     }
   ]

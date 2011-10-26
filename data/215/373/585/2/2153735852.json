@@ -51,7 +51,6 @@
       }, 
       "id": 2153735852, 
       "properties": {
-        "osm:way_id": 53504373, 
         "woe:parent": "125128892", 
         "tags": [
           "addr:housenumber=43", 
@@ -60,8 +59,12 @@
           "operator=Cr\u00e9dit Mutuel", 
           "addr:street=Route de Strasbourg"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128892", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512892, 
+        "sw_latitude": 48.532504, 
         "osm:node_ids": [
           676061991, 
           676061959, 
@@ -75,12 +78,12 @@
         ], 
         "ne_longitude": 7.634945, 
         "longitude": 48.532575, 
-        "ne_latitude": 48.532631, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.634722, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.532631, 
         "latitude": 7.634835, 
         "woe:id": 2153735852, 
-        "sw_latitude": 48.532504
+        "osm:way_id": 53504373
       }
     }
   ]

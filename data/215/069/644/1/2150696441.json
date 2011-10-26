@@ -51,7 +51,6 @@
       }, 
       "id": 2150696441, 
       "properties": {
-        "osm:way_id": 46643107, 
         "woe:parent": "12515094", 
         "name": "Autobedrijf Willie Harberink", 
         "tags": [
@@ -61,8 +60,12 @@
           "operator=Autobedrijf Willie Harberink", 
           "3dshapes:ggmodelk=5"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=12515094", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 12515094, 
+        "sw_latitude": 52.301082, 
         "osm:node_ids": [
           595931450, 
           595931451, 
@@ -76,12 +79,12 @@
         ], 
         "ne_longitude": 6.924930, 
         "longitude": 52.301237, 
-        "ne_latitude": 52.301403, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.924292, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.301403, 
         "latitude": 6.924599, 
         "woe:id": 2150696441, 
-        "sw_latitude": 52.301082
+        "osm:way_id": 46643107
       }
     }
   ]

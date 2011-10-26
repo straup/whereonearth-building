@@ -123,7 +123,6 @@
       }, 
       "id": 2149502800, 
       "properties": {
-        "osm:way_id": 40443645, 
         "woe:parent": "23024911", 
         "name": "St\u00e4dtische Kindertageseinrichtung", 
         "tags": [
@@ -134,8 +133,12 @@
           "name=St\u00e4dtische Kindertageseinrichtung", 
           "addr:street=Gothaer Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.288485, 
         "osm:node_ids": [
           489736728, 
           489736729, 
@@ -167,12 +170,12 @@
         ], 
         "ne_longitude": 6.809540, 
         "longitude": 51.288639, 
-        "ne_latitude": 51.288793, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.808873, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.288793, 
         "latitude": 6.809221, 
         "woe:id": 2149502800, 
-        "sw_latitude": 51.288485
+        "osm:way_id": 40443645
       }
     }
   ]

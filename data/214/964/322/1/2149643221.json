@@ -35,7 +35,6 @@
       }, 
       "id": 2149643221, 
       "properties": {
-        "osm:way_id": 41748903, 
         "woe:parent": "12513199", 
         "name": "DLR - Mobile Raketenbasis (Moraba)", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=DLR - Mobile Raketenbasis (Moraba)", 
           "addr:street=M\u00fcnchner Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.086573, 
         "osm:node_ids": [
           514188043, 
           514188044, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 11.280590, 
         "longitude": 48.086915, 
-        "ne_latitude": 48.087257, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.279137, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.087257, 
         "latitude": 11.279864, 
         "woe:id": 2149643221, 
-        "sw_latitude": 48.086573
+        "osm:way_id": 41748903
       }
     }
   ]

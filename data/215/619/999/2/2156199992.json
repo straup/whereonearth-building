@@ -63,7 +63,6 @@
       }, 
       "id": 2156199992, 
       "properties": {
-        "osm:way_id": 59719050, 
         "woe:parent": "22211603", 
         "name": "OHM Autoradio", 
         "tags": [
@@ -75,8 +74,12 @@
           "addr:country=DE", 
           "addr:street=Kollaustra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22211603", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22211603, 
+        "sw_latitude": 53.611443, 
         "osm:node_ids": [
           741140504, 
           741140426, 
@@ -93,12 +96,12 @@
         ], 
         "ne_longitude": 9.956870, 
         "longitude": 53.611588, 
-        "ne_latitude": 53.611705, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.956295, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.611705, 
         "latitude": 9.956571, 
         "woe:id": 2156199992, 
-        "sw_latitude": 53.611443
+        "osm:way_id": 59719050
       }
     }
   ]

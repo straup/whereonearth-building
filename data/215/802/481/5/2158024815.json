@@ -43,7 +43,6 @@
       }, 
       "id": 2158024815, 
       "properties": {
-        "osm:way_id": 63612797, 
         "woe:parent": "2204886588", 
         "name": "VOR.DME 115.70 (Ident G-O-S)", 
         "tags": [
@@ -52,8 +51,12 @@
           "ref=VOR.DME 115.70 (Ident G-O-S)", 
           "aeroway=VOR.DME 115.70 (Ident G-O-S)"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=2204886588", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 22048658, 
+        "sw_latitude": 50.454462, 
         "osm:node_ids": [
           787197266, 
           787197270, 
@@ -65,12 +68,12 @@
         ], 
         "ne_longitude": 4.441725, 
         "longitude": 50.454647, 
-        "ne_latitude": 50.454835, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.441253, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.454835, 
         "latitude": 4.441488, 
         "woe:id": 2158024815, 
-        "sw_latitude": 50.454462
+        "osm:way_id": 63612797
       }
     }
   ]

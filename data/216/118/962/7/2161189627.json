@@ -107,7 +107,6 @@
       }, 
       "id": 2161189627, 
       "properties": {
-        "osm:way_id": 68452647, 
         "woe:parent": "224889156", 
         "name": "Stansted Airport Coach Station", 
         "tags": [
@@ -115,8 +114,12 @@
           "name=Stansted Airport Coach Station", 
           "source=OS_OpenData_StreetView"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=224889156", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22489156, 
+        "sw_latitude": 51.888543, 
         "osm:node_ids": [
           823544528, 
           823544532, 
@@ -144,12 +147,12 @@
         ], 
         "ne_longitude": 0.265323, 
         "longitude": 51.889457, 
-        "ne_latitude": 51.890679, 
-        "woe:placetype": "building", 
         "sw_longitude": 0.261981, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.890679, 
         "latitude": 0.263600, 
         "woe:id": 2161189627, 
-        "sw_latitude": 51.888543
+        "osm:way_id": 68452647
       }
     }
   ]

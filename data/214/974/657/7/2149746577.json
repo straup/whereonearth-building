@@ -91,14 +91,17 @@
       }, 
       "id": 2149746577, 
       "properties": {
-        "osm:way_id": 42440975, 
         "woe:parent": "22412043", 
         "name": "Edificio Handling", 
         "tags": [
           "name=Edificio Handling"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=22412043", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 22412043, 
+        "sw_latitude": 38.287211, 
         "osm:node_ids": [
           529854424, 
           559930514, 
@@ -122,12 +125,12 @@
         ], 
         "ne_longitude": -0.562965, 
         "longitude": 38.287327, 
-        "ne_latitude": 38.287445, 
-        "woe:placetype": "building", 
         "sw_longitude": -0.563937, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.287445, 
         "latitude": -0.563467, 
         "woe:id": 2149746577, 
-        "sw_latitude": 38.287211
+        "osm:way_id": 42440975
       }
     }
   ]

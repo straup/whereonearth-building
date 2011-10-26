@@ -35,14 +35,17 @@
       }, 
       "id": 2160449860, 
       "properties": {
-        "osm:way_id": 67256679, 
         "woe:parent": "12521750", 
         "tags": [
           "shop=convience", 
           "operator=Shell"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.386621, 
         "osm:node_ids": [
           812199768, 
           812199765, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -82.557908, 
         "longitude": 27.386732, 
-        "ne_latitude": 27.386843, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.558117, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.386843, 
         "latitude": -82.558013, 
         "woe:id": 2160449860, 
-        "sw_latitude": 27.386621
+        "osm:way_id": 67256679
       }
     }
   ]

@@ -71,7 +71,6 @@
       }, 
       "id": 2153403969, 
       "properties": {
-        "osm:way_id": 52882434, 
         "woe:parent": "23024911", 
         "name": "St. Lukas", 
         "tags": [
@@ -87,8 +86,12 @@
           "addr:country=DE", 
           "addr:street=Hugo-Viehoff-Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.256853, 
         "osm:node_ids": [
           670378929, 
           670378932, 
@@ -107,12 +110,12 @@
         ], 
         "ne_longitude": 6.779488, 
         "longitude": 51.257011, 
-        "ne_latitude": 51.257181, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.778994, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.257181, 
         "latitude": 6.779244, 
         "woe:id": 2153403969, 
-        "sw_latitude": 51.256853
+        "osm:way_id": 52882434
       }
     }
   ]

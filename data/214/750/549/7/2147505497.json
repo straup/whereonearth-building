@@ -355,7 +355,6 @@
       }, 
       "id": 2147505497, 
       "properties": {
-        "osm:way_id": 23035936, 
         "woe:parent": "22412043", 
         "name": "T1", 
         "tags": [
@@ -365,8 +364,12 @@
           "icao=LEAL", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=22412043", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 22412043, 
+        "sw_latitude": 38.285848, 
         "osm:node_ids": [
           248522106, 
           248522107, 
@@ -456,12 +459,12 @@
         ], 
         "ne_longitude": -0.555669, 
         "longitude": 38.286670, 
-        "ne_latitude": 38.287247, 
-        "woe:placetype": "building", 
         "sw_longitude": -0.559080, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.287247, 
         "latitude": -0.557369, 
         "woe:id": 2147505497, 
-        "sw_latitude": 38.285848
+        "osm:way_id": 23035936
       }
     }
   ]

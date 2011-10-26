@@ -39,7 +39,6 @@
       }, 
       "id": 2149194179, 
       "properties": {
-        "osm:way_id": 37042105, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=2", 
@@ -48,8 +47,12 @@
           "addr:country=DE", 
           "addr:street=Am Seegraben"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.392092, 
         "osm:node_ids": [
           430788712, 
           430788713, 
@@ -60,12 +63,12 @@
         ], 
         "ne_longitude": 13.519011, 
         "longitude": 52.392410, 
-        "ne_latitude": 52.392727, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.517756, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.392727, 
         "latitude": 13.518386, 
         "woe:id": 2149194179, 
-        "sw_latitude": 52.392092
+        "osm:way_id": 37042105
       }
     }
   ]

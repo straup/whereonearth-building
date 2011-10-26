@@ -35,14 +35,17 @@
       }, 
       "id": 2164533144, 
       "properties": {
-        "osm:way_id": 74156442, 
         "woe:parent": "12513199", 
         "name": "DLR Tennisheim", 
         "tags": [
           "name=DLR Tennisheim"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.083317, 
         "osm:node_ids": [
           877193467, 
           877193450, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 11.274763, 
         "longitude": 48.083374, 
-        "ne_latitude": 48.083430, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.274580, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.083430, 
         "latitude": 11.274672, 
         "woe:id": 2164533144, 
-        "sw_latitude": 48.083317
+        "osm:way_id": 74156442
       }
     }
   ]

@@ -51,14 +51,17 @@
       }, 
       "id": 2149291594, 
       "properties": {
-        "osm:way_id": 38099447, 
         "woe:parent": "12521741", 
         "name": "Physical Sciences South", 
         "tags": [
           "name=Physical Sciences South"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.414353, 
         "osm:node_ids": [
           448146997, 
           448146998, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": -119.842263, 
         "longitude": 34.414506, 
-        "ne_latitude": 34.414653, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.842990, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.414653, 
         "latitude": -119.842693, 
         "woe:id": 2149291594, 
-        "sw_latitude": 34.414353
+        "osm:way_id": 38099447
       }
     }
   ]

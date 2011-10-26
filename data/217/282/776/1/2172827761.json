@@ -75,7 +75,6 @@
       }, 
       "id": 2172827761, 
       "properties": {
-        "osm:way_id": 91585992, 
         "woe:parent": "228851127", 
         "name": "B\u00f8rnehaven Tornholms Ager", 
         "tags": [
@@ -83,8 +82,12 @@
           "name=B\u00f8rnehaven Tornholms Ager", 
           "social_facility:for=child"
         ], 
-        "hierarchy": "woe:country=23424796", 
+        "hierarchy": [
+          "woe:airport=228851127", 
+          "woe:country=23424796"
+        ], 
         "parent_woeid": 22851127, 
+        "sw_latitude": 55.606516, 
         "osm:node_ids": [
           1064125587, 
           1064125534, 
@@ -104,12 +107,12 @@
         ], 
         "ne_longitude": 12.598641, 
         "longitude": 55.606639, 
-        "ne_latitude": 55.606763, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.597831, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.606763, 
         "latitude": 12.598207, 
         "woe:id": 2172827761, 
-        "sw_latitude": 55.606516
+        "osm:way_id": 91585992
       }
     }
   ]

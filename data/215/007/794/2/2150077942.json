@@ -163,7 +163,6 @@
       }, 
       "id": 2150077942, 
       "properties": {
-        "osm:way_id": 44197579, 
         "woe:parent": "22269415", 
         "name": "Becker Flugfunkwerk GmbH", 
         "tags": [
@@ -171,8 +170,12 @@
           "name=Becker Flugfunkwerk GmbH", 
           "url=http8c8s8swww.becker-avionics.de8s"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.780633, 
         "osm:node_ids": [
           561328905, 
           561328888, 
@@ -214,12 +217,12 @@
         ], 
         "ne_longitude": 8.095958, 
         "longitude": 48.780923, 
-        "ne_latitude": 48.781327, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.094849, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.781327, 
         "latitude": 8.095432, 
         "woe:id": 2150077942, 
-        "sw_latitude": 48.780633
+        "osm:way_id": 44197579
       }
     }
   ]

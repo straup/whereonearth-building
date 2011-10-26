@@ -43,15 +43,18 @@
       }, 
       "id": 2148432170, 
       "properties": {
-        "osm:way_id": 32091836, 
         "woe:parent": "23024911", 
         "name": "Netto", 
         "tags": [
           "shop=supermarket", 
           "name=Netto"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.293590, 
         "osm:node_ids": [
           360308890, 
           360308891, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 6.824487, 
         "longitude": 51.293775, 
-        "ne_latitude": 51.293922, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.823938, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.293922, 
         "latitude": 6.824251, 
         "woe:id": 2148432170, 
-        "sw_latitude": 51.293590
+        "osm:way_id": 32091836
       }
     }
   ]

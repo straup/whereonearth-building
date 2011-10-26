@@ -55,7 +55,6 @@
       }, 
       "id": 2160456136, 
       "properties": {
-        "osm:way_id": 67266575, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=7", 
@@ -67,8 +66,12 @@
           "dcgis:lot=0039", 
           "addr:street=Brookley Avenue SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.837104, 
         "osm:node_ids": [
           812394584, 
           812394580, 
@@ -83,12 +86,12 @@
         ], 
         "ne_longitude": -77.013350, 
         "longitude": 38.837187, 
-        "ne_latitude": 38.837258, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.013536, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.837258, 
         "latitude": -77.013442, 
         "woe:id": 2160456136, 
-        "sw_latitude": 38.837104
+        "osm:way_id": 67266575
       }
     }
   ]

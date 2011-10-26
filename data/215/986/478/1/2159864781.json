@@ -179,7 +179,6 @@
       }, 
       "id": 2159864781, 
       "properties": {
-        "osm:way_id": 66274617, 
         "woe:parent": "125128869", 
         "name": "EDF Centrale du Vazzio", 
         "tags": [
@@ -189,8 +188,12 @@
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre ; mise \u00e0 jour 8c 2009", 
           "power_source=fossil"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128869", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512869, 
+        "sw_latitude": 41.931474, 
         "osm:node_ids": [
           803347289, 
           803407994, 
@@ -236,12 +239,12 @@
         ], 
         "ne_longitude": 8.783327, 
         "longitude": 41.932193, 
-        "ne_latitude": 41.932916, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.781922, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.932916, 
         "latitude": 8.782640, 
         "woe:id": 2159864781, 
-        "sw_latitude": 41.931474
+        "osm:way_id": 66274617
       }
     }
   ]

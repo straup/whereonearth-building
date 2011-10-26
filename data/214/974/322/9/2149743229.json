@@ -35,15 +35,18 @@
       }, 
       "id": 2149743229, 
       "properties": {
-        "osm:way_id": 42422468, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=14a", 
           "addr:postcode=40474", 
           "addr:street=Wei\u00dfdornstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.261598, 
         "osm:node_ids": [
           529649458, 
           529649466, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 6.748215, 
         "longitude": 51.261730, 
-        "ne_latitude": 51.261861, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.747884, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.261861, 
         "latitude": 6.748050, 
         "woe:id": 2149743229, 
-        "sw_latitude": 51.261598
+        "osm:way_id": 42422468
       }
     }
   ]

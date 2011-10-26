@@ -91,7 +91,6 @@
       }, 
       "id": 2149414661, 
       "properties": {
-        "osm:way_id": 39486923, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=299-301", 
@@ -99,8 +98,12 @@
           "source=survey, yahoo", 
           "addr:street=Ulmenstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.262024, 
         "osm:node_ids": [
           472982075, 
           472982074, 
@@ -124,12 +127,12 @@
         ], 
         "ne_longitude": 6.777539, 
         "longitude": 51.262106, 
-        "ne_latitude": 51.262188, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.776715, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.262188, 
         "latitude": 6.777079, 
         "woe:id": 2149414661, 
-        "sw_latitude": 51.262024
+        "osm:way_id": 39486923
       }
     }
   ]

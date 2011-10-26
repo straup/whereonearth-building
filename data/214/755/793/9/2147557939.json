@@ -67,7 +67,6 @@
       }, 
       "id": 2147557939, 
       "properties": {
-        "osm:way_id": 24297939, 
         "woe:parent": "223886730", 
         "name": "Ibis", 
         "tags": [
@@ -79,8 +78,12 @@
           "addr:country=NL", 
           "addr:street=Schipholweg"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.324571, 
         "osm:node_ids": [
           263202795, 
           263202796, 
@@ -98,12 +101,12 @@
         ], 
         "ne_longitude": 4.794861, 
         "longitude": 52.325105, 
-        "ne_latitude": 52.325642, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.793131, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.325642, 
         "latitude": 4.793985, 
         "woe:id": 2147557939, 
-        "sw_latitude": 52.324571
+        "osm:way_id": 24297939
       }
     }
   ]

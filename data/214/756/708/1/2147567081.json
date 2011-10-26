@@ -35,13 +35,16 @@
       }, 
       "id": 2147567081, 
       "properties": {
-        "osm:way_id": 24551176, 
         "woe:parent": "12512766", 
         "tags": [
           "man_made=water_tower"
         ], 
-        "hierarchy": "woe:country=234248812", 
+        "hierarchy": [
+          "woe:airport=12512766", 
+          "woe:country=234248812"
+        ], 
         "parent_woeid": 12512766, 
+        "sw_latitude": 60.312175, 
         "osm:node_ids": [
           266941546, 
           266941548, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 24.960323, 
         "longitude": 60.312293, 
-        "ne_latitude": 60.312409, 
-        "woe:placetype": "building", 
         "sw_longitude": 24.959843, 
+        "woe:placetype": "building", 
+        "ne_latitude": 60.312409, 
         "latitude": 24.960083, 
         "woe:id": 2147567081, 
-        "sw_latitude": 60.312175
+        "osm:way_id": 24551176
       }
     }
   ]

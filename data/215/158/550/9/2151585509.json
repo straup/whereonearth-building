@@ -51,14 +51,17 @@
       }, 
       "id": 2151585509, 
       "properties": {
-        "osm:way_id": 48623241, 
         "woe:parent": "2338888207", 
         "name": "BNE Control Tower", 
         "tags": [
           "name=BNE Control Tower"
         ], 
-        "hierarchy": "woe:country=234247488", 
+        "hierarchy": [
+          "woe:airport=2338888207", 
+          "woe:country=234247488"
+        ], 
         "parent_woeid": 23388207, 
+        "sw_latitude": -27.387875, 
         "osm:node_ids": [
           617499127, 
           617499128, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 153.115500, 
         "longitude": -27.387794, 
-        "ne_latitude": -27.387712, 
-        "woe:placetype": "building", 
         "sw_longitude": 153.115316, 
+        "woe:placetype": "building", 
+        "ne_latitude": -27.387712, 
         "latitude": 153.115408, 
         "woe:id": 2151585509, 
-        "sw_latitude": -27.387875
+        "osm:way_id": 48623241
       }
     }
   ]

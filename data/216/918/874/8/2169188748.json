@@ -35,13 +35,16 @@
       }, 
       "id": 2169188748, 
       "properties": {
-        "osm:way_id": 84008586, 
         "woe:parent": "125209883", 
         "tags": [
           "note=Orientation, size does not match map for bldg 212."
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.051453, 
         "osm:node_ids": [
           977463299, 
           977463527, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": -118.147152, 
         "longitude": 35.051639, 
-        "ne_latitude": 35.051829, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.147592, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.051829, 
         "latitude": -118.147375, 
         "woe:id": 2169188748, 
-        "sw_latitude": 35.051453
+        "osm:way_id": 84008586
       }
     }
   ]

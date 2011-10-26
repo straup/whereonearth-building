@@ -43,7 +43,6 @@
       }, 
       "id": 2149522333, 
       "properties": {
-        "osm:way_id": 40632477, 
         "woe:parent": "12521750", 
         "name": "New College of Florida Police Department", 
         "tags": [
@@ -59,8 +58,12 @@
           "gnis:feature_id=23338804", 
           "name=New College of Florida Police Department"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.386780, 
         "osm:node_ids": [
           493553900, 
           493553901, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": -82.560423, 
         "longitude": 27.386849, 
-        "ne_latitude": 27.386905, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.560624, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.386905, 
         "latitude": -82.560519, 
         "woe:id": 2149522333, 
-        "sw_latitude": 27.386780
+        "osm:way_id": 40632477
       }
     }
   ]

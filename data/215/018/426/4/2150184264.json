@@ -35,15 +35,18 @@
       }, 
       "id": 2150184264, 
       "properties": {
-        "osm:way_id": 44646481, 
         "woe:parent": "22269415", 
         "name": "Rauch Landmaschinen, Produktionshalle", 
         "tags": [
           "name=Rauch Landmaschinen, Produktionshalle", 
           "man_made=works"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.768247, 
         "osm:node_ids": [
           566715010, 
           566715022, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 8.083753, 
         "longitude": 48.768914, 
-        "ne_latitude": 48.769581, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.081421, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.769581, 
         "latitude": 8.082587, 
         "woe:id": 2150184264, 
-        "sw_latitude": 48.768247
+        "osm:way_id": 44646481
       }
     }
   ]

@@ -35,14 +35,17 @@
       }, 
       "id": 2155838909, 
       "properties": {
-        "osm:way_id": 58718066, 
         "woe:parent": "22462097", 
         "name": "DHL", 
         "tags": [
           "name=DHL"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22462097", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22462097, 
+        "sw_latitude": 52.825358, 
         "osm:node_ids": [
           727628228, 
           727628231, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -1.318577, 
         "longitude": 52.825548, 
-        "ne_latitude": 52.825738, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.319454, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.825738, 
         "latitude": -1.319020, 
         "woe:id": 2155838909, 
-        "sw_latitude": 52.825358
+        "osm:way_id": 58718066
       }
     }
   ]

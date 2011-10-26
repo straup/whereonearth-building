@@ -35,14 +35,17 @@
       }, 
       "id": 2167871338, 
       "properties": {
-        "osm:way_id": 81290372, 
         "woe:parent": "125133889", 
         "name": "LIDL", 
         "tags": [
           "name=LIDL"
         ], 
-        "hierarchy": "woe:country=234248844", 
+        "hierarchy": [
+          "woe:airport=125133889", 
+          "woe:country=234248844"
+        ], 
         "parent_woeid": 12513389, 
+        "sw_latitude": 47.415630, 
         "osm:node_ids": [
           946992921, 
           946992924, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 19.254406, 
         "longitude": 47.416007, 
-        "ne_latitude": 47.416381, 
-        "woe:placetype": "building", 
         "sw_longitude": 19.253612, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.416381, 
         "latitude": 19.254010, 
         "woe:id": 2167871338, 
-        "sw_latitude": 47.415630
+        "osm:way_id": 81290372
       }
     }
   ]

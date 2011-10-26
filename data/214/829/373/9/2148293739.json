@@ -35,15 +35,18 @@
       }, 
       "id": 2148293739, 
       "properties": {
-        "osm:way_id": 30836568, 
         "woe:parent": "12513205", 
         "name": "Weiott-Baustoffhandel", 
         "tags": [
           "shop=doityourself", 
           "name=Weiott-Baustoffhandel"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.175614, 
         "osm:node_ids": [
           342899423, 
           342899429, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 13.827872, 
         "longitude": 51.175983, 
-        "ne_latitude": 51.176352, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.826503, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.176352, 
         "latitude": 13.827188, 
         "woe:id": 2148293739, 
-        "sw_latitude": 51.175614
+        "osm:way_id": 30836568
       }
     }
   ]

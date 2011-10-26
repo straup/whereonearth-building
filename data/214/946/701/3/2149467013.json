@@ -39,7 +39,6 @@
       }, 
       "id": 2149467013, 
       "properties": {
-        "osm:way_id": 40022518, 
         "woe:parent": "12521750", 
         "name": "Palmer Building B", 
         "tags": [
@@ -50,8 +49,12 @@
           "loc_name=B Dorm", 
           "addr:street=588th Street"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.384592, 
         "osm:node_ids": [
           481174256, 
           635960474, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": -82.559550, 
         "longitude": 27.384716, 
-        "ne_latitude": 27.384839, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.559721, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.384839, 
         "latitude": -82.559636, 
         "woe:id": 2149467013, 
-        "sw_latitude": 27.384592
+        "osm:way_id": 40022518
       }
     }
   ]

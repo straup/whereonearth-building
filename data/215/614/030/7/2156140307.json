@@ -35,15 +35,18 @@
       }, 
       "id": 2156140307, 
       "properties": {
-        "osm:way_id": 59531699, 
         "woe:parent": "12515279", 
         "tags": [
           "addr:housenumber=21", 
           "addr:postcode=66-111", 
           "addr:street=Nowa"
         ], 
-        "hierarchy": "woe:country=23424923", 
+        "hierarchy": [
+          "woe:airport=12515279", 
+          "woe:country=23424923"
+        ], 
         "parent_woeid": 12515279, 
+        "sw_latitude": 52.142028, 
         "osm:node_ids": [
           738259313, 
           738259200, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 15.776230, 
         "longitude": 52.142081, 
-        "ne_latitude": 52.142132, 
-        "woe:placetype": "building", 
         "sw_longitude": 15.776064, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.142132, 
         "latitude": 15.776148, 
         "woe:id": 2156140307, 
-        "sw_latitude": 52.142028
+        "osm:way_id": 59531699
       }
     }
   ]

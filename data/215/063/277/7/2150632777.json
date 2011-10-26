@@ -55,15 +55,18 @@
       }, 
       "id": 2150632777, 
       "properties": {
-        "osm:way_id": 46431852, 
         "woe:parent": "12522077", 
         "tags": [
           "name=Airside B", 
           "railway=station", 
           "disused=yes"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12522077", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522077, 
+        "sw_latitude": 27.979299, 
         "osm:node_ids": [
           593816982, 
           593816986, 
@@ -78,12 +81,12 @@
         ], 
         "ne_longitude": -82.531508, 
         "longitude": 27.979781, 
-        "ne_latitude": 27.980242, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.532051, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.980242, 
         "latitude": -82.531765, 
         "woe:id": 2150632777, 
-        "sw_latitude": 27.979299
+        "osm:way_id": 46431852
       }
     }
   ]

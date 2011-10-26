@@ -39,15 +39,18 @@
       }, 
       "id": 2152813468, 
       "properties": {
-        "osm:way_id": 51554610, 
         "woe:parent": "125127588", 
         "name": "Heritage Building", 
         "tags": [
           "entrance=yes", 
           "name=Heritage Building"
         ], 
-        "hierarchy": "woe:country=2342488088", 
+        "hierarchy": [
+          "woe:airport=125127588", 
+          "woe:country=2342488088"
+        ], 
         "parent_woeid": 12512758, 
+        "sw_latitude": 8.991637, 
         "osm:node_ids": [
           659241004, 
           659241002, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": 38.792636, 
         "longitude": 8.991786, 
-        "ne_latitude": 8.991934, 
-        "woe:placetype": "building", 
         "sw_longitude": 38.792340, 
+        "woe:placetype": "building", 
+        "ne_latitude": 8.991934, 
         "latitude": 38.792489, 
         "woe:id": 2152813468, 
-        "sw_latitude": 8.991637
+        "osm:way_id": 51554610
       }
     }
   ]

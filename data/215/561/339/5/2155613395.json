@@ -35,7 +35,6 @@
       }, 
       "id": 2155613395, 
       "properties": {
-        "osm:way_id": 58228141, 
         "woe:parent": "23046924", 
         "tags": [
           "addr:housenumber=1188", 
@@ -45,8 +44,12 @@
           "addr:country=DE", 
           "addr:street=Chaussee"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23046924", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23046924, 
+        "sw_latitude": 51.517549, 
         "osm:node_ids": [
           722193350, 
           725759778, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": 7.623950, 
         "longitude": 51.517612, 
-        "ne_latitude": 51.517673, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.623713, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.517673, 
         "latitude": 7.623832, 
         "woe:id": 2155613395, 
-        "sw_latitude": 51.517549
+        "osm:way_id": 58228141
       }
     }
   ]

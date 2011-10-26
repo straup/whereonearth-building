@@ -35,15 +35,18 @@
       }, 
       "id": 2172234867, 
       "properties": {
-        "osm:way_id": 90283304, 
         "woe:parent": "12519176", 
         "name": "Kmart", 
         "tags": [
           "shop=department_store", 
           "name=Kmart"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12519176", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519176, 
+        "sw_latitude": 41.161649, 
         "osm:node_ids": [
           1046980566, 
           1046981332, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -104.794997, 
         "longitude": 41.162025, 
-        "ne_latitude": 41.162400, 
-        "woe:placetype": "building", 
         "sw_longitude": -104.796378, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.162400, 
         "latitude": -104.795688, 
         "woe:id": 2172234867, 
-        "sw_latitude": 41.161649
+        "osm:way_id": 90283304
       }
     }
   ]

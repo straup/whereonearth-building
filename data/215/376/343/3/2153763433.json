@@ -47,15 +47,18 @@
       }, 
       "id": 2153763433, 
       "properties": {
-        "osm:way_id": 53558187, 
         "woe:parent": "125128892", 
         "tags": [
           "addr:housenumber=45", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour 8c 2010", 
           "addr:street=Rue du Champ Fleuri"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128892", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512892, 
+        "sw_latitude": 48.533251, 
         "osm:node_ids": [
           676611066, 
           676611075, 
@@ -68,12 +71,12 @@
         ], 
         "ne_longitude": 7.639307, 
         "longitude": 48.533290, 
-        "ne_latitude": 48.533328, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.639200, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.533328, 
         "latitude": 7.639254, 
         "woe:id": 2153763433, 
-        "sw_latitude": 48.533251
+        "osm:way_id": 53558187
       }
     }
   ]

@@ -43,14 +43,17 @@
       }, 
       "id": 2147552758, 
       "properties": {
-        "osm:way_id": 24030158, 
         "woe:parent": "22103751", 
         "tags": [
           "source=Eurocontrol eAIP Belgium8c EBBR ADC01 2003", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=22103751", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 22103751, 
+        "sw_latitude": 50.901117, 
         "osm:node_ids": [
           330856484, 
           260603801, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": 4.490642, 
         "longitude": 50.902911, 
-        "ne_latitude": 50.904865, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.480825, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.904865, 
         "latitude": 4.484808, 
         "woe:id": 2147552758, 
-        "sw_latitude": 50.901117
+        "osm:way_id": 24030158
       }
     }
   ]

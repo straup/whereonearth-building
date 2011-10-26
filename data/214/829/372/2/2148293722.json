@@ -59,7 +59,6 @@
       }, 
       "id": 2148293722, 
       "properties": {
-        "osm:way_id": 30836470, 
         "woe:parent": "12513205", 
         "name": "OBI", 
         "tags": [
@@ -71,8 +70,12 @@
           "addr:country=DE", 
           "addr:street=Gr\u00fcnberger Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.176349, 
         "osm:node_ids": [
           342895106, 
           342895109, 
@@ -88,12 +91,12 @@
         ], 
         "ne_longitude": 13.827134, 
         "longitude": 51.176801, 
-        "ne_latitude": 51.177219, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.825160, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.177219, 
         "latitude": 13.826173, 
         "woe:id": 2148293722, 
-        "sw_latitude": 51.176349
+        "osm:way_id": 30836470
       }
     }
   ]

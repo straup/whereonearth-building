@@ -39,15 +39,18 @@
       }, 
       "id": 2152640646, 
       "properties": {
-        "osm:way_id": 51208300, 
         "woe:parent": "12515124", 
         "name": "Flyplassvakten", 
         "tags": [
           "amenity=fire_station", 
           "name=Flyplassvakten"
         ], 
-        "hierarchy": "woe:country=23424910", 
+        "hierarchy": [
+          "woe:airport=12515124", 
+          "woe:country=23424910"
+        ], 
         "parent_woeid": 12515124, 
+        "sw_latitude": 58.885065, 
         "osm:node_ids": [
           653387527, 
           675725705, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": 5.632172, 
         "longitude": 58.885520, 
-        "ne_latitude": 58.885974, 
-        "woe:placetype": "building", 
         "sw_longitude": 5.630390, 
+        "woe:placetype": "building", 
+        "ne_latitude": 58.885974, 
         "latitude": 5.631282, 
         "woe:id": 2152640646, 
-        "sw_latitude": 58.885065
+        "osm:way_id": 51208300
       }
     }
   ]

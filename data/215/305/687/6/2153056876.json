@@ -311,7 +311,6 @@
       }, 
       "id": 2153056876, 
       "properties": {
-        "osm:way_id": 52212724, 
         "woe:parent": "125219388", 
         "name": "Spokane International Airport", 
         "tags": [
@@ -321,8 +320,12 @@
           "phone=(509) 455-6429", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125219388", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521938, 
+        "sw_latitude": 47.623603, 
         "osm:node_ids": [
           664865906, 
           664865909, 
@@ -401,12 +404,12 @@
         ], 
         "ne_longitude": -117.534387, 
         "longitude": 47.624925, 
-        "ne_latitude": 47.626300, 
-        "woe:placetype": "building", 
         "sw_longitude": -117.540524, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.626300, 
         "latitude": -117.537191, 
         "woe:id": 2153056876, 
-        "sw_latitude": 47.623603
+        "osm:way_id": 52212724
       }
     }
   ]

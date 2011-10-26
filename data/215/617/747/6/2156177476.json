@@ -47,7 +47,6 @@
       }, 
       "id": 2156177476, 
       "properties": {
-        "osm:way_id": 59620350, 
         "woe:parent": "12513199", 
         "name": "DLR - Galileo Control Center (GCC)", 
         "tags": [
@@ -55,8 +54,12 @@
           "name=DLR - Galileo Control Center (GCC)", 
           "addr:street=M\u00fcnchner Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.085937, 
         "osm:node_ids": [
           739574407, 
           878414387, 
@@ -69,12 +72,12 @@
         ], 
         "ne_longitude": 11.281444, 
         "longitude": 48.086230, 
-        "ne_latitude": 48.086551, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.280545, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.086551, 
         "latitude": 11.281028, 
         "woe:id": 2156177476, 
-        "sw_latitude": 48.085937
+        "osm:way_id": 59620350
       }
     }
   ]

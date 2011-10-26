@@ -43,7 +43,6 @@
       }, 
       "id": 2148449066, 
       "properties": {
-        "osm:way_id": 32356874, 
         "woe:parent": "125197088", 
         "name": "Reed's", 
         "tags": [
@@ -51,8 +50,12 @@
           "name=Reed's", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125197088", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519708, 
+        "sw_latitude": 43.496910, 
         "osm:node_ids": [
           364242859, 
           364242860, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": -112.083904, 
         "longitude": 43.497006, 
-        "ne_latitude": 43.497134, 
-        "woe:placetype": "building", 
         "sw_longitude": -112.084273, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.497134, 
         "latitude": -112.084111, 
         "woe:id": 2148449066, 
-        "sw_latitude": 43.496910
+        "osm:way_id": 32356874
       }
     }
   ]

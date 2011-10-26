@@ -39,7 +39,6 @@
       }, 
       "id": 2167519669, 
       "properties": {
-        "osm:way_id": 80540193, 
         "woe:parent": "22276234", 
         "name": "ZKS 2", 
         "tags": [
@@ -47,8 +46,12 @@
           "aeroway=gate", 
           "ref=ZKS 2"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.381038, 
         "osm:node_ids": [
           939629035, 
           939629063, 
@@ -59,12 +62,12 @@
         ], 
         "ne_longitude": 13.512084, 
         "longitude": 52.381247, 
-        "ne_latitude": 52.381455, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.511455, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.381455, 
         "latitude": 13.511765, 
         "woe:id": 2167519669, 
-        "sw_latitude": 52.381038
+        "osm:way_id": 80540193
       }
     }
   ]

@@ -35,15 +35,18 @@
       }, 
       "id": 2162939476, 
       "properties": {
-        "osm:way_id": 71436258, 
         "woe:parent": "12515135", 
         "name": "Patan museum", 
         "tags": [
           "name=Patan museum", 
           "tourism=museum"
         ], 
-        "hierarchy": "woe:country=23424911", 
+        "hierarchy": [
+          "woe:airport=12515135", 
+          "woe:country=23424911"
+        ], 
         "parent_woeid": 12515135, 
+        "sw_latitude": 27.673195, 
         "osm:node_ids": [
           849950768, 
           849950772, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 85.325653, 
         "longitude": 27.673445, 
-        "ne_latitude": 27.673693, 
-        "woe:placetype": "building", 
         "sw_longitude": 85.325165, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.673693, 
         "latitude": 85.325409, 
         "woe:id": 2162939476, 
-        "sw_latitude": 27.673195
+        "osm:way_id": 71436258
       }
     }
   ]

@@ -35,13 +35,16 @@
       }, 
       "id": 2150068608, 
       "properties": {
-        "osm:way_id": 44149019, 
         "woe:parent": "22269415", 
         "tags": [
           "addr:housenumber=G 204"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.787616, 
         "osm:node_ids": [
           560888345, 
           560888346, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 8.081253, 
         "longitude": 48.787665, 
-        "ne_latitude": 48.787712, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.081098, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.787712, 
         "latitude": 8.081176, 
         "woe:id": 2150068608, 
-        "sw_latitude": 48.787616
+        "osm:way_id": 44149019
       }
     }
   ]

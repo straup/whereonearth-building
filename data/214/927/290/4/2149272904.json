@@ -39,7 +39,6 @@
       }, 
       "id": 2149272904, 
       "properties": {
-        "osm:way_id": 37884018, 
         "woe:parent": "22923040", 
         "name": "Clubhaus", 
         "tags": [
@@ -48,8 +47,12 @@
           "note=Nur f\u00fcr Sportler", 
           "operator=MSC Freisinger B\u00e4r"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22923040", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22923040, 
+        "sw_latitude": 48.358421, 
         "osm:node_ids": [
           444586394, 
           444586398, 
@@ -60,12 +63,12 @@
         ], 
         "ne_longitude": 11.751514, 
         "longitude": 48.358544, 
-        "ne_latitude": 48.358666, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.751258, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.358666, 
         "latitude": 11.751386, 
         "woe:id": 2149272904, 
-        "sw_latitude": 48.358421
+        "osm:way_id": 37884018
       }
     }
   ]

@@ -67,14 +67,17 @@
       }, 
       "id": 2155892763, 
       "properties": {
-        "osm:way_id": 58886734, 
         "woe:parent": "233887567", 
         "name": "Schlumberger House", 
         "tags": [
           "name=Schlumberger House"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=233887567", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 23387567, 
+        "sw_latitude": 51.157304, 
         "osm:node_ids": [
           729692753, 
           729692754, 
@@ -92,12 +95,12 @@
         ], 
         "ne_longitude": -0.150465, 
         "longitude": 51.157666, 
-        "ne_latitude": 51.157984, 
-        "woe:placetype": "building", 
         "sw_longitude": -0.152515, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.157984, 
         "latitude": -0.151422, 
         "woe:id": 2155892763, 
-        "sw_latitude": 51.157304
+        "osm:way_id": 58886734
       }
     }
   ]

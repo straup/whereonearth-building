@@ -59,7 +59,6 @@
       }, 
       "id": 2149294929, 
       "properties": {
-        "osm:way_id": 38140509, 
         "woe:parent": "12521741", 
         "name": "Mesa/ 18 Parking", 
         "tags": [
@@ -70,8 +69,12 @@
           "parking=multi-storey", 
           "disabled_spaces=yes"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.416931, 
         "osm:node_ids": [
           448887213, 
           448887214, 
@@ -87,12 +90,12 @@
         ], 
         "ne_longitude": -119.847101, 
         "longitude": 34.417506, 
-        "ne_latitude": 34.417991, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.848052, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.417991, 
         "latitude": -119.847625, 
         "woe:id": 2149294929, 
-        "sw_latitude": 34.416931
+        "osm:way_id": 38140509
       }
     }
   ]

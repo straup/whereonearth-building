@@ -47,15 +47,18 @@
       }, 
       "id": 2156144303, 
       "properties": {
-        "osm:way_id": 59551836, 
         "woe:parent": "12521453", 
         "name": "Concourse A", 
         "tags": [
           "name=Concourse A", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521453", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521453, 
+        "sw_latitude": 45.586144, 
         "osm:node_ids": [
           338987972, 
           338987967, 
@@ -68,12 +71,12 @@
         ], 
         "ne_longitude": -122.591923, 
         "longitude": 45.586513, 
-        "ne_latitude": 45.586877, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.592652, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.586877, 
         "latitude": -122.592287, 
         "woe:id": 2156144303, 
-        "sw_latitude": 45.586144
+        "osm:way_id": 59551836
       }
     }
   ]

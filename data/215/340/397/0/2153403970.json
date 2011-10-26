@@ -71,7 +71,6 @@
       }, 
       "id": 2153403970, 
       "properties": {
-        "osm:way_id": 52882435, 
         "woe:parent": "23024911", 
         "name": "St. Bruno", 
         "tags": [
@@ -81,8 +80,12 @@
           "religion=christian", 
           "wikipedia:de=St. Bruno (D\u00fcsseldorf)"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.265999, 
         "osm:node_ids": [
           670378958, 
           670378960, 
@@ -101,12 +104,12 @@
         ], 
         "ne_longitude": 6.775790, 
         "longitude": 51.266155, 
-        "ne_latitude": 51.266275, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.775091, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.266275, 
         "latitude": 6.775416, 
         "woe:id": 2153403970, 
-        "sw_latitude": 51.265999
+        "osm:way_id": 52882435
       }
     }
   ]

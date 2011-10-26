@@ -99,7 +99,6 @@
       }, 
       "id": 2147762973, 
       "properties": {
-        "osm:way_id": 27618255, 
         "woe:parent": "12520772", 
         "name": "Terminal Building", 
         "tags": [
@@ -108,8 +107,12 @@
           "aeroway=terminal", 
           "operator=Manchester-Boston Regional Airport"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12520772", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520772, 
+        "sw_latitude": 42.926567, 
         "osm:node_ids": [
           303283999, 
           303284000, 
@@ -135,12 +138,12 @@
         ], 
         "ne_longitude": -71.436623, 
         "longitude": 42.927559, 
-        "ne_latitude": 42.928666, 
-        "woe:placetype": "building", 
         "sw_longitude": -71.440117, 
+        "woe:placetype": "building", 
+        "ne_latitude": 42.928666, 
         "latitude": -71.438148, 
         "woe:id": 2147762973, 
-        "sw_latitude": 42.926567
+        "osm:way_id": 27618255
       }
     }
   ]

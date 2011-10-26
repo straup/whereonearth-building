@@ -95,7 +95,6 @@
       }, 
       "id": 2147577107, 
       "properties": {
-        "osm:way_id": 24871009, 
         "woe:parent": "12523042", 
         "name": "Skrydis", 
         "tags": [
@@ -107,8 +106,12 @@
           "addr:country=LT", 
           "addr:street=Rod\u016bnios kelias"
         ], 
-        "hierarchy": "woe:country=234248875", 
+        "hierarchy": [
+          "woe:airport=12523042", 
+          "woe:country=234248875"
+        ], 
         "parent_woeid": 12523042, 
+        "sw_latitude": 54.641809, 
         "osm:node_ids": [
           270262119, 
           270262120, 
@@ -133,12 +136,12 @@
         ], 
         "ne_longitude": 25.279163, 
         "longitude": 54.642058, 
-        "ne_latitude": 54.642273, 
-        "woe:placetype": "building", 
         "sw_longitude": 25.278310, 
+        "woe:placetype": "building", 
+        "ne_latitude": 54.642273, 
         "latitude": 25.278752, 
         "woe:id": 2147577107, 
-        "sw_latitude": 54.641809
+        "osm:way_id": 24871009
       }
     }
   ]

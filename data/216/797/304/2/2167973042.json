@@ -43,7 +43,6 @@
       }, 
       "id": 2167973042, 
       "properties": {
-        "osm:way_id": 81540124, 
         "woe:parent": "23365569", 
         "tags": [
           "addr:housenumber=188", 
@@ -52,8 +51,12 @@
           "addr:country=CH", 
           "addr:street=Chemin du Joli-Bois"
         ], 
-        "hierarchy": "woe:country=23424957", 
+        "hierarchy": [
+          "woe:airport=23365569", 
+          "woe:country=23424957"
+        ], 
         "parent_woeid": 23365569, 
+        "sw_latitude": 46.245682, 
         "osm:node_ids": [
           950522244, 
           950522247, 
@@ -65,12 +68,12 @@
         ], 
         "ne_longitude": 6.130524, 
         "longitude": 46.245759, 
-        "ne_latitude": 46.245836, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.130294, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.245836, 
         "latitude": 6.130412, 
         "woe:id": 2167973042, 
-        "sw_latitude": 46.245682
+        "osm:way_id": 81540124
       }
     }
   ]

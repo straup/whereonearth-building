@@ -47,13 +47,16 @@
       }, 
       "id": 2150264848, 
       "properties": {
-        "osm:way_id": 44851565, 
         "woe:parent": "22269415", 
         "tags": [
           "addr:housenumber=B 401"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.782885, 
         "osm:node_ids": [
           568605004, 
           568605005, 
@@ -66,12 +69,12 @@
         ], 
         "ne_longitude": 8.092399, 
         "longitude": 48.783105, 
-        "ne_latitude": 48.783351, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.091660, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.783351, 
         "latitude": 8.092036, 
         "woe:id": 2150264848, 
-        "sw_latitude": 48.782885
+        "osm:way_id": 44851565
       }
     }
   ]

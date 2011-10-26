@@ -83,7 +83,6 @@
       }, 
       "id": 2162338152, 
       "properties": {
-        "osm:way_id": 70427940, 
         "woe:parent": "56051751", 
         "name": "Ch\u00e2teau de Vilvert", 
         "tags": [
@@ -92,8 +91,12 @@
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre ; mise \u00e0 jour 8c 20088", 
           "historic=castle"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=56051751", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 56051751, 
+        "sw_latitude": 48.765238, 
         "osm:node_ids": [
           840332702, 
           840370787, 
@@ -115,12 +118,12 @@
         ], 
         "ne_longitude": 2.176167, 
         "longitude": 48.765331, 
-        "ne_latitude": 48.765426, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.175739, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.765426, 
         "latitude": 2.175954, 
         "woe:id": 2162338152, 
-        "sw_latitude": 48.765238
+        "osm:way_id": 70427940
       }
     }
   ]

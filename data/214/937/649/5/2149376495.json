@@ -35,15 +35,18 @@
       }, 
       "id": 2149376495, 
       "properties": {
-        "osm:way_id": 39168585, 
         "woe:parent": "22269415", 
         "name": "Seminargeb\u00e4ude", 
         "tags": [
           "addr:housenumber=E 9", 
           "name=Seminargeb\u00e4ude"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.766873, 
         "osm:node_ids": [
           469181704, 
           469181705, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 8.083328, 
         "longitude": 48.767041, 
-        "ne_latitude": 48.767206, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.082908, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.767206, 
         "latitude": 8.083117, 
         "woe:id": 2149376495, 
-        "sw_latitude": 48.766873
+        "osm:way_id": 39168585
       }
     }
   ]

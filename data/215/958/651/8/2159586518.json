@@ -35,7 +35,6 @@
       }, 
       "id": 2159586518, 
       "properties": {
-        "osm:way_id": 65606498, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=14", 
@@ -44,8 +43,12 @@
           "addr:country=DE", 
           "addr:street=Esperantostra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.256570, 
         "osm:node_ids": [
           800117303, 
           800117319, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": 6.781259, 
         "longitude": 51.256629, 
-        "ne_latitude": 51.256687, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.781021, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.256687, 
         "latitude": 6.781141, 
         "woe:id": 2159586518, 
-        "sw_latitude": 51.256570
+        "osm:way_id": 65606498
       }
     }
   ]

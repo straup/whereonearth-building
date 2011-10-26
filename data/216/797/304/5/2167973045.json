@@ -43,7 +43,6 @@
       }, 
       "id": 2167973045, 
       "properties": {
-        "osm:way_id": 81540129, 
         "woe:parent": "23365569", 
         "tags": [
           "addr:housenumber=7", 
@@ -52,8 +51,12 @@
           "addr:country=CH", 
           "addr:street=Chemin des Ancolies"
         ], 
-        "hierarchy": "woe:country=23424957", 
+        "hierarchy": [
+          "woe:airport=23365569", 
+          "woe:country=23424957"
+        ], 
         "parent_woeid": 23365569, 
+        "sw_latitude": 46.244977, 
         "osm:node_ids": [
           950522445, 
           950522470, 
@@ -65,12 +68,12 @@
         ], 
         "ne_longitude": 6.130288, 
         "longitude": 46.245033, 
-        "ne_latitude": 46.245090, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.130138, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.245090, 
         "latitude": 6.130208, 
         "woe:id": 2167973045, 
-        "sw_latitude": 46.244977
+        "osm:way_id": 81540129
       }
     }
   ]

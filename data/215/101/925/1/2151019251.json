@@ -43,15 +43,18 @@
       }, 
       "id": 2151019251, 
       "properties": {
-        "osm:way_id": 47330008, 
         "woe:parent": "125116388", 
         "tags": [
           "canvec:CODE=2010252", 
           "attribution=Natural Resources Canada", 
           "source=CanVec_Import_2009"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=125116388", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511638, 
+        "sw_latitude": 45.454690, 
         "osm:node_ids": [
           602790678, 
           602790682, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": -73.729674, 
         "longitude": 45.454912, 
-        "ne_latitude": 45.455107, 
-        "woe:placetype": "building", 
         "sw_longitude": -73.730286, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.455107, 
         "latitude": -73.729966, 
         "woe:id": 2151019251, 
-        "sw_latitude": 45.454690
+        "osm:way_id": 47330008
       }
     }
   ]

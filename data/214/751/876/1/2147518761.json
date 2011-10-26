@@ -47,14 +47,17 @@
       }, 
       "id": 2147518761, 
       "properties": {
-        "osm:way_id": 23473166, 
         "woe:parent": "23024911", 
         "name": "Halle 17", 
         "tags": [
           "name=Halle 17"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.259171, 
         "osm:node_ids": [
           254191251, 
           254199337, 
@@ -67,12 +70,12 @@
         ], 
         "ne_longitude": 6.743435, 
         "longitude": 51.259868, 
-        "ne_latitude": 51.260564, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.741386, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.260564, 
         "latitude": 6.742411, 
         "woe:id": 2147518761, 
-        "sw_latitude": 51.259171
+        "osm:way_id": 23473166
       }
     }
   ]

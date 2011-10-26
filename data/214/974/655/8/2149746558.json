@@ -75,14 +75,17 @@
       }, 
       "id": 2149746558, 
       "properties": {
-        "osm:way_id": 42440929, 
         "woe:parent": "22412043", 
         "name": "Talleres y Oficios Varios", 
         "tags": [
           "name=Talleres y Oficios Varios"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=22412043", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 22412043, 
+        "sw_latitude": 38.288305, 
         "osm:node_ids": [
           529854060, 
           559923636, 
@@ -102,12 +105,12 @@
         ], 
         "ne_longitude": -0.561282, 
         "longitude": 38.288442, 
-        "ne_latitude": 38.288567, 
-        "woe:placetype": "building", 
         "sw_longitude": -0.561798, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.288567, 
         "latitude": -0.561550, 
         "woe:id": 2149746558, 
-        "sw_latitude": 38.288305
+        "osm:way_id": 42440929
       }
     }
   ]

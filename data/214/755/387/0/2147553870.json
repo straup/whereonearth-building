@@ -87,15 +87,18 @@
       }, 
       "id": 2147553870, 
       "properties": {
-        "osm:way_id": 24057068, 
         "woe:parent": "22276234", 
         "name": "GAT", 
         "tags": [
           "name=GAT", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.370227, 
         "osm:node_ids": [
           260967577, 
           430882971, 
@@ -118,12 +121,12 @@
         ], 
         "ne_longitude": 13.524164, 
         "longitude": 52.370759, 
-        "ne_latitude": 52.371715, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.519186, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.371715, 
         "latitude": 13.521413, 
         "woe:id": 2147553870, 
-        "sw_latitude": 52.370227
+        "osm:way_id": 24057068
       }
     }
   ]

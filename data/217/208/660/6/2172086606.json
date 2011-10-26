@@ -83,7 +83,6 @@
       }, 
       "id": 2172086606, 
       "properties": {
-        "osm:way_id": 89904103, 
         "woe:parent": "12519601", 
         "name": "Destin Library", 
         "tags": [
@@ -92,8 +91,12 @@
           "name=Destin Library", 
           "source=bing"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12519601", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519601, 
+        "sw_latitude": 30.398509, 
         "osm:node_ids": [
           1042041562, 
           1042041572, 
@@ -115,12 +118,12 @@
         ], 
         "ne_longitude": -86.507623, 
         "longitude": 30.398771, 
-        "ne_latitude": 30.399054, 
-        "woe:placetype": "building", 
         "sw_longitude": -86.508188, 
+        "woe:placetype": "building", 
+        "ne_latitude": 30.399054, 
         "latitude": -86.507920, 
         "woe:id": 2172086606, 
-        "sw_latitude": 30.398509
+        "osm:way_id": 89904103
       }
     }
   ]

@@ -39,7 +39,6 @@
       }, 
       "id": 2149467014, 
       "properties": {
-        "osm:way_id": 40022519, 
         "woe:parent": "12521750", 
         "name": "Palmer Building E", 
         "tags": [
@@ -49,8 +48,12 @@
           "source=FDOT", 
           "addr:street=588th Street"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.385045, 
         "osm:node_ids": [
           481174264, 
           481174261, 
@@ -61,12 +64,12 @@
         ], 
         "ne_longitude": -82.560558, 
         "longitude": 27.385168, 
-        "ne_latitude": 27.385291, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.560730, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.385291, 
         "latitude": -82.560644, 
         "woe:id": 2149467014, 
-        "sw_latitude": 27.385045
+        "osm:way_id": 40022519
       }
     }
   ]

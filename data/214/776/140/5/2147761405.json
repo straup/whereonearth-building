@@ -35,15 +35,18 @@
       }, 
       "id": 2147761405, 
       "properties": {
-        "osm:way_id": 27595236, 
         "woe:parent": "12513277", 
         "name": "March\u00e9 Conseil", 
         "tags": [
           "shop=supermarket", 
           "name=March\u00e9 Conseil"
         ], 
-        "hierarchy": "woe:country=234248831", 
+        "hierarchy": [
+          "woe:airport=12513277", 
+          "woe:country=234248831"
+        ], 
         "parent_woeid": 12513277, 
+        "sw_latitude": 16.254017, 
         "osm:node_ids": [
           303021085, 
           303021087, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -61.523071, 
         "longitude": 16.254295, 
-        "ne_latitude": 16.254567, 
-        "woe:placetype": "building", 
         "sw_longitude": -61.523651, 
+        "woe:placetype": "building", 
+        "ne_latitude": 16.254567, 
         "latitude": -61.523360, 
         "woe:id": 2147761405, 
-        "sw_latitude": 16.254017
+        "osm:way_id": 27595236
       }
     }
   ]

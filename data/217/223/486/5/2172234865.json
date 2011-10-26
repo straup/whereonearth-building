@@ -35,7 +35,6 @@
       }, 
       "id": 2172234865, 
       "properties": {
-        "osm:way_id": 90283288, 
         "woe:parent": "12523415", 
         "name": "Outback Steakhouse", 
         "tags": [
@@ -43,8 +42,12 @@
           "amenity=restaurant", 
           "name=Outback Steakhouse"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523415", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523415, 
+        "sw_latitude": 41.122123, 
         "osm:node_ids": [
           1046981265, 
           1046981106, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -104.845735, 
         "longitude": 41.122226, 
-        "ne_latitude": 41.122329, 
-        "woe:placetype": "building", 
         "sw_longitude": -104.846128, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.122329, 
         "latitude": -104.845932, 
         "woe:id": 2172234865, 
-        "sw_latitude": 41.122123
+        "osm:way_id": 90283288
       }
     }
   ]

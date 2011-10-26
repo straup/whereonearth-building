@@ -35,7 +35,6 @@
       }, 
       "id": 2169150783, 
       "properties": {
-        "osm:way_id": 83895729, 
         "woe:parent": "125209883", 
         "name": "PPS Inc.", 
         "tags": [
@@ -44,8 +43,12 @@
           "source=usgs_imagery_20088;survey;image", 
           "source_ref=AM909_DSCW1295;AM909_DSCW1391"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.052093, 
         "osm:node_ids": [
           976521729, 
           976520585, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -118.164317, 
         "longitude": 35.052322, 
-        "ne_latitude": 35.052549, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.164480, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.052549, 
         "latitude": -118.164399, 
         "woe:id": 2169150783, 
-        "sw_latitude": 35.052093
+        "osm:way_id": 83895729
       }
     }
   ]

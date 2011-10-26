@@ -59,15 +59,18 @@
       }, 
       "id": 2156369286, 
       "properties": {
-        "osm:way_id": 60149307, 
         "woe:parent": "12510439", 
         "name": "Tourada", 
         "tags": [
           "name=Tourada", 
           "leisure=stadium"
         ], 
-        "hierarchy": "woe:country=23424745", 
+        "hierarchy": [
+          "woe:airport=12510439", 
+          "woe:country=23424745"
+        ], 
         "parent_woeid": 12510439, 
+        "sw_latitude": -8.840569, 
         "osm:node_ids": [
           747194422, 
           747194423, 
@@ -83,12 +86,12 @@
         ], 
         "ne_longitude": 13.252704, 
         "longitude": -8.840193, 
-        "ne_latitude": -8.839815, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.251936, 
+        "woe:placetype": "building", 
+        "ne_latitude": -8.839815, 
         "latitude": 13.252315, 
         "woe:id": 2156369286, 
-        "sw_latitude": -8.840569
+        "osm:way_id": 60149307
       }
     }
   ]

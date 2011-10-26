@@ -35,7 +35,6 @@
       }, 
       "id": 2147891833, 
       "properties": {
-        "osm:way_id": 29327605, 
         "woe:parent": "12513205", 
         "name": "Sporthalle \"An der Bl\u00f6\u00dfe\"", 
         "tags": [
@@ -43,8 +42,12 @@
           "leisure=sports_centre", 
           "sport=multi"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.182889, 
         "osm:node_ids": [
           322644271, 
           322644274, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 13.823924, 
         "longitude": 51.183083, 
-        "ne_latitude": 51.183276, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.823480, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.183276, 
         "latitude": 13.823702, 
         "woe:id": 2147891833, 
-        "sw_latitude": 51.182889
+        "osm:way_id": 29327605
       }
     }
   ]

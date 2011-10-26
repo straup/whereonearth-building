@@ -67,14 +67,17 @@
       }, 
       "id": 2154828395, 
       "properties": {
-        "osm:way_id": 55487704, 
         "woe:parent": "12510331", 
         "name": "Tour CMA/CGA", 
         "tags": [
           "name=Tour CMA8sCGA"
         ], 
-        "hierarchy": "woe:country=23424740", 
+        "hierarchy": [
+          "woe:airport=12510331", 
+          "woe:country=23424740"
+        ], 
         "parent_woeid": 12510331, 
+        "sw_latitude": 36.714368, 
         "osm:node_ids": [
           697270813, 
           697270814, 
@@ -92,12 +95,12 @@
         ], 
         "ne_longitude": 3.201048, 
         "longitude": 36.714615, 
-        "ne_latitude": 36.714858, 
-        "woe:placetype": "building", 
         "sw_longitude": 3.200640, 
+        "woe:placetype": "building", 
+        "ne_latitude": 36.714858, 
         "latitude": 3.200848, 
         "woe:id": 2154828395, 
-        "sw_latitude": 36.714368
+        "osm:way_id": 55487704
       }
     }
   ]

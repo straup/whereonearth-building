@@ -59,15 +59,18 @@
       }, 
       "id": 2149206505, 
       "properties": {
-        "osm:way_id": 37136008, 
         "woe:parent": "125128863", 
         "tags": [
           "amenity=place_of_worship", 
           "religion=christian", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre ; mise \u00e0 jour 8c 2009"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128863", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512863, 
+        "sw_latitude": 47.980397, 
         "osm:node_ids": [
           432499731, 
           432499732, 
@@ -83,12 +86,12 @@
         ], 
         "ne_longitude": 1.784007, 
         "longitude": 47.980475, 
-        "ne_latitude": 47.980564, 
-        "woe:placetype": "building", 
         "sw_longitude": 1.783721, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.980564, 
         "latitude": 1.783877, 
         "woe:id": 2149206505, 
-        "sw_latitude": 47.980397
+        "osm:way_id": 37136008
       }
     }
   ]

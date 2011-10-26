@@ -63,15 +63,18 @@
       }, 
       "id": 2159045223, 
       "properties": {
-        "osm:way_id": 64933979, 
         "woe:parent": "12523336", 
         "name": "Macau Tower", 
         "tags": [
           "man_made=tower", 
           "name=Macau Tower"
         ], 
-        "hierarchy": "woe:country=20070017", 
+        "hierarchy": [
+          "woe:airport=12523336", 
+          "woe:country=20070017"
+        ], 
         "parent_woeid": 12523336, 
+        "sw_latitude": 22.180431, 
         "osm:node_ids": [
           795620148, 
           795620150, 
@@ -88,12 +91,12 @@
         ], 
         "ne_longitude": 113.540768, 
         "longitude": 22.180490, 
-        "ne_latitude": 22.180563, 
-        "woe:placetype": "building", 
         "sw_longitude": 113.540419, 
+        "woe:placetype": "building", 
+        "ne_latitude": 22.180563, 
         "latitude": 113.540591, 
         "woe:id": 2159045223, 
-        "sw_latitude": 22.180431
+        "osm:way_id": 64933979
       }
     }
   ]

@@ -127,7 +127,6 @@
       }, 
       "id": 2160456049, 
       "properties": {
-        "osm:way_id": 67266468, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=15", 
@@ -139,8 +138,12 @@
           "dcgis:lot=00188", 
           "addr:street=Mcchord Street SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.841080, 
         "osm:node_ids": [
           812389610, 
           812389584, 
@@ -173,12 +176,12 @@
         ], 
         "ne_longitude": -77.011825, 
         "longitude": 38.841492, 
-        "ne_latitude": 38.841875, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.012342, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.841875, 
         "latitude": -77.012088, 
         "woe:id": 2160456049, 
-        "sw_latitude": 38.841080
+        "osm:way_id": 67266468
       }
     }
   ]

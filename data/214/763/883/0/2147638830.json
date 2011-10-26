@@ -35,7 +35,6 @@
       }, 
       "id": 2147638830, 
       "properties": {
-        "osm:way_id": 26452539, 
         "woe:parent": "12513597", 
         "name": "Rajiv Gandhi Airport", 
         "tags": [
@@ -43,8 +42,12 @@
           "created_by=Potlatch 0.10b", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=2342488488", 
+        "hierarchy": [
+          "woe:airport=12513597", 
+          "woe:country=2342488488"
+        ], 
         "parent_woeid": 12513597, 
+        "sw_latitude": 17.449275, 
         "osm:node_ids": [
           289894293, 
           289894294, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 78.472350, 
         "longitude": 17.449617, 
-        "ne_latitude": 17.449956, 
-        "woe:placetype": "building", 
         "sw_longitude": 78.470171, 
+        "woe:placetype": "building", 
+        "ne_latitude": 17.449956, 
         "latitude": 78.471259, 
         "woe:id": 2147638830, 
-        "sw_latitude": 17.449275
+        "osm:way_id": 26452539
       }
     }
   ]

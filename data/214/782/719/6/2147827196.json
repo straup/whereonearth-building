@@ -43,15 +43,18 @@
       }, 
       "id": 2147827196, 
       "properties": {
-        "osm:way_id": 28627828, 
         "woe:parent": "12513205", 
         "name": "Volksbank Raiffeisenbank", 
         "tags": [
           "amenity=bank", 
           "name=Volksbank Raiffeisenbank"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.187170, 
         "osm:node_ids": [
           314659412, 
           314659414, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 13.835852, 
         "longitude": 51.187318, 
-        "ne_latitude": 51.187463, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.835368, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.187463, 
         "latitude": 13.835616, 
         "woe:id": 2147827196, 
-        "sw_latitude": 51.187170
+        "osm:way_id": 28627828
       }
     }
   ]

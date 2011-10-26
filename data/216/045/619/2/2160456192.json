@@ -51,7 +51,6 @@
       }, 
       "id": 2160456192, 
       "properties": {
-        "osm:way_id": 67266640, 
         "woe:parent": "12523409", 
         "tags": [
           "amenity=place_of_worship", 
@@ -60,8 +59,12 @@
           "dataset=buildings", 
           "source=dcgis"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.840887, 
         "osm:node_ids": [
           812388115, 
           812388122, 
@@ -75,12 +78,12 @@
         ], 
         "ne_longitude": -77.011016, 
         "longitude": 38.840966, 
-        "ne_latitude": 38.841049, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.011304, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.841049, 
         "latitude": -77.011162, 
         "woe:id": 2160456192, 
-        "sw_latitude": 38.840887
+        "osm:way_id": 67266640
       }
     }
   ]

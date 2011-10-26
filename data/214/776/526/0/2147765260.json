@@ -35,15 +35,18 @@
       }, 
       "id": 2147765260, 
       "properties": {
-        "osm:way_id": 27658136, 
         "woe:parent": "234188445", 
         "name": "South Terminal", 
         "tags": [
           "name=South Terminal", 
           "created_by=Potlatch 0.10d"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=234188445", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 23418445, 
+        "sw_latitude": 30.193193, 
         "osm:node_ids": [
           303770098, 
           303770100, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -97.670419, 
         "longitude": 30.193337, 
-        "ne_latitude": 30.193483, 
-        "woe:placetype": "building", 
         "sw_longitude": -97.671286, 
+        "woe:placetype": "building", 
+        "ne_latitude": 30.193483, 
         "latitude": -97.670849, 
         "woe:id": 2147765260, 
-        "sw_latitude": 30.193193
+        "osm:way_id": 27658136
       }
     }
   ]

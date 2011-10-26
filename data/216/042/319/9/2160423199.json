@@ -99,7 +99,6 @@
       }, 
       "id": 2160423199, 
       "properties": {
-        "osm:way_id": 67210046, 
         "woe:parent": "12521750", 
         "name": "New Academic Building", 
         "tags": [
@@ -107,8 +106,12 @@
           "source=FDOT", 
           "construction=yes"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.385369, 
         "osm:node_ids": [
           811556298, 
           811556301, 
@@ -134,12 +137,12 @@
         ], 
         "ne_longitude": -82.558458, 
         "longitude": 27.385682, 
-        "ne_latitude": 27.385844, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.559015, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.385844, 
         "latitude": -82.558662, 
         "woe:id": 2160423199, 
-        "sw_latitude": 27.385369
+        "osm:way_id": 67210046
       }
     }
   ]

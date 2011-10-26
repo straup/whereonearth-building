@@ -55,7 +55,6 @@
       }, 
       "id": 2153403965, 
       "properties": {
-        "osm:way_id": 52882430, 
         "woe:parent": "23024911", 
         "name": "St. Lambertus", 
         "tags": [
@@ -66,8 +65,12 @@
           "religion=christian", 
           "wikipedia:de=St. Lambertus (D\u00fcsseldorf-Kalkum)"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.302892, 
         "osm:node_ids": [
           670378796, 
           670378793, 
@@ -82,12 +85,12 @@
         ], 
         "ne_longitude": 6.758198, 
         "longitude": 51.302985, 
-        "ne_latitude": 51.303083, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.757810, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.303083, 
         "latitude": 6.757998, 
         "woe:id": 2153403965, 
-        "sw_latitude": 51.302892
+        "osm:way_id": 52882430
       }
     }
   ]

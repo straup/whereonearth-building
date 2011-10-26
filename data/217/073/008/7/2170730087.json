@@ -211,7 +211,6 @@
       }, 
       "id": 2170730087, 
       "properties": {
-        "osm:way_id": 86783185, 
         "woe:parent": "12511564", 
         "name": "Bujumbura International Airport", 
         "tags": [
@@ -219,8 +218,12 @@
           "ref=?", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424774", 
+        "hierarchy": [
+          "woe:airport=12511564", 
+          "woe:country=23424774"
+        ], 
         "parent_woeid": 12511564, 
+        "sw_latitude": -3.319195, 
         "osm:node_ids": [
           1009503082, 
           1009499981, 
@@ -274,12 +277,12 @@
         ], 
         "ne_longitude": 29.321366, 
         "longitude": -3.318603, 
-        "ne_latitude": -3.317983, 
-        "woe:placetype": "building", 
         "sw_longitude": 29.320747, 
+        "woe:placetype": "building", 
+        "ne_latitude": -3.317983, 
         "latitude": 29.321061, 
         "woe:id": 2170730087, 
-        "sw_latitude": -3.319195
+        "osm:way_id": 86783185
       }
     }
   ]

@@ -43,7 +43,6 @@
       }, 
       "id": 2155969950, 
       "properties": {
-        "osm:way_id": 59048539, 
         "woe:parent": "248875607", 
         "name": "\u6a5f\u5834\u7a7a\u904b\u4e2d\u5fc3 Airport Freight Forwarding Centre", 
         "tags": [
@@ -51,8 +50,12 @@
           "name=\u6a5f\u5834\u7a7a\u904b\u4e2d\u5fc3 Airport Freight Forwarding Centre", 
           "name:zh=\u6a5f\u5834\u7a7a\u904b\u4e2d\u5fc3"
         ], 
-        "hierarchy": "woe:country=2488656988", 
+        "hierarchy": [
+          "woe:airport=248875607", 
+          "woe:country=2488656988"
+        ], 
         "parent_woeid": 24875607, 
+        "sw_latitude": 22.293493, 
         "osm:node_ids": [
           731957564, 
           731957568, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": 113.926965, 
         "longitude": 22.294505, 
-        "ne_latitude": 22.295577, 
-        "woe:placetype": "building", 
         "sw_longitude": 113.924197, 
+        "woe:placetype": "building", 
+        "ne_latitude": 22.295577, 
         "latitude": 113.925620, 
         "woe:id": 2155969950, 
-        "sw_latitude": 22.293493
+        "osm:way_id": 59048539
       }
     }
   ]

@@ -35,15 +35,18 @@
       }, 
       "id": 2150364522, 
       "properties": {
-        "osm:way_id": 45142197, 
         "woe:parent": "125110388", 
         "name": "Departamento de Fisioterapia", 
         "tags": [
           "name=Departamento de Fisioterapia", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.835398, 
         "osm:node_ids": [
           572641342, 
           572641352, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -35.199871, 
         "longitude": -5.835273, 
-        "ne_latitude": -5.835143, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.200448, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.835143, 
         "latitude": -35.200161, 
         "woe:id": 2150364522, 
-        "sw_latitude": -5.835398
+        "osm:way_id": 45142197
       }
     }
   ]

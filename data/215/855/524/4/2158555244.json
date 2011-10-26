@@ -35,7 +35,6 @@
       }, 
       "id": 2158555244, 
       "properties": {
-        "osm:way_id": 64273880, 
         "woe:parent": "2204886588", 
         "name": "EBCI  Tower  App.=133.12  F.H.=131.475", 
         "tags": [
@@ -44,8 +43,12 @@
           "man_made=survey_point", 
           "aeroway=control_tower"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=2204886588", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 22048658, 
+        "sw_latitude": 50.458241, 
         "osm:node_ids": [
           791495952, 
           791495955, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": 4.455195, 
         "longitude": 50.458368, 
-        "ne_latitude": 50.458494, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.454687, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.458494, 
         "latitude": 4.454939, 
         "woe:id": 2158555244, 
-        "sw_latitude": 50.458241
+        "osm:way_id": 64273880
       }
     }
   ]

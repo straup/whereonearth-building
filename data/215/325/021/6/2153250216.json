@@ -39,7 +39,6 @@
       }, 
       "id": 2153250216, 
       "properties": {
-        "osm:way_id": 52582480, 
         "woe:parent": "12521750", 
         "name": "Public Archeology Laboratory", 
         "tags": [
@@ -47,8 +46,12 @@
           "source=FDOT", 
           "construction=yes"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.385171, 
         "osm:node_ids": [
           667988108, 
           869194319, 
@@ -59,12 +62,12 @@
         ], 
         "ne_longitude": -82.562555, 
         "longitude": 27.385268, 
-        "ne_latitude": 27.385365, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.562848, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.385365, 
         "latitude": -82.562702, 
         "woe:id": 2153250216, 
-        "sw_latitude": 27.385171
+        "osm:way_id": 52582480
       }
     }
   ]

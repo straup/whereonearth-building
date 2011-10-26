@@ -79,14 +79,17 @@
       }, 
       "id": 2156681802, 
       "properties": {
-        "osm:way_id": 61130823, 
         "woe:parent": "12519544", 
         "name": "AeroTrain Maintenance Facility", 
         "tags": [
           "name=AeroTrain Maintenance Facility"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12519544", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519544, 
+        "sw_latitude": 38.925677, 
         "osm:node_ids": [
           764715447, 
           765286980, 
@@ -107,12 +110,12 @@
         ], 
         "ne_longitude": -77.443458, 
         "longitude": 38.926926, 
-        "ne_latitude": 38.929084, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.444426, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.929084, 
         "latitude": -77.443846, 
         "woe:id": 2156681802, 
-        "sw_latitude": 38.925677
+        "osm:way_id": 61130823
       }
     }
   ]

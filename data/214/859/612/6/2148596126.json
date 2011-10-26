@@ -75,15 +75,18 @@
       }, 
       "id": 2148596126, 
       "properties": {
-        "osm:way_id": 33825088, 
         "woe:parent": "228851127", 
         "tags": [
           "iata=CPH", 
           "icao=EKCH", 
           "source=Yahoo!"
         ], 
-        "hierarchy": "woe:country=23424796", 
+        "hierarchy": [
+          "woe:airport=228851127", 
+          "woe:country=23424796"
+        ], 
         "parent_woeid": 22851127, 
+        "sw_latitude": 55.612323, 
         "osm:node_ids": [
           387485596, 
           387485597, 
@@ -103,12 +106,12 @@
         ], 
         "ne_longitude": 12.656615, 
         "longitude": 55.612580, 
-        "ne_latitude": 55.612847, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.655923, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.612847, 
         "latitude": 12.656240, 
         "woe:id": 2148596126, 
-        "sw_latitude": 55.612323
+        "osm:way_id": 33825088
       }
     }
   ]

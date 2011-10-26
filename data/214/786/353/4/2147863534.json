@@ -43,7 +43,6 @@
       }, 
       "id": 2147863534, 
       "properties": {
-        "osm:way_id": 28930602, 
         "woe:parent": "22211603", 
         "name": "B 20", 
         "tags": [
@@ -51,8 +50,12 @@
           "movable=yes", 
           "aeroway=gates"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22211603", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22211603, 
+        "sw_latitude": 53.630255, 
         "osm:node_ids": [
           318030097, 
           343180300, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": 10.004701, 
         "longitude": 53.630320, 
-        "ne_latitude": 53.630359, 
-        "woe:placetype": "building", 
         "sw_longitude": 10.004138, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.630359, 
         "latitude": 10.004410, 
         "woe:id": 2147863534, 
-        "sw_latitude": 53.630255
+        "osm:way_id": 28930602
       }
     }
   ]

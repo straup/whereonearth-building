@@ -71,15 +71,18 @@
       }, 
       "id": 2155440790, 
       "properties": {
-        "osm:way_id": 57931842, 
         "woe:parent": "22454274", 
         "name": "Eagle Two", 
         "tags": [
           "name=Eagle Two", 
           "source=OS_OpenData_StreetView"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22454274", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22454274, 
+        "sw_latitude": 52.451408, 
         "osm:node_ids": [
           718809712, 
           718809755, 
@@ -98,12 +101,12 @@
         ], 
         "ne_longitude": -1.760760, 
         "longitude": 52.451672, 
-        "ne_latitude": 52.452019, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.761829, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.452019, 
         "latitude": -1.761343, 
         "woe:id": 2155440790, 
-        "sw_latitude": 52.451408
+        "osm:way_id": 57931842
       }
     }
   ]

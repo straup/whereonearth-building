@@ -35,7 +35,6 @@
       }, 
       "id": 2147744137, 
       "properties": {
-        "osm:way_id": 27258935, 
         "woe:parent": "12515637", 
         "name": "TESDA", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=TESDA", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=23424934", 
+        "hierarchy": [
+          "woe:airport=12515637", 
+          "woe:country=23424934"
+        ], 
         "parent_woeid": 12515637, 
+        "sw_latitude": 14.519141, 
         "osm:node_ids": [
           299183350, 
           299183371, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 121.030016, 
         "longitude": 14.519529, 
-        "ne_latitude": 14.519922, 
-        "woe:placetype": "building", 
         "sw_longitude": 121.029235, 
+        "woe:placetype": "building", 
+        "ne_latitude": 14.519922, 
         "latitude": 121.029630, 
         "woe:id": 2147744137, 
-        "sw_latitude": 14.519141
+        "osm:way_id": 27258935
       }
     }
   ]

@@ -51,7 +51,6 @@
       }, 
       "id": 2156878666, 
       "properties": {
-        "osm:way_id": 61885926, 
         "woe:parent": "12510439", 
         "name": "Igreja Universal", 
         "tags": [
@@ -59,8 +58,12 @@
           "name=Igreja Universal", 
           "religion=christian"
         ], 
-        "hierarchy": "woe:country=23424745", 
+        "hierarchy": [
+          "woe:airport=12510439", 
+          "woe:country=23424745"
+        ], 
         "parent_woeid": 12510439, 
+        "sw_latitude": -8.834477, 
         "osm:node_ids": [
           771235057, 
           771235078, 
@@ -74,12 +77,12 @@
         ], 
         "ne_longitude": 13.235015, 
         "longitude": -8.834203, 
-        "ne_latitude": -8.833922, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.234366, 
+        "woe:placetype": "building", 
+        "ne_latitude": -8.833922, 
         "latitude": 13.234683, 
         "woe:id": 2156878666, 
-        "sw_latitude": -8.834477
+        "osm:way_id": 61885926
       }
     }
   ]

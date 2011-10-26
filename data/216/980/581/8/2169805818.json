@@ -35,14 +35,17 @@
       }, 
       "id": 2169805818, 
       "properties": {
-        "osm:way_id": 85006386, 
         "woe:parent": "12517525", 
         "name": "PA Water Venture Changi", 
         "tags": [
           "name=PA Water Venture Changi"
         ], 
-        "hierarchy": "woe:country=234249488", 
+        "hierarchy": [
+          "woe:airport=12517525", 
+          "woe:country=234249488"
+        ], 
         "parent_woeid": 12517525, 
+        "sw_latitude": 1.391015, 
         "osm:node_ids": [
           986663563, 
           986663570, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 103.989864, 
         "longitude": 1.391179, 
-        "ne_latitude": 1.391390, 
-        "woe:placetype": "building", 
         "sw_longitude": 103.988856, 
+        "woe:placetype": "building", 
+        "ne_latitude": 1.391390, 
         "latitude": 103.989321, 
         "woe:id": 2169805818, 
-        "sw_latitude": 1.391015
+        "osm:way_id": 85006386
       }
     }
   ]

@@ -39,14 +39,17 @@
       }, 
       "id": 2147819179, 
       "properties": {
-        "osm:way_id": 28514301, 
         "woe:parent": "12521722", 
         "name": "eBay Building 17", 
         "tags": [
           "name=eBay Building 17"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521722", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521722, 
+        "sw_latitude": 37.375294, 
         "osm:node_ids": [
           313220306, 
           313220302, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": -121.922910, 
         "longitude": 37.375584, 
-        "ne_latitude": 37.375867, 
-        "woe:placetype": "building", 
         "sw_longitude": -121.924112, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.375867, 
         "latitude": -121.923517, 
         "woe:id": 2147819179, 
-        "sw_latitude": 37.375294
+        "osm:way_id": 28514301
       }
     }
   ]

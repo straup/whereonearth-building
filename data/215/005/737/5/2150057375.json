@@ -35,13 +35,16 @@
       }, 
       "id": 2150057375, 
       "properties": {
-        "osm:way_id": 44110317, 
         "woe:parent": "22269415", 
         "tags": [
           "addr:housenumber=B 507"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.780039, 
         "osm:node_ids": [
           560546991, 
           560546993, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 8.088822, 
         "longitude": 48.780125, 
-        "ne_latitude": 48.780209, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.088516, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.780209, 
         "latitude": 8.088670, 
         "woe:id": 2150057375, 
-        "sw_latitude": 48.780039
+        "osm:way_id": 44110317
       }
     }
   ]

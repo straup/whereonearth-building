@@ -51,14 +51,17 @@
       }, 
       "id": 2148413898, 
       "properties": {
-        "osm:way_id": 31884119, 
         "woe:parent": "22140453", 
         "name": "Base Handling", 
         "tags": [
           "name=Base Handling"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=22140453", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 22140453, 
+        "sw_latitude": 49.011481, 
         "osm:node_ids": [
           357022679, 
           357022680, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 2.587341, 
         "longitude": 49.011898, 
-        "ne_latitude": 49.012326, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.584880, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.012326, 
         "latitude": 2.586069, 
         "woe:id": 2148413898, 
-        "sw_latitude": 49.011481
+        "osm:way_id": 31884119
       }
     }
   ]

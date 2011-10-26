@@ -91,7 +91,6 @@
       }, 
       "id": 2150184273, 
       "properties": {
-        "osm:way_id": 44646492, 
         "woe:parent": "22269415", 
         "name": "Da Vinci", 
         "tags": [
@@ -99,8 +98,12 @@
           "amenity=restaurant", 
           "name=Da Vinci"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.779920, 
         "osm:node_ids": [
           566715070, 
           566715064, 
@@ -124,12 +127,12 @@
         ], 
         "ne_longitude": 8.091253, 
         "longitude": 48.780157, 
-        "ne_latitude": 48.780390, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.090678, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.780390, 
         "latitude": 8.090964, 
         "woe:id": 2150184273, 
-        "sw_latitude": 48.779920
+        "osm:way_id": 44646492
       }
     }
   ]

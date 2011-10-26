@@ -43,7 +43,6 @@
       }, 
       "id": 2150816903, 
       "properties": {
-        "osm:way_id": 46874351, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=66", 
@@ -53,8 +52,12 @@
           "addr:country=DE", 
           "addr:street=Niederl\u00f6ricker Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.252923, 
         "osm:node_ids": [
           598497019, 
           598497033, 
@@ -66,12 +69,12 @@
         ], 
         "ne_longitude": 6.719271, 
         "longitude": 51.253022, 
-        "ne_latitude": 51.253120, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.718953, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.253120, 
         "latitude": 6.719112, 
         "woe:id": 2150816903, 
-        "sw_latitude": 51.252923
+        "osm:way_id": 46874351
       }
     }
   ]

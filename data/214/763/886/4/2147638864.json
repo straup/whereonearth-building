@@ -35,7 +35,6 @@
       }, 
       "id": 2147638864, 
       "properties": {
-        "osm:way_id": 26453184, 
         "woe:parent": "23024911", 
         "name": "Deloitte", 
         "tags": [
@@ -44,8 +43,12 @@
           "addr:street=Schwannstra\u00dfe", 
           "name=Deloitte"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.248455, 
         "osm:node_ids": [
           289901719, 
           289901721, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": 6.775174, 
         "longitude": 51.248976, 
-        "ne_latitude": 51.249487, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.773681, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.249487, 
         "latitude": 6.774432, 
         "woe:id": 2147638864, 
-        "sw_latitude": 51.248455
+        "osm:way_id": 26453184
       }
     }
   ]

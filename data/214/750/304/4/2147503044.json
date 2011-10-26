@@ -79,15 +79,18 @@
       }, 
       "id": 2147503044, 
       "properties": {
-        "osm:way_id": 22954980, 
         "woe:parent": "223886730", 
         "name": "E-pier", 
         "tags": [
           "name=E-pier", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.310195, 
         "osm:node_ids": [
           247323969, 
           247324037, 
@@ -108,12 +111,12 @@
         ], 
         "ne_longitude": 4.769363, 
         "longitude": 52.312367, 
-        "ne_latitude": 52.314216, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.764814, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.314216, 
         "latitude": 4.767252, 
         "woe:id": 2147503044, 
-        "sw_latitude": 52.310195
+        "osm:way_id": 22954980
       }
     }
   ]

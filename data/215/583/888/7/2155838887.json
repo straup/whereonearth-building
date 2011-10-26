@@ -35,15 +35,18 @@
       }, 
       "id": 2155838887, 
       "properties": {
-        "osm:way_id": 58717974, 
         "woe:parent": "22462097", 
         "name": "UPS", 
         "tags": [
           "name=UPS", 
           "source=os_opendata_streetview"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22462097", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22462097, 
+        "sw_latitude": 52.827780, 
         "osm:node_ids": [
           727627381, 
           727627385, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -1.324789, 
         "longitude": 52.827933, 
-        "ne_latitude": 52.828085, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.325175, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.828085, 
         "latitude": -1.324983, 
         "woe:id": 2155838887, 
-        "sw_latitude": 52.827780
+        "osm:way_id": 58717974
       }
     }
   ]

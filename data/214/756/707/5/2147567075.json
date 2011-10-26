@@ -91,7 +91,6 @@
       }, 
       "id": 2147567075, 
       "properties": {
-        "osm:way_id": 24551154, 
         "woe:parent": "12512766", 
         "name": "Finnairin p\u00e4\u00e4konttori", 
         "tags": [
@@ -99,8 +98,12 @@
           "name=Finnairin p\u00e4\u00e4konttori", 
           "addr:street=Tietotie"
         ], 
-        "hierarchy": "woe:country=234248812", 
+        "hierarchy": [
+          "woe:airport=12512766", 
+          "woe:country=234248812"
+        ], 
         "parent_woeid": 12512766, 
+        "sw_latitude": 60.309491, 
         "osm:node_ids": [
           266941186, 
           266941187, 
@@ -124,12 +127,12 @@
         ], 
         "ne_longitude": 24.966407, 
         "longitude": 60.310027, 
-        "ne_latitude": 60.310607, 
-        "woe:placetype": "building", 
         "sw_longitude": 24.964161, 
+        "woe:placetype": "building", 
+        "ne_latitude": 60.310607, 
         "latitude": 24.965231, 
         "woe:id": 2147567075, 
-        "sw_latitude": 60.309491
+        "osm:way_id": 24551154
       }
     }
   ]

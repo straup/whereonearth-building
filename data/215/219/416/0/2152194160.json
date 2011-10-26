@@ -51,13 +51,16 @@
       }, 
       "id": 2152194160, 
       "properties": {
-        "osm:way_id": 50083526, 
         "woe:parent": "125175788", 
         "tags": [
           "source=ITACyL layer \"Ortofoto Cyl\""
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=125175788", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 12517578, 
+        "sw_latitude": 41.714775, 
         "osm:node_ids": [
           635974411, 
           635974408, 
@@ -71,12 +74,12 @@
         ], 
         "ne_longitude": -4.851984, 
         "longitude": 41.714914, 
-        "ne_latitude": 41.715077, 
-        "woe:placetype": "building", 
         "sw_longitude": -4.852645, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.715077, 
         "latitude": -4.852313, 
         "woe:id": 2152194160, 
-        "sw_latitude": 41.714775
+        "osm:way_id": 50083526
       }
     }
   ]

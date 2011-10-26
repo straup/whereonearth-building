@@ -183,7 +183,6 @@
       }, 
       "id": 2149815641, 
       "properties": {
-        "osm:way_id": 42593386, 
         "woe:parent": "12523072", 
         "name": "Tour de contr\u00f4le de l'a\u00e9roport", 
         "tags": [
@@ -192,8 +191,12 @@
           "man_made=tower", 
           "source=Brest Metropole Oceane, 2009"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=12523072", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12523072, 
+        "sw_latitude": 48.444040, 
         "osm:node_ids": [
           778570299, 
           532141681, 
@@ -240,12 +243,12 @@
         ], 
         "ne_longitude": -4.417684, 
         "longitude": 48.444117, 
-        "ne_latitude": 48.444179, 
-        "woe:placetype": "building", 
         "sw_longitude": -4.417950, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.444179, 
         "latitude": -4.417832, 
         "woe:id": 2149815641, 
-        "sw_latitude": 48.444040
+        "osm:way_id": 42593386
       }
     }
   ]

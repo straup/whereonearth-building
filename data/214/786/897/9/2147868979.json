@@ -35,7 +35,6 @@
       }, 
       "id": 2147868979, 
       "properties": {
-        "osm:way_id": 28996473, 
         "woe:parent": "1251288881", 
         "name": "A\u00e9roport de Nantes Atlantique", 
         "tags": [
@@ -43,8 +42,12 @@
           "created_by=Potlatch 0.10f", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=1251288881", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512881, 
+        "sw_latitude": 47.156726, 
         "osm:node_ids": [
           318874193, 
           318874195, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -1.600551, 
         "longitude": 47.157455, 
-        "ne_latitude": 47.158173, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.602963, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.158173, 
         "latitude": -1.601751, 
         "woe:id": 2147868979, 
-        "sw_latitude": 47.156726
+        "osm:way_id": 28996473
       }
     }
   ]

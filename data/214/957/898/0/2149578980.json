@@ -51,14 +51,17 @@
       }, 
       "id": 2149578980, 
       "properties": {
-        "osm:way_id": 41126393, 
         "woe:parent": "12515124", 
         "name": "Stavanger Fraktterminal", 
         "tags": [
           "name=Stavanger Fraktterminal"
         ], 
-        "hierarchy": "woe:country=23424910", 
+        "hierarchy": [
+          "woe:airport=12515124", 
+          "woe:country=23424910"
+        ], 
         "parent_woeid": 12515124, 
+        "sw_latitude": 58.887611, 
         "osm:node_ids": [
           451030374, 
           653387637, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 5.632124, 
         "longitude": 58.888103, 
-        "ne_latitude": 58.888606, 
-        "woe:placetype": "building", 
         "sw_longitude": 5.631249, 
+        "woe:placetype": "building", 
+        "ne_latitude": 58.888606, 
         "latitude": 5.631695, 
         "woe:id": 2149578980, 
-        "sw_latitude": 58.887611
+        "osm:way_id": 41126393
       }
     }
   ]

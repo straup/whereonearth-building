@@ -35,15 +35,18 @@
       }, 
       "id": 2154937451, 
       "properties": {
-        "osm:way_id": 55726086, 
         "woe:parent": "125110388", 
         "name": "Macro", 
         "tags": [
           "shop=supermarket", 
           "name=Macro"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.863223, 
         "osm:node_ids": [
           700163378, 
           700163337, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -35.211612, 
         "longitude": -5.862710, 
-        "ne_latitude": -5.862196, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.212788, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.862196, 
         "latitude": -35.212200, 
         "woe:id": 2154937451, 
-        "sw_latitude": -5.863223
+        "osm:way_id": 55726086
       }
     }
   ]

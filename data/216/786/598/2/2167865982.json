@@ -35,15 +35,18 @@
       }, 
       "id": 2167865982, 
       "properties": {
-        "osm:way_id": 81283626, 
         "woe:parent": "22276234", 
         "name": "Freiwillige Feuerwehr Selchow", 
         "tags": [
           "amenity=fire_station", 
           "name=Freiwillige Feuerwehr Selchow"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.357387, 
         "osm:node_ids": [
           946947638, 
           946947178, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 13.473507, 
         "longitude": 52.357478, 
-        "ne_latitude": 52.357571, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.473304, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.357571, 
         "latitude": 13.473406, 
         "woe:id": 2167865982, 
-        "sw_latitude": 52.357387
+        "osm:way_id": 81283626
       }
     }
   ]

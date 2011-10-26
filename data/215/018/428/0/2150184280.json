@@ -51,15 +51,18 @@
       }, 
       "id": 2150184280, 
       "properties": {
-        "osm:way_id": 44646512, 
         "woe:parent": "22269415", 
         "name": "Gausch LKW Service GmbH", 
         "tags": [
           "addr:housenumber=D317", 
           "name=Gausch LKW Service GmbH"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.771783, 
         "osm:node_ids": [
           566715024, 
           566715025, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": 8.085378, 
         "longitude": 48.771959, 
-        "ne_latitude": 48.772145, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.084670, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.772145, 
         "latitude": 8.085003, 
         "woe:id": 2150184280, 
-        "sw_latitude": 48.771783
+        "osm:way_id": 44646512
       }
     }
   ]

@@ -35,7 +35,6 @@
       }, 
       "id": 2150423980, 
       "properties": {
-        "osm:way_id": 45353693, 
         "woe:parent": "125110388", 
         "name": "DCE", 
         "tags": [
@@ -43,8 +42,12 @@
           "alt_name=Diret\u00f3rio Central dos Estudantes", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.838170, 
         "osm:node_ids": [
           576565226, 
           576565229, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -35.199192, 
         "longitude": -5.838143, 
-        "ne_latitude": -5.838115, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.199441, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.838115, 
         "latitude": -35.199317, 
         "woe:id": 2150423980, 
-        "sw_latitude": -5.838170
+        "osm:way_id": 45353693
       }
     }
   ]

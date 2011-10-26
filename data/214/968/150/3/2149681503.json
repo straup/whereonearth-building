@@ -63,15 +63,18 @@
       }, 
       "id": 2149681503, 
       "properties": {
-        "osm:way_id": 42055014, 
         "woe:parent": "12517424", 
         "name": "InterContinental Johannesburg O.R Tambo Airport", 
         "tags": [
           "name=InterContinental Johannesburg O.R Tambo Airport", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=23424942", 
+        "hierarchy": [
+          "woe:airport=12517424", 
+          "woe:country=23424942"
+        ], 
         "parent_woeid": 12517424, 
+        "sw_latitude": -26.133487, 
         "osm:node_ids": [
           522230495, 
           522230499, 
@@ -88,12 +91,12 @@
         ], 
         "ne_longitude": 28.230875, 
         "longitude": -26.133251, 
-        "ne_latitude": -26.132942, 
-        "woe:placetype": "building", 
         "sw_longitude": 28.230377, 
+        "woe:placetype": "building", 
+        "ne_latitude": -26.132942, 
         "latitude": 28.230655, 
         "woe:id": 2149681503, 
-        "sw_latitude": -26.133487
+        "osm:way_id": 42055014
       }
     }
   ]

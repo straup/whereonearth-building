@@ -35,7 +35,6 @@
       }, 
       "id": 2149521110, 
       "properties": {
-        "osm:way_id": 40620341, 
         "woe:parent": "125191885", 
         "name": "Chino Aviation", 
         "tags": [
@@ -44,8 +43,12 @@
           "source=survey;image;yahoo_imagry", 
           "source_ref=AM909_DSCN88090;AM909_DSCN88091"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125191885", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519185, 
+        "sw_latitude": 33.981285, 
         "osm:node_ids": [
           493357730, 
           493357731, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -117.643492, 
         "longitude": 33.981500, 
-        "ne_latitude": 33.981714, 
-        "woe:placetype": "building", 
         "sw_longitude": -117.644154, 
+        "woe:placetype": "building", 
+        "ne_latitude": 33.981714, 
         "latitude": -117.643823, 
         "woe:id": 2149521110, 
-        "sw_latitude": 33.981285
+        "osm:way_id": 40620341
       }
     }
   ]

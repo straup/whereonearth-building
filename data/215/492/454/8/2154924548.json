@@ -107,14 +107,17 @@
       }, 
       "id": 2154924548, 
       "properties": {
-        "osm:way_id": 55685713, 
         "woe:parent": "12511945", 
         "name": "Assembl\u00e9e Nationale", 
         "tags": [
           "name=Assembl\u00e9e Nationale"
         ], 
-        "hierarchy": "woe:country=23424779", 
+        "hierarchy": [
+          "woe:airport=12511945", 
+          "woe:country=23424779"
+        ], 
         "parent_woeid": 12511945, 
+        "sw_latitude": -4.269230, 
         "osm:node_ids": [
           699704610, 
           699704573, 
@@ -142,12 +145,12 @@
         ], 
         "ne_longitude": 15.259228, 
         "longitude": -4.268488, 
-        "ne_latitude": -4.267774, 
-        "woe:placetype": "building", 
         "sw_longitude": 15.257309, 
+        "woe:placetype": "building", 
+        "ne_latitude": -4.267774, 
         "latitude": 15.258218, 
         "woe:id": 2154924548, 
-        "sw_latitude": -4.269230
+        "osm:way_id": 55685713
       }
     }
   ]

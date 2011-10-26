@@ -51,14 +51,17 @@
       }, 
       "id": 2167656629, 
       "properties": {
-        "osm:way_id": 80851363, 
         "woe:parent": "125152883", 
         "tags": [
           "addr:housenumber=5", 
           "addr:street=Josepha Conrada"
         ], 
-        "hierarchy": "woe:country=23424923", 
+        "hierarchy": [
+          "woe:airport=125152883", 
+          "woe:country=23424923"
+        ], 
         "parent_woeid": 12515283, 
+        "sw_latitude": 52.270592, 
         "osm:node_ids": [
           942626346, 
           942625448, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 20.929472, 
         "longitude": 52.270762, 
-        "ne_latitude": 52.270945, 
-        "woe:placetype": "building", 
         "sw_longitude": 20.928847, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.270945, 
         "latitude": 20.929142, 
         "woe:id": 2167656629, 
-        "sw_latitude": 52.270592
+        "osm:way_id": 80851363
       }
     }
   ]

@@ -51,7 +51,6 @@
       }, 
       "id": 2148332818, 
       "properties": {
-        "osm:way_id": 31289565, 
         "woe:parent": "12512643", 
         "name": "Embajada de EE.UU", 
         "tags": [
@@ -60,8 +59,12 @@
           "country=US", 
           "highway=primary"
         ], 
-        "hierarchy": "woe:country=234248801", 
+        "hierarchy": [
+          "woe:airport=12512643", 
+          "woe:country=234248801"
+        ], 
         "parent_woeid": 12512643, 
+        "sw_latitude": -0.139794, 
         "osm:node_ids": [
           348120086, 
           348120087, 
@@ -75,12 +78,12 @@
         ], 
         "ne_longitude": -78.466602, 
         "longitude": -0.138668, 
-        "ne_latitude": -0.137508, 
-        "woe:placetype": "building", 
         "sw_longitude": -78.468512, 
+        "woe:placetype": "building", 
+        "ne_latitude": -0.137508, 
         "latitude": -78.467529, 
         "woe:id": 2148332818, 
-        "sw_latitude": -0.139794
+        "osm:way_id": 31289565
       }
     }
   ]

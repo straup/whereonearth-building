@@ -63,14 +63,17 @@
       }, 
       "id": 2153336053, 
       "properties": {
-        "osm:way_id": 52705407, 
         "woe:parent": "223188195", 
         "name": "Alitalia - Palazzina NPU e SIM", 
         "tags": [
           "name=Alitalia - Palazzina NPU e SIM"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=223188195", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22318195, 
+        "sw_latitude": 41.787052, 
         "osm:node_ids": [
           668962165, 
           668962166, 
@@ -87,12 +90,12 @@
         ], 
         "ne_longitude": 12.260378, 
         "longitude": 41.787744, 
-        "ne_latitude": 41.788387, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.258350, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.788387, 
         "latitude": 12.259270, 
         "woe:id": 2153336053, 
-        "sw_latitude": 41.787052
+        "osm:way_id": 52705407
       }
     }
   ]

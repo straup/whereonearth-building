@@ -35,14 +35,17 @@
       }, 
       "id": 2156007669, 
       "properties": {
-        "osm:way_id": 59153737, 
         "woe:parent": "12521741", 
         "name": "Parking Services", 
         "tags": [
           "name=Parking Services"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.419616, 
         "osm:node_ids": [
           733626192, 
           733626195, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -119.852566, 
         "longitude": 34.419704, 
-        "ne_latitude": 34.419793, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.852973, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.419793, 
         "latitude": -119.852768, 
         "woe:id": 2156007669, 
-        "sw_latitude": 34.419616
+        "osm:way_id": 59153737
       }
     }
   ]

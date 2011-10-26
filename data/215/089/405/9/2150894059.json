@@ -43,15 +43,18 @@
       }, 
       "id": 2150894059, 
       "properties": {
-        "osm:way_id": 47059298, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=49", 
           "addr:postcode=12355", 
           "addr:street=Neudecker Weg"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.419067, 
         "osm:node_ids": [
           600209797, 
           600209796, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 13.512948, 
         "longitude": 52.419164, 
-        "ne_latitude": 52.419249, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.512633, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.419249, 
         "latitude": 13.512799, 
         "woe:id": 2150894059, 
-        "sw_latitude": 52.419067
+        "osm:way_id": 47059298
       }
     }
   ]

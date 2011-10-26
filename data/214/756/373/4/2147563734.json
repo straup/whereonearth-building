@@ -35,15 +35,18 @@
       }, 
       "id": 2147563734, 
       "properties": {
-        "osm:way_id": 24458100, 
         "woe:parent": "12514635", 
         "name": "Station de contr\u00f4le technique", 
         "tags": [
           "name=Station de contr\u00f4le technique", 
           "created_by=Potlatch 0.9a"
         ], 
-        "hierarchy": "woe:country=2342488881", 
+        "hierarchy": [
+          "woe:airport=12514635", 
+          "woe:country=2342488881"
+        ], 
         "parent_woeid": 12514635, 
+        "sw_latitude": 49.614085, 
         "osm:node_ids": [
           265820861, 
           265820862, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 6.209184, 
         "longitude": 49.614601, 
-        "ne_latitude": 49.615116, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.206896, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.615116, 
         "latitude": 6.208040, 
         "woe:id": 2147563734, 
-        "sw_latitude": 49.614085
+        "osm:way_id": 24458100
       }
     }
   ]

@@ -75,7 +75,6 @@
       }, 
       "id": 2147507416, 
       "properties": {
-        "osm:way_id": 23108343, 
         "woe:parent": "125138862", 
         "name": "Aeroporto di Torino - Sandro Pertini", 
         "tags": [
@@ -84,8 +83,12 @@
           "created_by=Potlatch 0.7b", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=125138862", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 12513862, 
+        "sw_latitude": 45.188768, 
         "osm:node_ids": [
           249481621, 
           249481622, 
@@ -105,12 +108,12 @@
         ], 
         "ne_longitude": 7.645314, 
         "longitude": 45.190498, 
-        "ne_latitude": 45.192972, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.643194, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.192972, 
         "latitude": 7.644202, 
         "woe:id": 2147507416, 
-        "sw_latitude": 45.188768
+        "osm:way_id": 23108343
       }
     }
   ]

@@ -43,15 +43,18 @@
       }, 
       "id": 2147488947, 
       "properties": {
-        "osm:way_id": 11777990, 
         "woe:parent": "221640886", 
         "name": "Fressnapf", 
         "tags": [
           "shop=yes", 
           "name=Fressnapf"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=221640886", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22164086, 
+        "sw_latitude": 52.568151, 
         "osm:node_ids": [
           105450764, 
           105450765, 
@@ -63,12 +66,12 @@
         ], 
         "ne_longitude": 13.327764, 
         "longitude": 52.568318, 
-        "ne_latitude": 52.568484, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.327341, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.568484, 
         "latitude": 13.327549, 
         "woe:id": 2147488947, 
-        "sw_latitude": 52.568151
+        "osm:way_id": 11777990
       }
     }
   ]

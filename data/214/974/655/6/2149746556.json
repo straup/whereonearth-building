@@ -59,14 +59,17 @@
       }, 
       "id": 2149746556, 
       "properties": {
-        "osm:way_id": 42440920, 
         "woe:parent": "22412043", 
         "name": "Cocheras", 
         "tags": [
           "name=Cocheras"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=22412043", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 22412043, 
+        "sw_latitude": 38.288683, 
         "osm:node_ids": [
           529853982, 
           529853983, 
@@ -82,12 +85,12 @@
         ], 
         "ne_longitude": -0.561251, 
         "longitude": 38.288885, 
-        "ne_latitude": 38.289031, 
-        "woe:placetype": "building", 
         "sw_longitude": -0.562018, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.289031, 
         "latitude": -0.561669, 
         "woe:id": 2149746556, 
-        "sw_latitude": 38.288683
+        "osm:way_id": 42440920
       }
     }
   ]

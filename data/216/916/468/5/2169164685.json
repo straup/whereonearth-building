@@ -35,15 +35,18 @@
       }, 
       "id": 2169164685, 
       "properties": {
-        "osm:way_id": 83924562, 
         "woe:parent": "12513199", 
         "name": "FF Oberpfaffenhofen", 
         "tags": [
           "amenity=fire_station", 
           "name=FF Oberpfaffenhofen"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.074203, 
         "osm:node_ids": [
           976795553, 
           976796271, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 11.265461, 
         "longitude": 48.074291, 
-        "ne_latitude": 48.074378, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.265210, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.074378, 
         "latitude": 11.265336, 
         "woe:id": 2169164685, 
-        "sw_latitude": 48.074203
+        "osm:way_id": 83924562
       }
     }
   ]

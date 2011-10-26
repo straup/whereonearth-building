@@ -55,7 +55,6 @@
       }, 
       "id": 2149619194, 
       "properties": {
-        "osm:way_id": 41488058, 
         "woe:parent": "23046924", 
         "name": "P5", 
         "tags": [
@@ -64,8 +63,12 @@
           "name=P5", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23046924", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23046924, 
+        "sw_latitude": 51.511144, 
         "osm:node_ids": [
           507814446, 
           711781438, 
@@ -80,12 +83,12 @@
         ], 
         "ne_longitude": 7.606170, 
         "longitude": 51.511449, 
-        "ne_latitude": 51.511752, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.605070, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.511752, 
         "latitude": 7.605621, 
         "woe:id": 2149619194, 
-        "sw_latitude": 51.511144
+        "osm:way_id": 41488058
       }
     }
   ]

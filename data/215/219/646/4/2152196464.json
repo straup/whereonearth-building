@@ -75,7 +75,6 @@
       }, 
       "id": 2152196464, 
       "properties": {
-        "osm:way_id": 50090699, 
         "woe:parent": "12521750", 
         "name": "Rhoda and Jack Pritzker Marine Biology Research Center", 
         "tags": [
@@ -83,8 +82,12 @@
           "name=Rhoda and Jack Pritzker Marine Biology Research Center", 
           "source=FDOT"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.385946, 
         "osm:node_ids": [
           636057913, 
           636057916, 
@@ -104,12 +107,12 @@
         ], 
         "ne_longitude": -82.563647, 
         "longitude": 27.386085, 
-        "ne_latitude": 27.386240, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.564096, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.386240, 
         "latitude": -82.563846, 
         "woe:id": 2152196464, 
-        "sw_latitude": 27.385946
+        "osm:way_id": 50090699
       }
     }
   ]

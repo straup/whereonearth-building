@@ -63,15 +63,18 @@
       }, 
       "id": 2149559192, 
       "properties": {
-        "osm:way_id": 40896745, 
         "woe:parent": "1251548888", 
         "name": "Cit\u00e9 du Campus - DVE", 
         "tags": [
           "name=Cit\u00e9 du Campus - DVE", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre ; mise \u00e0 jour 8c 20088"
         ], 
-        "hierarchy": "woe:country=23424931", 
+        "hierarchy": [
+          "woe:airport=1251548888", 
+          "woe:country=23424931"
+        ], 
         "parent_woeid": 12515488, 
+        "sw_latitude": -20.901394, 
         "osm:node_ids": [
           497775778, 
           497775782, 
@@ -88,12 +91,12 @@
         ], 
         "ne_longitude": 55.486250, 
         "longitude": -20.901245, 
-        "ne_latitude": -20.901015, 
-        "woe:placetype": "building", 
         "sw_longitude": 55.485874, 
+        "woe:placetype": "building", 
+        "ne_latitude": -20.901015, 
         "latitude": 55.486020, 
         "woe:id": 2149559192, 
-        "sw_latitude": -20.901394
+        "osm:way_id": 40896745
       }
     }
   ]

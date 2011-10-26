@@ -35,15 +35,18 @@
       }, 
       "id": 2151993747, 
       "properties": {
-        "osm:way_id": 49643662, 
         "woe:parent": "12521741", 
         "name": "airplane hangar", 
         "tags": [
           "name=airplane hangar", 
           "landuse=industrial"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.423413, 
         "osm:node_ids": [
           631198126, 
           631198128, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -119.835623, 
         "longitude": 34.423561, 
-        "ne_latitude": 34.423708, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.836095, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.423708, 
         "latitude": -119.835859, 
         "woe:id": 2151993747, 
-        "sw_latitude": 34.423413
+        "osm:way_id": 49643662
       }
     }
   ]

@@ -147,15 +147,18 @@
       }, 
       "id": 2150394306, 
       "properties": {
-        "osm:way_id": 45251782, 
         "woe:parent": "12522451", 
         "name": "Hilton", 
         "tags": [
           "name=Hilton", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12522451", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522451, 
+        "sw_latitude": 29.658606, 
         "osm:node_ids": [
           574602150, 
           574602154, 
@@ -193,12 +196,12 @@
         ], 
         "ne_longitude": -95.267794, 
         "longitude": 29.659096, 
-        "ne_latitude": 29.659609, 
-        "woe:placetype": "building", 
         "sw_longitude": -95.269208, 
+        "woe:placetype": "building", 
+        "ne_latitude": 29.659609, 
         "latitude": -95.268405, 
         "woe:id": 2150394306, 
-        "sw_latitude": 29.658606
+        "osm:way_id": 45251782
       }
     }
   ]

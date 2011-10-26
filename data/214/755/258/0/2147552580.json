@@ -51,14 +51,17 @@
       }, 
       "id": 2147552580, 
       "properties": {
-        "osm:way_id": 24027347, 
         "woe:parent": "22276234", 
         "name": "B\u00fcrgerhaus", 
         "tags": [
           "name=B\u00fcrgerhaus"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.402979, 
         "osm:node_ids": [
           260569535, 
           260569536, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 13.529006, 
         "longitude": 52.403252, 
-        "ne_latitude": 52.403592, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.527942, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.403592, 
         "latitude": 13.528413, 
         "woe:id": 2147552580, 
-        "sw_latitude": 52.402979
+        "osm:way_id": 24027347
       }
     }
   ]

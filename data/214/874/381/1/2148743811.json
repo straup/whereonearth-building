@@ -35,7 +35,6 @@
       }, 
       "id": 2148743811, 
       "properties": {
-        "osm:way_id": 35781484, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=34", 
@@ -44,8 +43,12 @@
           "addr:country=DE", 
           "addr:street=Bohnsdorfer Chaussee"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.396310, 
         "osm:node_ids": [
           418369493, 
           418369497, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": 13.527119, 
         "longitude": 52.396532, 
-        "ne_latitude": 52.396750, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.526595, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.396750, 
         "latitude": 13.526858, 
         "woe:id": 2148743811, 
-        "sw_latitude": 52.396310
+        "osm:way_id": 35781484
       }
     }
   ]

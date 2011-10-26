@@ -63,7 +63,6 @@
       }, 
       "id": 2149195795, 
       "properties": {
-        "osm:way_id": 37056830, 
         "woe:parent": "22276234", 
         "name": "Evangelische Kirche Wa\u00dfmannsdorf", 
         "tags": [
@@ -72,8 +71,12 @@
           "denomination=protestant", 
           "religion=christian"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.370809, 
         "osm:node_ids": [
           430966510, 
           430966511, 
@@ -90,12 +93,12 @@
         ], 
         "ne_longitude": 13.472538, 
         "longitude": 52.370861, 
-        "ne_latitude": 52.370925, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.472188, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.370925, 
         "latitude": 13.472374, 
         "woe:id": 2149195795, 
-        "sw_latitude": 52.370809
+        "osm:way_id": 37056830
       }
     }
   ]

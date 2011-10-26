@@ -35,7 +35,6 @@
       }, 
       "id": 2148634084, 
       "properties": {
-        "osm:way_id": 34262435, 
         "woe:parent": "222368827", 
         "name": "ICS/C1/C2", 
         "tags": [
@@ -43,8 +42,12 @@
           "ref=ICS;C1;C2", 
           "created_by=JOSM"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=222368827", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22236827, 
+        "sw_latitude": 48.692259, 
         "osm:node_ids": [
           257093066, 
           392954007, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 9.191481, 
         "longitude": 48.693038, 
-        "ne_latitude": 48.693802, 
-        "woe:placetype": "building", 
         "sw_longitude": 9.189115, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.693802, 
         "latitude": 9.190284, 
         "woe:id": 2148634084, 
-        "sw_latitude": 48.692259
+        "osm:way_id": 34262435
       }
     }
   ]

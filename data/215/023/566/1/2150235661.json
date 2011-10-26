@@ -35,7 +35,6 @@
       }, 
       "id": 2150235661, 
       "properties": {
-        "osm:way_id": 44765204, 
         "woe:parent": "2338888202", 
         "name": "F", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=F", 
           "highway=bus_stop"
         ], 
-        "hierarchy": "woe:country=234247488", 
+        "hierarchy": [
+          "woe:airport=2338888202", 
+          "woe:country=234247488"
+        ], 
         "parent_woeid": 23388202, 
+        "sw_latitude": -37.679155, 
         "osm:node_ids": [
           567741487, 
           567741489, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 144.863227, 
         "longitude": -37.679085, 
-        "ne_latitude": -37.679013, 
-        "woe:placetype": "building", 
         "sw_longitude": 144.863055, 
+        "woe:placetype": "building", 
+        "ne_latitude": -37.679013, 
         "latitude": 144.863140, 
         "woe:id": 2150235661, 
-        "sw_latitude": -37.679155
+        "osm:way_id": 44765204
       }
     }
   ]

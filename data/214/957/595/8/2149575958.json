@@ -75,7 +75,6 @@
       }, 
       "id": 2149575958, 
       "properties": {
-        "osm:way_id": 41100241, 
         "woe:parent": "125110388", 
         "name": "DFTE", 
         "tags": [
@@ -84,8 +83,12 @@
           "alt_name=Departamento de F\u00edsica Te\u00f3rica e Experimental", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.841866, 
         "osm:node_ids": [
           501391855, 
           501391863, 
@@ -105,12 +108,12 @@
         ], 
         "ne_longitude": -35.196400, 
         "longitude": -5.841615, 
-        "ne_latitude": -5.841362, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.197187, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.841362, 
         "latitude": -35.196772, 
         "woe:id": 2149575958, 
-        "sw_latitude": -5.841866
+        "osm:way_id": 41100241
       }
     }
   ]

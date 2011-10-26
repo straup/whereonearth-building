@@ -99,15 +99,18 @@
       }, 
       "id": 2164248722, 
       "properties": {
-        "osm:way_id": 73676940, 
         "woe:parent": "12522075", 
         "name": "Tallahassee Regional Airport", 
         "tags": [
           "amenity=airport", 
           "name=Tallahassee Regional Airport"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12522075", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522075, 
+        "sw_latitude": 30.394601, 
         "osm:node_ids": [
           872667407, 
           872730141, 
@@ -133,12 +136,12 @@
         ], 
         "ne_longitude": -84.343942, 
         "longitude": 30.395181, 
-        "ne_latitude": 30.395762, 
-        "woe:placetype": "building", 
         "sw_longitude": -84.346064, 
+        "woe:placetype": "building", 
+        "ne_latitude": 30.395762, 
         "latitude": -84.344999, 
         "woe:id": 2164248722, 
-        "sw_latitude": 30.394601
+        "osm:way_id": 73676940
       }
     }
   ]

@@ -35,7 +35,6 @@
       }, 
       "id": 2147489952, 
       "properties": {
-        "osm:way_id": 13531369, 
         "woe:parent": "221640886", 
         "tags": [
           "addr:housenumber=24", 
@@ -43,8 +42,12 @@
           "addr:postcode=13403", 
           "addr:street=Berenhorststra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=221640886", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22164086, 
+        "sw_latitude": 52.566740, 
         "osm:node_ids": [
           124386944, 
           124386948, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 13.324389, 
         "longitude": 52.566790, 
-        "ne_latitude": 52.566839, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.324212, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.566839, 
         "latitude": 13.324301, 
         "woe:id": 2147489952, 
-        "sw_latitude": 52.566740
+        "osm:way_id": 13531369
       }
     }
   ]

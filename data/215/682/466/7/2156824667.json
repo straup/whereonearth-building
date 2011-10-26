@@ -51,15 +51,18 @@
       }, 
       "id": 2156824667, 
       "properties": {
-        "osm:way_id": 61678081, 
         "woe:parent": "125118822", 
         "name": "Saint John Airport", 
         "tags": [
           "name=Saint John Airport", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=125118822", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511822, 
+        "sw_latitude": 45.328925, 
         "osm:node_ids": [
           768767977, 
           768767978, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": -65.890005, 
         "longitude": 45.329248, 
-        "ne_latitude": 45.329513, 
-        "woe:placetype": "building", 
         "sw_longitude": -65.891067, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.329513, 
         "latitude": -65.890510, 
         "woe:id": 2156824667, 
-        "sw_latitude": 45.328925
+        "osm:way_id": 61678081
       }
     }
   ]

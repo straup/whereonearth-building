@@ -35,7 +35,6 @@
       }, 
       "id": 2150378265, 
       "properties": {
-        "osm:way_id": 45199955, 
         "woe:parent": "22269415", 
         "name": "Mari\u00e4 Heimsuchung", 
         "tags": [
@@ -44,8 +43,12 @@
           "denomination=catholic", 
           "religion=christian"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.767578, 
         "osm:node_ids": [
           573689257, 
           573689263, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": 8.097309, 
         "longitude": 48.767638, 
-        "ne_latitude": 48.767696, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.097066, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.767696, 
         "latitude": 8.097188, 
         "woe:id": 2150378265, 
-        "sw_latitude": 48.767578
+        "osm:way_id": 45199955
       }
     }
   ]

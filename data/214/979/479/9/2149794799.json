@@ -35,15 +35,18 @@
       }, 
       "id": 2149794799, 
       "properties": {
-        "osm:way_id": 42559069, 
         "woe:parent": "12520696", 
         "name": "Rainbow Air", 
         "tags": [
           "name=Rainbow Air", 
           "source=Yahoo Sat"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12520696", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520696, 
+        "sw_latitude": 33.812328, 
         "osm:node_ids": [
           531513604, 
           531513607, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -118.161261, 
         "longitude": 33.812443, 
-        "ne_latitude": 33.812557, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.161693, 
+        "woe:placetype": "building", 
+        "ne_latitude": 33.812557, 
         "latitude": -118.161477, 
         "woe:id": 2149794799, 
-        "sw_latitude": 33.812328
+        "osm:way_id": 42559069
       }
     }
   ]

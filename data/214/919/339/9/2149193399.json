@@ -35,14 +35,17 @@
       }, 
       "id": 2149193399, 
       "properties": {
-        "osm:way_id": 37035168, 
         "woe:parent": "22276234", 
         "name": "Dachser Logistikzentrum Berlin Brandenburg", 
         "tags": [
           "name=Dachser Logistikzentrum Berlin Brandenburg"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.384825, 
         "osm:node_ids": [
           430704299, 
           430704300, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 13.493745, 
         "longitude": 52.385667, 
-        "ne_latitude": 52.386512, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.491496, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.386512, 
         "latitude": 13.492621, 
         "woe:id": 2149193399, 
-        "sw_latitude": 52.384825
+        "osm:way_id": 37035168
       }
     }
   ]

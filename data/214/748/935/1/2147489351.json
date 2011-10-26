@@ -67,7 +67,6 @@
       }, 
       "id": 2147489351, 
       "properties": {
-        "osm:way_id": 12306226, 
         "woe:parent": "221640886", 
         "name": "Segenskirsche", 
         "tags": [
@@ -76,8 +75,12 @@
           "denomination=protestant", 
           "religion=christian"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=221640886", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22164086, 
+        "sw_latitude": 52.570233, 
         "osm:node_ids": [
           111534327, 
           111534329, 
@@ -95,12 +98,12 @@
         ], 
         "ne_longitude": 13.323737, 
         "longitude": 52.570425, 
-        "ne_latitude": 52.570592, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.323364, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.570592, 
         "latitude": 13.323538, 
         "woe:id": 2147489351, 
-        "sw_latitude": 52.570233
+        "osm:way_id": 12306226
       }
     }
   ]

@@ -87,7 +87,6 @@
       }, 
       "id": 2147839659, 
       "properties": {
-        "osm:way_id": 28667501, 
         "woe:parent": "12523042", 
         "name": "Civilin\u0117s aviacijos administracija", 
         "tags": [
@@ -98,8 +97,12 @@
           "addr:country=LT", 
           "addr:street=Rod\u016bnios kelias"
         ], 
-        "hierarchy": "woe:country=234248875", 
+        "hierarchy": [
+          "woe:airport=12523042", 
+          "woe:country=234248875"
+        ], 
         "parent_woeid": 12523042, 
+        "sw_latitude": 54.641366, 
         "osm:node_ids": [
           315050891, 
           315050892, 
@@ -122,12 +125,12 @@
         ], 
         "ne_longitude": 25.280156, 
         "longitude": 54.641719, 
-        "ne_latitude": 54.642110, 
-        "woe:placetype": "building", 
         "sw_longitude": 25.279761, 
+        "woe:placetype": "building", 
+        "ne_latitude": 54.642110, 
         "latitude": 25.279958, 
         "woe:id": 2147839659, 
-        "sw_latitude": 54.641366
+        "osm:way_id": 28667501
       }
     }
   ]

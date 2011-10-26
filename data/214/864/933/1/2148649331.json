@@ -51,7 +51,6 @@
       }, 
       "id": 2148649331, 
       "properties": {
-        "osm:way_id": 34393204, 
         "woe:parent": "125128869", 
         "name": "Fuel", 
         "tags": [
@@ -59,8 +58,12 @@
           "name=Fuel", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre ; mise \u00e0 jour 8c 2009"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128869", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512869, 
+        "sw_latitude": 41.933301, 
         "osm:node_ids": [
           394885652, 
           394885655, 
@@ -74,12 +77,12 @@
         ], 
         "ne_longitude": 8.781732, 
         "longitude": 41.933449, 
-        "ne_latitude": 41.933597, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.781335, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.933597, 
         "latitude": 8.781534, 
         "woe:id": 2148649331, 
-        "sw_latitude": 41.933301
+        "osm:way_id": 34393204
       }
     }
   ]

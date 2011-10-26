@@ -611,15 +611,18 @@
       }, 
       "id": 2149937007, 
       "properties": {
-        "osm:way_id": 43194367, 
         "woe:parent": "12519544", 
         "name": "Concourses C & D", 
         "tags": [
           "name=Concourses C & D", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12519544", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519544, 
+        "sw_latitude": 38.945056, 
         "osm:node_ids": [
           541316803, 
           765261259, 
@@ -773,12 +776,12 @@
         ], 
         "ne_longitude": -77.440482, 
         "longitude": 38.945401, 
-        "ne_latitude": 38.945694, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.454332, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.945694, 
         "latitude": -77.447145, 
         "woe:id": 2149937007, 
-        "sw_latitude": 38.945056
+        "osm:way_id": 43194367
       }
     }
   ]

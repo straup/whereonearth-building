@@ -51,7 +51,6 @@
       }, 
       "id": 2166075141, 
       "properties": {
-        "osm:way_id": 77404622, 
         "woe:parent": "12523376", 
         "name": "Fairborn Post Office", 
         "tags": [
@@ -64,8 +63,12 @@
           "addr:country=US", 
           "addr:street=West Hebble Avenue"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523376", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523376, 
+        "sw_latitude": 39.827695, 
         "osm:node_ids": [
           911108520, 
           911108524, 
@@ -79,12 +82,12 @@
         ], 
         "ne_longitude": -84.022185, 
         "longitude": 39.827967, 
-        "ne_latitude": 39.828209, 
-        "woe:placetype": "building", 
         "sw_longitude": -84.022990, 
+        "woe:placetype": "building", 
+        "ne_latitude": 39.828209, 
         "latitude": -84.022534, 
         "woe:id": 2166075141, 
-        "sw_latitude": 39.827695
+        "osm:way_id": 77404622
       }
     }
   ]

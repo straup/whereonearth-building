@@ -59,15 +59,18 @@
       }, 
       "id": 2152108842, 
       "properties": {
-        "osm:way_id": 49905370, 
         "woe:parent": "12511112", 
         "name": "Insinuante", 
         "tags": [
           "shop=electronics", 
           "name=Insinuante"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=12511112", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511112, 
+        "sw_latitude": -12.889976, 
         "osm:node_ids": [
           634223847, 
           634223851, 
@@ -83,12 +86,12 @@
         ], 
         "ne_longitude": -38.316227, 
         "longitude": -12.888509, 
-        "ne_latitude": -12.886507, 
-        "woe:placetype": "building", 
         "sw_longitude": -38.318828, 
+        "woe:placetype": "building", 
+        "ne_latitude": -12.886507, 
         "latitude": -38.317692, 
         "woe:id": 2152108842, 
-        "sw_latitude": -12.889976
+        "osm:way_id": 49905370
       }
     }
   ]

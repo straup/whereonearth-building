@@ -35,14 +35,17 @@
       }, 
       "id": 2169800919, 
       "properties": {
-        "osm:way_id": 84999349, 
         "woe:parent": "12517525", 
         "name": "Cargo Agents Blk A", 
         "tags": [
           "name=Cargo Agents Blk A"
         ], 
-        "hierarchy": "woe:country=234249488", 
+        "hierarchy": [
+          "woe:airport=12517525", 
+          "woe:country=234249488"
+        ], 
         "parent_woeid": 12517525, 
+        "sw_latitude": 1.370597, 
         "osm:node_ids": [
           986551774, 
           986551775, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 103.995128, 
         "longitude": 1.371412, 
-        "ne_latitude": 1.372206, 
-        "woe:placetype": "building", 
         "sw_longitude": 103.993733, 
+        "woe:placetype": "building", 
+        "ne_latitude": 1.372206, 
         "latitude": 103.994429, 
         "woe:id": 2169800919, 
-        "sw_latitude": 1.370597
+        "osm:way_id": 84999349
       }
     }
   ]

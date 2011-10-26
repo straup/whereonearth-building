@@ -35,7 +35,6 @@
       }, 
       "id": 2147547840, 
       "properties": {
-        "osm:way_id": 23858928, 
         "woe:parent": "1251488088", 
         "name": "Il-Kappella ta' San Mattew", 
         "tags": [
@@ -45,8 +44,12 @@
           "denomination=catholic", 
           "religion=christian"
         ], 
-        "hierarchy": "woe:country=234248897", 
+        "hierarchy": [
+          "woe:airport=1251488088", 
+          "woe:country=234248897"
+        ], 
         "parent_woeid": 12514808, 
+        "sw_latitude": 35.830961, 
         "osm:node_ids": [
           258581795, 
           258581797, 
@@ -56,12 +59,12 @@
         ], 
         "ne_longitude": 14.456769, 
         "longitude": 35.831068, 
-        "ne_latitude": 35.831173, 
-        "woe:placetype": "building", 
         "sw_longitude": 14.456553, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.831173, 
         "latitude": 14.456662, 
         "woe:id": 2147547840, 
-        "sw_latitude": 35.830961
+        "osm:way_id": 23858928
       }
     }
   ]

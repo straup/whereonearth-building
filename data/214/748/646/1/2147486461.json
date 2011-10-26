@@ -51,14 +51,17 @@
       }, 
       "id": 2147486461, 
       "properties": {
-        "osm:way_id": 8093742, 
         "woe:parent": "125125588", 
         "tags": [
           "ref=Hangar D", 
           "aeroway=hangar"
         ], 
-        "hierarchy": "woe:country=234248810", 
+        "hierarchy": [
+          "woe:airport=125125588", 
+          "woe:country=234248810"
+        ], 
         "parent_woeid": 12512558, 
+        "sw_latitude": 50.094032, 
         "osm:node_ids": [
           60639213, 
           60639212, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 14.284617, 
         "longitude": 50.094344, 
-        "ne_latitude": 50.094653, 
-        "woe:placetype": "building", 
         "sw_longitude": 14.282828, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.094653, 
         "latitude": 14.283724, 
         "woe:id": 2147486461, 
-        "sw_latitude": 50.094032
+        "osm:way_id": 8093742
       }
     }
   ]

@@ -75,7 +75,6 @@
       }, 
       "id": 2151592773, 
       "properties": {
-        "osm:way_id": 48642734, 
         "woe:parent": "223886730", 
         "name": "Gebouw 70", 
         "tags": [
@@ -83,8 +82,12 @@
           "source=3dShapes", 
           "3dshapes:ggmodelk=7"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.312123, 
         "osm:node_ids": [
           617693882, 
           617693891, 
@@ -104,12 +107,12 @@
         ], 
         "ne_longitude": 4.811003, 
         "longitude": 52.313090, 
-        "ne_latitude": 52.314072, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.807613, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.314072, 
         "latitude": 4.809253, 
         "woe:id": 2151592773, 
-        "sw_latitude": 52.312123
+        "osm:way_id": 48642734
       }
     }
   ]

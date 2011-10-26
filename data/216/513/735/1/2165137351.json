@@ -35,13 +35,16 @@
       }, 
       "id": 2165137351, 
       "properties": {
-        "osm:way_id": 75242762, 
         "woe:parent": "12513199", 
         "tags": [
           "addr:housenumber=Geb. 330"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.090205, 
         "osm:node_ids": [
           888523948, 
           888523860, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": 11.286383, 
         "longitude": 48.090301, 
-        "ne_latitude": 48.090397, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.285755, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.090397, 
         "latitude": 11.286070, 
         "woe:id": 2165137351, 
-        "sw_latitude": 48.090205
+        "osm:way_id": 75242762
       }
     }
   ]

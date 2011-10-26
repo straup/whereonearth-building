@@ -55,15 +55,18 @@
       }, 
       "id": 2152122601, 
       "properties": {
-        "osm:way_id": 49948723, 
         "woe:parent": "12511594", 
         "name": "Delta Calgary Airport", 
         "tags": [
           "name=Delta Calgary Airport", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=12511594", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511594, 
+        "sw_latitude": 51.130811, 
         "osm:node_ids": [
           634692149, 
           634692152, 
@@ -78,12 +81,12 @@
         ], 
         "ne_longitude": -114.007735, 
         "longitude": 51.131044, 
-        "ne_latitude": 51.131322, 
-        "woe:placetype": "building", 
         "sw_longitude": -114.008958, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.131322, 
         "latitude": -114.008321, 
         "woe:id": 2152122601, 
-        "sw_latitude": 51.130811
+        "osm:way_id": 49948723
       }
     }
   ]

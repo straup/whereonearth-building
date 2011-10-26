@@ -59,7 +59,6 @@
       }, 
       "id": 2149477765, 
       "properties": {
-        "osm:way_id": 40144890, 
         "woe:parent": "12521750", 
         "name": "Counceling and Wellness Center", 
         "tags": [
@@ -69,8 +68,12 @@
           "source=FDOT", 
           "alt_name=Palmer Building W"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.384893, 
         "osm:node_ids": [
           483282884, 
           483282886, 
@@ -86,12 +89,12 @@
         ], 
         "ne_longitude": -82.559286, 
         "longitude": 27.384973, 
-        "ne_latitude": 27.385134, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.559537, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.385134, 
         "latitude": -82.559435, 
         "woe:id": 2149477765, 
-        "sw_latitude": 27.384893
+        "osm:way_id": 40144890
       }
     }
   ]

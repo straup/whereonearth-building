@@ -71,14 +71,17 @@
       }, 
       "id": 2154937886, 
       "properties": {
-        "osm:way_id": 55729352, 
         "woe:parent": "125110388", 
         "name": "Circo Tropa a Trupe", 
         "tags": [
           "name=Circo Tropa a Trupe"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.836177, 
         "osm:node_ids": [
           700177324, 
           700177320, 
@@ -97,12 +100,12 @@
         ], 
         "ne_longitude": -35.199522, 
         "longitude": -5.836001, 
-        "ne_latitude": -5.835827, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.199876, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.835827, 
         "latitude": -35.199700, 
         "woe:id": 2154937886, 
-        "sw_latitude": -5.836177
+        "osm:way_id": 55729352
       }
     }
   ]

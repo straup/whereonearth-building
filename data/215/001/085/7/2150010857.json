@@ -63,15 +63,18 @@
       }, 
       "id": 2150010857, 
       "properties": {
-        "osm:way_id": 43883250, 
         "woe:parent": "12511647", 
         "name": "Amiskwaciy Academy", 
         "tags": [
           "amenity=school", 
           "name=Amiskwaciy Academy"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=12511647", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511647, 
+        "sw_latitude": 53.570339, 
         "osm:node_ids": [
           557625318, 
           557625320, 
@@ -88,12 +91,12 @@
         ], 
         "ne_longitude": -113.522057, 
         "longitude": 53.570966, 
-        "ne_latitude": 53.571659, 
-        "woe:placetype": "building", 
         "sw_longitude": -113.523791, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.571659, 
         "latitude": -113.522937, 
         "woe:id": 2150010857, 
-        "sw_latitude": 53.570339
+        "osm:way_id": 43883250
       }
     }
   ]

@@ -35,7 +35,6 @@
       }, 
       "id": 2152630381, 
       "properties": {
-        "osm:way_id": 51176355, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:housenumber=21", 
@@ -44,8 +43,12 @@
           "addr:country=DE", 
           "addr:street=Lettberger Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.417308, 
         "osm:node_ids": [
           652819805, 
           652819804, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": 13.512950, 
         "longitude": 52.417423, 
-        "ne_latitude": 52.417538, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.512577, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.417538, 
         "latitude": 13.512764, 
         "woe:id": 2152630381, 
-        "sw_latitude": 52.417308
+        "osm:way_id": 51176355
       }
     }
   ]

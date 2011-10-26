@@ -67,7 +67,6 @@
       }, 
       "id": 2149223860, 
       "properties": {
-        "osm:way_id": 37361973, 
         "woe:parent": "12513205", 
         "name": "Mittelschule Ottendf.-Okr.", 
         "tags": [
@@ -75,8 +74,12 @@
           "addr:city=Ottendorf-Okrilla", 
           "name=Mittelschule Ottendf.-Okr."
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.183867, 
         "osm:node_ids": [
           436124558, 
           436124559, 
@@ -94,12 +97,12 @@
         ], 
         "ne_longitude": 13.826001, 
         "longitude": 51.184111, 
-        "ne_latitude": 51.184356, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.825057, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.184356, 
         "latitude": 13.825553, 
         "woe:id": 2149223860, 
-        "sw_latitude": 51.183867
+        "osm:way_id": 37361973
       }
     }
   ]

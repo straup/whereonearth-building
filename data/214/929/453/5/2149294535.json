@@ -35,14 +35,17 @@
       }, 
       "id": 2149294535, 
       "properties": {
-        "osm:way_id": 38137260, 
         "woe:parent": "12521741", 
         "name": "Military Science", 
         "tags": [
           "name=Military Science"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.416766, 
         "osm:node_ids": [
           448854639, 
           448854640, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -119.843351, 
         "longitude": 34.416830, 
-        "ne_latitude": 34.416892, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.843885, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.416892, 
         "latitude": -119.843618, 
         "woe:id": 2149294535, 
-        "sw_latitude": 34.416766
+        "osm:way_id": 38137260
       }
     }
   ]

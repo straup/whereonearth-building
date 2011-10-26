@@ -59,7 +59,6 @@
       }, 
       "id": 2150397965, 
       "properties": {
-        "osm:way_id": 45260780, 
         "woe:parent": "23024911", 
         "name": "Autohaus Sahm", 
         "tags": [
@@ -69,8 +68,12 @@
           "website=http8c8s8swww.autohaus-sahm.de", 
           "addr:street=Boschstra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.298539, 
         "osm:node_ids": [
           574799714, 
           574799715, 
@@ -86,12 +89,12 @@
         ], 
         "ne_longitude": 6.818578, 
         "longitude": 51.298785, 
-        "ne_latitude": 51.299008, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.817228, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.299008, 
         "latitude": 6.817979, 
         "woe:id": 2150397965, 
-        "sw_latitude": 51.298539
+        "osm:way_id": 45260780
       }
     }
   ]

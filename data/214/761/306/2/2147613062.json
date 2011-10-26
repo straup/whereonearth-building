@@ -59,7 +59,6 @@
       }, 
       "id": 2147613062, 
       "properties": {
-        "osm:way_id": 25573159, 
         "woe:parent": "12515363", 
         "name": "Terminal 1", 
         "tags": [
@@ -72,8 +71,12 @@
           "aeroway=terminal", 
           "addr:street=\u017bwirki i Wigury"
         ], 
-        "hierarchy": "woe:country=23424923", 
+        "hierarchy": [
+          "woe:airport=12515363", 
+          "woe:country=23424923"
+        ], 
         "parent_woeid": 12515363, 
+        "sw_latitude": 52.169833, 
         "osm:node_ids": [
           270323116, 
           270323117, 
@@ -89,12 +92,12 @@
         ], 
         "ne_longitude": 20.973344, 
         "longitude": 52.170824, 
-        "ne_latitude": 52.171685, 
-        "woe:placetype": "building", 
         "sw_longitude": 20.971361, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.171685, 
         "latitude": 20.972482, 
         "woe:id": 2147613062, 
-        "sw_latitude": 52.169833
+        "osm:way_id": 25573159
       }
     }
   ]

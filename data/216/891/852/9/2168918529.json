@@ -103,7 +103,6 @@
       }, 
       "id": 2168918529, 
       "properties": {
-        "osm:way_id": 83376863, 
         "woe:parent": "12521750", 
         "name": "Cook Hall", 
         "tags": [
@@ -112,8 +111,12 @@
           "name=Cook Hall", 
           "source=USGS Ortho"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.384005, 
         "osm:node_ids": [
           970472044, 
           970471905, 
@@ -140,12 +143,12 @@
         ], 
         "ne_longitude": -82.564269, 
         "longitude": 27.384131, 
-        "ne_latitude": 27.384263, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.564471, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.384263, 
         "latitude": -82.564367, 
         "woe:id": 2168918529, 
-        "sw_latitude": 27.384005
+        "osm:way_id": 83376863
       }
     }
   ]

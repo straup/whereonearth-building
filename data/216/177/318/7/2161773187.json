@@ -83,7 +83,6 @@
       }, 
       "id": 2161773187, 
       "properties": {
-        "osm:way_id": 69533448, 
         "woe:parent": "12513277", 
         "name": "\u00c9glise Saint-Michel", 
         "tags": [
@@ -94,8 +93,12 @@
           "denomination=catholic", 
           "religion=christian"
         ], 
-        "hierarchy": "woe:country=234248831", 
+        "hierarchy": [
+          "woe:airport=12513277", 
+          "woe:country=234248831"
+        ], 
         "parent_woeid": 12513277, 
+        "sw_latitude": 16.260108, 
         "osm:node_ids": [
           832205768, 
           832120669, 
@@ -117,12 +120,12 @@
         ], 
         "ne_longitude": -61.526256, 
         "longitude": 16.260245, 
-        "ne_latitude": 16.260373, 
-        "woe:placetype": "building", 
         "sw_longitude": -61.526681, 
+        "woe:placetype": "building", 
+        "ne_latitude": 16.260373, 
         "latitude": -61.526469, 
         "woe:id": 2161773187, 
-        "sw_latitude": 16.260108
+        "osm:way_id": 69533448
       }
     }
   ]

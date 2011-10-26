@@ -35,14 +35,17 @@
       }, 
       "id": 2149753458, 
       "properties": {
-        "osm:way_id": 42480918, 
         "woe:parent": "12521741", 
         "name": "The New Tahitian", 
         "tags": [
           "name=The New Tahitian"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.416389, 
         "osm:node_ids": [
           530487315, 
           530487316, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -119.864035, 
         "longitude": 34.416796, 
-        "ne_latitude": 34.417202, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.864421, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.417202, 
         "latitude": -119.864229, 
         "woe:id": 2149753458, 
-        "sw_latitude": 34.416389
+        "osm:way_id": 42480918
       }
     }
   ]

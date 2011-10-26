@@ -35,15 +35,18 @@
       }, 
       "id": 2156140348, 
       "properties": {
-        "osm:way_id": 59531740, 
         "woe:parent": "12515279", 
         "tags": [
           "addr:housenumber=5", 
           "addr:postcode=66-111", 
           "addr:street=Grunwaldzka"
         ], 
-        "hierarchy": "woe:country=23424923", 
+        "hierarchy": [
+          "woe:airport=12515279", 
+          "woe:country=23424923"
+        ], 
         "parent_woeid": 12515279, 
+        "sw_latitude": 52.142514, 
         "osm:node_ids": [
           738259241, 
           738259376, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 15.776414, 
         "longitude": 52.142588, 
-        "ne_latitude": 52.142661, 
-        "woe:placetype": "building", 
         "sw_longitude": 15.776172, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.142661, 
         "latitude": 15.776294, 
         "woe:id": 2156140348, 
-        "sw_latitude": 52.142514
+        "osm:way_id": 59531740
       }
     }
   ]

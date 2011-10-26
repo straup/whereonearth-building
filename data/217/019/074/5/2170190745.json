@@ -43,7 +43,6 @@
       }, 
       "id": 2170190745, 
       "properties": {
-        "osm:way_id": 85702061, 
         "woe:parent": "12511112", 
         "name": "Hospital Geral Menandro de Faria", 
         "tags": [
@@ -52,8 +51,12 @@
           "source=survey", 
           "operator=bahia"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=12511112", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511112, 
+        "sw_latitude": -12.881542, 
         "osm:node_ids": [
           994633065, 
           994633066, 
@@ -65,12 +68,12 @@
         ], 
         "ne_longitude": -38.314299, 
         "longitude": -12.881319, 
-        "ne_latitude": -12.881095, 
-        "woe:placetype": "building", 
         "sw_longitude": -38.314785, 
+        "woe:placetype": "building", 
+        "ne_latitude": -12.881095, 
         "latitude": -38.314542, 
         "woe:id": 2170190745, 
-        "sw_latitude": -12.881542
+        "osm:way_id": 85702061
       }
     }
   ]

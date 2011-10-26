@@ -35,7 +35,6 @@
       }, 
       "id": 2156437550, 
       "properties": {
-        "osm:way_id": 60447052, 
         "woe:parent": "125127588", 
         "name": "Imperial Hotel", 
         "tags": [
@@ -44,8 +43,12 @@
           "name:am=\u12a2\u121d\u1354\u122a\u12eb\u120d \u1206\u1274\u120d", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=2342488088", 
+        "hierarchy": [
+          "woe:airport=125127588", 
+          "woe:country=2342488088"
+        ], 
         "parent_woeid": 12512758, 
+        "sw_latitude": 9.002487, 
         "osm:node_ids": [
           753127902, 
           753127515, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": 38.800786, 
         "longitude": 9.002698, 
-        "ne_latitude": 9.002909, 
-        "woe:placetype": "building", 
         "sw_longitude": 38.800439, 
+        "woe:placetype": "building", 
+        "ne_latitude": 9.002909, 
         "latitude": 38.800613, 
         "woe:id": 2156437550, 
-        "sw_latitude": 9.002487
+        "osm:way_id": 60447052
       }
     }
   ]

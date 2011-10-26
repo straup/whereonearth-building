@@ -51,7 +51,6 @@
       }, 
       "id": 2153374264, 
       "properties": {
-        "osm:way_id": 52773163, 
         "woe:parent": "245548855", 
         "name": "Tripple A", 
         "tags": [
@@ -59,8 +58,12 @@
           "name=Tripple A", 
           "source=Guestimation, please fixme"
         ], 
-        "hierarchy": "woe:country=23424973", 
+        "hierarchy": [
+          "woe:airport=245548855", 
+          "woe:country=23424973"
+        ], 
         "parent_woeid": 24554855, 
+        "sw_latitude": -3.362675, 
         "osm:node_ids": [
           669565378, 
           669565372, 
@@ -74,12 +77,12 @@
         ], 
         "ne_longitude": 36.676261, 
         "longitude": -3.362505, 
-        "ne_latitude": -3.362333, 
-        "woe:placetype": "building", 
         "sw_longitude": 36.675926, 
+        "woe:placetype": "building", 
+        "ne_latitude": -3.362333, 
         "latitude": 36.676094, 
         "woe:id": 2153374264, 
-        "sw_latitude": -3.362675
+        "osm:way_id": 52773163
       }
     }
   ]

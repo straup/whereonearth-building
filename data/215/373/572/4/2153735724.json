@@ -51,15 +51,18 @@
       }, 
       "id": 2153735724, 
       "properties": {
-        "osm:way_id": 53504245, 
         "woe:parent": "125128892", 
         "tags": [
           "addr:housenumber=88", 
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour 8c 2010", 
           "addr:street=Impasse des Acacias"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128892", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512892, 
+        "sw_latitude": 48.529945, 
         "osm:node_ids": [
           676060910, 
           676060911, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": 7.633662, 
         "longitude": 48.529986, 
-        "ne_latitude": 48.530023, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.633531, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.530023, 
         "latitude": 7.633596, 
         "woe:id": 2153735724, 
-        "sw_latitude": 48.529945
+        "osm:way_id": 53504245
       }
     }
   ]

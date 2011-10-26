@@ -91,15 +91,18 @@
       }, 
       "id": 2172317038, 
       "properties": {
-        "osm:way_id": 90503465, 
         "woe:parent": "12520966", 
         "name": "Twin Cities", 
         "tags": [
           "amenity=post_office", 
           "name=Twin Cities"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12520966", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520966, 
+        "sw_latitude": 44.879379, 
         "osm:node_ids": [
           1049976917, 
           1049976975, 
@@ -123,12 +126,12 @@
         ], 
         "ne_longitude": -93.201877, 
         "longitude": 44.879934, 
-        "ne_latitude": 44.880526, 
-        "woe:placetype": "building", 
         "sw_longitude": -93.203743, 
+        "woe:placetype": "building", 
+        "ne_latitude": 44.880526, 
         "latitude": -93.202798, 
         "woe:id": 2172317038, 
-        "sw_latitude": 44.879379
+        "osm:way_id": 90503465
       }
     }
   ]

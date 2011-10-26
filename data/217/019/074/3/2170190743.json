@@ -75,7 +75,6 @@
       }, 
       "id": 2170190743, 
       "properties": {
-        "osm:way_id": 85702058, 
         "woe:parent": "12511112", 
         "name": "Dismel", 
         "tags": [
@@ -83,8 +82,12 @@
           "name=Dismel", 
           "source=survey"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=12511112", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511112, 
+        "sw_latitude": -12.881496, 
         "osm:node_ids": [
           994633028, 
           994633030, 
@@ -104,12 +107,12 @@
         ], 
         "ne_longitude": -38.312645, 
         "longitude": -12.881263, 
-        "ne_latitude": -12.880987, 
-        "woe:placetype": "building", 
         "sw_longitude": -38.313318, 
+        "woe:placetype": "building", 
+        "ne_latitude": -12.880987, 
         "latitude": -38.313003, 
         "woe:id": 2170190743, 
-        "sw_latitude": -12.881496
+        "osm:way_id": 85702058
       }
     }
   ]

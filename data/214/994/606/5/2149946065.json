@@ -35,14 +35,17 @@
       }, 
       "id": 2149946065, 
       "properties": {
-        "osm:way_id": 43287103, 
         "woe:parent": "125108854", 
         "name": "Ostend Air College", 
         "tags": [
           "name=Ostend Air College"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=125108854", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 12510854, 
+        "sw_latitude": 51.200432, 
         "osm:node_ids": [
           543837249, 
           543837255, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 2.856664, 
         "longitude": 51.200622, 
-        "ne_latitude": 51.200809, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.856106, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.200809, 
         "latitude": 2.856385, 
         "woe:id": 2149946065, 
-        "sw_latitude": 51.200432
+        "osm:way_id": 43287103
       }
     }
   ]

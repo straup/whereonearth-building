@@ -51,14 +51,17 @@
       }, 
       "id": 2151593311, 
       "properties": {
-        "osm:way_id": 48643490, 
         "woe:parent": "223886730", 
         "tags": [
           "source=3dShapes", 
           "3dshapes:ggmodelk=5"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.353139, 
         "osm:node_ids": [
           617700971, 
           617700969, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": 4.751829, 
         "longitude": 52.353394, 
-        "ne_latitude": 52.353651, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.750896, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.353651, 
         "latitude": 4.751373, 
         "woe:id": 2151593311, 
-        "sw_latitude": 52.353139
+        "osm:way_id": 48643490
       }
     }
   ]

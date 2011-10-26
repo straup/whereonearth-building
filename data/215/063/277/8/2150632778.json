@@ -59,7 +59,6 @@
       }, 
       "id": 2150632778, 
       "properties": {
-        "osm:way_id": 46431853, 
         "woe:parent": "12522077", 
         "name": "Landside Terminal", 
         "tags": [
@@ -70,8 +69,12 @@
           "parking=multi-storey", 
           "railway=station"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12522077", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522077, 
+        "sw_latitude": 27.979150, 
         "osm:node_ids": [
           593816730, 
           593816794, 
@@ -87,12 +90,12 @@
         ], 
         "ne_longitude": -82.533831, 
         "longitude": 27.979971, 
-        "ne_latitude": 27.980792, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.535314, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.980792, 
         "latitude": -82.534573, 
         "woe:id": 2150632778, 
-        "sw_latitude": 27.979150
+        "osm:way_id": 46431853
       }
     }
   ]

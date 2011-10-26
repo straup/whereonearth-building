@@ -35,14 +35,17 @@
       }, 
       "id": 2156159951, 
       "properties": {
-        "osm:way_id": 59581319, 
         "woe:parent": "23046924", 
         "tags": [
           "note=garages?", 
           "source=HiRes aerial imagery"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23046924", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23046924, 
+        "sw_latitude": 51.524496, 
         "osm:node_ids": [
           739051863, 
           739051774, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 7.602559, 
         "longitude": 51.524535, 
-        "ne_latitude": 51.524572, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.602439, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.524572, 
         "latitude": 7.602499, 
         "woe:id": 2156159951, 
-        "sw_latitude": 51.524496
+        "osm:way_id": 59581319
       }
     }
   ]

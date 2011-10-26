@@ -55,15 +55,18 @@
       }, 
       "id": 2149681504, 
       "properties": {
-        "osm:way_id": 42055018, 
         "woe:parent": "12517424", 
         "name": "Southern Sun O.R. Tambo International Airport Kempton Park", 
         "tags": [
           "name=Southern Sun O.R. Tambo International Airport Kempton Park", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=23424942", 
+        "hierarchy": [
+          "woe:airport=12517424", 
+          "woe:country=23424942"
+        ], 
         "parent_woeid": 12517424, 
+        "sw_latitude": -26.135210, 
         "osm:node_ids": [
           522230468, 
           522230462, 
@@ -78,12 +81,12 @@
         ], 
         "ne_longitude": 28.227503, 
         "longitude": -26.134790, 
-        "ne_latitude": -26.134374, 
-        "woe:placetype": "building", 
         "sw_longitude": 28.226912, 
+        "woe:placetype": "building", 
+        "ne_latitude": -26.134374, 
         "latitude": 28.227252, 
         "woe:id": 2149681504, 
-        "sw_latitude": -26.135210
+        "osm:way_id": 42055018
       }
     }
   ]

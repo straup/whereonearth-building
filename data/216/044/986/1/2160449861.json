@@ -79,13 +79,16 @@
       }, 
       "id": 2160449861, 
       "properties": {
-        "osm:way_id": 67256680, 
         "woe:parent": "12521750", 
         "tags": [
           "tourism=museum"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.383434, 
         "osm:node_ids": [
           812199755, 
           812199763, 
@@ -106,12 +109,12 @@
         ], 
         "ne_longitude": -82.560037, 
         "longitude": 27.383701, 
-        "ne_latitude": 27.383873, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.560579, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.383873, 
         "latitude": -82.560275, 
         "woe:id": 2160449861, 
-        "sw_latitude": 27.383434
+        "osm:way_id": 67256680
       }
     }
   ]

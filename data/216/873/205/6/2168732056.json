@@ -51,7 +51,6 @@
       }, 
       "id": 2168732056, 
       "properties": {
-        "osm:way_id": 83020810, 
         "woe:parent": "23365569", 
         "tags": [
           "addr:housenumber=70", 
@@ -60,8 +59,12 @@
           "addr:country=CH", 
           "addr:street=Route de Colovrex"
         ], 
-        "hierarchy": "woe:country=23424957", 
+        "hierarchy": [
+          "woe:airport=23365569", 
+          "woe:country=23424957"
+        ], 
         "parent_woeid": 23365569, 
+        "sw_latitude": 46.243986, 
         "osm:node_ids": [
           965962747, 
           965962748, 
@@ -75,12 +78,12 @@
         ], 
         "ne_longitude": 6.129312, 
         "longitude": 46.244137, 
-        "ne_latitude": 46.244311, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.129090, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.244311, 
         "latitude": 6.129203, 
         "woe:id": 2168732056, 
-        "sw_latitude": 46.243986
+        "osm:way_id": 83020810
       }
     }
   ]

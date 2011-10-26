@@ -43,13 +43,16 @@
       }, 
       "id": 2147895954, 
       "properties": {
-        "osm:way_id": 29385860, 
         "woe:parent": "22454274", 
         "tags": [
           "source=NEC noticeboard & estimate"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22454274", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22454274, 
+        "sw_latitude": 52.453227, 
         "osm:node_ids": [
           323215141, 
           323215143, 
@@ -61,12 +64,12 @@
         ], 
         "ne_longitude": -1.723699, 
         "longitude": 52.453474, 
-        "ne_latitude": 52.453690, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.724540, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.453690, 
         "latitude": -1.724108, 
         "woe:id": 2147895954, 
-        "sw_latitude": 52.453227
+        "osm:way_id": 29385860
       }
     }
   ]

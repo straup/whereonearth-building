@@ -135,7 +135,6 @@
       }, 
       "id": 2160456523, 
       "properties": {
-        "osm:way_id": 67266990, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=4455", 
@@ -147,8 +146,12 @@
           "dcgis:lot=0013", 
           "addr:street=Tinker Street SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.840988, 
         "osm:node_ids": [
           812398063, 
           812398056, 
@@ -183,12 +186,12 @@
         ], 
         "ne_longitude": -77.020600, 
         "longitude": 38.841188, 
-        "ne_latitude": 38.841498, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.021610, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.841498, 
         "latitude": -77.021053, 
         "woe:id": 2160456523, 
-        "sw_latitude": 38.840988
+        "osm:way_id": 67266990
       }
     }
   ]

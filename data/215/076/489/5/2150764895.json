@@ -35,15 +35,18 @@
       }, 
       "id": 2150764895, 
       "properties": {
-        "osm:way_id": 46777742, 
         "woe:parent": "1251488088", 
         "name": "Marsa Sports Club", 
         "tags": [
           "name=Marsa Sports Club", 
           "leisure=sports_centre"
         ], 
-        "hierarchy": "woe:country=234248897", 
+        "hierarchy": [
+          "woe:airport=1251488088", 
+          "woe:country=234248897"
+        ], 
         "parent_woeid": 12514808, 
+        "sw_latitude": 35.875597, 
         "osm:node_ids": [
           597755035, 
           597755036, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 14.487308, 
         "longitude": 35.875771, 
-        "ne_latitude": 35.875945, 
-        "woe:placetype": "building", 
         "sw_longitude": 14.486814, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.875945, 
         "latitude": 14.487064, 
         "woe:id": 2150764895, 
-        "sw_latitude": 35.875597
+        "osm:way_id": 46777742
       }
     }
   ]

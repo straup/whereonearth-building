@@ -35,7 +35,6 @@
       }, 
       "id": 2160455837, 
       "properties": {
-        "osm:way_id": 67266250, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=4505", 
@@ -47,8 +46,12 @@
           "dcgis:lot=0020", 
           "addr:street=Chappie James Boulevard SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.840626, 
         "osm:node_ids": [
           812390537, 
           812390561, 
@@ -58,12 +61,12 @@
         ], 
         "ne_longitude": -77.018151, 
         "longitude": 38.840668, 
-        "ne_latitude": 38.840709, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.018288, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.840709, 
         "latitude": -77.018220, 
         "woe:id": 2160455837, 
-        "sw_latitude": 38.840626
+        "osm:way_id": 67266250
       }
     }
   ]

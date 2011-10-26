@@ -35,13 +35,16 @@
       }, 
       "id": 2161250985, 
       "properties": {
-        "osm:way_id": 68608804, 
         "woe:parent": "12511779", 
         "tags": [
           "source=CanVec 6.0 - NRCan"
         ], 
-        "hierarchy": "woe:country=23424775", 
+        "hierarchy": [
+          "woe:airport=12511779", 
+          "woe:country=23424775"
+        ], 
         "parent_woeid": 12511779, 
+        "sw_latitude": 45.311717, 
         "osm:node_ids": [
           824816421, 
           824818241, 
@@ -51,12 +54,12 @@
         ], 
         "ne_longitude": -75.624165, 
         "longitude": 45.311896, 
-        "ne_latitude": 45.312074, 
-        "woe:placetype": "building", 
         "sw_longitude": -75.624767, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.312074, 
         "latitude": -75.624466, 
         "woe:id": 2161250985, 
-        "sw_latitude": 45.311717
+        "osm:way_id": 68608804
       }
     }
   ]

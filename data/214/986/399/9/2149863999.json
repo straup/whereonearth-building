@@ -51,7 +51,6 @@
       }, 
       "id": 2149863999, 
       "properties": {
-        "osm:way_id": 42754974, 
         "woe:parent": "12521741", 
         "name": "Saint Marks University Parish Church", 
         "tags": [
@@ -64,8 +63,12 @@
           "gnis:created=068s138s2000", 
           "gnis:feature_id=188718860"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.415245, 
         "osm:node_ids": [
           534644368, 
           534644364, 
@@ -79,12 +82,12 @@
         ], 
         "ne_longitude": -119.856517, 
         "longitude": 34.415400, 
-        "ne_latitude": 34.415568, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.856851, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.415568, 
         "latitude": -119.856695, 
         "woe:id": 2149863999, 
-        "sw_latitude": 34.415245
+        "osm:way_id": 42754974
       }
     }
   ]

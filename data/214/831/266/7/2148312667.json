@@ -35,7 +35,6 @@
       }, 
       "id": 2148312667, 
       "properties": {
-        "osm:way_id": 30992440, 
         "woe:parent": "22103751", 
         "name": "Sheraton Brussels Airport", 
         "tags": [
@@ -46,8 +45,12 @@
           "addr:street=Brussels National Airport", 
           "name=Sheraton Brussels Airport"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=22103751", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 22103751, 
+        "sw_latitude": 50.896591, 
         "osm:node_ids": [
           344596956, 
           344596958, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": 4.483393, 
         "longitude": 50.897052, 
-        "ne_latitude": 50.897511, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.482037, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.897511, 
         "latitude": 4.482716, 
         "woe:id": 2148312667, 
-        "sw_latitude": 50.896591
+        "osm:way_id": 30992440
       }
     }
   ]

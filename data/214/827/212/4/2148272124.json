@@ -51,15 +51,18 @@
       }, 
       "id": 2148272124, 
       "properties": {
-        "osm:way_id": 30652493, 
         "woe:parent": "12521453", 
         "name": "Air Traffic Tower", 
         "tags": [
           "name=Air Traffic Tower", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521453", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521453, 
+        "sw_latitude": 45.587393, 
         "osm:node_ids": [
           338986427, 
           338986428, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": -122.588910, 
         "longitude": 45.587494, 
-        "ne_latitude": 45.587592, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.589193, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.587592, 
         "latitude": -122.589053, 
         "woe:id": 2148272124, 
-        "sw_latitude": 45.587393
+        "osm:way_id": 30652493
       }
     }
   ]

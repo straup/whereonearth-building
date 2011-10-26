@@ -55,7 +55,6 @@
       }, 
       "id": 2149275566, 
       "properties": {
-        "osm:way_id": 37907886, 
         "woe:parent": "12521722", 
         "name": "Santa Clara Costco", 
         "tags": [
@@ -63,8 +62,12 @@
           "name=Santa Clara Costco", 
           "operator=Costco Wholesale"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521722", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521722, 
+        "sw_latitude": 37.356235, 
         "osm:node_ids": [
           444916363, 
           444916367, 
@@ -79,12 +82,12 @@
         ], 
         "ne_longitude": -121.938352, 
         "longitude": 37.356906, 
-        "ne_latitude": 37.357555, 
-        "woe:placetype": "building", 
         "sw_longitude": -121.940253, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.357555, 
         "latitude": -121.939256, 
         "woe:id": 2149275566, 
-        "sw_latitude": 37.356235
+        "osm:way_id": 37907886
       }
     }
   ]

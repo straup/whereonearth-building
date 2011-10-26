@@ -35,15 +35,18 @@
       }, 
       "id": 2147515319, 
       "properties": {
-        "osm:way_id": 23345235, 
         "woe:parent": "222576887", 
         "name": "M\u00f6venpick", 
         "tags": [
           "name=M\u00f6venpick", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=222576887", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22257687, 
+        "sw_latitude": 49.492887, 
         "osm:node_ids": [
           252794422, 
           252794423, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 11.080192, 
         "longitude": 49.493162, 
-        "ne_latitude": 49.493434, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.079849, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.493434, 
         "latitude": 11.080021, 
         "woe:id": 2147515319, 
-        "sw_latitude": 49.492887
+        "osm:way_id": 23345235
       }
     }
   ]

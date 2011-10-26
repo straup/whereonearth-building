@@ -59,7 +59,6 @@
       }, 
       "id": 2148243804, 
       "properties": {
-        "osm:way_id": 30267755, 
         "woe:parent": "125208877", 
         "name": "Garmin", 
         "tags": [
@@ -67,8 +66,12 @@
           "access=private", 
           "landuse=commercial"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125208877", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520877, 
+        "sw_latitude": 44.906235, 
         "osm:node_ids": [
           333592529, 
           333592530, 
@@ -84,12 +87,12 @@
         ], 
         "ne_longitude": -122.994138, 
         "longitude": 44.906718, 
-        "ne_latitude": 44.907238, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.995039, 
+        "woe:placetype": "building", 
+        "ne_latitude": 44.907238, 
         "latitude": -122.994549, 
         "woe:id": 2148243804, 
-        "sw_latitude": 44.906235
+        "osm:way_id": 30267755
       }
     }
   ]

@@ -43,7 +43,6 @@
       }, 
       "id": 2147484477, 
       "properties": {
-        "osm:way_id": 4914256, 
         "woe:parent": "12515637", 
         "name": "NAIA Terminal 2", 
         "tags": [
@@ -51,8 +50,12 @@
           "created_by=Potlatch 0.10f", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424934", 
+        "hierarchy": [
+          "woe:airport=12515637", 
+          "woe:country=23424934"
+        ], 
         "parent_woeid": 12515637, 
+        "sw_latitude": 14.508369, 
         "osm:node_ids": [
           32157166, 
           32157161, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": 121.014154, 
         "longitude": 14.509670, 
-        "ne_latitude": 14.511089, 
-        "woe:placetype": "building", 
         "sw_longitude": 121.011853, 
+        "woe:placetype": "building", 
+        "ne_latitude": 14.511089, 
         "latitude": 121.012899, 
         "woe:id": 2147484477, 
-        "sw_latitude": 14.508369
+        "osm:way_id": 4914256
       }
     }
   ]

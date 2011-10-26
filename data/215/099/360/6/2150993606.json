@@ -159,7 +159,6 @@
       }, 
       "id": 2150993606, 
       "properties": {
-        "osm:way_id": 47280261, 
         "woe:parent": "125199788", 
         "name": "Terminal Three", 
         "tags": [
@@ -173,8 +172,12 @@
           "gnis:feature_id=2090292", 
           "name=Terminal Three"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125199788", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519978, 
+        "sw_latitude": 39.054992, 
         "osm:node_ids": [
           602363479, 
           602363480, 
@@ -215,12 +218,12 @@
         ], 
         "ne_longitude": -84.655150, 
         "longitude": 39.055452, 
-        "ne_latitude": 39.055728, 
-        "woe:placetype": "building", 
         "sw_longitude": -84.657044, 
+        "woe:placetype": "building", 
+        "ne_latitude": 39.055728, 
         "latitude": -84.656106, 
         "woe:id": 2150993606, 
-        "sw_latitude": 39.054992
+        "osm:way_id": 47280261
       }
     }
   ]

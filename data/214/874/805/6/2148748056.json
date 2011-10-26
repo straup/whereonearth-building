@@ -51,7 +51,6 @@
       }, 
       "id": 2148748056, 
       "properties": {
-        "osm:way_id": 35820231, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=95-97", 
@@ -60,8 +59,12 @@
           "addr:country=DE", 
           "addr:street=Berliner Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.292384, 
         "osm:node_ids": [
           418785064, 
           418785066, 
@@ -75,12 +78,12 @@
         ], 
         "ne_longitude": 6.812010, 
         "longitude": 51.292494, 
-        "ne_latitude": 51.292602, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.811664, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.292602, 
         "latitude": 6.811837, 
         "woe:id": 2148748056, 
-        "sw_latitude": 51.292384
+        "osm:way_id": 35820231
       }
     }
   ]

@@ -35,15 +35,18 @@
       }, 
       "id": 2148677880, 
       "properties": {
-        "osm:way_id": 34764893, 
         "woe:parent": "125108854", 
         "name": "Museum Walraversijde - Bezoekerscentrum", 
         "tags": [
           "name=Museum Walraversijde - Bezoekerscentrum", 
           "tourism=museum"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=125108854", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 12510854, 
+        "sw_latitude": 51.198438, 
         "osm:node_ids": [
           405785621, 
           405785624, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 2.849335, 
         "longitude": 51.198637, 
-        "ne_latitude": 51.198835, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.848631, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.198835, 
         "latitude": 2.848983, 
         "woe:id": 2148677880, 
-        "sw_latitude": 51.198438
+        "osm:way_id": 34764893
       }
     }
   ]

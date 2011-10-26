@@ -59,15 +59,18 @@
       }, 
       "id": 2148343430, 
       "properties": {
-        "osm:way_id": 31433161, 
         "woe:parent": "22463734", 
         "name": "Exova", 
         "tags": [
           "name=Exova", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22463734", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22463734, 
+        "sw_latitude": 55.938437, 
         "osm:node_ids": [
           350562805, 
           350562806, 
@@ -83,12 +86,12 @@
         ], 
         "ne_longitude": -3.399293, 
         "longitude": 55.938591, 
-        "ne_latitude": 55.938764, 
-        "woe:placetype": "building", 
         "sw_longitude": -3.400632, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.938764, 
         "latitude": -3.399941, 
         "woe:id": 2148343430, 
-        "sw_latitude": 55.938437
+        "osm:way_id": 31433161
       }
     }
   ]

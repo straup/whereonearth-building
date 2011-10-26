@@ -99,14 +99,17 @@
       }, 
       "id": 2161191077, 
       "properties": {
-        "osm:way_id": 68459647, 
         "woe:parent": "12521750", 
         "tags": [
           "operator=Hilton Garden Inn", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.392986, 
         "osm:node_ids": [
           823627898, 
           823627733, 
@@ -132,12 +135,12 @@
         ], 
         "ne_longitude": -82.563022, 
         "longitude": 27.393350, 
-        "ne_latitude": 27.393684, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.563410, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.393684, 
         "latitude": -82.563255, 
         "woe:id": 2161191077, 
-        "sw_latitude": 27.392986
+        "osm:way_id": 68459647
       }
     }
   ]

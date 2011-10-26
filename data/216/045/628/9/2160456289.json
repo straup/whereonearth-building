@@ -51,7 +51,6 @@
       }, 
       "id": 2160456289, 
       "properties": {
-        "osm:way_id": 67266751, 
         "woe:parent": "12523409", 
         "tags": [
           "addr:housenumber=326", 
@@ -63,8 +62,12 @@
           "dcgis:lot=0002", 
           "addr:street=Chandler Street SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.838136, 
         "osm:node_ids": [
           812398677, 
           812398694, 
@@ -78,12 +81,12 @@
         ], 
         "ne_longitude": -77.019421, 
         "longitude": 38.838191, 
-        "ne_latitude": 38.838244, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.019529, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.838244, 
         "latitude": -77.019475, 
         "woe:id": 2160456289, 
-        "sw_latitude": 38.838136
+        "osm:way_id": 67266751
       }
     }
   ]

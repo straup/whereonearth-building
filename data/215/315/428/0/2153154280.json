@@ -307,7 +307,6 @@
       }, 
       "id": 2153154280, 
       "properties": {
-        "osm:way_id": 52393116, 
         "woe:parent": "12521750", 
         "name": "Rhoda Pritzker Residence Hall", 
         "tags": [
@@ -317,8 +316,12 @@
           "old_name=Z", 
           "loc_name=Z Dorm"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.384390, 
         "osm:node_ids": [
           666242693, 
           666242703, 
@@ -396,12 +399,12 @@
         ], 
         "ne_longitude": -82.556827, 
         "longitude": 27.384640, 
-        "ne_latitude": 27.384892, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.557316, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.384892, 
         "latitude": -82.557078, 
         "woe:id": 2153154280, 
-        "sw_latitude": 27.384390
+        "osm:way_id": 52393116
       }
     }
   ]

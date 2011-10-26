@@ -87,15 +87,18 @@
       }, 
       "id": 2147485784, 
       "properties": {
-        "osm:way_id": 6559973, 
         "woe:parent": "12515151", 
         "name": "Domestic Terminal", 
         "tags": [
           "name=Domestic Terminal", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424916", 
+        "hierarchy": [
+          "woe:airport=12515151", 
+          "woe:country=23424916"
+        ], 
         "parent_woeid": 12515151, 
+        "sw_latitude": -37.007011, 
         "osm:node_ids": [
           53277832, 
           53277833, 
@@ -118,12 +121,12 @@
         ], 
         "ne_longitude": 174.792828, 
         "longitude": -37.006411, 
-        "ne_latitude": -37.005866, 
-        "woe:placetype": "building", 
         "sw_longitude": 174.790182, 
+        "woe:placetype": "building", 
+        "ne_latitude": -37.005866, 
         "latitude": 174.791570, 
         "woe:id": 2147485784, 
-        "sw_latitude": -37.007011
+        "osm:way_id": 6559973
       }
     }
   ]

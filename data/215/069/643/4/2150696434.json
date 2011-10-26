@@ -35,7 +35,6 @@
       }, 
       "id": 2150696434, 
       "properties": {
-        "osm:way_id": 46643100, 
         "woe:parent": "12515094", 
         "name": "Gulf", 
         "tags": [
@@ -46,8 +45,12 @@
           "3dshapes:ggmodelk=5", 
           "addr:city=Oldenzaal"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=12515094", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 12515094, 
+        "sw_latitude": 52.299734, 
         "osm:node_ids": [
           595931326, 
           595931333, 
@@ -57,12 +60,12 @@
         ], 
         "ne_longitude": 6.924780, 
         "longitude": 52.299781, 
-        "ne_latitude": 52.299827, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.924584, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.299827, 
         "latitude": 6.924682, 
         "woe:id": 2150696434, 
-        "sw_latitude": 52.299734
+        "osm:way_id": 46643100
       }
     }
   ]

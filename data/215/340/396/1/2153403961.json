@@ -51,7 +51,6 @@
       }, 
       "id": 2153403961, 
       "properties": {
-        "osm:way_id": 52882426, 
         "woe:parent": "23024911", 
         "name": "St. Albertus Magnus", 
         "tags": [
@@ -62,8 +61,12 @@
           "religion=christian", 
           "wikipedia:de=St. Albertus Magnus (D\u00fcsseldorf)"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.248635, 
         "osm:node_ids": [
           670378702, 
           670378703, 
@@ -77,12 +80,12 @@
         ], 
         "ne_longitude": 6.767261, 
         "longitude": 51.248801, 
-        "ne_latitude": 51.248951, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.766725, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.248951, 
         "latitude": 6.767006, 
         "woe:id": 2153403961, 
-        "sw_latitude": 51.248635
+        "osm:way_id": 52882426
       }
     }
   ]

@@ -39,7 +39,6 @@
       }, 
       "id": 2148327242, 
       "properties": {
-        "osm:way_id": 31237938, 
         "woe:parent": "12512643", 
         "name": "Administraci\u00f3n Zonal Norte del DMQ", 
         "tags": [
@@ -47,8 +46,12 @@
           "name=Administraci\u00f3n Zonal Norte del DMQ", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=234248801", 
+        "hierarchy": [
+          "woe:airport=12512643", 
+          "woe:country=234248801"
+        ], 
         "parent_woeid": 12512643, 
+        "sw_latitude": -0.172316, 
         "osm:node_ids": [
           347315054, 
           347315055, 
@@ -59,12 +62,12 @@
         ], 
         "ne_longitude": -78.484197, 
         "longitude": -0.172064, 
-        "ne_latitude": -0.171810, 
-        "woe:placetype": "building", 
         "sw_longitude": -78.484738, 
+        "woe:placetype": "building", 
+        "ne_latitude": -0.171810, 
         "latitude": -78.484466, 
         "woe:id": 2148327242, 
-        "sw_latitude": -0.172316
+        "osm:way_id": 31237938
       }
     }
   ]

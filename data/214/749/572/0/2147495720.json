@@ -51,7 +51,6 @@
       }, 
       "id": 2147495720, 
       "properties": {
-        "osm:way_id": 18515398, 
         "woe:parent": "224788032", 
         "name": "Terminal 2 short stay", 
         "tags": [
@@ -61,8 +60,12 @@
           "park_ride=yes", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=224788032", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22478032, 
+        "sw_latitude": 53.367198, 
         "osm:node_ids": [
           191000335, 
           937825479, 
@@ -76,12 +79,12 @@
         ], 
         "ne_longitude": -2.277391, 
         "longitude": 53.368041, 
-        "ne_latitude": 53.368878, 
-        "woe:placetype": "building", 
         "sw_longitude": -2.280215, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.368878, 
         "latitude": -2.278800, 
         "woe:id": 2147495720, 
-        "sw_latitude": 53.367198
+        "osm:way_id": 18515398
       }
     }
   ]

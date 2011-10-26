@@ -51,7 +51,6 @@
       }, 
       "id": 2149591672, 
       "properties": {
-        "osm:way_id": 41245923, 
         "woe:parent": "12513277", 
         "name": "Texaco", 
         "tags": [
@@ -59,8 +58,12 @@
           "name=Texaco", 
           "operator=Texaco"
         ], 
-        "hierarchy": "woe:country=234248831", 
+        "hierarchy": [
+          "woe:airport=12513277", 
+          "woe:country=234248831"
+        ], 
         "parent_woeid": 12513277, 
+        "sw_latitude": 16.253682, 
         "osm:node_ids": [
           504015741, 
           504015742, 
@@ -74,12 +77,12 @@
         ], 
         "ne_longitude": -61.523719, 
         "longitude": 16.253768, 
-        "ne_latitude": 16.253867, 
-        "woe:placetype": "building", 
         "sw_longitude": -61.524015, 
+        "woe:placetype": "building", 
+        "ne_latitude": 16.253867, 
         "latitude": -61.523871, 
         "woe:id": 2149591672, 
-        "sw_latitude": 16.253682
+        "osm:way_id": 41245923
       }
     }
   ]

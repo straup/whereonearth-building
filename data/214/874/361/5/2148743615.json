@@ -35,14 +35,17 @@
       }, 
       "id": 2148743615, 
       "properties": {
-        "osm:way_id": 35780142, 
         "woe:parent": "12514635", 
         "name": "Lux-Airport HQ", 
         "tags": [
           "name=Lux-Airport HQ"
         ], 
-        "hierarchy": "woe:country=2342488881", 
+        "hierarchy": [
+          "woe:airport=12514635", 
+          "woe:country=2342488881"
+        ], 
         "parent_woeid": 12514635, 
+        "sw_latitude": 49.627050, 
         "osm:node_ids": [
           418356956, 
           418356958, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 6.204494, 
         "longitude": 49.627263, 
-        "ne_latitude": 49.627475, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.203912, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.627475, 
         "latitude": 6.204203, 
         "woe:id": 2148743615, 
-        "sw_latitude": 49.627050
+        "osm:way_id": 35780142
       }
     }
   ]

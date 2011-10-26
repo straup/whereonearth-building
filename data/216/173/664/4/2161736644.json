@@ -1055,15 +1055,18 @@
       }, 
       "id": 2161736644, 
       "properties": {
-        "osm:way_id": 69486493, 
         "woe:parent": "12520923", 
         "tags": [
           "FIXME=Concourses F, etc; Adjust from USGS Ortho Roof position to ground position", 
           "source=USGS Ortho", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12520923", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520923, 
+        "sw_latitude": 25.789925, 
         "osm:node_ids": [
           240317691, 
           831973930, 
@@ -1328,12 +1331,12 @@
         ], 
         "ne_longitude": -80.271457, 
         "longitude": 25.795152, 
-        "ne_latitude": 25.798712, 
-        "woe:placetype": "building", 
         "sw_longitude": -80.284804, 
+        "woe:placetype": "building", 
+        "ne_latitude": 25.798712, 
         "latitude": -80.277601, 
         "woe:id": 2161736644, 
-        "sw_latitude": 25.789925
+        "osm:way_id": 69486493
       }
     }
   ]

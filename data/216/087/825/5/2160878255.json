@@ -35,15 +35,18 @@
       }, 
       "id": 2160878255, 
       "properties": {
-        "osm:way_id": 67976694, 
         "woe:parent": "12513199", 
         "name": "DLR", 
         "tags": [
           "addr:housenumber=Geb. 112", 
           "name=DLR"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.085568, 
         "osm:node_ids": [
           820074220, 
           820074222, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 11.279392, 
         "longitude": 48.085706, 
-        "ne_latitude": 48.085846, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.278703, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.085846, 
         "latitude": 11.279044, 
         "woe:id": 2160878255, 
-        "sw_latitude": 48.085568
+        "osm:way_id": 67976694
       }
     }
   ]

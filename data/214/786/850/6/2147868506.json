@@ -103,7 +103,6 @@
       }, 
       "id": 2147868506, 
       "properties": {
-        "osm:way_id": 28993112, 
         "woe:parent": "12515637", 
         "name": "TESDA Women's Center", 
         "tags": [
@@ -111,8 +110,12 @@
           "name=TESDA Women's Center", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=23424934", 
+        "hierarchy": [
+          "woe:airport=12515637", 
+          "woe:country=23424934"
+        ], 
         "parent_woeid": 12515637, 
+        "sw_latitude": 14.520264, 
         "osm:node_ids": [
           318816190, 
           318816188, 
@@ -139,12 +142,12 @@
         ], 
         "ne_longitude": 121.029431, 
         "longitude": 14.520687, 
-        "ne_latitude": 14.521120, 
-        "woe:placetype": "building", 
         "sw_longitude": 121.028452, 
+        "woe:placetype": "building", 
+        "ne_latitude": 14.521120, 
         "latitude": 121.028935, 
         "woe:id": 2147868506, 
-        "sw_latitude": 14.520264
+        "osm:way_id": 28993112
       }
     }
   ]

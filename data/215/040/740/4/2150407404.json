@@ -35,15 +35,18 @@
       }, 
       "id": 2150407404, 
       "properties": {
-        "osm:way_id": 45282359, 
         "woe:parent": "12515314", 
         "name": "Przyloty", 
         "tags": [
           "name=Przyloty", 
           "source=http8c8s8sump.waw.pl8s retrieved 038c278c31 118s178s09 (UMP-Rzeszow8ssrc8sRZESZOW.obszary.txt)"
         ], 
-        "hierarchy": "woe:country=23424923", 
+        "hierarchy": [
+          "woe:airport=12515314", 
+          "woe:country=23424923"
+        ], 
         "parent_woeid": 12515314, 
+        "sw_latitude": 50.114120, 
         "osm:node_ids": [
           575106082, 
           575106076, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 22.031180, 
         "longitude": 50.114701, 
-        "ne_latitude": 50.115281, 
-        "woe:placetype": "building", 
         "sw_longitude": 22.030320, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.115281, 
         "latitude": 22.030750, 
         "woe:id": 2150407404, 
-        "sw_latitude": 50.114120
+        "osm:way_id": 45282359
       }
     }
   ]

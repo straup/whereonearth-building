@@ -35,15 +35,18 @@
       }, 
       "id": 2149487273, 
       "properties": {
-        "osm:way_id": 40248063, 
         "woe:parent": "125155889", 
         "name": "Aeroportul Int. Sibiu-Terminal 1-6", 
         "tags": [
           "name=Aeroportul Int. Sibiu-Terminal 1-6", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424933", 
+        "hierarchy": [
+          "woe:airport=125155889", 
+          "woe:country=23424933"
+        ], 
         "parent_woeid": 12515589, 
+        "sw_latitude": 45.788799, 
         "osm:node_ids": [
           485301543, 
           485301462, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 24.096071, 
         "longitude": 45.789081, 
-        "ne_latitude": 45.789367, 
-        "woe:placetype": "building", 
         "sw_longitude": 24.094329, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.789367, 
         "latitude": 24.095197, 
         "woe:id": 2149487273, 
-        "sw_latitude": 45.788799
+        "osm:way_id": 40248063
       }
     }
   ]

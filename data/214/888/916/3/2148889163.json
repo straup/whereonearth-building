@@ -35,15 +35,18 @@
       }, 
       "id": 2148889163, 
       "properties": {
-        "osm:way_id": 36147412, 
         "woe:parent": "12521452", 
         "name": "Hillsboro Airport", 
         "tags": [
           "name=Hillsboro Airport", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521452", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521452, 
+        "sw_latitude": 45.532986, 
         "osm:node_ids": [
           422081425, 
           422081427, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -122.947115, 
         "longitude": 45.533112, 
-        "ne_latitude": 45.533238, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.947836, 
+        "woe:placetype": "building", 
+        "ne_latitude": 45.533238, 
         "latitude": -122.947476, 
         "woe:id": 2148889163, 
-        "sw_latitude": 45.532986
+        "osm:way_id": 36147412
       }
     }
   ]

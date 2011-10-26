@@ -71,7 +71,6 @@
       }, 
       "id": 2167141860, 
       "properties": {
-        "osm:way_id": 79815264, 
         "woe:parent": "230309881", 
         "name": "Holiday Inn Hotel K\u00f6ln-Airport", 
         "tags": [
@@ -80,8 +79,12 @@
           "stars=4", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=230309881", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23030981, 
+        "sw_latitude": 50.880655, 
         "osm:node_ids": [
           423043292, 
           931674226, 
@@ -100,12 +103,12 @@
         ], 
         "ne_longitude": 7.110250, 
         "longitude": 50.881027, 
-        "ne_latitude": 50.881335, 
-        "woe:placetype": "building", 
         "sw_longitude": 7.109348, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.881335, 
         "latitude": 7.109796, 
         "woe:id": 2167141860, 
-        "sw_latitude": 50.880655
+        "osm:way_id": 79815264
       }
     }
   ]

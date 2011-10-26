@@ -35,7 +35,6 @@
       }, 
       "id": 2148682370, 
       "properties": {
-        "osm:way_id": 34855740, 
         "woe:parent": "229881759", 
         "name": "General Aviational Terminal", 
         "tags": [
@@ -43,8 +42,12 @@
           "aeroway=terminal", 
           "alt_name=GAT"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=229881759", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22981759, 
+        "sw_latitude": 50.028751, 
         "osm:node_ids": [
           408485952, 
           408485954, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 8.556551, 
         "longitude": 50.028934, 
-        "ne_latitude": 50.029116, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.555866, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.029116, 
         "latitude": 8.556210, 
         "woe:id": 2148682370, 
-        "sw_latitude": 50.028751
+        "osm:way_id": 34855740
       }
     }
   ]

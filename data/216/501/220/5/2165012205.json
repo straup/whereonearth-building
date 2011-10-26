@@ -71,7 +71,6 @@
       }, 
       "id": 2165012205, 
       "properties": {
-        "osm:way_id": 74970109, 
         "woe:parent": "125128856", 
         "name": "Parking Quercy", 
         "tags": [
@@ -79,8 +78,12 @@
           "source=cadastre-dgi-fr source 8c Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour 8c 2010", 
           "parking=multi-storey"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=125128856", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 12512856, 
+        "sw_latitude": 43.611232, 
         "osm:node_ids": [
           885269313, 
           885269796, 
@@ -99,12 +102,12 @@
         ], 
         "ne_longitude": 1.333282, 
         "longitude": 43.611484, 
-        "ne_latitude": 43.611734, 
-        "woe:placetype": "building", 
         "sw_longitude": 1.332794, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.611734, 
         "latitude": 1.333040, 
         "woe:id": 2165012205, 
-        "sw_latitude": 43.611232
+        "osm:way_id": 74970109
       }
     }
   ]

@@ -107,7 +107,6 @@
       }, 
       "id": 2147545009, 
       "properties": {
-        "osm:way_id": 23772637, 
         "woe:parent": "12522066", 
         "name": "South Satellite (International Flights)", 
         "tags": [
@@ -116,8 +115,12 @@
           "aeroway=terminal", 
           "ref=S10"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12522066", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12522066, 
+        "sw_latitude": 47.438436, 
         "osm:node_ids": [
           460261760, 
           460249601, 
@@ -145,12 +148,12 @@
         ], 
         "ne_longitude": -122.301044, 
         "longitude": 47.438859, 
-        "ne_latitude": 47.439324, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.303219, 
+        "woe:placetype": "building", 
+        "ne_latitude": 47.439324, 
         "latitude": -122.302114, 
         "woe:id": 2147545009, 
-        "sw_latitude": 47.438436
+        "osm:way_id": 23772637
       }
     }
   ]

@@ -43,7 +43,6 @@
       }, 
       "id": 2149575983, 
       "properties": {
-        "osm:way_id": 41100811, 
         "woe:parent": "125110388", 
         "name": "SEPA", 
         "tags": [
@@ -51,8 +50,12 @@
           "alt_name=Servi\u00e7o de Psicologia Aplicada", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.838773, 
         "osm:node_ids": [
           501421275, 
           501421281, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": -35.198407, 
         "longitude": -5.838585, 
-        "ne_latitude": -5.838464, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.198755, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.838464, 
         "latitude": -35.198608, 
         "woe:id": 2149575983, 
-        "sw_latitude": -5.838773
+        "osm:way_id": 41100811
       }
     }
   ]

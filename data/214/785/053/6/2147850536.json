@@ -35,14 +35,17 @@
       }, 
       "id": 2147850536, 
       "properties": {
-        "osm:way_id": 28797271, 
         "woe:parent": "12515363", 
         "tags": [
           "addr:housenumber=2a", 
           "addr:street=\u017bwirki i Wigury"
         ], 
-        "hierarchy": "woe:country=23424923", 
+        "hierarchy": [
+          "woe:airport=12515363", 
+          "woe:country=23424923"
+        ], 
         "parent_woeid": 12515363, 
+        "sw_latitude": 52.174944, 
         "osm:node_ids": [
           316628051, 
           316628050, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": 20.979874, 
         "longitude": 52.175054, 
-        "ne_latitude": 52.175163, 
-        "woe:placetype": "building", 
         "sw_longitude": 20.979619, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.175163, 
         "latitude": 20.979747, 
         "woe:id": 2147850536, 
-        "sw_latitude": 52.174944
+        "osm:way_id": 28797271
       }
     }
   ]

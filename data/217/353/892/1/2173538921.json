@@ -35,15 +35,18 @@
       }, 
       "id": 2173538921, 
       "properties": {
-        "osm:way_id": 93153202, 
         "woe:parent": "12512720", 
         "name": "Cork International Airport", 
         "tags": [
           "name=Cork International Airport", 
           "ref=ORK"
         ], 
-        "hierarchy": "woe:country=234248803", 
+        "hierarchy": [
+          "woe:airport=12512720", 
+          "woe:country=234248803"
+        ], 
         "parent_woeid": 12512720, 
+        "sw_latitude": 51.848213, 
         "osm:node_ids": [
           1079900598, 
           1079900602, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": -8.488977, 
         "longitude": 51.849092, 
-        "ne_latitude": 51.849963, 
-        "woe:placetype": "building", 
         "sw_longitude": -8.490854, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.849963, 
         "latitude": -8.489907, 
         "woe:id": 2173538921, 
-        "sw_latitude": 51.848213
+        "osm:way_id": 93153202
       }
     }
   ]

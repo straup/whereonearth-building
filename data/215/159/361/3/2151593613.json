@@ -67,15 +67,18 @@
       }, 
       "id": 2151593613, 
       "properties": {
-        "osm:way_id": 48643965, 
         "woe:parent": "223886730", 
         "tags": [
           "note=aanleunwoningen", 
           "source=3dShapes", 
           "3dshapes:ggmodelk=0"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.338925, 
         "osm:node_ids": [
           617705609, 
           617705612, 
@@ -93,12 +96,12 @@
         ], 
         "ne_longitude": 4.771555, 
         "longitude": 52.339106, 
-        "ne_latitude": 52.339290, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.771021, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.339290, 
         "latitude": 4.771288, 
         "woe:id": 2151593613, 
-        "sw_latitude": 52.338925
+        "osm:way_id": 48643965
       }
     }
   ]

@@ -59,7 +59,6 @@
       }, 
       "id": 2170654138, 
       "properties": {
-        "osm:way_id": 86631780, 
         "woe:parent": "12520772", 
         "name": "Kl\u00fcber Lubrication", 
         "tags": [
@@ -70,8 +69,12 @@
           "addr:street=Industrial Dr", 
           "name=Kl\u00fcber Lubrication"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12520772", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520772, 
+        "sw_latitude": 42.916997, 
         "osm:node_ids": [
           1007510283, 
           1007512514, 
@@ -87,12 +90,12 @@
         ], 
         "ne_longitude": -71.431792, 
         "longitude": 42.917313, 
-        "ne_latitude": 42.917631, 
-        "woe:placetype": "building", 
         "sw_longitude": -71.432695, 
+        "woe:placetype": "building", 
+        "ne_latitude": 42.917631, 
         "latitude": -71.432227, 
         "woe:id": 2170654138, 
-        "sw_latitude": 42.916997
+        "osm:way_id": 86631780
       }
     }
   ]

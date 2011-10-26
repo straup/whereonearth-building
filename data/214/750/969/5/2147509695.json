@@ -43,7 +43,6 @@
       }, 
       "id": 2147509695, 
       "properties": {
-        "osm:way_id": 23189843, 
         "woe:parent": "22177393", 
         "name": "Atlantic Airport Hotel", 
         "tags": [
@@ -52,8 +51,12 @@
           "created_by=JOSM", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22177393", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22177393, 
+        "sw_latitude": 53.052099, 
         "osm:node_ids": [
           250766991, 
           250766992, 
@@ -65,12 +68,12 @@
         ], 
         "ne_longitude": 8.787947, 
         "longitude": 53.052643, 
-        "ne_latitude": 53.053133, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.787017, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.053133, 
         "latitude": 8.787463, 
         "woe:id": 2147509695, 
-        "sw_latitude": 53.052099
+        "osm:way_id": 23189843
       }
     }
   ]

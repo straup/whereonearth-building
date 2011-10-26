@@ -35,7 +35,6 @@
       }, 
       "id": 2169188770, 
       "properties": {
-        "osm:way_id": 84008616, 
         "woe:parent": "125209883", 
         "name": "Planes Parts and Services Inc.", 
         "tags": [
@@ -44,8 +43,12 @@
           "source=usgs_imagery_20088;survey;image", 
           "source_ref=AM909_DSCW1295;AM909_DSCW13889"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125209883", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12520983, 
+        "sw_latitude": 35.050163, 
         "osm:node_ids": [
           977463508, 
           977463346, 
@@ -55,12 +58,12 @@
         ], 
         "ne_longitude": -118.164247, 
         "longitude": 35.050251, 
-        "ne_latitude": 35.050339, 
-        "woe:placetype": "building", 
         "sw_longitude": -118.164390, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.050339, 
         "latitude": -118.164319, 
         "woe:id": 2169188770, 
-        "sw_latitude": 35.050163
+        "osm:way_id": 84008616
       }
     }
   ]

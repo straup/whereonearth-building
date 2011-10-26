@@ -35,14 +35,17 @@
       }, 
       "id": 2149753431, 
       "properties": {
-        "osm:way_id": 42480866, 
         "woe:parent": "12521741", 
         "name": "Fontainebleu", 
         "tags": [
           "name=Fontainebleu"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.416909, 
         "osm:node_ids": [
           530482139, 
           530482141, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -119.854291, 
         "longitude": 34.417054, 
-        "ne_latitude": 34.417199, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.855184, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.417199, 
         "latitude": -119.854738, 
         "woe:id": 2149753431, 
-        "sw_latitude": 34.416909
+        "osm:way_id": 42480866
       }
     }
   ]

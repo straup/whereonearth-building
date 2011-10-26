@@ -83,7 +83,6 @@
       }, 
       "id": 2149438538, 
       "properties": {
-        "osm:way_id": 39683866, 
         "woe:parent": "12521750", 
         "name": "Asolo Repertory Theatre", 
         "tags": [
@@ -92,8 +91,12 @@
           "name=Asolo Repertory Theatre", 
           "addr:street=N Tamiami Trail"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521750", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521750, 
+        "sw_latitude": 27.383154, 
         "osm:node_ids": [
           475796507, 
           475796509, 
@@ -115,12 +118,12 @@
         ], 
         "ne_longitude": -82.557911, 
         "longitude": 27.383431, 
-        "ne_latitude": 27.383696, 
-        "woe:placetype": "building", 
         "sw_longitude": -82.558914, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.383696, 
         "latitude": -82.558440, 
         "woe:id": 2149438538, 
-        "sw_latitude": 27.383154
+        "osm:way_id": 39683866
       }
     }
   ]

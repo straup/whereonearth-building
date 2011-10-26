@@ -83,7 +83,6 @@
       }, 
       "id": 2160456037, 
       "properties": {
-        "osm:way_id": 67266454, 
         "woe:parent": "12523409", 
         "name": "Burger King", 
         "tags": [
@@ -99,8 +98,12 @@
           "source=dcgis", 
           "addr:street=Tinker Street SW"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.840497, 
         "osm:node_ids": [
           812393488, 
           812393491, 
@@ -122,12 +125,12 @@
         ], 
         "ne_longitude": -77.018335, 
         "longitude": 38.840589, 
-        "ne_latitude": 38.840680, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.018686, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.840680, 
         "latitude": -77.018512, 
         "woe:id": 2160456037, 
-        "sw_latitude": 38.840497
+        "osm:way_id": 67266454
       }
     }
   ]

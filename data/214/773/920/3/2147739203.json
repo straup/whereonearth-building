@@ -71,7 +71,6 @@
       }, 
       "id": 2147739203, 
       "properties": {
-        "osm:way_id": 27138921, 
         "woe:parent": "22276234", 
         "name": "Kontrollturm", 
         "tags": [
@@ -79,8 +78,12 @@
           "name=Kontrollturm", 
           "created_by=Potlatch 0.10b"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.381561, 
         "osm:node_ids": [
           297753168, 
           297753169, 
@@ -99,12 +102,12 @@
         ], 
         "ne_longitude": 13.506267, 
         "longitude": 52.381750, 
-        "ne_latitude": 52.381981, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.505847, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.381981, 
         "latitude": 13.506041, 
         "woe:id": 2147739203, 
-        "sw_latitude": 52.381561
+        "osm:way_id": 27138921
       }
     }
   ]

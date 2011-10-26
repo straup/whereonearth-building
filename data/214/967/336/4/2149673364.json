@@ -35,15 +35,18 @@
       }, 
       "id": 2149673364, 
       "properties": {
-        "osm:way_id": 41974931, 
         "woe:parent": "12514635", 
         "name": "ARAL", 
         "tags": [
           "amenity=fuel", 
           "name=ARAL"
         ], 
-        "hierarchy": "woe:country=2342488881", 
+        "hierarchy": [
+          "woe:airport=12514635", 
+          "woe:country=2342488881"
+        ], 
         "parent_woeid": 12514635, 
+        "sw_latitude": 49.628956, 
         "osm:node_ids": [
           520276504, 
           520276510, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 6.204508, 
         "longitude": 49.629117, 
-        "ne_latitude": 49.629279, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.204047, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.629279, 
         "latitude": 6.204280, 
         "woe:id": 2149673364, 
-        "sw_latitude": 49.628956
+        "osm:way_id": 41974931
       }
     }
   ]

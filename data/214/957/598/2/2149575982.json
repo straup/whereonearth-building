@@ -87,7 +87,6 @@
       }, 
       "id": 2149575982, 
       "properties": {
-        "osm:way_id": 41100807, 
         "woe:parent": "125110388", 
         "name": "CCHLA", 
         "tags": [
@@ -98,8 +97,12 @@
           "loc_name=Chinchila;Chichila", 
           "is_in=UFRN"
         ], 
-        "hierarchy": "woe:country=234247688", 
+        "hierarchy": [
+          "woe:airport=125110388", 
+          "woe:country=234247688"
+        ], 
         "parent_woeid": 12511038, 
+        "sw_latitude": -5.839664, 
         "osm:node_ids": [
           501421210, 
           501421215, 
@@ -122,12 +125,12 @@
         ], 
         "ne_longitude": -35.197770, 
         "longitude": -5.839350, 
-        "ne_latitude": -5.838854, 
-        "woe:placetype": "building", 
         "sw_longitude": -35.198528, 
+        "woe:placetype": "building", 
+        "ne_latitude": -5.838854, 
         "latitude": -35.198145, 
         "woe:id": 2149575982, 
-        "sw_latitude": -5.839664
+        "osm:way_id": 41100807
       }
     }
   ]

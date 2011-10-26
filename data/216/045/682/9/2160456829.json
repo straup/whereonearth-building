@@ -35,7 +35,6 @@
       }, 
       "id": 2160456829, 
       "properties": {
-        "osm:way_id": 67268992, 
         "woe:parent": "12523409", 
         "tags": [
           "dcgis:captureyear=19990331", 
@@ -43,8 +42,12 @@
           "dataset=buildings", 
           "source=dcgis"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12523409", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12523409, 
+        "sw_latitude": 38.836126, 
         "osm:node_ids": [
           812476338, 
           812476341, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": -77.022316, 
         "longitude": 38.836161, 
-        "ne_latitude": 38.836194, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.022405, 
+        "woe:placetype": "building", 
+        "ne_latitude": 38.836194, 
         "latitude": -77.022361, 
         "woe:id": 2160456829, 
-        "sw_latitude": 38.836126
+        "osm:way_id": 67268992
       }
     }
   ]

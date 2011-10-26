@@ -115,7 +115,6 @@
       }, 
       "id": 2154312239, 
       "properties": {
-        "osm:way_id": 54510428, 
         "woe:parent": "1107231", 
         "name": "Ikea", 
         "tags": [
@@ -123,8 +122,12 @@
           "name=Ikea", 
           "landuse=retail"
         ], 
-        "hierarchy": "woe:country=234247488", 
+        "hierarchy": [
+          "woe:airport=1107231", 
+          "woe:country=234247488"
+        ], 
         "parent_woeid": 1107231, 
+        "sw_latitude": -34.934915, 
         "osm:node_ids": [
           686542608, 
           686542609, 
@@ -154,12 +157,12 @@
         ], 
         "ne_longitude": 138.539190, 
         "longitude": -34.934220, 
-        "ne_latitude": -34.933655, 
-        "woe:placetype": "building", 
         "sw_longitude": 138.537008, 
+        "woe:placetype": "building", 
+        "ne_latitude": -34.933655, 
         "latitude": 138.538295, 
         "woe:id": 2154312239, 
-        "sw_latitude": -34.934915
+        "osm:way_id": 54510428
       }
     }
   ]

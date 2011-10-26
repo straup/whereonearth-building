@@ -35,7 +35,6 @@
       }, 
       "id": 2150340328, 
       "properties": {
-        "osm:way_id": 45070234, 
         "woe:parent": "223074880", 
         "name": "31\u00b0 Stormo", 
         "tags": [
@@ -43,8 +42,12 @@
           "aeroway=hangar", 
           "operator=Aeronautica Militare"
         ], 
-        "hierarchy": "woe:country=234248853", 
+        "hierarchy": [
+          "woe:airport=223074880", 
+          "woe:country=234248853"
+        ], 
         "parent_woeid": 22307480, 
+        "sw_latitude": 41.803672, 
         "osm:node_ids": [
           571486921, 
           571486924, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 12.585072, 
         "longitude": 41.804048, 
-        "ne_latitude": 41.804423, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.584203, 
+        "woe:placetype": "building", 
+        "ne_latitude": 41.804423, 
         "latitude": 12.584639, 
         "woe:id": 2150340328, 
-        "sw_latitude": 41.803672
+        "osm:way_id": 45070234
       }
     }
   ]

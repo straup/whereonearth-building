@@ -35,14 +35,17 @@
       }, 
       "id": 2149753455, 
       "properties": {
-        "osm:way_id": 42480900, 
         "woe:parent": "12521741", 
         "name": "Tropicana Gardens", 
         "tags": [
           "name=Tropicana Gardens"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12521741", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12521741, 
+        "sw_latitude": 34.416632, 
         "osm:node_ids": [
           530485019, 
           530485021, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -119.857150, 
         "longitude": 34.416913, 
-        "ne_latitude": 34.417193, 
-        "woe:placetype": "building", 
         "sw_longitude": -119.858556, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.417193, 
         "latitude": -119.857854, 
         "woe:id": 2149753455, 
-        "sw_latitude": 34.416632
+        "osm:way_id": 42480900
       }
     }
   ]

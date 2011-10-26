@@ -47,15 +47,18 @@
       }, 
       "id": 2149678516, 
       "properties": {
-        "osm:way_id": 42030737, 
         "woe:parent": "125178857", 
         "name": "SO.N.E.D.E", 
         "tags": [
           "amenity=public_building", 
           "name=SO.N.E.D.E"
         ], 
-        "hierarchy": "woe:country=23424967", 
+        "hierarchy": [
+          "woe:airport=125178857", 
+          "woe:country=23424967"
+        ], 
         "parent_woeid": 12517857, 
+        "sw_latitude": 34.754014, 
         "osm:node_ids": [
           521613343, 
           521613345, 
@@ -68,12 +71,12 @@
         ], 
         "ne_longitude": 10.710934, 
         "longitude": 34.754255, 
-        "ne_latitude": 34.754482, 
-        "woe:placetype": "building", 
         "sw_longitude": 10.710116, 
+        "woe:placetype": "building", 
+        "ne_latitude": 34.754482, 
         "latitude": 10.710497, 
         "woe:id": 2149678516, 
-        "sw_latitude": 34.754014
+        "osm:way_id": 42030737
       }
     }
   ]

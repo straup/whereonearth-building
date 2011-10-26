@@ -71,15 +71,18 @@
       }, 
       "id": 2152746180, 
       "properties": {
-        "osm:way_id": 51419271, 
         "woe:parent": "12513599", 
         "name": "Freight Terminal", 
         "tags": [
           "name=Freight Terminal", 
           "aeroway=terminal"
         ], 
-        "hierarchy": "woe:country=2342488488", 
+        "hierarchy": [
+          "woe:airport=12513599", 
+          "woe:country=2342488488"
+        ], 
         "parent_woeid": 12513599, 
+        "sw_latitude": 28.555681, 
         "osm:node_ids": [
           656397948, 
           656397952, 
@@ -98,12 +101,12 @@
         ], 
         "ne_longitude": 77.104042, 
         "longitude": 28.556906, 
-        "ne_latitude": 28.557924, 
-        "woe:placetype": "building", 
         "sw_longitude": 77.096918, 
+        "woe:placetype": "building", 
+        "ne_latitude": 28.557924, 
         "latitude": 77.100672, 
         "woe:id": 2152746180, 
-        "sw_latitude": 28.555681
+        "osm:way_id": 51419271
       }
     }
   ]

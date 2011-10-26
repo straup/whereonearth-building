@@ -51,14 +51,17 @@
       }, 
       "id": 2151269860, 
       "properties": {
-        "osm:way_id": 47837142, 
         "woe:parent": "12519551", 
         "tags": [
           "source=WakeGIS", 
           "building:use=commercial"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=12519551", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519551, 
+        "sw_latitude": 35.894882, 
         "osm:node_ids": [
           608425295, 
           608425298, 
@@ -72,12 +75,12 @@
         ], 
         "ne_longitude": -78.774647, 
         "longitude": 35.894930, 
-        "ne_latitude": 35.894979, 
-        "woe:placetype": "building", 
         "sw_longitude": -78.774754, 
+        "woe:placetype": "building", 
+        "ne_latitude": 35.894979, 
         "latitude": -78.774702, 
         "woe:id": 2151269860, 
-        "sw_latitude": 35.894882
+        "osm:way_id": 47837142
       }
     }
   ]

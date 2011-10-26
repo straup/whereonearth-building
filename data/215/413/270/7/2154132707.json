@@ -75,7 +75,6 @@
       }, 
       "id": 2154132707, 
       "properties": {
-        "osm:way_id": 54202561, 
         "woe:parent": "1251885881", 
         "name": "Lehigh Valley Post Office", 
         "tags": [
@@ -87,8 +86,12 @@
           "gnis:created=0888s028s1979", 
           "gnis:feature_id=12140788"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=1251885881", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12518581, 
+        "sw_latitude": 40.643168, 
         "osm:node_ids": [
           683611776, 
           683611798, 
@@ -108,12 +111,12 @@
         ], 
         "ne_longitude": -75.434192, 
         "longitude": 40.643859, 
-        "ne_latitude": 40.644592, 
-        "woe:placetype": "building", 
         "sw_longitude": -75.435292, 
+        "woe:placetype": "building", 
+        "ne_latitude": 40.644592, 
         "latitude": -75.434735, 
         "woe:id": 2154132707, 
-        "sw_latitude": 40.643168
+        "osm:way_id": 54202561
       }
     }
   ]

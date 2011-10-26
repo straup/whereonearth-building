@@ -43,7 +43,6 @@
       }, 
       "id": 2147587695, 
       "properties": {
-        "osm:way_id": 25312845, 
         "woe:parent": "22454274", 
         "name": "Concorde House", 
         "tags": [
@@ -51,8 +50,12 @@
           "note=approx", 
           "source=OS_OpenData_StreetView"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22454274", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22454274, 
+        "sw_latitude": 52.446679, 
         "osm:node_ids": [
           275732895, 
           275732838, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": -1.722616, 
         "longitude": 52.446843, 
-        "ne_latitude": 52.447035, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.723512, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.447035, 
         "latitude": -1.723026, 
         "woe:id": 2147587695, 
-        "sw_latitude": 52.446679
+        "osm:way_id": 25312845
       }
     }
   ]

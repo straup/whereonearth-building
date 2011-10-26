@@ -35,14 +35,17 @@
       }, 
       "id": 2163383664, 
       "properties": {
-        "osm:way_id": 72201413, 
         "woe:parent": "22462097", 
         "name": "Servisair Cargo / TNT", 
         "tags": [
           "name=Servisair Cargo 8s TNT"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22462097", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22462097, 
+        "sw_latitude": 52.826244, 
         "osm:node_ids": [
           858188787, 
           858188790, 
@@ -52,12 +55,12 @@
         ], 
         "ne_longitude": -1.316024, 
         "longitude": 52.826397, 
-        "ne_latitude": 52.826542, 
-        "woe:placetype": "building", 
         "sw_longitude": -1.316668, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.826542, 
         "latitude": -1.316349, 
         "woe:id": 2163383664, 
-        "sw_latitude": 52.826244
+        "osm:way_id": 72201413
       }
     }
   ]

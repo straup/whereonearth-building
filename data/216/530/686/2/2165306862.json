@@ -99,15 +99,18 @@
       }, 
       "id": 2165306862, 
       "properties": {
-        "osm:way_id": 75569321, 
         "woe:parent": "125199885", 
         "name": "Rochester Airport", 
         "tags": [
           "name=Rochester Airport", 
           "source=Yahoo"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125199885", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12519985, 
+        "sw_latitude": 43.125967, 
         "osm:node_ids": [
           892330558, 
           892330561, 
@@ -133,12 +136,12 @@
         ], 
         "ne_longitude": -77.663249, 
         "longitude": 43.127278, 
-        "ne_latitude": 43.127901, 
-        "woe:placetype": "building", 
         "sw_longitude": -77.667090, 
+        "woe:placetype": "building", 
+        "ne_latitude": 43.127901, 
         "latitude": -77.665184, 
         "woe:id": 2165306862, 
-        "sw_latitude": 43.125967
+        "osm:way_id": 75569321
       }
     }
   ]

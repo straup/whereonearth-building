@@ -51,7 +51,6 @@
       }, 
       "id": 2149238515, 
       "properties": {
-        "osm:way_id": 37570212, 
         "woe:parent": "22269415", 
         "name": "World of Flight", 
         "tags": [
@@ -59,8 +58,12 @@
           "name=World of Flight", 
           "tourism=museum"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.775968, 
         "osm:node_ids": [
           440266181, 
           440266183, 
@@ -74,12 +77,12 @@
         ], 
         "ne_longitude": 8.091890, 
         "longitude": 48.776126, 
-        "ne_latitude": 48.776277, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.091390, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.776277, 
         "latitude": 8.091646, 
         "woe:id": 2149238515, 
-        "sw_latitude": 48.775968
+        "osm:way_id": 37570212
       }
     }
   ]

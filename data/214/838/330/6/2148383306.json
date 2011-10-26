@@ -87,15 +87,18 @@
       }, 
       "id": 2148383306, 
       "properties": {
-        "osm:way_id": 31736774, 
         "woe:parent": "125188962", 
         "name": "Crowne Plaza Hotel", 
         "tags": [
           "name=Crowne Plaza Hotel", 
           "created_by=Potlatch 0.10f"
         ], 
-        "hierarchy": "woe:country=23424977", 
+        "hierarchy": [
+          "woe:airport=125188962", 
+          "woe:country=23424977"
+        ], 
         "parent_woeid": 12518962, 
+        "sw_latitude": 37.979658, 
         "osm:node_ids": [
           355148378, 
           355148380, 
@@ -118,12 +121,12 @@
         ], 
         "ne_longitude": -122.056616, 
         "longitude": 37.980498, 
-        "ne_latitude": 37.981167, 
-        "woe:placetype": "building", 
         "sw_longitude": -122.058873, 
+        "woe:placetype": "building", 
+        "ne_latitude": 37.981167, 
         "latitude": -122.057565, 
         "woe:id": 2148383306, 
-        "sw_latitude": 37.979658
+        "osm:way_id": 31736774
       }
     }
   ]

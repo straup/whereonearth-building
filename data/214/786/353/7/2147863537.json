@@ -43,7 +43,6 @@
       }, 
       "id": 2147863537, 
       "properties": {
-        "osm:way_id": 28930606, 
         "woe:parent": "22211603", 
         "name": "C 17", 
         "tags": [
@@ -51,8 +50,12 @@
           "movable=yes", 
           "aeroway=gates"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22211603", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22211603, 
+        "sw_latitude": 53.631577, 
         "osm:node_ids": [
           318030272, 
           343180459, 
@@ -64,12 +67,12 @@
         ], 
         "ne_longitude": 10.004554, 
         "longitude": 53.631682, 
-        "ne_latitude": 53.631738, 
-        "woe:placetype": "building", 
         "sw_longitude": 10.004121, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.631738, 
         "latitude": 10.004318, 
         "woe:id": 2147863537, 
-        "sw_latitude": 53.631577
+        "osm:way_id": 28930606
       }
     }
   ]

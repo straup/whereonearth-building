@@ -51,15 +51,18 @@
       }, 
       "id": 2149668385, 
       "properties": {
-        "osm:way_id": 41931721, 
         "woe:parent": "22269415", 
         "name": "Shelter", 
         "tags": [
           "addr:housenumber=C 388", 
           "name=Shelter"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22269415", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22269415, 
+        "sw_latitude": 48.776685, 
         "osm:node_ids": [
           519368537, 
           519368540, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": 8.089528, 
         "longitude": 48.776854, 
-        "ne_latitude": 48.777006, 
-        "woe:placetype": "building", 
         "sw_longitude": 8.089209, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.777006, 
         "latitude": 8.089367, 
         "woe:id": 2149668385, 
-        "sw_latitude": 48.776685
+        "osm:way_id": 41931721
       }
     }
   ]

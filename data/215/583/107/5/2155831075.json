@@ -35,15 +35,18 @@
       }, 
       "id": 2155831075, 
       "properties": {
-        "osm:way_id": 58679420, 
         "woe:parent": "12517016", 
         "tags": [
           "addr:housenumber=13", 
           "addr:postcode=633103", 
           "addr:street=\u0416\u041a\u041e \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u0430"
         ], 
-        "hierarchy": "woe:country=23424936", 
+        "hierarchy": [
+          "woe:airport=12517016", 
+          "woe:country=23424936"
+        ], 
         "parent_woeid": 12517016, 
+        "sw_latitude": 54.997317, 
         "osm:node_ids": [
           726993087, 
           726992699, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 82.686589, 
         "longitude": 54.997631, 
-        "ne_latitude": 54.997944, 
-        "woe:placetype": "building", 
         "sw_longitude": 82.686227, 
+        "woe:placetype": "building", 
+        "ne_latitude": 54.997944, 
         "latitude": 82.686408, 
         "woe:id": 2155831075, 
-        "sw_latitude": 54.997317
+        "osm:way_id": 58679420
       }
     }
   ]

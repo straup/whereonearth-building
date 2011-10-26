@@ -99,14 +99,17 @@
       }, 
       "id": 2148413901, 
       "properties": {
-        "osm:way_id": 31884122, 
         "woe:parent": "22140453", 
         "name": "Le D\u00f4me", 
         "tags": [
           "name=Le D\u00f4me"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=22140453", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 22140453, 
+        "sw_latitude": 49.009997, 
         "osm:node_ids": [
           357022765, 
           357022766, 
@@ -132,12 +135,12 @@
         ], 
         "ne_longitude": 2.565280, 
         "longitude": 49.010277, 
-        "ne_latitude": 49.010489, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.563034, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.010489, 
         "latitude": 2.564122, 
         "woe:id": 2148413901, 
-        "sw_latitude": 49.009997
+        "osm:way_id": 31884122
       }
     }
   ]

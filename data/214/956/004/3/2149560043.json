@@ -39,7 +39,6 @@
       }, 
       "id": 2149560043, 
       "properties": {
-        "osm:way_id": 40908553, 
         "woe:parent": "23024911", 
         "tags": [
           "addr:housenumber=11", 
@@ -49,8 +48,12 @@
           "addr:country=DE", 
           "addr:street=Platanenweg"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=23024911", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 23024911, 
+        "sw_latitude": 51.287173, 
         "osm:node_ids": [
           498078745, 
           498078747, 
@@ -61,12 +64,12 @@
         ], 
         "ne_longitude": 6.814724, 
         "longitude": 51.287204, 
-        "ne_latitude": 51.287234, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.814537, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.287234, 
         "latitude": 6.814631, 
         "woe:id": 2149560043, 
-        "sw_latitude": 51.287173
+        "osm:way_id": 40908553
       }
     }
   ]

@@ -43,14 +43,17 @@
       }, 
       "id": 2149741920, 
       "properties": {
-        "osm:way_id": 42413446, 
         "woe:parent": "22463734", 
         "name": "car rental services", 
         "tags": [
           "name=car rental services"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=22463734", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22463734, 
+        "sw_latitude": 55.946049, 
         "osm:node_ids": [
           529514983, 
           529514984, 
@@ -62,12 +65,12 @@
         ], 
         "ne_longitude": -3.359472, 
         "longitude": 55.946229, 
-        "ne_latitude": 55.946501, 
-        "woe:placetype": "building", 
         "sw_longitude": -3.360319, 
+        "woe:placetype": "building", 
+        "ne_latitude": 55.946501, 
         "latitude": -3.359907, 
         "woe:id": 2149741920, 
-        "sw_latitude": 55.946049
+        "osm:way_id": 42413446
       }
     }
   ]

@@ -35,15 +35,18 @@
       }, 
       "id": 2171524993, 
       "properties": {
-        "osm:way_id": 88691178, 
         "woe:parent": "22275261", 
         "name": "DHL Air Hub", 
         "tags": [
           "name=DHL Air Hub", 
           "source=Bing"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22275261", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22275261, 
+        "sw_latitude": 51.405604, 
         "osm:node_ids": [
           1028026939, 
           1029639287, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 12.241487, 
         "longitude": 51.406175, 
-        "ne_latitude": 51.406745, 
-        "woe:placetype": "building", 
         "sw_longitude": 12.235459, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.406745, 
         "latitude": 12.238474, 
         "woe:id": 2171524993, 
-        "sw_latitude": 51.405604
+        "osm:way_id": 88691178
       }
     }
   ]

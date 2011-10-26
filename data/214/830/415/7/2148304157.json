@@ -35,15 +35,18 @@
       }, 
       "id": 2148304157, 
       "properties": {
-        "osm:way_id": 30911017, 
         "woe:parent": "12513205", 
         "tags": [
           "addr:housenumber=53", 
           "addr:city=Ottendorf-Okrilla", 
           "addr:street=Radeburger Stra\u00dfe"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513205", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513205, 
+        "sw_latitude": 51.182062, 
         "osm:node_ids": [
           343631544, 
           343631545, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 13.816231, 
         "longitude": 51.182113, 
-        "ne_latitude": 51.182163, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.816059, 
+        "woe:placetype": "building", 
+        "ne_latitude": 51.182163, 
         "latitude": 13.816146, 
         "woe:id": 2148304157, 
-        "sw_latitude": 51.182062
+        "osm:way_id": 30911017
       }
     }
   ]

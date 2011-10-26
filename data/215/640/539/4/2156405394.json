@@ -67,15 +67,18 @@
       }, 
       "id": 2156405394, 
       "properties": {
-        "osm:way_id": 60334883, 
         "woe:parent": "12510439", 
         "name": "Hotel Forum", 
         "tags": [
           "name=Hotel Forum", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=23424745", 
+        "hierarchy": [
+          "woe:airport=12510439", 
+          "woe:country=23424745"
+        ], 
         "parent_woeid": 12510439, 
+        "sw_latitude": -8.838335, 
         "osm:node_ids": [
           750482491, 
           750482497, 
@@ -93,12 +96,12 @@
         ], 
         "ne_longitude": 13.234823, 
         "longitude": -8.837958, 
-        "ne_latitude": -8.837641, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.234214, 
+        "woe:placetype": "building", 
+        "ne_latitude": -8.837641, 
         "latitude": 13.234561, 
         "woe:id": 2156405394, 
-        "sw_latitude": -8.838335
+        "osm:way_id": 60334883
       }
     }
   ]

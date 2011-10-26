@@ -71,7 +71,6 @@
       }, 
       "id": 2148284746, 
       "properties": {
-        "osm:way_id": 30760025, 
         "woe:parent": "22103751", 
         "name": "P1 - Front Park 1", 
         "tags": [
@@ -79,8 +78,12 @@
           "fee=yes", 
           "name=P1 - Front Park 1"
         ], 
-        "hierarchy": "woe:country=23424757", 
+        "hierarchy": [
+          "woe:airport=22103751", 
+          "woe:country=23424757"
+        ], 
         "parent_woeid": 22103751, 
+        "sw_latitude": 50.896088, 
         "osm:node_ids": [
           340181651, 
           340181652, 
@@ -99,12 +102,12 @@
         ], 
         "ne_longitude": 4.482838, 
         "longitude": 50.897120, 
-        "ne_latitude": 50.897999, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.480065, 
+        "woe:placetype": "building", 
+        "ne_latitude": 50.897999, 
         "latitude": 4.481258, 
         "woe:id": 2148284746, 
-        "sw_latitude": 50.896088
+        "osm:way_id": 30760025
       }
     }
   ]

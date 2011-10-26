@@ -115,13 +115,16 @@
       }, 
       "id": 2153608428, 
       "properties": {
-        "osm:way_id": 53282970, 
         "woe:parent": "56051751", 
         "tags": [
           "source=Direction g\u00e9n\u00e9rale des finances publiques - f\u00e9vrier 2010"
         ], 
-        "hierarchy": "woe:country=234248819", 
+        "hierarchy": [
+          "woe:airport=56051751", 
+          "woe:country=234248819"
+        ], 
         "parent_woeid": 56051751, 
+        "sw_latitude": 48.780333, 
         "osm:node_ids": [
           674166272, 
           674166355, 
@@ -151,12 +154,12 @@
         ], 
         "ne_longitude": 2.216438, 
         "longitude": 48.780612, 
-        "ne_latitude": 48.780826, 
-        "woe:placetype": "building", 
         "sw_longitude": 2.215642, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.780826, 
         "latitude": 2.216058, 
         "woe:id": 2153608428, 
-        "sw_latitude": 48.780333
+        "osm:way_id": 53282970
       }
     }
   ]

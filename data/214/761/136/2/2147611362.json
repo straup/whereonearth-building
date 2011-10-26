@@ -67,14 +67,17 @@
       }, 
       "id": 2147611362, 
       "properties": {
-        "osm:way_id": 25513296, 
         "woe:parent": "2338888266", 
         "name": "Aer Lingus Head Office", 
         "tags": [
           "name=Aer Lingus Head Office"
         ], 
-        "hierarchy": "woe:country=234248803", 
+        "hierarchy": [
+          "woe:airport=2338888266", 
+          "woe:country=234248803"
+        ], 
         "parent_woeid": 23388266, 
+        "sw_latitude": 53.427255, 
         "osm:node_ids": [
           278009843, 
           278009844, 
@@ -92,12 +95,12 @@
         ], 
         "ne_longitude": -6.235885, 
         "longitude": 53.427916, 
-        "ne_latitude": 53.428464, 
-        "woe:placetype": "building", 
         "sw_longitude": -6.236817, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.428464, 
         "latitude": -6.236364, 
         "woe:id": 2147611362, 
-        "sw_latitude": 53.427255
+        "osm:way_id": 25513296
       }
     }
   ]

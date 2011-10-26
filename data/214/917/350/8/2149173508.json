@@ -39,7 +39,6 @@
       }, 
       "id": 2149173508, 
       "properties": {
-        "osm:way_id": 36837277, 
         "woe:parent": "22276234", 
         "tags": [
           "addr:city=Sch\u00f6nefeld", 
@@ -47,8 +46,12 @@
           "addr:country=DE", 
           "addr:street=Wa\u00dfmannsdorfer Chaussee"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=22276234", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 22276234, 
+        "sw_latitude": 52.387020, 
         "osm:node_ids": [
           428230442, 
           428230443, 
@@ -59,12 +62,12 @@
         ], 
         "ne_longitude": 13.504886, 
         "longitude": 52.387164, 
-        "ne_latitude": 52.387305, 
-        "woe:placetype": "building", 
         "sw_longitude": 13.504372, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.387305, 
         "latitude": 13.504626, 
         "woe:id": 2149173508, 
-        "sw_latitude": 52.387020
+        "osm:way_id": 36837277
       }
     }
   ]

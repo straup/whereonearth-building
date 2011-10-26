@@ -67,14 +67,17 @@
       }, 
       "id": 2148743602, 
       "properties": {
-        "osm:way_id": 35780089, 
         "woe:parent": "12514635", 
         "name": "Cargolux Flight Operations", 
         "tags": [
           "name=Cargolux Flight Operations"
         ], 
-        "hierarchy": "woe:country=2342488881", 
+        "hierarchy": [
+          "woe:airport=12514635", 
+          "woe:country=2342488881"
+        ], 
         "parent_woeid": 12514635, 
+        "sw_latitude": 49.629992, 
         "osm:node_ids": [
           418356443, 
           418819923, 
@@ -92,12 +95,12 @@
         ], 
         "ne_longitude": 6.205178, 
         "longitude": 49.630494, 
-        "ne_latitude": 49.631027, 
-        "woe:placetype": "building", 
         "sw_longitude": 6.203334, 
+        "woe:placetype": "building", 
+        "ne_latitude": 49.631027, 
         "latitude": 6.204307, 
         "woe:id": 2148743602, 
-        "sw_latitude": 49.629992
+        "osm:way_id": 35780089
       }
     }
   ]

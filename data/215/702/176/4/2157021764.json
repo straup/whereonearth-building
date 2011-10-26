@@ -51,15 +51,18 @@
       }, 
       "id": 2157021764, 
       "properties": {
-        "osm:way_id": 62301157, 
         "woe:parent": "12514720", 
         "name": "scoala primara \u2116101", 
         "tags": [
           "amenity=school", 
           "name=scoala primara \u2116101"
         ], 
-        "hierarchy": "woe:country=2342488885", 
+        "hierarchy": [
+          "woe:airport=12514720", 
+          "woe:country=2342488885"
+        ], 
         "parent_woeid": 12514720, 
+        "sw_latitude": 46.912211, 
         "osm:node_ids": [
           778338630, 
           778338714, 
@@ -73,12 +76,12 @@
         ], 
         "ne_longitude": 28.892814, 
         "longitude": 46.912520, 
-        "ne_latitude": 46.912747, 
-        "woe:placetype": "building", 
         "sw_longitude": 28.891650, 
+        "woe:placetype": "building", 
+        "ne_latitude": 46.912747, 
         "latitude": 28.892246, 
         "woe:id": 2157021764, 
-        "sw_latitude": 46.912211
+        "osm:way_id": 62301157
       }
     }
   ]

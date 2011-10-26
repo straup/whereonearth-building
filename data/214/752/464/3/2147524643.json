@@ -35,15 +35,18 @@
       }, 
       "id": 2147524643, 
       "properties": {
-        "osm:way_id": 23639218, 
         "woe:parent": "223886730", 
         "name": "Hangar 11", 
         "tags": [
           "name=Hangar 11", 
           "created_by=Potlatch 0.88a"
         ], 
-        "hierarchy": "woe:country=23424909", 
+        "hierarchy": [
+          "woe:airport=223886730", 
+          "woe:country=23424909"
+        ], 
         "parent_woeid": 22386730, 
+        "sw_latitude": 52.296361, 
         "osm:node_ids": [
           256095448, 
           256095449, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 4.791051, 
         "longitude": 52.297481, 
-        "ne_latitude": 52.298597, 
-        "woe:placetype": "building", 
         "sw_longitude": 4.787214, 
+        "woe:placetype": "building", 
+        "ne_latitude": 52.298597, 
         "latitude": 4.789134, 
         "woe:id": 2147524643, 
-        "sw_latitude": 52.296361
+        "osm:way_id": 23639218
       }
     }
   ]

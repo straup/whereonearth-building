@@ -187,7 +187,6 @@
       }, 
       "id": 2147542154, 
       "properties": {
-        "osm:way_id": 23704600, 
         "woe:parent": "12517539", 
         "name": "Aeropuerto de Madrid - Barajas T2", 
         "tags": [
@@ -197,8 +196,12 @@
           "aeroway=terminal", 
           "type=civil"
         ], 
-        "hierarchy": "woe:country=23424950", 
+        "hierarchy": [
+          "woe:airport=12517539", 
+          "woe:country=23424950"
+        ], 
         "parent_woeid": 12517539, 
+        "sw_latitude": 40.465512, 
         "osm:node_ids": [
           256675097, 
           29581943, 
@@ -246,12 +249,12 @@
         ], 
         "ne_longitude": -3.568297, 
         "longitude": 40.467957, 
-        "ne_latitude": 40.470540, 
-        "woe:placetype": "building", 
         "sw_longitude": -3.570370, 
+        "woe:placetype": "building", 
+        "ne_latitude": 40.470540, 
         "latitude": -3.569323, 
         "woe:id": 2147542154, 
-        "sw_latitude": 40.465512
+        "osm:way_id": 23704600
       }
     }
   ]

@@ -35,7 +35,6 @@
       }, 
       "id": 2167685268, 
       "properties": {
-        "osm:way_id": 80913700, 
         "woe:parent": "12515135", 
         "name": "Panch Deval", 
         "tags": [
@@ -43,8 +42,12 @@
           "name=Panch Deval", 
           "religion=hindu"
         ], 
-        "hierarchy": "woe:country=23424911", 
+        "hierarchy": [
+          "woe:airport=12515135", 
+          "woe:country=23424911"
+        ], 
         "parent_woeid": 12515135, 
+        "sw_latitude": 27.709305, 
         "osm:node_ids": [
           943251146, 
           943251147, 
@@ -54,12 +57,12 @@
         ], 
         "ne_longitude": 85.348053, 
         "longitude": 27.709635, 
-        "ne_latitude": 27.709956, 
-        "woe:placetype": "building", 
         "sw_longitude": 85.347398, 
+        "woe:placetype": "building", 
+        "ne_latitude": 27.709956, 
         "latitude": 85.347730, 
         "woe:id": 2167685268, 
-        "sw_latitude": 27.709305
+        "osm:way_id": 80913700
       }
     }
   ]

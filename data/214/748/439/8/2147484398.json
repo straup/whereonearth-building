@@ -199,7 +199,6 @@
       }, 
       "id": 2147484398, 
       "properties": {
-        "osm:way_id": 4871149, 
         "woe:parent": "12523042", 
         "name": "Vilnius International Airport", 
         "tags": [
@@ -213,8 +212,12 @@
           "addr:country=LT", 
           "addr:street=Rod\u016bnios kelias"
         ], 
-        "hierarchy": "woe:country=234248875", 
+        "hierarchy": [
+          "woe:airport=12523042", 
+          "woe:country=234248875"
+        ], 
         "parent_woeid": 12523042, 
+        "sw_latitude": 54.642287, 
         "osm:node_ids": [
           31448685, 
           270261822, 
@@ -265,12 +268,12 @@
         ], 
         "ne_longitude": 25.282767, 
         "longitude": 54.643041, 
-        "ne_latitude": 54.643787, 
-        "woe:placetype": "building", 
         "sw_longitude": 25.279411, 
+        "woe:placetype": "building", 
+        "ne_latitude": 54.643787, 
         "latitude": 25.280917, 
         "woe:id": 2147484398, 
-        "sw_latitude": 54.642287
+        "osm:way_id": 4871149
       }
     }
   ]

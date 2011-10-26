@@ -47,7 +47,6 @@
       }, 
       "id": 2167351397, 
       "properties": {
-        "osm:way_id": 80157849, 
         "woe:parent": "224788032", 
         "name": "Hilton Manchester Airport", 
         "tags": [
@@ -55,8 +54,12 @@
           "source=Yahoo", 
           "tourism=hotel"
         ], 
-        "hierarchy": "woe:country=23424975", 
+        "hierarchy": [
+          "woe:airport=224788032", 
+          "woe:country=23424975"
+        ], 
         "parent_woeid": 22478032, 
+        "sw_latitude": 53.365806, 
         "osm:node_ids": [
           935174828, 
           935174834, 
@@ -69,12 +72,12 @@
         ], 
         "ne_longitude": -2.269713, 
         "longitude": 53.366347, 
-        "ne_latitude": 53.366767, 
-        "woe:placetype": "building", 
         "sw_longitude": -2.270979, 
+        "woe:placetype": "building", 
+        "ne_latitude": 53.366767, 
         "latitude": -2.270347, 
         "woe:id": 2167351397, 
-        "sw_latitude": 53.365806
+        "osm:way_id": 80157849
       }
     }
   ]

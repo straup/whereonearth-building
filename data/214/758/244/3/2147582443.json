@@ -91,15 +91,18 @@
       }, 
       "id": 2147582443, 
       "properties": {
-        "osm:way_id": 25055166, 
         "woe:parent": "12513199", 
         "name": "Mensch und Maschine Systemhaus", 
         "tags": [
           "amenity=restaurant", 
           "name=Mensch und Maschine Systemhaus"
         ], 
-        "hierarchy": "woe:country=234248829", 
+        "hierarchy": [
+          "woe:airport=12513199", 
+          "woe:country=234248829"
+        ], 
         "parent_woeid": 12513199, 
+        "sw_latitude": 48.080606, 
         "osm:node_ids": [
           272588411, 
           272588412, 
@@ -123,12 +126,12 @@
         ], 
         "ne_longitude": 11.271083, 
         "longitude": 48.080876, 
-        "ne_latitude": 48.081130, 
-        "woe:placetype": "building", 
         "sw_longitude": 11.270347, 
+        "woe:placetype": "building", 
+        "ne_latitude": 48.081130, 
         "latitude": 11.270720, 
         "woe:id": 2147582443, 
-        "sw_latitude": 48.080606
+        "osm:way_id": 25055166
       }
     }
   ]

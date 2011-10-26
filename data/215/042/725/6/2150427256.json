@@ -35,15 +35,18 @@
       }, 
       "id": 2150427256, 
       "properties": {
-        "osm:way_id": 45373132, 
         "woe:parent": "12513775", 
         "name": "\u05de\u05de\u05df", 
         "tags": [
           "name:en=Maman", 
           "name=\u05de\u05de\u05df"
         ], 
-        "hierarchy": "woe:country=234248852", 
+        "hierarchy": [
+          "woe:airport=12513775", 
+          "woe:country=234248852"
+        ], 
         "parent_woeid": 12513775, 
+        "sw_latitude": 31.993992, 
         "osm:node_ids": [
           576973637, 
           576973638, 
@@ -53,12 +56,12 @@
         ], 
         "ne_longitude": 34.902340, 
         "longitude": 31.994686, 
-        "ne_latitude": 31.995385, 
-        "woe:placetype": "building", 
         "sw_longitude": 34.901396, 
+        "woe:placetype": "building", 
+        "ne_latitude": 31.995385, 
         "latitude": 34.901875, 
         "woe:id": 2150427256, 
-        "sw_latitude": 31.993992
+        "osm:way_id": 45373132
       }
     }
   ]
