@@ -22,9 +22,7 @@ correspond to their WOE ID. The top level directory would be the first three
 digits of a WOE ID, the second level directory would be the following three
 digits (four through six) and so on until their are no more digits in the WOE
 ID. For example, given the WOE ID ID 2147595424 the full path of the record
-would be:
-
-[214/759/542/4/2147595424.json](https://github.com/straup/whereonearth-building/blob/master/data/214/759/542/4/2147595424.json)
+would be: [214/759/542/4/2147595424.json](https://github.com/straup/whereonearth-building/blob/master/data/214/759/542/4/2147595424.json)
 
 Technically buildings are not part of the GeoPlanet hierarchy but they should be
 and so since the [building=yes](http://buildingequalsyes.spum.org/) project has
