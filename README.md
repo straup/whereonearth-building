@@ -34,6 +34,17 @@ Currently only buildings parented by
 [airports](https://github.com/straup/whereonearth-airport) are included in this
 repository.
 
+A word about IDs (and WOE IDs)
+--
+
+Because buildings are not part of the original GeoPlanet data dump we need to
+create new unique IDs for them. We could use the OSM way ID for each building
+but then that risks colliding with an existing WOE ID. Instead we generate a new
+unique ID starting at 32 bits + 1 (or 2147483648) and increment upwards from
+there. Strictly speaking we could start at 32 bits and decrement on the
+assumption that GeoPlanet proper will never be more than 10 or 20 million
+records but that's not what we've done for buildings.
+
 See also
 --
 
