@@ -45,6 +45,13 @@ there. Strictly speaking we could start at 32 bits and decrement on the
 assumption that GeoPlanet proper will never be more than 10 or 20 million
 records but that's not what we've done for buildings.
 
+A word about Github
+--
+
+In the long-run Github may not be the best venue for managing all of these
+records. But it's not an entirely crazy idea either so we're going to try it for
+a while because it's easy and safe.
+
 See also
 --
 
